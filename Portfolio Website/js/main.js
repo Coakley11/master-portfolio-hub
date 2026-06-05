@@ -227,14 +227,29 @@ function renderCaseStudies(data) {
   }).join('');
 }
 
+function renderHeroCta(data) {
+  const container = document.getElementById('hero-cta');
+  if (!container) return;
+  const site = data.site;
+  container.innerHTML = `
+    <a href="#projects" class="btn btn-primary">View Projects</a>
+    <a href="${site.resumeView || 'resume-preview.html'}" class="btn btn-secondary">Resume Preview</a>
+    <a href="${site.resumePdf || site.resumeDownload || '#'}" class="btn btn-secondary" download>Download PDF</a>
+    <a href="${site.careerProfile || 'career-profile.html'}" class="btn btn-ghost">Career Profile</a>
+    <a href="contact.html" class="btn btn-ghost">Contact</a>
+  `;
+}
+
 function renderCtaSection(data) {
   const btns = document.getElementById('cta-buttons');
   const contact = document.getElementById('cta-contact');
   if (!btns || !contact) return;
   const site = data.site;
   btns.innerHTML = `
-    <a href="${site.resumeView || 'resume.html'}" class="btn btn-primary">View Resume</a>
-    <a href="${site.resumeDownload || '#'}" class="btn btn-secondary" download>Download Resume</a>
+    <a href="${site.resumeView || 'resume-preview.html'}" class="btn btn-primary">View Resume</a>
+    <a href="${site.resumePdf || '#'}" class="btn btn-secondary" download>Download PDF</a>
+    <a href="${site.careerProfile || 'career-profile.html'}" class="btn btn-ghost">Career Profile</a>
+    <a href="${site.executiveSummary || 'executive-summary.html'}" class="btn btn-ghost">Executive Summary</a>
     <a href="contact.html" class="btn btn-ghost">Contact</a>
   `;
   const linkedInLine = site.linkedin
@@ -317,7 +332,7 @@ function renderSqlWorkbooks(data) {
 
 function renderResumeBullets(data) {
   const container = document.getElementById('resume-bullets');
-  if (!container) return;
+  if (!container || document.getElementById('resume-overview')) return;
 
   const all = [...data.repos, ...data.sqlExcelWorkbooks.filter(w => w.id !== 'actuarial-analytics')];
   container.innerHTML = all.map(item => `
@@ -334,7 +349,7 @@ function renderResumeBullets(data) {
 
 function renderResumeCta(data) {
   const container = document.getElementById('resume-cta');
-  if (!container) return;
+  if (!container || document.getElementById('resume-overview')) return;
   const site = data.site;
   container.innerHTML = `
     <div class="cta-buttons">
@@ -374,8 +389,9 @@ function renderContactPage(data) {
     ${linkedInCard}
     <div class="contact-card">
       <h3>Resume</h3>
-      <p><a href="${site.resumeView || 'resume.html'}" class="btn btn-secondary btn-sm">View Resume</a></p>
-      <p style="margin-top:0.5rem;"><a href="${site.resumeDownload || '#'}" download>Download project descriptions (Markdown)</a></p>
+      <p><a href="${site.resumeView || 'resume-preview.html'}" class="btn btn-secondary btn-sm">Resume Preview</a></p>
+      <p style="margin-top:0.5rem;"><a href="${site.resumePdf || '#'}" download>Download PDF</a></p>
+      <p style="margin-top:0.35rem;"><a href="${site.resumeHub || 'resume.html'}">Resume Hub</a></p>
     </div>
     <div class="contact-card">
       <h3>Target Roles</h3>
@@ -432,6 +448,7 @@ async function init() {
     renderShowcaseProjects(data);
     renderCaseStudies(data);
     renderHomeTiers(data);
+    renderHeroCta(data);
     renderCtaSection(data);
     renderProjectsByCategory(data, 'analytics', 'analytics-projects');
     renderProjectsByCategory(data, 'ai', 'ai-projects');

@@ -5,8 +5,11 @@ Screenshots served by the portfolio site live here. Paths in `data/projects.json
 ## Adding captures
 
 1. Capture PNGs per `Screenshots/HOW_TO_CAPTURE.md` (repo root).
-2. Copy files into the matching subfolder here (e.g. `Investment/investment-overview-demo.png`).
-3. Run `scripts/verify-screenshots.ps1` from the Master Portfolio Hub root to confirm all references resolve.
+2. Drop into `Screenshots/<Folder>/` (legacy `.png.jpg` or native `.png` both work).
+3. Run `python scripts/integrate-screenshots.py` to convert, rename, and publish into this folder.
+4. Run `scripts/verify-screenshots.ps1` to confirm all `projects.json` references resolve.
+
+**Current coverage:** 16/35 references published · all P0 heroes present. See `Final Assembly/screenshot-coverage-report.md`.
 
 ## Source of truth
 

@@ -1,6 +1,6 @@
 # Screenshot Capture Registry
 
-Master reference for all portfolio captures. **Status: 0 of 40 images on disk.**
+Master reference for all portfolio captures. **Status: 16 of 35 site references published** (17 PNG files including mobile variant). See `Final Assembly/screenshot-coverage-report.md`.
 
 **Workflow:** `HOW_TO_CAPTURE.md` · **Machine-readable:** `screenshot-manifest.json`
 

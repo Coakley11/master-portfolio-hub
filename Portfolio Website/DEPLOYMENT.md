@@ -23,6 +23,18 @@ The site is self-contained under `Portfolio Website/`. All asset paths are relat
 - Resume download uses `assets/docs/resume-project-descriptions.md` (bundled copy for Pages).
 - LinkedIn remains a placeholder until a final profile URL is provided in `projects.json` → `site.linkedin`.
 
+## Professional pages
+
+| Page | URL |
+|------|-----|
+| Resume Hub | `resume.html` |
+| Resume Preview | `resume-preview.html` |
+| Resume PDF | `assets/docs/daniel-cohen-resume.pdf` |
+| Career Profile | `career-profile.html` |
+| Executive Summary | `executive-summary.html` |
+
+Regenerate PDF after resume edits: `python scripts/generate-resume-pdf.py`
+
 ## Contact privacy
 
 - Email is **not** rendered on the homepage CTA.

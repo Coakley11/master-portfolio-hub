@@ -1,8 +1,9 @@
 # Missing Screenshots
 
 **Generated:** 2026-06-05  
-**Status:** 0 of 35 referenced files present on disk  
-**Verification:** `scripts/verify-screenshots.ps1` (exit code 1)
+**Status:** 16 of 35 referenced files published (all 10 P0 heroes ✅)  
+**Verification:** `scripts/verify-screenshots.ps1` (exit code 1 — 19 gallery/SQL captures still pending)  
+**Integration:** `scripts/integrate-screenshots.py` · Full report: `screenshot-coverage-report.md`
 
 All filenames in `projects.json` match `screenshot-manifest.json`. Paths updated to `assets/screenshots/<Folder>/` for GitHub Pages.
 
