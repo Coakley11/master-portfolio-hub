@@ -1,9 +1,38 @@
-const DATA_PATH = 'data/projects.json';
+const DATA_PATH = new URL('data/projects.json', window.location.href).pathname;
 
 async function loadData() {
   const res = await fetch(DATA_PATH);
-  if (!res.ok) throw new Error('Failed to load portfolio data');
+  if (!res.ok) {
+    throw new Error(`Failed to load portfolio data (${res.status}). Start the server from the Portfolio Website folder.`);
+  }
   return res.json();
+}
+
+function showPageError(message) {
+  const targets = ['resume-document', 'resume-overview', 'resume-bullets', 'career-profile-content', 'executive-summary-content'];
+  const html = `
+    <div class="page-error" style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;max-width:640px;margin:0 auto;">
+      <h3 style="color:var(--gold);margin-bottom:0.75rem;">Page could not load content</h3>
+      <p style="color:var(--muted);margin-bottom:0.75rem;">${message}</p>
+      <p style="color:var(--muted);font-size:0.9rem;margin-bottom:1rem;">
+        Run from <code>Portfolio Website</code>:<br>
+        <code>python -m http.server 9890</code><br>
+        or <code>powershell -File scripts/start-portfolio-server.ps1</code>
+      </p>
+      <p><a href="resume.html" class="btn btn-secondary btn-sm">Try Resume Hub</a>
+         <a href="index.html" class="btn btn-ghost btn-sm">Home</a></p>
+    </div>`;
+  targets.forEach(id => {
+    const el = document.getElementById(id);
+    if (el && !el.innerHTML.trim()) el.innerHTML = html;
+  });
+}
+
+function showLoading() {
+  const root = document.getElementById('resume-document');
+  if (root && !root.innerHTML.trim()) {
+    root.innerHTML = '<p style="text-align:center;color:var(--muted);padding:2rem;">Loading resume…</p>';
+  }
 }
 
 function skillTags(skills) {
@@ -264,14 +293,19 @@ function renderExecutiveSummary(data) {
 
 async function init() {
   const page = document.body.dataset.page;
+  if (page === 'resume-preview' || page === 'resume') showLoading();
   try {
     const data = await loadData();
+    if (!data.resume && (page === 'resume-preview' || page === 'resume')) {
+      throw new Error('Resume data missing from projects.json');
+    }
     if (page === 'resume-preview') renderResumePreview(data);
     if (page === 'resume') renderResumeHub(data);
     if (page === 'career') renderCareerProfile(data);
     if (page === 'executive') renderExecutiveSummary(data);
   } catch (err) {
     console.error(err);
+    showPageError(err.message || 'Unknown error loading portfolio data.');
   }
 }
 

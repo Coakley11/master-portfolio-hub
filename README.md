@@ -39,12 +39,30 @@ Professional portfolio workspace for Data Analyst, BI Analyst, Research Analyst,
 
 ## View the Website Locally
 
-```bash
-cd "Portfolio Website"
-python -m http.server 8080
+**Important:** Start the server from `Portfolio Website/` (not the Hub root).
+
+```powershell
+powershell -File scripts/start-portfolio-server.ps1
 ```
 
-Open http://localhost:8080
+Or manually:
+
+```powershell
+cd "Portfolio Website"
+python -m http.server 9890
+```
+
+| Page | URL |
+|------|-----|
+| Home | http://127.0.0.1:9890/ |
+| **Resume Preview** (primary) | http://127.0.0.1:9890/resume-preview.html |
+| Resume Hub | http://127.0.0.1:9890/resume.html |
+| Career Profile | http://127.0.0.1:9890/career-profile.html |
+| Executive Summary | http://127.0.0.1:9890/executive-summary.html |
+| Contact | http://127.0.0.1:9890/contact.html |
+| Projects | http://127.0.0.1:9890/index.html#projects |
+
+Short aliases: `career.html`, `summary.html`, `projects.html`
 
 For GitHub Pages: set source to `/Portfolio Website` folder.
 
