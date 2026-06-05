@@ -52,6 +52,27 @@ Portfolio Website/assets/screenshots/<Folder>/<filename>.png
 
 Capture workflow: `Screenshots/HOW_TO_CAPTURE.md` at repo root.
 
+## Legacy staging files (rename before publish)
+
+The `Screenshots/` workspace contains **17 older captures** (`.png.jpg` extension) with pre-manifest filenames. They are **not** wired to the site until renamed to match the table above and copied into `Portfolio Website/assets/screenshots/` as `.png`.
+
+| Legacy file | Suggested target |
+|-------------|------------------|
+| `NBA/nba-home-dashboard.png.jpg` | `NBA/nba-home-dashboard-demo.png` |
+| `NBA/nba-legacy-tracker.png.jpg` | `NBA/nba-legacy-tracker-demo.png` |
+| `Investment/investment-portfolio-health.png.jpg` | `Investment/investment-portfolio-health.png` |
+| `Investment/investment-allocation-optimizer.png.jpg` | `Investment/investment-optimizer.png` |
+| `Investment/investment-portfolio-summary-mobile.png.jpg` | `Investment/investment-overview-demo-mobile.png` |
+| `Baseball/baseball-ml-projections.png.jpg` | `Baseball/baseball-ml-projections-demo.png` |
+| `Baseball/baseball-draft-recommendation-engine.png.jpg` | `Baseball/baseball-draft-assistant-demo.png` |
+| `Applied-Math/applied-math-betting-ev.png.jpg` | `Applied-Math/applied-math-betting-ev-demo.png` |
+| `Applied-Math/applied-math-ai-overfitting.png.jpg` | `Applied-Math/applied-math-ai-training-demo.png` |
+| `Applied-Math/applied-math-disease-simulation.png.jpg` | `Applied-Math/applied-math-disease-spread-demo.png` |
+| `Music/music-practice-coach-main.png.jpg` | `Music/music-practice-demo.png` |
+| `Music/music-backing-traci-studio.png.jpg` | `Music/music-backing-tracks.png` |
+
+Re-capture per `HOW_TO_CAPTURE.md` is preferred for P0 heroes still missing (e.g. `investment-overview-demo.png`, `baseball-career-totals-demo.png`).
+
 ## UI behavior until captures land
 
 Missing images show a dashed placeholder with the expected filename. No broken-image icons; `onerror` handler applies `.screenshot-img--missing` styling.
