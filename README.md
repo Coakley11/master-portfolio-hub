@@ -17,6 +17,7 @@ Professional portfolio workspace for Data Analyst, BI Analyst, Research Analyst,
 | 3 | SQL & Excel Analytics Inventory | `SQL Portfolio/sql-excel-analytics-inventory.md` |
 | 4 | Professional Project Descriptions | `Professional Project Descriptions/` |
 | 5 | LinkedIn Project Descriptions | `LinkedIn/linkedin-project-descriptions.md` |
+| 5b | LinkedIn Profile Optimization | `LinkedIn/linkedin-profile-optimization.md` |
 | 6 | Resume Project Descriptions | `Resume/resume-project-descriptions.md` |
 | 7 | Screenshot Checklist | `Screenshots/screenshot-checklist.md` |
 | 8 | README Improvement Report | `README Review/readme-improvement-report.md` |
