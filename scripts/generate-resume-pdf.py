@@ -85,6 +85,11 @@ def build_pdf(resume: dict, site: dict) -> None:
             body(edu["detail"], 9)
             pdf.set_text_color(51, 65, 85)
 
+    if resume.get("credentials"):
+        section("Credentials and Certifications")
+        for cred in resume["credentials"]:
+            bullet(cred)
+
     section("Experience")
     for exp in resume["experience"]:
         pdf.set_font("Helvetica", "B", 10)

@@ -97,6 +97,12 @@ function renderResumePreview(data) {
       ${edu}
     </section>
 
+    ${(r.credentials || []).length ? `
+    <section class="resume-doc-section">
+      <h2>Credentials & Certifications</h2>
+      <ul>${r.credentials.map(c => `<li>${c}</li>`).join('')}</ul>
+    </section>` : ''}
+
     <section class="resume-doc-section">
       <h2>Experience</h2>
       ${exp}
@@ -158,6 +164,11 @@ function renderResumeHub(data) {
           ${skillTags(r.technicalSkills)}
         </div>
       </div>
+      ${(r.credentials || []).length ? `
+      <div class="pro-card" style="margin-top:1.25rem;">
+        <h3>Credentials</h3>
+        <ul class="pro-list">${r.credentials.map(c => `<li>${c}</li>`).join('')}</ul>
+      </div>` : ''}
       <p class="pro-lead" style="margin-top:1.5rem;">${r.summary}</p>
     `;
   }

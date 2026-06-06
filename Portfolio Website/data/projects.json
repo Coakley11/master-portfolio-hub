@@ -17,12 +17,16 @@
   },
   "resume": {
     "name": "Daniel Cohen",
-    "headline": "Mathematics & Statistics Professional · Data Analyst · Quantitative Educator",
-    "summary": "Quantitative professional with graduate training in statistics and finance, extensive mathematics teaching experience, and a portfolio of production analytics applications. Translates statistical theory, SQL reporting, and experimental design into interactive decision-support products for finance, sports, and AI evaluation workflows.",
+    "headline": "Mathematics & Statistics Professional · Quantitative Analytics · Finance · Data & AI Applications",
+    "summary": "Mathematics and Statistics professional with an M.A. in Statistics & Applied Mathematics (GPA 3.93), MBA in Finance & Investments (Finance GPA 4.00), actuarial exam foundation (SOA P, FM, MFE), and a deployed analytics portfolio spanning Python dashboards, SQL, Excel, and AI evaluation workflows. Translates probability, hypothesis testing, investment analysis, and quantitative reasoning into decision-support applications — not just classroom theory.",
     "education": [
-      { "degree": "M.S. Statistics", "school": "Hunter College", "detail": "Graduate training in statistical inference, modeling, and data analysis" },
-      { "degree": "MBA Finance & Investment", "school": "Baruch College", "detail": "Finance, investment analysis, and quantitative decision frameworks" },
-      { "degree": "B.A. Applied Mathematics & Economics", "school": "Queens College", "detail": "Applied mathematics, economics, and quantitative reasoning" }
+      { "degree": "M.A. Statistics & Applied Mathematics", "school": "Hunter College", "detail": "GPA: 3.93" },
+      { "degree": "MBA Finance & Investments", "school": "Baruch College — Zicklin School of Business", "detail": "Overall GPA: 3.88 · Finance GPA: 4.00" },
+      { "degree": "B.A. Mathematics & Economics", "school": "Queens College (CUNY Honors College)", "detail": "Magna Cum Laude · Arthur D. Gayer Memorial Award in Economics" }
+    ],
+    "credentials": [
+      "Society of Actuaries — Exam P/1 (Probability), FM/2 (Financial Mathematics), MFE (Models for Financial Economics)",
+      "NYS Certification — CST Mathematics (004), Educating All Students (EAS)"
     ],
     "experience": [
       {
@@ -30,48 +34,104 @@
         "organization": "Independent — Daniel AI Suite",
         "period": "2024 — Present",
         "bullets": [
-          "Built and deployed seven production Streamlit applications spanning portfolio analytics, sports modeling, AI evaluation, and decision-support simulations",
-          "Authored SQL & Excel analytics workbooks with KPI dashboards, pivot exercises, and structured query practice for recruiter-facing evidence",
-          "Designed portfolio demo modes, case-study narratives, and QA workflows for recruiter-ready product demonstration"
+          "Built and deployed seven production Streamlit applications for portfolio analytics, sports modeling, AI evaluation, simulation, and decision-support workflows",
+          "Authored SQL & Excel analytics workbooks with KPI dashboards, pivot exercises, and 42+ structured SQL queries including AI evaluator datasets",
+          "Designed case-study narratives and demo modes translating statistical methods into recruiter-ready business interpretation"
         ]
       },
       {
-        "title": "College Mathematics & Statistics Instructor",
-        "organization": "Higher Education",
-        "period": "",
+        "title": "Full-Time High School Mathematics Teacher",
+        "organization": "The Montfort Academy",
+        "period": "2024 — Present",
         "bullets": [
-          "Taught undergraduate mathematics and statistics with emphasis on applied problem solving and statistical literacy",
-          "Developed instructional materials connecting theory to real-world quantitative decisions",
-          "Supported student mastery of hypothesis testing, regression concepts, and data interpretation"
+          "Instruct Algebra II, Geometry, and Pre-Calculus with emphasis on quantitative reasoning, functions, and data interpretation",
+          "Support Chemistry and Physics laboratory sessions requiring measurement, precision, and analytical documentation",
+          "Apply structured problem-solving frameworks that parallel analytics debugging and hypothesis-driven analysis"
         ]
       },
       {
-        "title": "High School Mathematics Teacher",
-        "organization": "Secondary Education",
-        "period": "",
+        "title": "Permanent Full-Time Substitute Teacher",
+        "organization": "Yeshiva Har Torah",
+        "period": "2021 — 2024",
         "bullets": [
-          "Delivered algebra, geometry, and quantitative reasoning curriculum to diverse student populations",
-          "Built foundational skills in logical reasoning, data literacy, and mathematical communication"
+          "Delivered K–8 secular and Judaic studies instruction across multiple subjects and grade levels",
+          "Prepared science laboratory materials and supported hands-on quantitative observation activities",
+          "Maintained classroom data tracking for student progress and instructional adjustment"
         ]
       },
       {
-        "title": "Academic Tutoring — Mathematics & Statistics",
-        "organization": "Tutoring Center",
-        "period": "",
+        "title": "Mathematics Instructor",
+        "organization": "Pace University",
+        "period": "2020",
         "bullets": [
-          "Provided individualized instruction in mathematics and statistics from remedial through advanced undergraduate levels",
-          "Strengthened quantitative education through diagnostic assessment and targeted skill development"
+          "Taught Mathematics for Life, College Algebra, and Calculus I — connecting algebraic reasoning to applied decision contexts",
+          "Emphasized interpretation of quantitative results, not just procedural computation"
+        ]
+      },
+      {
+        "title": "Mathematics Instructor",
+        "organization": "Yeshiva University",
+        "period": "2020",
+        "bullets": [
+          "Led Calculus III Problem Solving Seminar focused on multi-step analytical reasoning and proof-style logic"
+        ]
+      },
+      {
+        "title": "Full-Time Lecturer / Adjunct Lecturer",
+        "organization": "Kingsborough Community College (CUNY)",
+        "period": "2014 — 2019",
+        "bullets": [
+          "Taught Quantitative Reasoning, College Algebra, Intermediate Algebra, Principles of Mathematics, and Pre-Algebra",
+          "Developed curriculum reinforcing probability intuition, algebraic modeling, and statistical literacy at scale",
+          "Supported diverse learners in translating word problems into structured quantitative frameworks"
+        ]
+      },
+      {
+        "title": "Adjunct Lecturer",
+        "organization": "Queens College (CUNY)",
+        "period": "2015 — 2019",
+        "bullets": [
+          "Instructed Probability & Statistics, Pre-Calculus, Calculus, College Algebra, and Math for Elementary School Teachers",
+          "Taught hypothesis-testing concepts, probability distributions, and regression intuition at undergraduate level"
+        ]
+      },
+      {
+        "title": "Business Statistics Lab Professor",
+        "organization": "Queens College",
+        "period": "2012",
+        "bullets": [
+          "Led Business Statistics labs with Excel instruction, computer-lab analytics exercises, and data interpretation assignments",
+          "Connected descriptive statistics, inference, and spreadsheet modeling to business decision scenarios"
+        ]
+      },
+      {
+        "title": "College Assistant & Academic Tutor",
+        "organization": "Queens College",
+        "period": "2011 — 2014",
+        "bullets": [
+          "Tutored Statistics, Economics, and Finance with focus on quantitative support and exam preparation",
+          "Diagnosed knowledge gaps and built targeted practice for data interpretation and financial quantitative reasoning"
+        ]
+      },
+      {
+        "title": "Mathematics & Statistics Tutor",
+        "organization": "Tutor Doctor · Club Z · Private · SAT Prep",
+        "period": "2011 — Present (periodic)",
+        "bullets": [
+          "Provided individualized instruction in Mathematics, Economics, Statistics, and Finance from remedial through advanced undergraduate levels",
+          "Delivered SAT mathematics preparation emphasizing problem decomposition and analytical speed"
         ]
       }
     ],
     "technicalSkills": [
-      "Python", "SQL", "Statistics", "Excel", "Pandas", "Streamlit",
-      "Data Visualization", "Git / GitHub", "AI-Assisted Development",
-      "Machine Learning", "Monte Carlo Simulation", "Portfolio Optimization"
+      "Statistics", "Probability", "Hypothesis Testing", "Python", "SQL", "Excel", "Pivot Tables",
+      "Pandas", "Streamlit", "Data Visualization", "Machine Learning", "Monte Carlo Simulation",
+      "Portfolio Optimization", "Financial Analysis", "Dashboard Development", "AI Evaluation",
+      "Git / GitHub", "AI-Assisted Development", "Business Analytics", "Decision Support Systems"
     ],
     "targetRoles": [
-      "Data Analyst", "AI Evaluator", "Business Intelligence Analyst",
-      "Research Analyst", "Junior Data Scientist", "Quantitative Analyst"
+      "Data Analyst", "AI Evaluator", "AI Trainer", "Business Intelligence Analyst",
+      "Research Analyst", "Junior Data Scientist", "Quantitative Analyst", "Financial Analyst"
     ],
     "projectBullets": [
       {
@@ -110,20 +170,20 @@
   },
   "careerProfile": {
     "title": "Career Profile",
-    "subtitle": "Quantitative educator transitioning applied mathematics expertise into analytics and AI product development",
+    "subtitle": "Mathematics & Statistics professional applying probability, finance, and analytics to decision-support systems and AI-assisted product development",
     "sections": {
       "professionalBackground": {
         "title": "Professional Background",
         "paragraphs": [
-          "Daniel Cohen is a Mathematics and Statistics professional with graduate credentials from Hunter College (M.S. Statistics), Baruch College (MBA Finance & Investment), and Queens College (B.A. Applied Mathematics & Economics). His career foundation is quantitative education — teaching mathematics and statistics at the high school and college levels and supporting students through academic tutoring centers.",
-          "That instructional background shaped a core strength: making complex quantitative concepts accessible without sacrificing rigor. Today that skill shows up in interactive dashboards, simulation labs, and case-study-driven portfolio storytelling built for recruiters and hiring managers."
+          "Daniel Cohen is a Mathematics and Statistics professional with an M.A. in Statistics & Applied Mathematics from Hunter College (GPA 3.93), MBA in Finance & Investments from Baruch College — Zicklin School of Business (Finance GPA 4.00), and B.A. in Mathematics & Economics from Queens College — Magna Cum Laude, Arthur D. Gayer Memorial Award in Economics. He passed Society of Actuaries exams P/1, FM/2, and MFE, grounding his work in probability, financial mathematics, and quantitative risk thinking.",
+          "His professional history spans college-level instruction at Kingsborough Community College, Queens College, Pace University, and Yeshiva University; Business Statistics lab teaching with Excel; and ongoing quantitative work at The Montfort Academy. Teaching strengthened his ability to communicate statistical ideas clearly — a skill that now supports analytics storytelling, dashboard design, and stakeholder-facing interpretation."
         ]
       },
       "analyticsAiTransition": {
         "title": "Analytics & AI Transition",
         "paragraphs": [
-          "Over the past two years Daniel has built the Daniel AI Suite — seven deployed Streamlit applications plus SQL and Excel workbooks — as deliberate evidence of analytics and AI-assisted development capability.",
-          "The transition is not a pivot away from mathematics; it is an extension. Portfolio optimization, significance testing, Monte Carlo simulation, ML projections, and AI evaluation workflows all apply the same quantitative toolkit he has taught for years — now packaged as production decision-support products."
+          "Daniel is transitioning from mathematics, statistics, and finance instruction into analytics, AI evaluation, decision-support systems, and data-driven product development. The Daniel AI Suite — seven deployed Streamlit applications plus SQL and Excel workbooks — is deliberate proof of that transition, not a side project.",
+          "Portfolio optimization, hypothesis testing, Monte Carlo simulation, ML projections, betting EV, epidemic modeling, and AI evaluator workflows extend the same quantitative foundation built through actuarial study, business statistics labs, and graduate statistics training — now packaged as interactive applications recruiters can click through in minutes."
         ]
       },
       "portfolioHighlights": {
@@ -138,16 +198,19 @@
       },
       "coreTechnicalSkills": {
         "title": "Core Technical Skills",
-        "skills": ["Python", "SQL", "Statistics", "Excel", "Pandas", "Streamlit", "Data Visualization", "Git/GitHub", "AI-Assisted Development", "Machine Learning", "Monte Carlo Simulation"]
+        "skills": ["Statistics", "Probability", "Hypothesis Testing", "Python", "SQL", "Excel", "Pivot Tables", "Pandas", "Streamlit", "Data Visualization", "Financial Analysis", "Machine Learning", "Simulation", "Forecasting", "Dashboard Development", "AI Evaluation", "Business Analytics"]
       },
       "targetRoles": {
         "title": "Target Roles",
         "roles": [
-          { "role": "Data Analyst", "fit": "Dashboard development, SQL reporting, statistical analysis, and business storytelling across finance and sports domains." },
-          { "role": "AI Evaluator", "fit": "AI training visualization, evaluator workbooks, and structured case-study reporting for model quality assessment." },
-          { "role": "Business Intelligence Analyst", "fit": "Executive-summary layouts, KPI dashboards, and self-service analytics with demo-ready walkthrough modes." },
-          { "role": "Research Analyst", "fit": "Hypothesis testing, simulation design, significance workflows, and methods-oriented case studies." },
-          { "role": "Junior Data Scientist", "fit": "ML projections, feature importance, optimization models, and validation-oriented experimentation." }
+          { "role": "Data Analyst", "fit": "M.A. Statistics, Business Statistics lab experience, SQL/Excel workbooks, and live Python dashboards for reporting and interpretation." },
+          { "role": "AI Evaluator", "fit": "AI evaluator workbook, training/overfitting visualization, and structured evidence-based analysis workflows." },
+          { "role": "AI Trainer", "fit": "Years of quantitative instruction plus portfolio UX designed to explain → simulate → interpret complex methods." },
+          { "role": "Business Intelligence Analyst", "fit": "KPI dashboards, Excel pivot fluency, executive case studies, and demo-ready Streamlit walkthroughs." },
+          { "role": "Research Analyst", "fit": "Graduate statistics, hypothesis testing, simulation design, and probability-driven modeling." },
+          { "role": "Junior Data Scientist", "fit": "ML projections, feature importance, optimization, and model validation-oriented portfolio evidence." },
+          { "role": "Quantitative Analyst", "fit": "Actuarial exam foundation, MBA finance, Monte Carlo, portfolio optimization, and risk analytics." },
+          { "role": "Financial Analyst", "fit": "MBA Finance (4.00), investment portfolio dashboard, efficient frontier, and finance tutoring background." }
         ]
       }
     }
@@ -156,19 +219,20 @@
     "title": "Why Daniel Cohen is a Strong Fit for Analytics & AI Roles",
     "subtitle": "Executive summary for recruiters and hiring managers",
     "keyStrengths": [
-      "Graduate-level statistics and finance training with proven ability to teach and apply quantitative methods",
-      "Seven live Streamlit applications demonstrating end-to-end analytics product development",
-      "SQL, Excel, and Python fluency with recruiter-facing workbook evidence",
-      "Case-study-driven portfolio communicating problem → data → analysis → modeling → insights → results",
-      "AI-assisted development discipline — shipping production UX, not notebook prototypes"
+      "M.A. Statistics & Applied Mathematics (Hunter, GPA 3.93) and MBA Finance & Investments (Baruch, Finance GPA 4.00)",
+      "Society of Actuaries exams P/1, FM/2, and MFE — probability and financial mathematics foundation",
+      "Seven live Streamlit applications plus SQL & Excel workbooks with KPI dashboards and 42+ SQL queries",
+      "Business Statistics lab teaching with Excel — direct BI and spreadsheet analytics credibility",
+      "Case-study portfolio: problem → data → analysis → modeling → insights → results",
+      "Clear communicator of quantitative methods — college lecturer background supports stakeholder interpretation"
     ],
     "quantitativeBackground": {
       "title": "Quantitative Background",
-      "text": "M.S. Statistics (Hunter College), MBA Finance & Investment (Baruch College), and B.A. Applied Mathematics & Economics (Queens College). Years of experience teaching mathematics and statistics at the high school and college levels, plus academic tutoring — establishing both theoretical depth and communication skill."
+      "text": "M.A. Statistics & Applied Mathematics, Hunter College (GPA 3.93). MBA Finance & Investments, Baruch College — Zicklin School of Business (Overall GPA 3.88, Finance GPA 4.00). B.A. Mathematics & Economics, Queens College — Magna Cum Laude, Arthur D. Gayer Memorial Award in Economics. Passed SOA Exams P/1, FM/2, and MFE. College lecturer at Kingsborough Community College and Queens College (Probability & Statistics, Calculus, Quantitative Reasoning); Business Statistics Lab Professor at Queens College with Excel instruction; current mathematics instructor at The Montfort Academy."
     },
     "technicalSkills": {
       "title": "Technical Skills",
-      "skills": ["Python", "SQL", "Statistics", "Excel", "Pandas", "Streamlit", "Data Visualization", "Git/GitHub", "AI-Assisted Development", "scikit-learn", "Plotly", "Monte Carlo Simulation"]
+      "skills": ["Statistics", "Probability", "Hypothesis Testing", "Python", "SQL", "Excel", "Pivot Tables", "Pandas", "Streamlit", "Data Visualization", "Financial Analysis", "Machine Learning", "Monte Carlo Simulation", "Dashboard Development", "AI Evaluation", "Business Analytics"]
     },
     "analyticsProjects": {
       "title": "Analytics Projects",
@@ -190,22 +254,22 @@
     },
     "careerDirection": {
       "title": "Career Direction",
-      "text": "Daniel is targeting Data Analyst, AI Evaluator, Business Intelligence Analyst, Research Analyst, and Junior Data Scientist roles where quantitative reasoning, clear communication, and hands-on product development are valued. He brings a rare combination: credentialed statistics training, years of quantitative teaching, and a deployed portfolio that proves he can build — not just analyze."
+      "text": "Daniel is targeting Data Analyst, AI Evaluator, AI Trainer, Business Intelligence Analyst, Research Analyst, Junior Data Scientist, Quantitative Analyst, and Financial Analyst roles. He offers credentialed statistics and finance training, actuarial exam foundation, Business Statistics and Excel lab experience, and a deployed analytics portfolio — positioning him as a quantitative professional who builds decision-support products, not only teaches theory."
     }
   },
   "aboutMe": {
-    "headline": "Mathematics & Statistics Professional · Data Analyst · Quantitative Educator",
-    "subheadline": "AI-assisted application developer specializing in analytics, modeling, statistics, and decision-support systems",
+    "headline": "Mathematics & Statistics Professional · Quantitative Analytics · Finance & Data Applications",
+    "subheadline": "M.A. Statistics · MBA Finance · SOA Exams (P, FM, MFE) · Python · SQL · Excel · Streamlit · AI-Assisted Development",
     "paragraphs": [
-      "I am a Mathematics and Statistics professional who translates statistical theory, financial modeling, machine learning, and experimental design into interactive analytics products that help people make better decisions.",
-      "My work spans portfolio risk analysis, sports analytics, probability modeling, ML projections, data visualization, and AI-assisted software — with emphasis on experimentation, reproducibility, and business impact.",
-      "As a quantitative educator and builder, I design dashboards and simulations that make complex analysis accessible without sacrificing analytical rigor."
+      "I am a Mathematics and Statistics professional with graduate training in statistics and finance, actuarial exam foundation, and a portfolio of production analytics applications. I translate probability, hypothesis testing, investment analysis, and quantitative reasoning into dashboards, simulations, and decision-support tools.",
+      "My background includes college-level Probability & Statistics instruction, Business Statistics labs with Excel, MBA finance coursework (GPA 4.00 in Finance), and independent development of the Daniel AI Suite — seven Streamlit apps and SQL/Excel workbooks spanning portfolio analytics, sports modeling, AI evaluation, and forecasting.",
+      "I build analytics products that connect statistical rigor to business interpretation — helping stakeholders understand not just what the data shows, but what decision it supports."
     ],
     "pillars": [
-      { "title": "Analytics & Modeling", "text": "Hypothesis testing, regression, simulation, optimization, and scenario analysis across finance and sports domains." },
-      { "title": "Experimentation", "text": "Structured A/B-style evaluation, significance testing, and model validation workflows with interpretable outputs." },
-      { "title": "Decision Support", "text": "Interactive dashboards that connect data pipelines to actionable recommendations for non-technical stakeholders." },
-      { "title": "AI-Assisted Development", "text": "Production Streamlit applications combining live APIs, cached analytics, and portfolio-grade UX polish." }
+      { "title": "Statistics & Probability", "text": "M.A. Statistics, SOA exam foundation, hypothesis testing, inference, and simulation across finance and sports analytics." },
+      { "title": "Finance & Quantitative Analysis", "text": "MBA Finance, portfolio optimization, Monte Carlo, investment analysis, and actuarial-style risk thinking." },
+      { "title": "SQL, Excel & Dashboards", "text": "Business Statistics lab experience, pivot tables, KPI workbooks, and Streamlit dashboards for self-service analytics." },
+      { "title": "AI & Decision Support", "text": "AI evaluator workflows, model validation visualization, and production applications — not notebook prototypes." }
     ]
   },
   "featuredAnalytics": [
@@ -236,11 +300,11 @@
     "ai-music-practice-coach"
   ],
   "summary": {
-    "headline": "Quantitative Analytics & AI Professional",
+    "headline": "Mathematics & Statistics Professional — Quantitative Analytics & AI",
     "paragraphs": [
-      "I build analytics products that connect statistical reasoning, financial modeling, SQL and Excel reporting, and AI evaluation workflows into decision-ready applications.",
-      "My portfolio spans production Streamlit dashboards, SQL and Excel analytics workbooks, and a seven-app AI suite — demonstrating end-to-end ability from data modeling through recruiter-facing storytelling.",
-      "Target roles: Data Analyst, Business Intelligence Analyst, Research Analyst, Quantitative Analyst, Financial Analyst, AI Evaluator, and AI Trainer."
+      "M.A. Statistics & Applied Mathematics (Hunter, 3.93 GPA) · MBA Finance & Investments (Baruch, Finance GPA 4.00) · SOA Exams P, FM, MFE · B.A. Mathematics & Economics, Magna Cum Laude.",
+      "I build analytics products — Python dashboards, SQL & Excel workbooks, and AI evaluation workflows — that connect statistical reasoning, financial modeling, and business interpretation into decision-ready applications.",
+      "Target roles: Data Analyst, AI Evaluator, AI Trainer, BI Analyst, Research Analyst, Junior Data Scientist, Quantitative Analyst, Financial Analyst."
     ],
     "skills": [
       "SQL", "Excel", "Pivot Tables", "Python", "pandas", "Streamlit",
