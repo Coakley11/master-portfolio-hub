@@ -101,7 +101,7 @@ The home page (`Portfolio Website/index.html`) now includes:
 ## Next Steps (Highest ROI)
 
 1. Deploy portfolio website to GitHub Pages (`/Portfolio Website` folder) and put the public URL on LinkedIn / resume / applications
-2. Prefer replacing `site.linkedin` with a permanent `https://www.linkedin.com/in/...` URL when available (Google Share link is wired for now)
+2. LinkedIn profile: https://www.linkedin.com/in/daniel-cohen-355319340/ (`site.linkedin` in Portfolio Website data)
 3. Capture SQL/Excel workbook screenshots into `Screenshots/SQL-Excel/` (only remaining screenshot gap)
 4. Refresh resume PDF to match `Resume/resume-project-descriptions.md`
 5. Restore Actuarial Analytics `.xlsx` source file (optional)

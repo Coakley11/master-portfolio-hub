@@ -73,7 +73,7 @@ Python · SQL · Excel · Pandas · Streamlit · Statistics · Monte Carlo · Po
 Data Analyst · Product Analyst · Quantitative Analyst · Financial Analyst · AI Evaluator · AI Trainer · BI Analyst · Research Analyst roles where statistical reasoning and shipped analytics products matter.
 
 📊 Portfolio: *[add GitHub Pages / portfolio URL]*  
-💼 LinkedIn: https://share.google/d2835DjfX8IADfWWC  
+💼 LinkedIn: https://www.linkedin.com/in/daniel-cohen-355319340/  
 💻 GitHub: https://github.com/Coakley11
 
 ---
