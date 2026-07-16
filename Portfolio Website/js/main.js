@@ -41,15 +41,48 @@ function humanizeScreenshotName(filename) {
     .replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
-function screenshotImg(src, alt, label) {
+function escapeAttr(value) {
+  return String(value || '')
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function galleryItemsFromShots(shots, title) {
+  return (shots || []).map((src) => {
+    const fname = src.split('/').pop() || 'screenshot.png';
+    const caption = humanizeScreenshotName(fname);
+    return {
+      src,
+      caption,
+      alt: `${title} — ${caption}`
+    };
+  });
+}
+
+function registerScreenshotGallery(galleryId, items) {
+  if (window.PortfolioLightbox && galleryId && items && items.length) {
+    window.PortfolioLightbox.registerGallery(galleryId, items);
+  }
+}
+
+function screenshotImg(src, alt, label, galleryId, index) {
   const fname = src.split('/').pop() || 'screenshot.png';
   const caption = label || humanizeScreenshotName(fname);
-  const cap = caption ? `<div class="screenshot-caption">${caption}</div>` : '';
+  const cap = caption ? `<figcaption class="screenshot-caption">${caption}</figcaption>` : '';
+  const openAttrs = galleryId != null
+    ? `data-lightbox-open data-lightbox-gallery="${escapeAttr(galleryId)}" data-lightbox-index="${Number(index) || 0}"`
+    : 'disabled';
   return `
     <figure class="screenshot-figure">
-      <img src="${src}" alt="${alt}" class="screenshot-img" loading="lazy"
-        onerror="this.classList.add('screenshot-img--missing');this.nextElementSibling?.classList.add('screenshot-missing--show')">
-      <div class="screenshot-missing">Add file: <code>${fname}</code><br><span>Drop into <code>assets/screenshots/</code> — see Screenshots/HOW_TO_CAPTURE.md</span></div>
+      <button type="button" class="screenshot-trigger" ${openAttrs}
+        aria-label="Enlarge screenshot: ${escapeAttr(caption)}">
+        <img src="${src}" alt="${escapeAttr(alt)}" class="screenshot-img" loading="lazy"
+          onerror="this.classList.add('screenshot-img--missing');this.nextElementSibling?.classList.add('screenshot-missing--show')">
+        <span class="screenshot-missing">Add file: <code>${escapeAttr(fname)}</code><br><span>Drop into <code>assets/screenshots/</code> — see Screenshots/HOW_TO_CAPTURE.md</span></span>
+        <span class="screenshot-zoom-hint" aria-hidden="true">Expand</span>
+      </button>
       ${cap}
     </figure>`;
 }
@@ -62,9 +95,11 @@ function heroScreenshot(project) {
       : '';
     return screenshotPlaceholder(project.displayName || project.name, hint);
   }
+  const title = project.displayName || project.name;
   const hero = shots[0];
   const label = humanizeScreenshotName(project.heroScreenshot || hero.split('/').pop());
-  return screenshotImg(hero, project.displayName || project.name, label);
+  registerScreenshotGallery(project.id, galleryItemsFromShots(shots, title));
+  return screenshotImg(hero, title, label, project.id, 0);
 }
 
 function renderScreenshotGallery(project) {
@@ -78,13 +113,14 @@ function renderScreenshotGallery(project) {
 
   const hero = shots[0];
   const title = project.displayName || project.name;
-  let html = screenshotImg(hero, title, humanizeScreenshotName(project.heroScreenshot || hero.split('/').pop()));
+  registerScreenshotGallery(project.id, galleryItemsFromShots(shots, title));
+  let html = screenshotImg(hero, title, humanizeScreenshotName(project.heroScreenshot || hero.split('/').pop()), project.id, 0);
 
   if (shots.length > 1) {
     html += `<div class="screenshot-thumbs">`;
     shots.slice(1, 5).forEach((src, i) => {
       const fname = src.split('/').pop() || `view-${i + 2}`;
-      html += screenshotImg(src, `${title} — ${humanizeScreenshotName(fname)}`, humanizeScreenshotName(fname));
+      html += screenshotImg(src, `${title} — ${humanizeScreenshotName(fname)}`, humanizeScreenshotName(fname), project.id, i + 1);
     });
     html += `</div>`;
   }
@@ -139,16 +175,57 @@ function projectCard(project) {
     </article>`;
 }
 
+const SQL_EXCEL_GALLERY_ID = 'sql-excel-gallery';
+const SQL_EXCEL_SCREENSHOTS = [
+  {
+    id: 'ai-evaluator-analytics',
+    src: 'assets/screenshots/SQL-Excel/sql-excel-ai-evaluator-dashboard.png',
+    caption: 'AI Evaluator Dashboard'
+  },
+  {
+    id: 'ai-evaluator-sql',
+    src: 'assets/screenshots/SQL-Excel/sql-excel-ai-evaluator-sql.png',
+    caption: 'AI Evaluator SQL Practice'
+  },
+  {
+    id: 'investment-app-analysis',
+    src: 'assets/screenshots/SQL-Excel/sql-excel-investment-workbook-dashboard.png',
+    caption: 'Investment Workbook Dashboard'
+  },
+  {
+    id: 'investment-pivot',
+    src: 'assets/screenshots/SQL-Excel/sql-excel-investment-pivot-practice.png',
+    caption: 'Investment Pivot Practice'
+  },
+  {
+    id: 'quant-analytics',
+    src: 'assets/screenshots/SQL-Excel/sql-excel-quant-claims.png',
+    caption: 'Quant Claims Analytics'
+  },
+  {
+    id: 'real-world-data',
+    src: 'assets/screenshots/SQL-Excel/sql-excel-real-world-credit-risk.png',
+    caption: 'Real World Credit Risk'
+  }
+];
+
+function ensureSqlExcelGalleryRegistered() {
+  registerScreenshotGallery(
+    SQL_EXCEL_GALLERY_ID,
+    SQL_EXCEL_SCREENSHOTS.map((shot) => ({
+      src: shot.src,
+      caption: shot.caption,
+      alt: `SQL & Excel — ${shot.caption}`
+    }))
+  );
+}
+
 function sqlWorkbookScreenshot(wb) {
-  const map = {
-    'ai-evaluator-analytics': 'assets/screenshots/SQL-Excel/sql-excel-ai-evaluator-dashboard.png',
-    'investment-app-analysis': 'assets/screenshots/SQL-Excel/sql-excel-investment-workbook-dashboard.png',
-    'quant-analytics': 'assets/screenshots/SQL-Excel/sql-excel-quant-claims.png',
-    'real-world-data': 'assets/screenshots/SQL-Excel/sql-excel-real-world-credit-risk.png'
-  };
-  const src = map[wb.id];
-  if (!src) return '';
-  return screenshotImg(src, wb.name, wb.id);
+  const shot = SQL_EXCEL_SCREENSHOTS.find((s) => s.id === wb.id);
+  if (!shot) return '';
+  ensureSqlExcelGalleryRegistered();
+  const index = SQL_EXCEL_SCREENSHOTS.findIndex((s) => s.id === wb.id);
+  return screenshotImg(shot.src, wb.name, shot.caption, SQL_EXCEL_GALLERY_ID, index);
 }
 
 function renderFeaturedAnalytics(data) {
@@ -372,6 +449,34 @@ function renderContactPage(data) {
   const grid = document.getElementById('contact-grid');
   if (!grid) return;
   const site = data.site;
+  const suiteOrder = [
+    'baseball-stat-app',
+    'ai-music-practice-coach',
+    'investment-portfolio-analyzer',
+    'applied-mathematical-intelligence',
+    'daniel-ai-command-center',
+    'nba-playoff-companion-ai',
+    'future-lens-ai-transition-simulator'
+  ];
+  const suiteRepos = data.repos
+    .filter((p) => p.github && /\/tree\/dev\/?$/.test(p.github))
+    .sort((a, b) => {
+      const ai = suiteOrder.indexOf(a.id);
+      const bi = suiteOrder.indexOf(b.id);
+      return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
+    });
+  const repoLinks = suiteRepos.map((p) => {
+    const label = p.displayName || p.name;
+    const github = p.github || `${site.github}/${p.id}/tree/dev`;
+    const readme = p.readme || `${site.github}/${p.id}/blob/dev/README.md`;
+    return `<li>
+      <a href="${github}" target="_blank" rel="noopener">${label}</a>
+      <span class="repo-link-meta">
+        <a href="${readme}" target="_blank" rel="noopener">README</a>
+        · <code>dev</code>
+      </span>
+    </li>`;
+  }).join('');
   const linkedInCard = site.linkedin
     ? `<div class="contact-card">
         <h3>LinkedIn</h3>
@@ -390,10 +495,11 @@ function renderContactPage(data) {
       <a href="mailto:${site.email}" class="btn btn-primary" style="margin-top:0.75rem;">Send Email</a>
       <p class="contact-note">Email is available via the button above — not displayed on the public homepage.</p>
     </div>
-    <div class="contact-card">
+    <div class="contact-card contact-card--github">
       <h3>GitHub</h3>
       <p><a href="${site.github}" target="_blank" rel="noopener">${site.github.replace('https://', '')}</a></p>
-      <p>7 public repositories in the Daniel AI Suite</p>
+      <p>7 public repositories in the Daniel AI Suite. Portfolio demos track the <code>dev</code> branch:</p>
+      <ul class="repo-link-list">${repoLinks}</ul>
     </div>
     ${linkedInCard}
     <div class="contact-card">

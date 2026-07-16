@@ -8,15 +8,40 @@ function humanizeScreenshotName(filename) {
     .replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
-function screenshotImg(src, alt) {
+function escapeAttr(value) {
+  return String(value || '')
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function galleryItemsFromShots(shots, title) {
+  return (shots || []).map((src) => {
+    const fname = src.split('/').pop() || 'screenshot.png';
+    const caption = humanizeScreenshotName(fname);
+    return {
+      src,
+      caption,
+      alt: `${title} — ${caption}`
+    };
+  });
+}
+
+function screenshotImg(src, alt, galleryId, index) {
   const fname = src.split('/').pop() || 'screenshot.png';
   const caption = humanizeScreenshotName(fname);
   return `
     <figure class="screenshot-figure">
-      <img src="${src}" alt="${alt}" class="screenshot-img" loading="lazy"
-        onerror="this.classList.add('screenshot-img--missing');this.nextElementSibling?.classList.add('screenshot-missing--show')">
-      <div class="screenshot-missing">Add file: <code>${fname}</code></div>
-      <div class="screenshot-caption">${caption}</div>
+      <button type="button" class="screenshot-trigger"
+        data-lightbox-open data-lightbox-gallery="${escapeAttr(galleryId)}" data-lightbox-index="${Number(index) || 0}"
+        aria-label="Enlarge screenshot: ${escapeAttr(caption)}">
+        <img src="${src}" alt="${escapeAttr(alt)} — ${escapeAttr(caption)}" class="screenshot-img" loading="lazy"
+          onerror="this.classList.add('screenshot-img--missing');this.nextElementSibling?.classList.add('screenshot-missing--show')">
+        <span class="screenshot-missing">Add file: <code>${escapeAttr(fname)}</code></span>
+        <span class="screenshot-zoom-hint" aria-hidden="true">Expand</span>
+      </button>
+      <figcaption class="screenshot-caption">${caption}</figcaption>
     </figure>`;
 }
 
@@ -56,9 +81,12 @@ function renderProject(project) {
   document.title = `${title} — Daniel Cohen Portfolio`;
 
   const shots = project.screenshots || [];
-  const hero = shots.length ? screenshotImg(shots[0], title) : '';
+  if (window.PortfolioLightbox && shots.length) {
+    window.PortfolioLightbox.registerGallery(project.id, galleryItemsFromShots(shots, title));
+  }
+  const hero = shots.length ? screenshotImg(shots[0], title, project.id, 0) : '';
   const gallery = shots.length > 1
-    ? `<div class="screenshot-gallery">${shots.slice(1).map(s => screenshotImg(s, title)).join('')}</div>`
+    ? `<div class="screenshot-gallery">${shots.slice(1).map((s, i) => screenshotImg(s, title, project.id, i + 1)).join('')}</div>`
     : '';
 
   const highlights = (project.detailHighlights || [])
