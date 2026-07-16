@@ -74,8 +74,10 @@ def build_pdf(resume: dict, site: dict) -> None:
     if linkedin:
         contact += "  |  LinkedIn: available via portfolio contact"
     pdf.cell(0, 5, ascii_safe(contact), new_x="LMARGIN", new_y="NEXT", align="C")
-    pdf.set_font("Helvetica", "", 9)
-    pdf.cell(0, 5, "Portfolio: deploy URL on applications / LinkedIn Featured", new_x="LMARGIN", new_y="NEXT", align="C")
+    portfolio = site.get("portfolioPublicUrl") or ""
+    if portfolio:
+        pdf.set_font("Helvetica", "", 9)
+        pdf.cell(0, 5, ascii_safe(f"Portfolio: {portfolio}"), new_x="LMARGIN", new_y="NEXT", align="C")
     pdf.ln(2)
 
     section("Professional Summary")
