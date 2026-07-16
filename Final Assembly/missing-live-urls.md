@@ -21,7 +21,7 @@ Source: `daniel-ai-command-center` `app_urls.py` (read-only; app repos not modif
 | Item | Reason |
 |------|--------|
 | SQL & Excel workbooks (4 showcase cards) | Excel files — no Streamlit deployment; **Live App** button correctly disabled |
-| LinkedIn profile link | Placeholder until final URL provided (`site.linkedin: null`) |
+| LinkedIn profile link | Set to Google Share URL in `site.linkedin` — replace with permanent `linkedin.com/in/...` when available |
 
 ## Summary
 

@@ -1,419 +1,302 @@
 {
-  "version": "2026-06-05",
-  "description": "Single source of truth for portfolio screenshot capture and website display.",
+  "version": "2026-07-16",
+  "description": "Canonical numbered screenshot set captured 2026-07-15. Source: Screenshots/; deploy: Portfolio Website/assets/screenshots/.",
   "basePathFromWebsite": "../Screenshots",
-  "recommendedSize": "1920\u00d71080 desktop \u00b7 390\u00d7844 mobile (optional -mobile suffix)",
-  "toggles": {
-    "demo": {
-      "label": "Portfolio Demo Mode",
-      "required": true,
-      "help": "Auto-loads curated examples and populates hero pages."
-    },
-    "screenshot": {
-      "label": "Portfolio Screenshot Mode",
-      "required": true,
-      "help": "Hides clutter, shows executive summaries and hero banners."
-    }
-  },
+  "recommendedSize": "1920\u00d71080 desktop",
   "apps": [
     {
-      "id": "investment-portfolio-analyzer",
-      "name": "Investment Portfolio Analyzer",
-      "folder": "Investment",
-      "repo": "investment-portfolio-analyzer",
+      "id": "applied-mathematical-intelligence",
+      "name": "Applied Mathematical Intelligence",
+      "folder": "Applied-Math",
       "captures": [
         {
-          "filename": "investment-overview-demo.png",
-          "mobileFilename": "investment-overview-demo-mobile.png",
-          "page": "Overview (auto-opens in Demo Mode)",
-          "toggles": [
-            "Portfolio Demo Mode",
-            "Portfolio Screenshot Mode"
-          ],
-          "demonstrates": "Diversified Balanced portfolio: allocation pie, Sharpe/volatility metrics, growth chart, portfolio summary \u2014 zero setup.",
+          "filename": "01-home-dashboard.png",
+          "page": "Home Dashboard",
+          "demonstrates": "Home Dashboard",
           "priority": "P0",
           "hero": true,
-          "deployPath": "assets/screenshots/Investment/investment-overview-demo.png",
-          "status": "published",
-          "legacySource": "Investment/investment-portfolio-summary-mobile.png.jpg",
-          "mobileDeployPath": "assets/screenshots/Investment/investment-overview-demo-mobile.png",
-          "mobileStatus": "published"
+          "deployPath": "assets/screenshots/Applied-Math/01-home-dashboard.png",
+          "status": "published"
         },
         {
-          "filename": "investment-portfolio-analytics-demo.png",
-          "mobileFilename": "investment-portfolio-analytics-demo-mobile.png",
-          "page": "Portfolio Analytics",
-          "toggles": [
-            "Portfolio Demo Mode",
-            "Portfolio Screenshot Mode"
-          ],
-          "demonstrates": "Risk analysis tab: correlation heatmap, volatility ranking, risk contribution, scenario analysis.",
-          "priority": "P0",
-          "hero": false,
-          "deployPath": "assets/screenshots/Investment/investment-portfolio-analytics-demo.png",
-          "status": "missing",
-          "mobileDeployPath": "assets/screenshots/Investment/investment-portfolio-analytics-demo-mobile.png",
-          "mobileStatus": "missing"
-        },
-        {
-          "filename": "investment-portfolio-health.png",
-          "mobileFilename": "investment-portfolio-health-mobile.png",
-          "page": "Portfolio Health",
-          "toggles": [
-            "Portfolio Demo Mode",
-            "Portfolio Screenshot Mode"
-          ],
-          "demonstrates": "Health score, recommendations, rebalancing guidance tied to live holdings.",
+          "filename": "02-solve-a-problem.png",
+          "page": "Solve A Problem",
+          "demonstrates": "Solve A Problem",
           "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Investment/investment-portfolio-health.png",
-          "status": "published",
-          "legacySource": "Investment/investment-portfolio-health.png.jpg",
-          "mobileDeployPath": "assets/screenshots/Investment/investment-portfolio-health-mobile.png",
-          "mobileStatus": "missing"
+          "deployPath": "assets/screenshots/Applied-Math/02-solve-a-problem.png",
+          "status": "published"
         },
         {
-          "filename": "investment-monte-carlo.png",
-          "page": "Monte Carlo",
-          "toggles": [
-            "Portfolio Demo Mode"
-          ],
-          "demonstrates": "Simulation histogram, percentile bands, probability of loss.",
+          "filename": "03-predict-a-game.png",
+          "page": "Predict A Game",
+          "demonstrates": "Predict A Game",
           "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Investment/investment-monte-carlo.png",
-          "status": "missing"
+          "deployPath": "assets/screenshots/Applied-Math/03-predict-a-game.png",
+          "status": "published"
         },
         {
-          "filename": "investment-efficient-frontier.png",
-          "page": "Efficient Frontier",
-          "toggles": [
-            "Portfolio Demo Mode"
-          ],
-          "demonstrates": "Risk/return frontier with current vs optimized portfolios highlighted.",
+          "filename": "04-explore-math-idea.png",
+          "page": "Explore Math Idea",
+          "demonstrates": "Explore Math Idea",
           "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Investment/investment-efficient-frontier.png",
-          "status": "missing"
+          "deployPath": "assets/screenshots/Applied-Math/04-explore-math-idea.png",
+          "status": "published"
         },
         {
-          "filename": "investment-correlation-heatmap.png",
-          "page": "Portfolio Analytics \u2192 Run Risk & Macro",
-          "toggles": [
-            "Portfolio Demo Mode"
-          ],
-          "demonstrates": "Correlation matrix heatmap for diversified holdings.",
-          "priority": "P2",
+          "filename": "05-command-center.png",
+          "page": "Command Center",
+          "demonstrates": "Command Center",
+          "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Investment/investment-correlation-heatmap.png",
-          "status": "missing"
-        },
-        {
-          "filename": "investment-optimizer.png",
-          "page": "Optimization",
-          "toggles": [
-            "Portfolio Demo Mode"
-          ],
-          "demonstrates": "Max Sharpe / min volatility optimizer vs current allocation.",
-          "priority": "P2",
-          "hero": false,
-          "deployPath": "assets/screenshots/Investment/investment-optimizer.png",
-          "status": "published",
-          "legacySource": "Investment/investment-allocation-optimizer.png.jpg"
+          "deployPath": "assets/screenshots/Applied-Math/05-command-center.png",
+          "status": "published"
         }
       ]
     },
     {
       "id": "baseball-stat-app",
-      "name": "Baseball Stat App",
+      "name": "Baseball Analytics",
       "folder": "Baseball",
-      "repo": "baseball-stat-app",
       "captures": [
         {
-          "filename": "baseball-draft-assistant-demo.png",
-          "mobileFilename": "baseball-draft-assistant-demo-mobile.png",
-          "page": "Draft Assistant Simulator",
-          "toggles": [
-            "Portfolio Demo Mode",
-            "Portfolio Screenshot Mode"
-          ],
-          "demonstrates": "Mid-draft board with stars picked; elite-player recommendation with visible explanation.",
+          "filename": "01-draft-assistant-recommendations.png",
+          "page": "Draft Assistant Recommendations",
+          "demonstrates": "Draft Assistant Recommendations",
           "priority": "P0",
           "hero": true,
-          "deployPath": "assets/screenshots/Baseball/baseball-draft-assistant-demo.png",
-          "status": "published",
-          "legacySource": "Baseball/baseball-draft-recommendation-engine.png.jpg",
-          "mobileDeployPath": "assets/screenshots/Baseball/baseball-draft-assistant-demo-mobile.png",
-          "mobileStatus": "missing"
+          "deployPath": "assets/screenshots/Baseball/01-draft-assistant-recommendations.png",
+          "status": "published"
         },
         {
-          "filename": "baseball-ml-projections-demo.png",
-          "mobileFilename": "baseball-ml-projections-demo-mobile.png",
-          "page": "ML Predictions",
-          "toggles": [
-            "Portfolio Demo Mode",
-            "Portfolio Screenshot Mode"
-          ],
-          "demonstrates": "Judge/Ohtani/Soto/Henderson projections; HR feature-importance chart above the fold.",
-          "priority": "P0",
-          "hero": true,
-          "deployPath": "assets/screenshots/Baseball/baseball-ml-projections-demo.png",
-          "status": "published",
-          "legacySource": "Baseball/baseball-ml-projections.png.jpg",
-          "mobileDeployPath": "assets/screenshots/Baseball/baseball-ml-projections-demo-mobile.png",
-          "mobileStatus": "missing"
-        },
-        {
-          "filename": "baseball-career-totals-demo.png",
-          "mobileFilename": "baseball-career-totals-demo-mobile.png",
-          "page": "Career Totals",
-          "toggles": [
-            "Portfolio Demo Mode",
-            "Portfolio Screenshot Mode"
-          ],
-          "demonstrates": "HR leaders default; top-10 career bar chart visible immediately.",
-          "priority": "P0",
-          "hero": true,
-          "deployPath": "assets/screenshots/Baseball/baseball-career-totals-demo.png",
-          "status": "published",
-          "legacySource": "Baseball/baseball-roster-heatmap.png.jpg",
-          "mobileDeployPath": "assets/screenshots/Baseball/baseball-career-totals-demo-mobile.png",
-          "mobileStatus": "missing"
-        },
-        {
-          "filename": "baseball-player-comparison.png",
-          "page": "Comparison Tool",
-          "toggles": [
-            "Portfolio Demo Mode"
-          ],
-          "demonstrates": "Side-by-side player stat comparison with radar or table view.",
+          "filename": "02-live-draft-room.png",
+          "page": "Live Draft Room",
+          "demonstrates": "Live Draft Room",
           "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Baseball/baseball-player-comparison.png",
-          "status": "published",
-          "legacySource": "Baseball/baseball-player-insight.png.jpg"
+          "deployPath": "assets/screenshots/Baseball/02-live-draft-room.png",
+          "status": "published"
         },
         {
-          "filename": "baseball-trend-analysis.png",
-          "page": "Trend Value",
-          "toggles": [
-            "Portfolio Demo Mode"
-          ],
-          "demonstrates": "Slope, volatility, R\u00b2 trend indicators for player performance.",
+          "filename": "03-uploaded-draft-import.png",
+          "page": "Uploaded Draft Import",
+          "demonstrates": "Uploaded Draft Import",
           "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Baseball/baseball-trend-analysis.png",
-          "status": "published",
-          "legacySource": "Baseball/baseball-statistical-testing.png.jpg"
+          "deployPath": "assets/screenshots/Baseball/03-uploaded-draft-import.png",
+          "status": "published"
         },
         {
-          "filename": "baseball-draft-room.png",
-          "page": "Draft Room Simulator",
-          "toggles": [
-            "Portfolio Demo Mode"
-          ],
-          "demonstrates": "Snake-draft board feeding Draft Assistant.",
-          "priority": "P2",
+          "filename": "04-shared-league-claims.png",
+          "page": "Shared League Claims",
+          "demonstrates": "Shared League Claims",
+          "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Baseball/baseball-draft-room.png",
-          "status": "missing"
+          "deployPath": "assets/screenshots/Baseball/04-shared-league-claims.png",
+          "status": "published"
         },
         {
-          "filename": "baseball-sleepers-busts.png",
-          "page": "Fantasy Sleepers & Busts",
-          "toggles": [
-            "Portfolio Demo Mode"
-          ],
-          "demonstrates": "Sleeper upside and bust-risk scoring.",
-          "priority": "P2",
+          "filename": "05-lineup-management.png",
+          "page": "Lineup Management",
+          "demonstrates": "Lineup Management",
+          "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Baseball/baseball-sleepers-busts.png",
-          "status": "missing"
+          "deployPath": "assets/screenshots/Baseball/05-lineup-management.png",
+          "status": "published"
+        },
+        {
+          "filename": "06-trade-center.png",
+          "page": "Trade Center",
+          "demonstrates": "Trade Center",
+          "priority": "P1",
+          "hero": false,
+          "deployPath": "assets/screenshots/Baseball/06-trade-center.png",
+          "status": "published"
+        },
+        {
+          "filename": "07-research-mode-comparison.png",
+          "page": "Research Mode Comparison",
+          "demonstrates": "Research Mode Comparison",
+          "priority": "P1",
+          "hero": false,
+          "deployPath": "assets/screenshots/Baseball/07-research-mode-comparison.png",
+          "status": "published"
+        },
+        {
+          "filename": "08-hof-case-mode.png",
+          "page": "Hof Case Mode",
+          "demonstrates": "Hof Case Mode",
+          "priority": "P1",
+          "hero": false,
+          "deployPath": "assets/screenshots/Baseball/08-hof-case-mode.png",
+          "status": "published"
+        },
+        {
+          "filename": "09-baseball-insight-ami.png",
+          "page": "Baseball Insight Ami",
+          "demonstrates": "Baseball Insight Ami",
+          "priority": "P1",
+          "hero": false,
+          "deployPath": "assets/screenshots/Baseball/09-baseball-insight-ami.png",
+          "status": "published"
         }
       ]
     },
     {
-      "id": "applied-mathematical-intelligence",
-      "name": "Applied Mathematical Intelligence",
-      "folder": "Applied-Math",
-      "repo": "Applied-mathematical-intelligence",
+      "id": "daniel-ai-command-center",
+      "name": "AI Command Center",
+      "folder": "Command-Center",
       "captures": [
         {
-          "filename": "applied-math-betting-ev-demo.png",
-          "mobileFilename": "applied-math-betting-ev-demo-mobile.png",
-          "page": "Analyze a Bet",
-          "toggles": [
-            "Portfolio Demo Mode",
-            "Portfolio Screenshot Mode"
-          ],
-          "demonstrates": "Preloaded +EV bet: decision tree, EV chart, and metrics above the fold.",
+          "filename": "app-directory.png",
+          "page": "App Directory",
+          "demonstrates": "App Directory",
           "priority": "P0",
           "hero": true,
-          "deployPath": "assets/screenshots/Applied-Math/applied-math-betting-ev-demo.png",
-          "status": "published",
-          "legacySource": "Applied-Math/applied-math-betting-ev.png.jpg",
-          "mobileDeployPath": "assets/screenshots/Applied-Math/applied-math-betting-ev-demo-mobile.png",
-          "mobileStatus": "missing"
+          "deployPath": "assets/screenshots/Command-Center/app-directory.png",
+          "status": "published"
         },
         {
-          "filename": "applied-math-ai-training-demo.png",
-          "mobileFilename": "applied-math-ai-training-demo-mobile.png",
-          "page": "Train an AI",
-          "toggles": [
-            "Portfolio Demo Mode",
-            "Portfolio Screenshot Mode"
-          ],
-          "demonstrates": "Overfitting example: loss landscape, training path, train vs validation gap.",
-          "priority": "P0",
-          "hero": true,
-          "deployPath": "assets/screenshots/Applied-Math/applied-math-ai-training-demo.png",
-          "status": "published",
-          "legacySource": "Applied-Math/applied-math-ai-overfitting.png.jpg",
-          "mobileDeployPath": "assets/screenshots/Applied-Math/applied-math-ai-training-demo-mobile.png",
-          "mobileStatus": "missing"
-        },
-        {
-          "filename": "applied-math-disease-spread-demo.png",
-          "mobileFilename": "applied-math-disease-spread-demo-mobile.png",
-          "page": "Model a Disease \u2192 Disease Spread Simulator tab",
-          "toggles": [
-            "Portfolio Demo Mode",
-            "Portfolio Screenshot Mode"
-          ],
-          "demonstrates": "SIR epidemic curve with peak infectious metric visible immediately.",
-          "priority": "P0",
-          "hero": true,
-          "deployPath": "assets/screenshots/Applied-Math/applied-math-disease-spread-demo.png",
-          "status": "published",
-          "legacySource": "Applied-Math/applied-math-disease-simulation.png.jpg",
-          "mobileDeployPath": "assets/screenshots/Applied-Math/applied-math-disease-spread-demo-mobile.png",
-          "mobileStatus": "missing"
-        },
-        {
-          "filename": "applied-math-home-actions.png",
-          "page": "Home",
-          "toggles": [
-            "Portfolio Screenshot Mode"
-          ],
-          "demonstrates": "Seven action cards and lab navigation hub.",
+          "filename": "coach-activity.png",
+          "page": "Coach Activity",
+          "demonstrates": "Coach Activity",
           "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Applied-Math/applied-math-home-actions.png",
-          "status": "missing"
+          "deployPath": "assets/screenshots/Command-Center/coach-activity.png",
+          "status": "published"
         },
         {
-          "filename": "applied-math-sports-prediction.png",
-          "page": "Predict a Game",
-          "toggles": [
-            "Portfolio Demo Mode"
-          ],
-          "demonstrates": "Team probability vs market odds comparison.",
+          "filename": "homepage-continue.png",
+          "page": "Homepage Continue",
+          "demonstrates": "Homepage Continue",
           "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Applied-Math/applied-math-sports-prediction.png",
-          "status": "missing"
+          "deployPath": "assets/screenshots/Command-Center/homepage-continue.png",
+          "status": "published"
         },
         {
-          "filename": "applied-math-optimization.png",
-          "page": "Optimize a Decision",
-          "toggles": [
-            "Portfolio Demo Mode"
-          ],
-          "demonstrates": "Optimization workshop with tradeoff visualization.",
-          "priority": "P2",
+          "filename": "resume-music.png",
+          "page": "Resume Music",
+          "demonstrates": "Resume Music",
+          "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Applied-Math/applied-math-optimization.png",
-          "status": "missing"
+          "deployPath": "assets/screenshots/Command-Center/resume-music.png",
+          "status": "published"
+        },
+        {
+          "filename": "workspace-account.png",
+          "page": "Workspace Account",
+          "demonstrates": "Workspace Account",
+          "priority": "P1",
+          "hero": false,
+          "deployPath": "assets/screenshots/Command-Center/workspace-account.png",
+          "status": "published"
         }
       ]
     },
     {
-      "id": "nba-playoff-companion-ai",
-      "name": "NBA Playoff Companion AI",
-      "folder": "NBA",
-      "repo": "nba-playoff-companion-ai",
+      "id": "future-lens-ai-transition-simulator",
+      "name": "Future Lens",
+      "folder": "Future-Lens",
       "captures": [
         {
-          "filename": "nba-home-dashboard-demo.png",
-          "mobileFilename": "nba-home-dashboard-demo-mobile.png",
-          "page": "Home Dashboard (Knicks \u2014 auto in Demo Mode)",
-          "toggles": [
-            "Portfolio Demo Mode",
-            "Portfolio Screenshot Mode"
-          ],
-          "demonstrates": "NBA Finals hero: current series, team outlook, series win probability, key player spotlight.",
+          "filename": "01-domain-wizard.png",
+          "page": "Domain Wizard",
+          "demonstrates": "Domain Wizard",
           "priority": "P0",
           "hero": true,
-          "deployPath": "assets/screenshots/NBA/nba-home-dashboard-demo.png",
-          "status": "published",
-          "legacySource": "NBA/nba-home-dashboard.png.jpg",
-          "mobileDeployPath": "assets/screenshots/NBA/nba-home-dashboard-demo-mobile.png",
-          "mobileStatus": "missing"
+          "deployPath": "assets/screenshots/Future-Lens/01-domain-wizard.png",
+          "status": "published"
         },
         {
-          "filename": "nba-legacy-tracker-demo.png",
-          "mobileFilename": "nba-legacy-tracker-demo-mobile.png",
-          "page": "Legacy Tracker (Brunson preloaded)",
-          "toggles": [
-            "Portfolio Demo Mode",
-            "Portfolio Screenshot Mode"
-          ],
-          "demonstrates": "Brunson legacy comparison chart and path ladder expanded.",
+          "filename": "02-evolution-timeline.png",
+          "page": "Evolution Timeline",
+          "demonstrates": "Evolution Timeline",
+          "priority": "P1",
+          "hero": false,
+          "deployPath": "assets/screenshots/Future-Lens/02-evolution-timeline.png",
+          "status": "published"
+        },
+        {
+          "filename": "03-drivers.png",
+          "page": "Drivers",
+          "demonstrates": "Drivers",
+          "priority": "P1",
+          "hero": false,
+          "deployPath": "assets/screenshots/Future-Lens/03-drivers.png",
+          "status": "published"
+        },
+        {
+          "filename": "04-simulation-2050.png",
+          "page": "Simulation 2050",
+          "demonstrates": "Simulation 2050",
+          "priority": "P1",
+          "hero": false,
+          "deployPath": "assets/screenshots/Future-Lens/04-simulation-2050.png",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "id": "investment-portfolio-analyzer",
+      "name": "Investment Explorer",
+      "folder": "Investment",
+      "captures": [
+        {
+          "filename": "01-portfolio-health.png",
+          "page": "Portfolio Health",
+          "demonstrates": "Portfolio Health",
           "priority": "P0",
           "hero": true,
-          "deployPath": "assets/screenshots/NBA/nba-legacy-tracker-demo.png",
-          "status": "published",
-          "legacySource": "NBA/nba-legacy-tracker.png.jpg",
-          "mobileDeployPath": "assets/screenshots/NBA/nba-legacy-tracker-demo-mobile.png",
-          "mobileStatus": "missing"
+          "deployPath": "assets/screenshots/Investment/01-portfolio-health.png",
+          "status": "published"
         },
         {
-          "filename": "nba-playoff-bracket.png",
-          "page": "Playoff Bracket",
-          "toggles": [
-            "Portfolio Demo Mode"
-          ],
-          "demonstrates": "Full 2026 playoff bracket with series results.",
+          "filename": "02-efficient-frontier.png",
+          "page": "Efficient Frontier",
+          "demonstrates": "Efficient Frontier",
           "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/NBA/nba-playoff-bracket.png",
-          "status": "missing"
+          "deployPath": "assets/screenshots/Investment/02-efficient-frontier.png",
+          "status": "published"
         },
         {
-          "filename": "nba-live-game-center.png",
-          "page": "Live Game Center",
-          "toggles": [
-            "Portfolio Demo Mode"
-          ],
-          "demonstrates": "Live scoreboard and game context strip.",
+          "filename": "03-monte-carlo.png",
+          "page": "Monte Carlo",
+          "demonstrates": "Monte Carlo",
           "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/NBA/nba-live-game-center.png",
-          "status": "missing"
+          "deployPath": "assets/screenshots/Investment/03-monte-carlo.png",
+          "status": "published"
         },
         {
-          "filename": "nba-matchup-intelligence.png",
-          "page": "Matchup Intelligence",
-          "toggles": [
-            "Portfolio Demo Mode"
-          ],
-          "demonstrates": "Matchup lineups and tactical intelligence board.",
-          "priority": "P2",
+          "filename": "04-etf-holdings-explorer.png",
+          "page": "Etf Holdings Explorer",
+          "demonstrates": "Etf Holdings Explorer",
+          "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/NBA/nba-matchup-intelligence.png",
-          "status": "missing"
+          "deployPath": "assets/screenshots/Investment/04-etf-holdings-explorer.png",
+          "status": "published"
         },
         {
-          "filename": "nba-player-tracker.png",
-          "page": "Player Playoff Tracker",
-          "toggles": [
-            "Portfolio Demo Mode"
-          ],
-          "demonstrates": "Player playoff story hub and game logs.",
-          "priority": "P2",
+          "filename": "05-beginner-coach.png",
+          "page": "Beginner Coach",
+          "demonstrates": "Beginner Coach",
+          "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/NBA/nba-player-tracker.png",
-          "status": "missing"
+          "deployPath": "assets/screenshots/Investment/05-beginner-coach.png",
+          "status": "published"
+        },
+        {
+          "filename": "06-ami-insight.png",
+          "page": "Ami Insight",
+          "demonstrates": "Ami Insight",
+          "priority": "P1",
+          "hero": false,
+          "deployPath": "assets/screenshots/Investment/06-ami-insight.png",
+          "status": "published"
         }
       ]
     },
@@ -421,276 +304,119 @@
       "id": "ai-music-practice-coach",
       "name": "AI Music Practice Coach",
       "folder": "Music",
-      "repo": "ai-music-practice-coach",
       "captures": [
         {
-          "filename": "music-practice-demo.png",
-          "mobileFilename": "music-practice-demo-mobile.png",
-          "page": "Practice (Across the Universe auto-loaded)",
-          "toggles": [
-            "Portfolio Demo Mode",
-            "Portfolio Screenshot Mode"
-          ],
-          "demonstrates": "Complete song card: chords, practice section, scales, backing-track controls.",
+          "filename": "01-song-catalog.png",
+          "page": "Song Catalog",
+          "demonstrates": "Song Catalog",
           "priority": "P0",
           "hero": true,
-          "deployPath": "assets/screenshots/Music/music-practice-demo.png",
-          "status": "published",
-          "legacySource": "Music/music-practice-coach-main.png.jpg",
-          "mobileDeployPath": "assets/screenshots/Music/music-practice-demo-mobile.png",
-          "mobileStatus": "missing"
+          "deployPath": "assets/screenshots/Music/01-song-catalog.png",
+          "status": "published"
         },
         {
-          "filename": "music-song-catalog.png",
-          "page": "Song Selection",
-          "toggles": [
-            "Portfolio Screenshot Mode"
-          ],
-          "demonstrates": "Curated song catalog search and picker.",
+          "filename": "02-practice-control-center.png",
+          "page": "Practice Control Center",
+          "demonstrates": "Practice Control Center",
           "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Music/music-song-catalog.png",
-          "status": "missing"
+          "deployPath": "assets/screenshots/Music/02-practice-control-center.png",
+          "status": "published"
         },
         {
-          "filename": "music-backing-tracks.png",
-          "page": "Backing Tracks",
-          "toggles": [
-            "Portfolio Demo Mode"
-          ],
-          "demonstrates": "Backing track player and groove controls.",
+          "filename": "03-backing-studio.png",
+          "page": "Backing Studio",
+          "demonstrates": "Backing Studio",
           "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Music/music-backing-tracks.png",
-          "status": "published",
-          "legacySource": "Music/music-backing-traci-studio.png.jpg"
+          "deployPath": "assets/screenshots/Music/03-backing-studio.png",
+          "status": "published"
         },
         {
-          "filename": "music-adaptive-sheet.png",
-          "page": "Adaptive Sheet / Notation",
-          "toggles": [
-            "Portfolio Demo Mode"
-          ],
-          "demonstrates": "Generated practice notation for active section.",
-          "priority": "P2",
+          "filename": "04-creative-lab.png",
+          "page": "Creative Lab",
+          "demonstrates": "Creative Lab",
+          "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Music/music-adaptive-sheet.png",
-          "status": "published",
-          "legacySource": "Music/music-custom-progression-builder.png.jpg"
+          "deployPath": "assets/screenshots/Music/04-creative-lab.png",
+          "status": "published"
         },
         {
-          "filename": "music-tuner.png",
-          "page": "Tuner",
-          "toggles": [
-            "Portfolio Screenshot Mode"
-          ],
-          "demonstrates": "Live tuner display.",
-          "priority": "P2",
+          "filename": "05-custom-progression-builder.png",
+          "page": "Custom Progression Builder",
+          "demonstrates": "Custom Progression Builder",
+          "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Music/music-tuner.png",
-          "status": "missing"
+          "deployPath": "assets/screenshots/Music/05-custom-progression-builder.png",
+          "status": "published"
+        },
+        {
+          "filename": "06-practice-log.png",
+          "page": "Practice Log",
+          "demonstrates": "Practice Log",
+          "priority": "P1",
+          "hero": false,
+          "deployPath": "assets/screenshots/Music/06-practice-log.png",
+          "status": "published"
         }
       ]
     },
     {
-      "id": "sql-excel",
-      "name": "SQL & Excel Workbooks",
-      "folder": "SQL-Excel",
-      "repo": null,
+      "id": "nba-playoff-companion-ai",
+      "name": "Basketball Playoff Companion",
+      "folder": "NBA",
       "captures": [
         {
-          "filename": "sql-excel-ai-evaluator-dashboard.png",
-          "page": "AI_Evaluator_And_Analytics_Combined_Workbook.xlsx \u2192 Dashboard sheet",
-          "toggles": [],
-          "demonstrates": "AI evaluator KPI dashboard with ratings and model metrics.",
-          "priority": "P1",
+          "filename": "01-home-dashboard.png",
+          "page": "Home Dashboard",
+          "demonstrates": "Home Dashboard",
+          "priority": "P0",
           "hero": true,
-          "deployPath": "assets/screenshots/SQL-Excel/sql-excel-ai-evaluator-dashboard.png",
-          "status": "missing"
+          "deployPath": "assets/screenshots/NBA/01-home-dashboard.png",
+          "status": "published"
         },
         {
-          "filename": "sql-excel-ai-evaluator-sql.png",
-          "page": "AI Evaluator workbook \u2192 SQL_Practice sheet",
-          "toggles": [],
-          "demonstrates": "SQL practice queries with solutions.",
+          "filename": "02-live-game-center.png",
+          "page": "Live Game Center",
+          "demonstrates": "Live Game Center",
           "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/SQL-Excel/sql-excel-ai-evaluator-sql.png",
-          "status": "missing"
+          "deployPath": "assets/screenshots/NBA/02-live-game-center.png",
+          "status": "published"
         },
         {
-          "filename": "sql-excel-investment-workbook-dashboard.png",
-          "page": "Investment_App_Portfolio_Analysis_Workbook.xlsx \u2192 Dashboard",
-          "toggles": [],
-          "demonstrates": "Portfolio KPI dashboard mirroring Streamlit app metrics.",
-          "priority": "P1",
-          "hero": true,
-          "deployPath": "assets/screenshots/SQL-Excel/sql-excel-investment-workbook-dashboard.png",
-          "status": "missing"
-        },
-        {
-          "filename": "sql-excel-investment-pivot-practice.png",
-          "page": "Investment workbook \u2192 Pivot_Practice",
-          "toggles": [],
-          "demonstrates": "Pivot table exercises for allocation analysis.",
+          "filename": "03-playoff-bracket.png",
+          "page": "Playoff Bracket",
+          "demonstrates": "Playoff Bracket",
           "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/SQL-Excel/sql-excel-investment-pivot-practice.png",
-          "status": "missing"
+          "deployPath": "assets/screenshots/NBA/03-playoff-bracket.png",
+          "status": "published"
         },
         {
-          "filename": "sql-excel-quant-claims.png",
-          "page": "Quant_Analytics_Portfolio_Workbook.xlsx \u2192 Claims_Data",
-          "toggles": [],
-          "demonstrates": "Insurance claims dataset for actuarial analytics.",
-          "priority": "P2",
-          "hero": false,
-          "deployPath": "assets/screenshots/SQL-Excel/sql-excel-quant-claims.png",
-          "status": "missing"
-        },
-        {
-          "filename": "sql-excel-real-world-credit-risk.png",
-          "page": "Real_World_Data_Analytics_Portfolio_Workbook.xlsx \u2192 Credit_Risk_Data",
-          "toggles": [],
-          "demonstrates": "200-company credit risk dataset with default flags.",
-          "priority": "P2",
-          "hero": false,
-          "deployPath": "assets/screenshots/SQL-Excel/sql-excel-real-world-credit-risk.png",
-          "status": "missing"
-        }
-      ]
-    },
-    {
-      "id": "portfolio-website",
-      "name": "Portfolio Website",
-      "folder": "Portfolio-Website",
-      "repo": null,
-      "captures": [
-        {
-          "filename": "portfolio-website-home.png",
-          "mobileFilename": "portfolio-website-home-mobile.png",
-          "page": "index.html (open locally after screenshots added)",
-          "toggles": [],
-          "demonstrates": "Home page with Tier 1 project cards showing live screenshots.",
+          "filename": "04-matchup-intelligence.png",
+          "page": "Matchup Intelligence",
+          "demonstrates": "Matchup Intelligence",
           "priority": "P1",
-          "hero": true,
-          "deployPath": "assets/screenshots/Portfolio-Website/portfolio-website-home.png",
-          "status": "missing",
-          "mobileDeployPath": "assets/screenshots/Portfolio-Website/portfolio-website-home-mobile.png",
-          "mobileStatus": "missing"
+          "hero": false,
+          "deployPath": "assets/screenshots/NBA/04-matchup-intelligence.png",
+          "status": "published"
         },
         {
-          "filename": "portfolio-website-analytics.png",
-          "page": "analytics.html",
-          "toggles": [],
-          "demonstrates": "Analytics category page with anchor project gallery.",
-          "priority": "P2",
+          "filename": "05-legacy-tracker.png",
+          "page": "Legacy Tracker",
+          "demonstrates": "Legacy Tracker",
+          "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Portfolio-Website/portfolio-website-analytics.png",
-          "status": "missing"
-        },
-        {
-          "filename": "portfolio-website-sql-excel.png",
-          "page": "sql-excel.html",
-          "toggles": [],
-          "demonstrates": "SQL & Excel workbook showcase section.",
-          "priority": "P2",
-          "hero": false,
-          "deployPath": "assets/screenshots/Portfolio-Website/portfolio-website-sql-excel.png",
-          "status": "missing"
+          "deployPath": "assets/screenshots/NBA/05-legacy-tracker.png",
+          "status": "published"
         }
       ]
     }
   ],
   "integration": {
-    "lastRun": "2026-06-05T19:41:35.470839+00:00",
-    "publishedCount": 17,
-    "renamePlan": [
-      {
-        "source": "Investment/investment-portfolio-summary-mobile.png.jpg",
-        "target": "Investment/investment-overview-demo.png",
-        "note": "Mobile portfolio summary used as Overview hero until desktop capture"
-      },
-      {
-        "source": "Investment/investment-portfolio-summary-mobile.png.jpg",
-        "target": "Investment/investment-overview-demo-mobile.png",
-        "note": "Same capture retained as mobile variant"
-      },
-      {
-        "source": "Investment/investment-portfolio-health.png.jpg",
-        "target": "Investment/investment-portfolio-health.png",
-        "note": "Exact manifest match"
-      },
-      {
-        "source": "Investment/investment-allocation-optimizer.png.jpg",
-        "target": "Investment/investment-optimizer.png",
-        "note": "Allocation optimizer \u2192 optimizer"
-      },
-      {
-        "source": "Baseball/baseball-draft-recommendation-engine.png.jpg",
-        "target": "Baseball/baseball-draft-assistant-demo.png",
-        "note": "Draft recommendation engine \u2192 draft assistant demo"
-      },
-      {
-        "source": "Baseball/baseball-ml-projections.png.jpg",
-        "target": "Baseball/baseball-ml-projections-demo.png",
-        "note": "ML projections"
-      },
-      {
-        "source": "Baseball/baseball-roster-heatmap.png.jpg",
-        "target": "Baseball/baseball-career-totals-demo.png",
-        "note": "Roster heatmap used for career totals hero"
-      },
-      {
-        "source": "Baseball/baseball-player-insight.png.jpg",
-        "target": "Baseball/baseball-player-comparison.png",
-        "note": "Player insight \u2192 comparison tool"
-      },
-      {
-        "source": "Baseball/baseball-statistical-testing.png.jpg",
-        "target": "Baseball/baseball-trend-analysis.png",
-        "note": "Statistical testing \u2192 trend analysis gallery"
-      },
-      {
-        "source": "Applied-Math/applied-math-betting-ev.png.jpg",
-        "target": "Applied-Math/applied-math-betting-ev-demo.png",
-        "note": "Betting EV demo"
-      },
-      {
-        "source": "Applied-Math/applied-math-ai-overfitting.png.jpg",
-        "target": "Applied-Math/applied-math-ai-training-demo.png",
-        "note": "AI overfitting \u2192 training demo"
-      },
-      {
-        "source": "Applied-Math/applied-math-disease-simulation.png.jpg",
-        "target": "Applied-Math/applied-math-disease-spread-demo.png",
-        "note": "Disease simulation \u2192 spread demo"
-      },
-      {
-        "source": "NBA/nba-home-dashboard.png.jpg",
-        "target": "NBA/nba-home-dashboard-demo.png",
-        "note": "Home dashboard demo"
-      },
-      {
-        "source": "NBA/nba-legacy-tracker.png.jpg",
-        "target": "NBA/nba-legacy-tracker-demo.png",
-        "note": "Legacy tracker demo"
-      },
-      {
-        "source": "Music/music-practice-coach-main.png.jpg",
-        "target": "Music/music-practice-demo.png",
-        "note": "Practice coach main \u2192 practice demo"
-      },
-      {
-        "source": "Music/music-backing-traci-studio.png.jpg",
-        "target": "Music/music-backing-tracks.png",
-        "note": "Backing track studio (typo in legacy filename)"
-      },
-      {
-        "source": "Music/music-custom-progression-builder.png.jpg",
-        "target": "Music/music-adaptive-sheet.png",
-        "note": "Progression builder \u2192 adaptive sheet slot"
-      }
-    ]
+    "lastRun": "2026-07-16T01:57:25.819450+00:00",
+    "publishedCount": 40,
+    "source": "numbered-canonical-set"
   }
 }

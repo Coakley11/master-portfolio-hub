@@ -2,9 +2,11 @@
 
 **Daniel Cohen — Quantitative Analytics & AI Portfolio**
 
-Professional portfolio workspace for Data Analyst, BI Analyst, Research Analyst, Quant Analyst, Financial Analyst, AI Evaluator, and AI Trainer applications.
+Professional portfolio workspace for Data Analyst, Product Analyst, BI Analyst, Research Analyst, Quant Analyst, Financial Analyst, AI Evaluator, and AI Trainer applications.
 
-> Statistics + Finance + SQL + Excel + Analytics + AI + Application Development
+> Decision-support applications · Statistics · Finance · SQL · AI-assisted product development
+
+**Latest refresh (2026-07-15):** Portfolio Website uses the numbered canonical screenshot set for all seven apps. See `Final Assembly/portfolio-refresh-audit-2026-07-15.md`.
 
 ---
 
@@ -90,15 +92,16 @@ The home page (`Portfolio Website/index.html`) now includes:
 - **Featured Analytics Work** — statistical testing, ML, optimization, probability modeling, simulations, dashboards
 - **About Me** — analytics-focused professional positioning
 - **Skills Dashboard** — visual competency meters
-- **Featured Project Showcase** — four flagship app cards with screenshots, tech stack, Live App/GitHub buttons
+- **Featured Project Showcase** — Baseball, Investment Explorer, AMI, Music Practice Coach with current screenshots
+- **Full Project Suite** — Basketball Playoff Companion, Future Lens, AI Command Center
 - **Analytics Case Studies** — problem → results for each flagship project
-- **Project detail pages** — `project.html?id=<project-id>`
+- **Project detail pages** — `project.html?id=<project-id>` with full galleries
 - **Resume & Contact** — view/download resume, email, GitHub, LinkedIn
 
 ## Next Steps (Highest ROI)
 
-1. Capture screenshots per `Screenshots/screenshot-checklist.md` (cards show placeholders until files exist)
-2. Add Streamlit `liveUrl` values in `Portfolio Website/data/projects.json` after deploy
-3. Update `site.email` and `site.linkedin` in `projects.json` with real contact info
-4. Deploy portfolio website to GitHub Pages (`/Portfolio Website` folder)
-5. Restore Actuarial Analytics `.xlsx` source file
+1. Deploy portfolio website to GitHub Pages (`/Portfolio Website` folder) and put the public URL on LinkedIn / resume / applications
+2. Prefer replacing `site.linkedin` with a permanent `https://www.linkedin.com/in/...` URL when available (Google Share link is wired for now)
+3. Capture SQL/Excel workbook screenshots into `Screenshots/SQL-Excel/` (only remaining screenshot gap)
+4. Refresh resume PDF to match `Resume/resume-project-descriptions.md`
+5. Restore Actuarial Analytics `.xlsx` source file (optional)

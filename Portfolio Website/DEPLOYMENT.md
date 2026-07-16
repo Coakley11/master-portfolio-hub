@@ -21,7 +21,7 @@ The site is self-contained under `Portfolio Website/`. All asset paths are relat
 
 - Screenshot URLs in `data/projects.json` use `assets/screenshots/...` (GitHub Pages safe).
 - Resume download uses `assets/docs/resume-project-descriptions.md` (bundled copy for Pages).
-- LinkedIn remains a placeholder until a final profile URL is provided in `projects.json` → `site.linkedin`.
+- LinkedIn is set in `projects.json` → `site.linkedin` (currently a Google Share redirect). Prefer a permanent `https://www.linkedin.com/in/...` URL when available.
 
 ## Professional pages
 

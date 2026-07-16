@@ -1,81 +1,89 @@
-# LinkedIn Project Descriptions
+# LinkedIn Project Descriptions — Paste-Ready
 
-Copy-ready text for LinkedIn Featured section, project posts, and About section references.
-
----
-
-## Profile Summary Snippet
-
-> Quantitative analytics professional building at the intersection of statistics, finance, SQL, Excel, and AI. Portfolio includes 7 production Streamlit applications, 5 SQL/Excel analytics workbooks with 42+ queries, and hands-on AI evaluation practice. Targeting Data Analyst, BI Analyst, Quant Analyst, Financial Analyst, AI Evaluator, and AI Trainer roles.
+**Updated:** 2026-07-15  
+Use with Featured media or LinkedIn Projects. Keep each under ~2,000 characters.
 
 ---
 
-## Tier 1 Posts
+## Baseball Analytics
 
-### Investment Portfolio Analyzer
+Full-season fantasy baseball decision platform built in Python/Streamlit.
 
-Built a production Streamlit dashboard that pulls live Yahoo Finance data and delivers institutional-grade portfolio analytics — Sharpe/Sortino ratios, Monte Carlo simulation, efficient frontier optimization, and rule-based insights.
+Includes Decision Score draft recommendations, live/multiplayer draft rooms, uploaded draft import, shared league claims, lineup management, Trade Center, research comparison, HOF case mode, and Baseball Insight → AMI analytical handoff.
 
-**Technologies:** Python · Streamlit · yfinance · scipy · plotly
+Demonstrates: sports analytics, decision scoring, multiplayer workflows, and product ownership beyond static dashboards.
 
-**Takeaway:** I build end-to-end financial analytics products with real data, not just notebooks.
-
-🔗 https://github.com/Coakley11/investment-portfolio-analyzer
-
----
-
-### Baseball Stat App
-
-Developed a comprehensive baseball analytics platform combining historical MLB exploration, statistical significance testing, trend intelligence, ML-style projections, and fantasy draft/trade decision support.
-
-**Technologies:** Python · Streamlit · pybaseball · scikit-learn · statsmodels · plotly
-
-**Takeaway:** I combine statistical rigor with product thinking — not just charts, but decision workflows.
-
-🔗 https://github.com/Coakley11/baseball-stat-app
+Live app: https://baseball-stat-app-d4jlymjc4iptaadc3kquwx.streamlit.app  
+GitHub: https://github.com/Coakley11/baseball-stat-app
 
 ---
 
-### Applied Mathematical Intelligence
+## Investment Explorer
 
-Designed a Mathematical Thinking Lab with 7 action labs and 23 simulation engines — betting math, sports prediction, disease modeling, AI training curves, and optimization — each with plain-language interpretation.
+Live-market portfolio analytics product for risk, allocation, and scenario analysis.
 
-**Technologies:** Python · Streamlit · pandas · numpy · matplotlib
+Portfolio Health scoring, Monte Carlo simulation, efficient frontier optimization, ETF holdings overlap, beginner coaching + advanced modes, and Applied Investment Insight → AMI handoff. Analytics core separated from UI.
 
-**Takeaway:** I think mathematically about real decisions and ship interactive tools, not static analyses.
+Demonstrates: quantitative finance, risk modeling, dual-audience UX, and end-to-end product delivery.
 
-🔗 https://github.com/Coakley11/Applied-mathematical-intelligence
-
----
-
-## SQL & Excel Highlights
-
-### AI Evaluator & Analytics Workbook
-
-Built an AI evaluation analytics workbook: prompt rating, pairwise comparison, 150-row evaluation dataset, 11 SQL queries (including window functions), pandas equivalents, and KPI dashboard. Practices the full evaluator workflow — rate, reason, analyze.
-
-### Investment Portfolio Analysis Workbook
-
-Created an Excel workbook mirroring my Streamlit investment app: 500 Monte Carlo simulations, 251 optimizer portfolios, 10 pivot exercises, 11 SQL queries, and dashboard storytelling tasks. Same metrics, three formats — Python, SQL, Excel.
+Live app: https://investment-portfolio-analyzer-ty2sbzumvxsqwbqhkvf6rz.streamlit.app  
+GitHub: https://github.com/Coakley11/investment-portfolio-analyzer
 
 ---
 
-## Tier 2 Posts
+## Applied Mathematical Intelligence (AMI)
 
-### NBA Playoff Companion AI
+Multi-domain mathematical decision engine and thinking lab.
 
-Fan-first NBA playoff companion with live scoreboard feeds, bracket management, matchup intelligence, and player tracking — backed by 17 product docs and QA automation.
+Action labs for solving problems, predicting games, exploring math ideas, betting EV, disease modeling, AI training interpretation, and optimization — plus suite-wide insight routing through the AI Command Center.
 
-🔗 https://github.com/Coakley11/nba-playoff-companion-ai
+Demonstrates: applied statistics, simulation design, AI interpretation UX, and cross-app decision support.
 
-### AI Music Practice Coach
-
-AI-powered music practice studio with audio analysis, adaptive practice sheets, live tuning, and OpenAI coaching across 9 studio pages.
-
-🔗 https://github.com/Coakley11/ai-music-practice-coach
+Live app: https://applied-mathematical-intelligence-8l8bqrzpp6fghaj7xuig53.streamlit.app  
+GitHub: https://github.com/Coakley11/Applied-mathematical-intelligence
 
 ---
 
-## Skills Tags for LinkedIn
+## AI Music Practice Coach
 
-SQL · Excel · Pivot Tables · Python · pandas · Streamlit · Statistics · Monte Carlo · Portfolio Optimization · Data Visualization · AI Evaluation · Business Intelligence · Dashboard Design · yfinance · Financial Analysis · Sports Analytics
+Song-aware AI practice studio across catalog, practice control center, backing tracks, creative lab, progression builder, and practice log.
+
+Demonstrates: AI-assisted product design, complex domain state, and creative tooling beyond chatbot wrappers.
+
+Live app: https://ai-music-practice-coach-6szqxqxqrqxdmryyewk8sq.streamlit.app  
+GitHub: https://github.com/Coakley11/ai-music-practice-coach
+
+---
+
+## Basketball Playoff Companion
+
+Fan-first 2026 NBA playoff command center with live game center, playoff bracket, matchup intelligence, and legacy tracking.
+
+Built with resilient live-data patterns (CDN scoreboard fallbacks / safe modes) and narrative analytics for a single-team playoff journey.
+
+Live app: https://nba-playoff-companion-ai-gd4sx677quejdfkvappv6o.streamlit.app  
+GitHub: https://github.com/Coakley11/nba-playoff-companion-ai
+
+---
+
+## Future Lens
+
+Phase 1 prototype: taxonomy-driven AI transition simulator.
+
+Domain → Area → Skill wizard, evolution timelines from 1980 through today, drivers analysis, and forward simulation views through 2050. Uses curated narrative/demo content — designed for structured exploration, not precise forecasting claims.
+
+Live app: https://future-lens-ai-transition-simulator-m6n4kaku28ztzlxfts2xt6.streamlit.app  
+GitHub: https://github.com/Coakley11/future-lens-ai-transition-simulator
+
+---
+
+## AI Command Center
+
+Suite homepage for the Daniel AI Suite.
+
+Continue/resume workflow cards, coach activity insights, workspace profiles, and app directory deep links into Baseball, Investment, Music, AMI, Basketball Companion, and Future Lens.
+
+Demonstrates: platform thinking, activity analytics, and multi-app product orchestration.
+
+Live app: https://daniel-ai-command-center-dexxnd7bf8jalxzqbyq55i.streamlit.app  
+GitHub: https://github.com/Coakley11/daniel-ai-command-center

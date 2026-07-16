@@ -33,9 +33,18 @@ function screenshotPlaceholder(name, hint) {
   return `<div class="screenshot-placeholder">Screenshot: ${name}${sub}</div>`;
 }
 
+function humanizeScreenshotName(filename) {
+  const stem = (filename || '').replace(/\.png$/i, '');
+  return stem
+    .replace(/^\d+-/, '')
+    .replace(/[-_]+/g, ' ')
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
 function screenshotImg(src, alt, label) {
-  const cap = label ? `<div class="screenshot-caption">${label}</div>` : '';
   const fname = src.split('/').pop() || 'screenshot.png';
+  const caption = label || humanizeScreenshotName(fname);
+  const cap = caption ? `<div class="screenshot-caption">${caption}</div>` : '';
   return `
     <figure class="screenshot-figure">
       <img src="${src}" alt="${alt}" class="screenshot-img" loading="lazy"
@@ -54,8 +63,8 @@ function heroScreenshot(project) {
     return screenshotPlaceholder(project.displayName || project.name, hint);
   }
   const hero = shots[0];
-  const label = (project.heroScreenshot || '').replace('.png', '');
-  return screenshotImg(hero, project.name, label);
+  const label = humanizeScreenshotName(project.heroScreenshot || hero.split('/').pop());
+  return screenshotImg(hero, project.displayName || project.name, label);
 }
 
 function renderScreenshotGallery(project) {
@@ -68,14 +77,14 @@ function renderScreenshotGallery(project) {
   }
 
   const hero = shots[0];
-  const heroLabel = project.heroScreenshot || '';
-  let html = screenshotImg(hero, project.name, heroLabel ? heroLabel.replace('.png', '') : '');
+  const title = project.displayName || project.name;
+  let html = screenshotImg(hero, title, humanizeScreenshotName(project.heroScreenshot || hero.split('/').pop()));
 
   if (shots.length > 1) {
     html += `<div class="screenshot-thumbs">`;
     shots.slice(1, 5).forEach((src, i) => {
       const fname = src.split('/').pop() || `view-${i + 2}`;
-      html += screenshotImg(src, `${project.name} — ${fname}`, fname.replace('.png', ''));
+      html += screenshotImg(src, `${title} — ${humanizeScreenshotName(fname)}`, humanizeScreenshotName(fname));
     });
     html += `</div>`;
   }
@@ -377,7 +386,7 @@ function renderContactPage(data) {
   grid.innerHTML = `
     <div class="contact-card contact-card--primary">
       <h3>Get in Touch</h3>
-      <p>Open to Data Analyst, BI, Quant, Financial Analyst, AI Evaluator, and AI Trainer roles.</p>
+      <p>Open to Data Analyst, Product Analyst, Quant, Financial Analyst, AI Evaluator, and AI Trainer roles.</p>
       <a href="mailto:${site.email}" class="btn btn-primary" style="margin-top:0.75rem;">Send Email</a>
       <p class="contact-note">Email is available via the button above — not displayed on the public homepage.</p>
     </div>
@@ -395,7 +404,7 @@ function renderContactPage(data) {
     </div>
     <div class="contact-card">
       <h3>Target Roles</h3>
-      <p>Data Analyst · BI Analyst · Research Analyst</p>
+      <p>Data Analyst · Product Analyst · BI Analyst · Research Analyst</p>
       <p>Quant Analyst · Financial Analyst · AI Evaluator · AI Trainer</p>
     </div>
   `;

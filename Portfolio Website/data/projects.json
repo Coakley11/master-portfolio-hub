@@ -1,11 +1,12 @@
 {
   "site": {
-    "title": "Daniel Cohen — Quantitative Analytics & AI Portfolio",
-    "tagline": "Statistics + Finance + SQL + Excel + Analytics + AI + Application Development",
+    "title": "Daniel Cohen \u2014 Analytics, Quantitative Modeling & AI Portfolio",
+    "tagline": "Decision-support applications \u00b7 Statistics \u00b7 Finance \u00b7 SQL \u00b7 AI-assisted product development",
     "github": "https://github.com/Coakley11",
     "email": "daniel.cohen11@yahoo.com",
-    "linkedin": null,
-    "linkedinPlaceholder": "LinkedIn profile — link coming soon",
+    "linkedin": "https://share.google/d2835DjfX8IADfWWC",
+    "linkedinPlaceholder": "LinkedIn profile",
+    "portfolioPublicUrl": null,
     "showEmailOnHomepage": false,
     "resumeHub": "resume.html",
     "resumeView": "resume-preview.html",
@@ -17,32 +18,44 @@
   },
   "resume": {
     "name": "Daniel Cohen",
-    "headline": "Mathematics & Statistics Professional · Quantitative Analytics · Finance · Data & AI Applications",
-    "summary": "Mathematics and Statistics professional with an M.A. in Statistics & Applied Mathematics (GPA 3.93), MBA in Finance & Investments (Finance GPA 4.00), actuarial exam foundation (SOA P, FM, MFE), and a deployed analytics portfolio spanning Python dashboards, SQL, Excel, and AI evaluation workflows. Translates probability, hypothesis testing, investment analysis, and quantitative reasoning into decision-support applications — not just classroom theory.",
+    "headline": "Mathematics & Statistics Professional \u00b7 Quantitative Analytics \u00b7 AI Decision-Support Applications",
+    "summary": "Mathematics and Statistics professional with an M.A. in Statistics & Applied Mathematics (GPA 3.93), MBA in Finance & Investments (Finance GPA 4.00), actuarial exam foundation (SOA P, FM, MFE), and a deployed seven-app analytics portfolio. Builds decision-support products in Python/Streamlit spanning portfolio risk, sports analytics, simulation labs, and AI evaluation \u2014 with SQL/Excel reporting fluency and end-to-end ownership from data through deployment.",
     "education": [
-      { "degree": "M.A. Statistics & Applied Mathematics", "school": "Hunter College", "detail": "GPA: 3.93" },
-      { "degree": "MBA Finance & Investments", "school": "Baruch College — Zicklin School of Business", "detail": "Overall GPA: 3.88 · Finance GPA: 4.00" },
-      { "degree": "B.A. Mathematics & Economics", "school": "Queens College (CUNY Honors College)", "detail": "Magna Cum Laude · Arthur D. Gayer Memorial Award in Economics" }
+      {
+        "degree": "M.A. Statistics & Applied Mathematics",
+        "school": "Hunter College",
+        "detail": "GPA: 3.93"
+      },
+      {
+        "degree": "MBA Finance & Investments",
+        "school": "Baruch College \u2014 Zicklin School of Business",
+        "detail": "Overall GPA: 3.88 \u00b7 Finance GPA: 4.00"
+      },
+      {
+        "degree": "B.A. Mathematics & Economics",
+        "school": "Queens College (CUNY Honors College)",
+        "detail": "Magna Cum Laude \u00b7 Arthur D. Gayer Memorial Award in Economics"
+      }
     ],
     "credentials": [
-      "Society of Actuaries — Exam P/1 (Probability), FM/2 (Financial Mathematics), MFE (Models for Financial Economics)",
-      "NYS Certification — CST Mathematics (004), Educating All Students (EAS)"
+      "Society of Actuaries \u2014 Exam P/1 (Probability), FM/2 (Financial Mathematics), MFE (Models for Financial Economics)",
+      "NYS Certification \u2014 CST Mathematics (004), Educating All Students (EAS)"
     ],
     "experience": [
       {
         "title": "Analytics & AI Portfolio Developer",
-        "organization": "Independent — Daniel AI Suite",
-        "period": "2024 — Present",
+        "organization": "Independent \u2014 Daniel AI Suite",
+        "period": "2024 \u2014 Present",
         "bullets": [
-          "Built and deployed seven production Streamlit applications for portfolio analytics, sports modeling, AI evaluation, simulation, and decision-support workflows",
-          "Authored SQL & Excel analytics workbooks with KPI dashboards, pivot exercises, and 42+ structured SQL queries including AI evaluator datasets",
-          "Designed case-study narratives and demo modes translating statistical methods into recruiter-ready business interpretation"
+          "Designed, built, and deployed seven interconnected Streamlit applications for portfolio analytics, fantasy baseball operations, applied math decision labs, playoff intelligence, music practice tooling, AI transition scenarios, and suite orchestration",
+          "Implemented decision scoring, portfolio health diagnostics, Monte Carlo and efficient frontier modeling, live-data fallbacks, and cross-app resume/insight workflows with Supabase-backed persistence patterns",
+          "Authored SQL & Excel analytics workbooks with KPI dashboards, pivot exercises, and 42+ structured queries including AI evaluator practice datasets"
         ]
       },
       {
         "title": "Full-Time High School Mathematics Teacher",
         "organization": "The Montfort Academy",
-        "period": "2024 — Present",
+        "period": "2024 \u2014 Present",
         "bullets": [
           "Instruct Algebra II, Geometry, and Pre-Calculus with emphasis on quantitative reasoning, functions, and data interpretation",
           "Support Chemistry and Physics laboratory sessions requiring measurement, precision, and analytical documentation",
@@ -52,9 +65,9 @@
       {
         "title": "Permanent Full-Time Substitute Teacher",
         "organization": "Yeshiva Har Torah",
-        "period": "2021 — 2024",
+        "period": "2021 \u2014 2024",
         "bullets": [
-          "Delivered K–8 secular and Judaic studies instruction across multiple subjects and grade levels",
+          "Delivered K\u20138 secular and Judaic studies instruction across multiple subjects and grade levels",
           "Prepared science laboratory materials and supported hands-on quantitative observation activities",
           "Maintained classroom data tracking for student progress and instructional adjustment"
         ]
@@ -64,7 +77,7 @@
         "organization": "Pace University",
         "period": "2020",
         "bullets": [
-          "Taught Mathematics for Life, College Algebra, and Calculus I — connecting algebraic reasoning to applied decision contexts",
+          "Taught Mathematics for Life, College Algebra, and Calculus I \u2014 connecting algebraic reasoning to applied decision contexts",
           "Emphasized interpretation of quantitative results, not just procedural computation"
         ]
       },
@@ -79,7 +92,7 @@
       {
         "title": "Full-Time Lecturer / Adjunct Lecturer",
         "organization": "Kingsborough Community College (CUNY)",
-        "period": "2014 — 2019",
+        "period": "2014 \u2014 2019",
         "bullets": [
           "Taught Quantitative Reasoning, College Algebra, Intermediate Algebra, Principles of Mathematics, and Pre-Algebra",
           "Developed curriculum reinforcing probability intuition, algebraic modeling, and statistical literacy at scale",
@@ -89,7 +102,7 @@
       {
         "title": "Adjunct Lecturer",
         "organization": "Queens College (CUNY)",
-        "period": "2015 — 2019",
+        "period": "2015 \u2014 2019",
         "bullets": [
           "Instructed Probability & Statistics, Pre-Calculus, Calculus, College Algebra, and Math for Elementary School Teachers",
           "Taught hypothesis-testing concepts, probability distributions, and regression intuition at undergraduate level"
@@ -107,7 +120,7 @@
       {
         "title": "College Assistant & Academic Tutor",
         "organization": "Queens College",
-        "period": "2011 — 2014",
+        "period": "2011 \u2014 2014",
         "bullets": [
           "Tutored Statistics, Economics, and Finance with focus on quantitative support and exam preparation",
           "Diagnosed knowledge gaps and built targeted practice for data interpretation and financial quantitative reasoning"
@@ -115,8 +128,8 @@
       },
       {
         "title": "Mathematics & Statistics Tutor",
-        "organization": "Tutor Doctor · Club Z · Private · SAT Prep",
-        "period": "2011 — Present (periodic)",
+        "organization": "Tutor Doctor \u00b7 Club Z \u00b7 Private \u00b7 SAT Prep",
+        "period": "2011 \u2014 Present (periodic)",
         "bullets": [
           "Provided individualized instruction in Mathematics, Economics, Statistics, and Finance from remedial through advanced undergraduate levels",
           "Delivered SAT mathematics preparation emphasizing problem decomposition and analytical speed"
@@ -124,46 +137,69 @@
       }
     ],
     "technicalSkills": [
-      "Statistics", "Probability", "Hypothesis Testing", "Python", "SQL", "Excel", "Pivot Tables",
-      "Pandas", "Streamlit", "Data Visualization", "Machine Learning", "Monte Carlo Simulation",
-      "Portfolio Optimization", "Financial Analysis", "Dashboard Development", "AI Evaluation",
-      "Git / GitHub", "AI-Assisted Development", "Business Analytics", "Decision Support Systems"
+      "Statistics",
+      "Probability",
+      "Hypothesis Testing",
+      "Python",
+      "SQL",
+      "Excel",
+      "Pivot Tables",
+      "Pandas",
+      "Streamlit",
+      "Data Visualization",
+      "Machine Learning",
+      "Monte Carlo Simulation",
+      "Portfolio Optimization",
+      "Financial Analysis",
+      "Dashboard Development",
+      "AI Evaluation",
+      "Product Analytics",
+      "Git / GitHub",
+      "AI-Assisted Development",
+      "Decision Support Systems"
     ],
     "targetRoles": [
-      "Data Analyst", "AI Evaluator", "AI Trainer", "Business Intelligence Analyst",
-      "Research Analyst", "Junior Data Scientist", "Quantitative Analyst", "Financial Analyst"
+      "Data Analyst",
+      "Product Analyst",
+      "AI Evaluator",
+      "AI Trainer",
+      "Business Intelligence Analyst",
+      "Research Analyst",
+      "Junior Data Scientist",
+      "Quantitative Analyst",
+      "Financial Analyst"
     ],
     "projectBullets": [
       {
-        "name": "Investment Portfolio Analyzer",
-        "tech": "Python · Streamlit · yfinance",
+        "name": "Baseball Analytics",
+        "tech": "Python \u00b7 Streamlit \u00b7 scikit-learn",
         "bullets": [
-          "Built live portfolio dashboard with Sharpe/Sortino metrics, Monte Carlo simulation, efficient frontier optimization, and correlation heatmaps",
-          "Separated analytics core from UI for maintainability; deployed on Streamlit Cloud"
+          "Built full-season fantasy platform with Decision Score drafts, live draft rooms, shared leagues, and lineup/trade workflows",
+          "Integrated research tools and AMI insight handoff for analytical follow-up questions"
         ]
       },
       {
-        "name": "Baseball Analytics Explorer",
-        "tech": "Python · Streamlit · scikit-learn",
+        "name": "Investment Explorer",
+        "tech": "Python \u00b7 Streamlit \u00b7 yfinance",
         "bullets": [
-          "Developed MLB analytics platform with statistical significance testing, ML projections, and fantasy draft decision support",
-          "Implemented pytest coverage for projection calibration and draft strategy logic"
+          "Shipped live portfolio health scoring, Monte Carlo, efficient frontier, and ETF overlap diagnostics",
+          "Designed beginner/advanced modes on a shared analytics core; deployed on Streamlit Cloud"
         ]
       },
       {
         "name": "Applied Mathematical Intelligence",
-        "tech": "Python · Streamlit",
+        "tech": "Python \u00b7 Streamlit",
         "bullets": [
-          "Designed modular Mathematical Thinking Lab with betting EV, AI training visualization, and epidemic simulation engines",
-          "Built pedagogical UX pattern: explain → simulate → interpret → math depth"
+          "Built modular decision labs for EV, prediction, disease modeling, and AI training interpretation",
+          "Routed analytical questions across the suite via Command Center insight handoffs"
         ]
       },
       {
         "name": "SQL & Excel Analytics Workbooks",
-        "tech": "Excel · SQL · pandas",
+        "tech": "Excel \u00b7 SQL \u00b7 pandas",
         "bullets": [
-          "Created AI evaluator, investment, quant, and credit-risk workbooks with KPI dashboards and SQL practice queries",
-          "Demonstrates fluency across Python dashboards and spreadsheet-based business reporting"
+          "Created AI evaluator, investment, quant, and credit-risk workbooks with KPI dashboards and SQL practice",
+          "Demonstrates fluency across Python products and spreadsheet-based business reporting"
         ]
       }
     ]
@@ -175,42 +211,103 @@
       "professionalBackground": {
         "title": "Professional Background",
         "paragraphs": [
-          "Daniel Cohen is a Mathematics and Statistics professional with an M.A. in Statistics & Applied Mathematics from Hunter College (GPA 3.93), MBA in Finance & Investments from Baruch College — Zicklin School of Business (Finance GPA 4.00), and B.A. in Mathematics & Economics from Queens College — Magna Cum Laude, Arthur D. Gayer Memorial Award in Economics. He passed Society of Actuaries exams P/1, FM/2, and MFE, grounding his work in probability, financial mathematics, and quantitative risk thinking.",
-          "His professional history spans college-level instruction at Kingsborough Community College, Queens College, Pace University, and Yeshiva University; Business Statistics lab teaching with Excel; and ongoing quantitative work at The Montfort Academy. Teaching strengthened his ability to communicate statistical ideas clearly — a skill that now supports analytics storytelling, dashboard design, and stakeholder-facing interpretation."
+          "Daniel Cohen is a Mathematics and Statistics professional with an M.A. in Statistics & Applied Mathematics from Hunter College (GPA 3.93), MBA in Finance & Investments from Baruch College \u2014 Zicklin School of Business (Finance GPA 4.00), and B.A. in Mathematics & Economics from Queens College \u2014 Magna Cum Laude, Arthur D. Gayer Memorial Award in Economics. He passed Society of Actuaries exams P/1, FM/2, and MFE, grounding his work in probability, financial mathematics, and quantitative risk thinking.",
+          "His professional history spans college-level instruction at Kingsborough Community College, Queens College, Pace University, and Yeshiva University; Business Statistics lab teaching with Excel; and ongoing quantitative work at The Montfort Academy. Teaching strengthened his ability to communicate statistical ideas clearly \u2014 a skill that now supports analytics storytelling, dashboard design, and stakeholder-facing interpretation."
         ]
       },
       "analyticsAiTransition": {
         "title": "Analytics & AI Transition",
         "paragraphs": [
-          "Daniel is transitioning from mathematics, statistics, and finance instruction into analytics, AI evaluation, decision-support systems, and data-driven product development. The Daniel AI Suite — seven deployed Streamlit applications plus SQL and Excel workbooks — is deliberate proof of that transition, not a side project.",
-          "Portfolio optimization, hypothesis testing, Monte Carlo simulation, ML projections, betting EV, epidemic modeling, and AI evaluator workflows extend the same quantitative foundation built through actuarial study, business statistics labs, and graduate statistics training — now packaged as interactive applications recruiters can click through in minutes."
+          "Daniel is transitioning from mathematics, statistics, and finance instruction into analytics, AI evaluation, decision-support systems, and data-driven product development. The Daniel AI Suite \u2014 seven deployed Streamlit applications plus SQL and Excel workbooks \u2014 is deliberate proof of that transition, not a side project.",
+          "Portfolio optimization, hypothesis testing, Monte Carlo simulation, ML projections, betting EV, epidemic modeling, and AI evaluator workflows extend the same quantitative foundation built through actuarial study, business statistics labs, and graduate statistics training \u2014 now packaged as interactive applications recruiters can click through in minutes."
         ]
       },
       "portfolioHighlights": {
         "title": "Portfolio Highlights",
         "items": [
-          { "title": "Investment Portfolio Analyzer", "text": "Live finance dashboard — risk metrics, Monte Carlo paths, efficient frontier, allocation modeling." },
-          { "title": "Baseball Analytics Explorer", "text": "Statistical testing, ML projections, and fantasy draft intelligence in one platform." },
-          { "title": "Applied Mathematical Intelligence", "text": "Seven action labs spanning betting EV, sports prediction, disease spread, and AI training visualization." },
-          { "title": "NBA Playoff Companion AI", "text": "Playoff forecasting, legacy scoring, and matchup analytics with live data integration." },
-          { "title": "SQL & Excel Workbooks", "text": "Recruiter-facing evidence of SQL fluency, pivot analysis, and KPI dashboard design." }
+          {
+            "title": "Baseball Analytics",
+            "text": "Full-season fantasy platform \u2014 Decision Score drafts, shared leagues, lineup/trade ops, AMI insight handoff."
+          },
+          {
+            "title": "Investment Explorer",
+            "text": "Live portfolio health, Monte Carlo, efficient frontier, ETF overlap, beginner/advanced modes."
+          },
+          {
+            "title": "Applied Mathematical Intelligence",
+            "text": "Multi-lab decision engine for EV, prediction, disease models, AI training, and cross-app insight routing."
+          },
+          {
+            "title": "AI Music Practice Coach",
+            "text": "Song-aware practice studio with backing tracks, progression builder, and practice intelligence."
+          },
+          {
+            "title": "Basketball Playoff Companion",
+            "text": "Live games, bracket, matchup intelligence, and legacy tracking for a fan-first playoff product."
+          },
+          {
+            "title": "Future Lens + Command Center",
+            "text": "AI transition scenarios through 2050 and suite-level resume/activity orchestration."
+          }
         ]
       },
       "coreTechnicalSkills": {
         "title": "Core Technical Skills",
-        "skills": ["Statistics", "Probability", "Hypothesis Testing", "Python", "SQL", "Excel", "Pivot Tables", "Pandas", "Streamlit", "Data Visualization", "Financial Analysis", "Machine Learning", "Simulation", "Forecasting", "Dashboard Development", "AI Evaluation", "Business Analytics"]
+        "skills": [
+          "Statistics",
+          "Probability",
+          "Hypothesis Testing",
+          "Python",
+          "SQL",
+          "Excel",
+          "Pivot Tables",
+          "Pandas",
+          "Streamlit",
+          "Data Visualization",
+          "Financial Analysis",
+          "Machine Learning",
+          "Simulation",
+          "Forecasting",
+          "Dashboard Development",
+          "AI Evaluation",
+          "Business Analytics"
+        ]
       },
       "targetRoles": {
         "title": "Target Roles",
         "roles": [
-          { "role": "Data Analyst", "fit": "M.A. Statistics, Business Statistics lab experience, SQL/Excel workbooks, and live Python dashboards for reporting and interpretation." },
-          { "role": "AI Evaluator", "fit": "AI evaluator workbook, training/overfitting visualization, and structured evidence-based analysis workflows." },
-          { "role": "AI Trainer", "fit": "Years of quantitative instruction plus portfolio UX designed to explain → simulate → interpret complex methods." },
-          { "role": "Business Intelligence Analyst", "fit": "KPI dashboards, Excel pivot fluency, executive case studies, and demo-ready Streamlit walkthroughs." },
-          { "role": "Research Analyst", "fit": "Graduate statistics, hypothesis testing, simulation design, and probability-driven modeling." },
-          { "role": "Junior Data Scientist", "fit": "ML projections, feature importance, optimization, and model validation-oriented portfolio evidence." },
-          { "role": "Quantitative Analyst", "fit": "Actuarial exam foundation, MBA finance, Monte Carlo, portfolio optimization, and risk analytics." },
-          { "role": "Financial Analyst", "fit": "MBA Finance (4.00), investment portfolio dashboard, efficient frontier, and finance tutoring background." }
+          {
+            "role": "Data Analyst",
+            "fit": "M.A. Statistics, SQL/Excel workbooks, and live Python dashboards for reporting and interpretation."
+          },
+          {
+            "role": "Product Analyst",
+            "fit": "Shipped multi-page products with workflow metrics, user-facing decision scores, and suite-level activity design."
+          },
+          {
+            "role": "AI Evaluator",
+            "fit": "AI evaluator workbook, AMI training/overfitting labs, and structured evidence-based analysis workflows."
+          },
+          {
+            "role": "AI Trainer",
+            "fit": "Years of quantitative instruction plus UX designed to explain \u2192 simulate \u2192 interpret complex methods."
+          },
+          {
+            "role": "Quantitative Analyst",
+            "fit": "Actuarial exam foundation, MBA finance, Monte Carlo, portfolio optimization, and risk analytics."
+          },
+          {
+            "role": "Financial Analyst",
+            "fit": "MBA Finance (4.00), investment health scoring, efficient frontier, and ETF holdings diagnostics."
+          },
+          {
+            "role": "Business Intelligence Analyst",
+            "fit": "KPI dashboards, Excel pivot fluency, executive case studies, and demo-ready Streamlit walkthroughs."
+          },
+          {
+            "role": "Junior Data Scientist",
+            "fit": "ML projections, feature importance, optimization, and model validation-oriented portfolio evidence."
+          }
         ]
       }
     }
@@ -220,96 +317,207 @@
     "subtitle": "Executive summary for recruiters and hiring managers",
     "keyStrengths": [
       "M.A. Statistics & Applied Mathematics (Hunter, GPA 3.93) and MBA Finance & Investments (Baruch, Finance GPA 4.00)",
-      "Society of Actuaries exams P/1, FM/2, and MFE — probability and financial mathematics foundation",
-      "Seven live Streamlit applications plus SQL & Excel workbooks with KPI dashboards and 42+ SQL queries",
-      "Business Statistics lab teaching with Excel — direct BI and spreadsheet analytics credibility",
-      "Case-study portfolio: problem → data → analysis → modeling → insights → results",
-      "Clear communicator of quantitative methods — college lecturer background supports stakeholder interpretation"
+      "Society of Actuaries exams P/1, FM/2, and MFE \u2014 probability and financial mathematics foundation",
+      "Seven live Streamlit applications forming an interconnected analytics product suite",
+      "End-to-end ownership: data, modeling, UX, persistence, testing, and deployment",
+      "AI-assisted development used to ship substantial applications with decision-support design",
+      "SQL & Excel workbooks with KPI dashboards and 42+ structured queries including AI evaluation"
     ],
     "quantitativeBackground": {
       "title": "Quantitative Background",
-      "text": "M.A. Statistics & Applied Mathematics, Hunter College (GPA 3.93). MBA Finance & Investments, Baruch College — Zicklin School of Business (Overall GPA 3.88, Finance GPA 4.00). B.A. Mathematics & Economics, Queens College — Magna Cum Laude, Arthur D. Gayer Memorial Award in Economics. Passed SOA Exams P/1, FM/2, and MFE. College lecturer at Kingsborough Community College and Queens College (Probability & Statistics, Calculus, Quantitative Reasoning); Business Statistics Lab Professor at Queens College with Excel instruction; current mathematics instructor at The Montfort Academy."
+      "text": "M.A. Statistics & Applied Mathematics, Hunter College (GPA 3.93). MBA Finance & Investments, Baruch College \u2014 Zicklin School of Business (Overall GPA 3.88, Finance GPA 4.00). B.A. Mathematics & Economics, Queens College \u2014 Magna Cum Laude, Arthur D. Gayer Memorial Award in Economics. Passed SOA Exams P/1, FM/2, and MFE. College lecturer at Kingsborough Community College and Queens College (Probability & Statistics, Calculus, Quantitative Reasoning); Business Statistics Lab Professor at Queens College with Excel instruction; current mathematics instructor at The Montfort Academy."
     },
     "technicalSkills": {
       "title": "Technical Skills",
-      "skills": ["Statistics", "Probability", "Hypothesis Testing", "Python", "SQL", "Excel", "Pivot Tables", "Pandas", "Streamlit", "Data Visualization", "Financial Analysis", "Machine Learning", "Monte Carlo Simulation", "Dashboard Development", "AI Evaluation", "Business Analytics"]
+      "skills": [
+        "Statistics",
+        "Probability",
+        "Hypothesis Testing",
+        "Python",
+        "SQL",
+        "Excel",
+        "Pivot Tables",
+        "Pandas",
+        "Streamlit",
+        "Data Visualization",
+        "Financial Analysis",
+        "Machine Learning",
+        "Monte Carlo Simulation",
+        "Dashboard Development",
+        "AI Evaluation",
+        "Business Analytics"
+      ]
     },
     "analyticsProjects": {
       "title": "Analytics Projects",
       "items": [
-        "Portfolio risk analysis, efficient frontier optimization, and Monte Carlo simulation (Investment Portfolio Analyzer)",
-        "Welch-style significance testing and trend analytics (Baseball Analytics Explorer)",
-        "SIR epidemic modeling, betting EV, and optimization workshops (Applied Mathematical Intelligence)",
-        "SQL & Excel workbooks with KPI dashboards, pivot exercises, and structured query practice"
+        "Portfolio health scoring, efficient frontier, Monte Carlo, ETF overlap (Investment Explorer)",
+        "Decision Score draft engine, shared leagues, lineup/trade workflows (Baseball Analytics)",
+        "EV, sports prediction, disease modeling, AI training labs (Applied Mathematical Intelligence)",
+        "Live playoff command center with matchup and legacy analytics (Basketball Playoff Companion)",
+        "SQL & Excel workbooks with KPI dashboards, pivot exercises, and AI evaluator practice"
       ]
     },
     "aiRelatedWork": {
       "title": "AI-Related Work",
       "items": [
-        "AI Evaluator & Analytics workbook — prompt rating, pairwise comparison, hallucination KPIs",
-        "AI training / overfitting visualization lab in Applied Mathematical Intelligence",
-        "AI Music Practice Coach — adaptive content, backing track generation, optional OpenAI coaching",
-        "Future Lens AI Transition Simulator — scenario-based workforce and technology impact modeling"
+        "AI Evaluator & Analytics workbook \u2014 prompt rating, pairwise comparison, hallucination KPIs",
+        "AMI Train-an-AI / overfitting visualization and cross-app analytical insight handoffs",
+        "AI Music Practice Coach \u2014 adaptive practice tooling and optional OpenAI coaching hub",
+        "Future Lens \u2014 taxonomy-driven AI transition scenarios through 2050",
+        "Command Center \u2014 suite activity, coach insights, and resume/continue orchestration"
       ]
     },
     "careerDirection": {
       "title": "Career Direction",
-      "text": "Daniel is targeting Data Analyst, AI Evaluator, AI Trainer, Business Intelligence Analyst, Research Analyst, Junior Data Scientist, Quantitative Analyst, and Financial Analyst roles. He offers credentialed statistics and finance training, actuarial exam foundation, Business Statistics and Excel lab experience, and a deployed analytics portfolio — positioning him as a quantitative professional who builds decision-support products, not only teaches theory."
+      "text": "Daniel is targeting Data Analyst, Product Analyst, AI Evaluator, AI Trainer, BI Analyst, Research Analyst, Junior Data Scientist, Quantitative Analyst, and Financial Analyst roles. He offers credentialed statistics and finance training plus a deployed multi-app portfolio that proves independent product execution."
     }
   },
   "aboutMe": {
-    "headline": "Mathematics & Statistics Professional · Quantitative Analytics · Finance & Data Applications",
-    "subheadline": "M.A. Statistics · MBA Finance · SOA Exams (P, FM, MFE) · Python · SQL · Excel · Streamlit · AI-Assisted Development",
+    "headline": "Mathematics & Statistics Professional \u00b7 Quantitative Analytics \u00b7 AI-Assisted Product Development",
+    "subheadline": "M.A. Statistics \u00b7 MBA Finance \u00b7 SOA Exams (P, FM, MFE) \u00b7 Python \u00b7 SQL \u00b7 Excel \u00b7 Streamlit \u00b7 End-to-End Ownership",
     "paragraphs": [
-      "I am a Mathematics and Statistics professional with graduate training in statistics and finance, actuarial exam foundation, and a portfolio of production analytics applications. I translate probability, hypothesis testing, investment analysis, and quantitative reasoning into dashboards, simulations, and decision-support tools.",
-      "My background includes college-level Probability & Statistics instruction, Business Statistics labs with Excel, MBA finance coursework (GPA 4.00 in Finance), and independent development of the Daniel AI Suite — seven Streamlit apps and SQL/Excel workbooks spanning portfolio analytics, sports modeling, AI evaluation, and forecasting.",
-      "I build analytics products that connect statistical rigor to business interpretation — helping stakeholders understand not just what the data shows, but what decision it supports."
+      "I am a Mathematics and Statistics professional who builds production analytics applications \u2014 not notebook demos. Graduate training in statistics and finance, actuarial exam foundation, and a seven-app product suite demonstrate how I turn quantitative methods into usable decision-support systems.",
+      "The Daniel AI Suite spans investment risk analytics, fantasy baseball decision engines, applied math labs, NBA playoff intelligence, music practice tooling, AI transition scenario modeling, and a cross-app Command Center. Each app is designed for real workflows: explore \u2192 analyze \u2192 decide \u2192 continue.",
+      "I use AI-assisted development to move faster while owning architecture, analytics design, UX, testing, and deployment end to end."
     ],
     "pillars": [
-      { "title": "Statistics & Probability", "text": "M.A. Statistics, SOA exam foundation, hypothesis testing, inference, and simulation across finance and sports analytics." },
-      { "title": "Finance & Quantitative Analysis", "text": "MBA Finance, portfolio optimization, Monte Carlo, investment analysis, and actuarial-style risk thinking." },
-      { "title": "SQL, Excel & Dashboards", "text": "Business Statistics lab experience, pivot tables, KPI workbooks, and Streamlit dashboards for self-service analytics." },
-      { "title": "AI & Decision Support", "text": "AI evaluator workflows, model validation visualization, and production applications — not notebook prototypes." }
+      {
+        "title": "Analytical Thinking",
+        "text": "Hypothesis testing, probability, Monte Carlo, optimization, and model interpretation across finance and sports products."
+      },
+      {
+        "title": "Product & Decision Support",
+        "text": "Workflow-first apps with scoring engines, health diagnostics, draft rooms, and plain-language coaching \u2014 not chart galleries."
+      },
+      {
+        "title": "AI-Assisted Development",
+        "text": "Shipped a multi-app suite with shared persistence, insight handoffs, and evaluator-style workflows using modern AI tooling."
+      },
+      {
+        "title": "End-to-End Ownership",
+        "text": "From data ingestion and modeling through Streamlit UX, Supabase schemas, pytest coverage, and live deployment."
+      }
     ]
   },
   "featuredAnalytics": [
-    { "icon": "📊", "title": "Statistical Significance Testing", "text": "Welch-style tests, p-values, and comparison workflows in the Baseball Analytics Explorer." },
-    { "icon": "🤖", "title": "Machine Learning Projections", "text": "Next-season forecasting with aging curves, regression-to-mean, and feature importance in baseball and finance contexts." },
-    { "icon": "📈", "title": "Portfolio Optimization", "text": "Efficient frontier, Sharpe maximization, and allocation modeling in the Investment Portfolio Analyzer." },
-    { "icon": "🎲", "title": "Probability Modeling", "text": "Series win probability, legacy scoring ladders, and playoff forecasting in the NBA Playoff Companion." },
-    { "icon": "🔮", "title": "Scenario Simulations", "text": "Monte Carlo paths, what-if sliders, and forward macro projections for risk planning." },
-    { "icon": "🖥️", "title": "Interactive Dashboards", "text": "Seven-app Streamlit suite with live data, demo modes, and recruiter-ready screenshot polish." },
-    { "icon": "📉", "title": "Data Visualization", "text": "Plotly charts, correlation heatmaps, comparison trends, and executive summary layouts." }
+    {
+      "icon": "\ud83d\udcc8",
+      "title": "Portfolio Risk & Optimization",
+      "text": "Sharpe/Sortino health scoring, efficient frontier, Monte Carlo paths, and ETF overlap diagnostics."
+    },
+    {
+      "icon": "\u26be",
+      "title": "Decision Scoring Systems",
+      "text": "Fantasy draft Decision Score combining market rank, roster fit, scarcity, and model projections."
+    },
+    {
+      "icon": "\ud83e\udd16",
+      "title": "AI & Model Interpretation",
+      "text": "AMI labs for EV, overfitting, simulation, plus AI evaluator workbook workflows."
+    },
+    {
+      "icon": "\ud83c\udfb2",
+      "title": "Probability & Forecasting",
+      "text": "Series win probability, playoff forecasting, and scenario timelines through 2050."
+    },
+    {
+      "icon": "\ud83d\udd17",
+      "title": "Cross-App Product Design",
+      "text": "Command Center resume flows and AMI insight handoffs across the suite."
+    },
+    {
+      "icon": "\ud83d\udda5\ufe0f",
+      "title": "Interactive Dashboards",
+      "text": "Seven live Streamlit apps with demo modes, galleries, and recruiter-ready walkthroughs."
+    },
+    {
+      "icon": "\ud83d\udcca",
+      "title": "SQL \u00b7 Excel \u00b7 Reporting",
+      "text": "KPI dashboards, pivot practice, and 42+ SQL queries spanning AI eval, finance, and risk."
+    }
   ],
   "skillsDashboard": [
-    { "name": "Python", "level": 92, "category": "Engineering" },
-    { "name": "SQL", "level": 88, "category": "Data" },
-    { "name": "Streamlit", "level": 90, "category": "Engineering" },
-    { "name": "Pandas", "level": 90, "category": "Data" },
-    { "name": "Statistics", "level": 88, "category": "Analytics" },
-    { "name": "Machine Learning", "level": 82, "category": "Analytics" },
-    { "name": "Data Visualization", "level": 86, "category": "Analytics" },
-    { "name": "Excel", "level": 85, "category": "Data" },
-    { "name": "Git / GitHub", "level": 88, "category": "Engineering" },
-    { "name": "AI-Assisted Development", "level": 90, "category": "Engineering" }
+    {
+      "name": "Python",
+      "level": 92,
+      "category": "Engineering"
+    },
+    {
+      "name": "SQL",
+      "level": 88,
+      "category": "Data"
+    },
+    {
+      "name": "Streamlit",
+      "level": 90,
+      "category": "Engineering"
+    },
+    {
+      "name": "Pandas",
+      "level": 90,
+      "category": "Data"
+    },
+    {
+      "name": "Statistics",
+      "level": 88,
+      "category": "Analytics"
+    },
+    {
+      "name": "Machine Learning",
+      "level": 82,
+      "category": "Analytics"
+    },
+    {
+      "name": "Data Visualization",
+      "level": 86,
+      "category": "Analytics"
+    },
+    {
+      "name": "Excel",
+      "level": 85,
+      "category": "Data"
+    },
+    {
+      "name": "Git / GitHub",
+      "level": 88,
+      "category": "Engineering"
+    },
+    {
+      "name": "AI-Assisted Development",
+      "level": 90,
+      "category": "Engineering"
+    }
   ],
   "flagshipIds": [
-    "nba-playoff-companion-ai",
     "baseball-stat-app",
     "investment-portfolio-analyzer",
+    "applied-mathematical-intelligence",
     "ai-music-practice-coach"
   ],
   "summary": {
-    "headline": "Mathematics & Statistics Professional — Quantitative Analytics & AI",
+    "headline": "Mathematics & Statistics Professional \u2014 Analytics, Quant Modeling & AI Applications",
     "paragraphs": [
-      "M.A. Statistics & Applied Mathematics (Hunter, 3.93 GPA) · MBA Finance & Investments (Baruch, Finance GPA 4.00) · SOA Exams P, FM, MFE · B.A. Mathematics & Economics, Magna Cum Laude.",
-      "I build analytics products — Python dashboards, SQL & Excel workbooks, and AI evaluation workflows — that connect statistical reasoning, financial modeling, and business interpretation into decision-ready applications.",
-      "Target roles: Data Analyst, AI Evaluator, AI Trainer, BI Analyst, Research Analyst, Junior Data Scientist, Quantitative Analyst, Financial Analyst."
+      "M.A. Statistics & Applied Mathematics (Hunter, 3.93 GPA) \u00b7 MBA Finance & Investments (Baruch, Finance GPA 4.00) \u00b7 SOA Exams P, FM, MFE \u00b7 B.A. Mathematics & Economics, Magna Cum Laude.",
+      "I design and ship end-to-end analytics products \u2014 seven interconnected Streamlit applications plus SQL/Excel workbooks \u2014 that turn probability, risk, and modeling into decision-ready tools recruiters can click through in minutes.",
+      "Target roles: Data Analyst \u00b7 Product Analyst \u00b7 Quantitative Analyst \u00b7 Financial Analyst \u00b7 AI Evaluator \u00b7 AI Trainer \u00b7 BI / Research Analyst."
     ],
     "skills": [
-      "SQL", "Excel", "Pivot Tables", "Python", "pandas", "Streamlit",
-      "Statistics", "Monte Carlo", "Portfolio Optimization", "Data Visualization",
-      "AI Evaluation", "Business Reporting", "Dashboard Design", "yfinance", "Supabase"
+      "Python",
+      "SQL",
+      "Excel",
+      "Pandas",
+      "Streamlit",
+      "Statistics",
+      "Monte Carlo",
+      "Portfolio Optimization",
+      "Machine Learning",
+      "Data Visualization",
+      "AI Evaluation",
+      "Decision Support",
+      "Product Analytics",
+      "Git / GitHub",
+      "AI-Assisted Development"
     ]
   },
   "categories": {
@@ -343,139 +551,227 @@
     {
       "id": "investment-portfolio-analyzer",
       "name": "Investment Portfolio Analyzer",
-      "displayName": "Investment Portfolio Analyzer",
-      "oneLiner": "Live-market portfolio analytics with risk metrics, Monte Carlo simulation, and efficient frontier optimization.",
+      "displayName": "Investment Explorer",
+      "oneLiner": "Live-market portfolio analytics with health scoring, Monte Carlo, efficient frontier, and ETF overlap.",
       "liveUrl": "https://investment-portfolio-analyzer-ty2sbzumvxsqwbqhkvf6rz.streamlit.app",
       "featured": true,
       "detailSections": [
-        { "title": "Portfolio Analytics", "body": "Live holdings dashboard with allocation breakdown, growth curves, Sharpe/Sortino metrics, and benchmark comparison — designed for both beginner and advanced analyst workflows." },
-        { "title": "Risk Analysis", "body": "Correlation heatmaps, volatility ranking, risk contribution charts, and scenario stress views that translate portfolio theory into visual decision support." },
-        { "title": "Allocation Modeling", "body": "Preset strategy mixes, custom weight inputs, efficient frontier visualization, and optimizer outputs for max-Sharpe and min-volatility portfolios." },
-        { "title": "Quantitative Decision Support", "body": "Rule-based health scoring, Monte Carlo simulation, and macro-adjusted forward projections help users evaluate trade-offs without institutional terminals." }
+        {
+          "title": "Portfolio Health",
+          "body": "Composite health score across return, risk, diversification, objective alignment, and macro fit \u2014 with explicit strengths and failure modes for the current mix."
+        },
+        {
+          "title": "Risk & Allocation Modeling",
+          "body": "Correlation, contribution, drawdown, efficient frontier, and Monte Carlo paths support allocation trade-off analysis."
+        },
+        {
+          "title": "ETF Holdings Intelligence",
+          "body": "Holdings-level overlap and concentration views help users see hidden redundancy inside ETF sleeves."
+        },
+        {
+          "title": "Product Design",
+          "body": "Beginner and Advanced modes share one analytics engine so education and deeper quant work stay consistent."
+        }
       ],
       "keyFeatures": [
-        "Live Yahoo Finance price ingestion",
-        "Sharpe, Sortino, VaR, and drawdown analytics",
-        "Monte Carlo scenario simulation",
-        "Efficient frontier & optimizer",
-        "Portfolio health scoring & rule-based insights",
-        "Beginner and advanced workflow modes"
+        "Portfolio Health Score with plain-language what's working / not working",
+        "Live Yahoo Finance ingestion and refreshable holdings",
+        "Monte Carlo scenarios (P(loss), growth distributions)",
+        "Efficient frontier optimizer (max Sharpe / min volatility)",
+        "ETF Holdings Explorer for overlap and concentration",
+        "Beginner Mode coaching + Advanced analytics tabs",
+        "Applied Investment Insight \u2192 AMI handoff"
       ],
       "detailHighlights": [
-        "Portfolio analytics dashboard with allocation breakdown",
-        "Risk analysis: correlation heatmaps and contribution charts",
-        "Allocation modeling with preset strategies and custom weights"
+        "Health scoring that translates risk metrics into actionable coaching",
+        "Monte Carlo and efficient frontier on a shared analytics core",
+        "ETF overlap diagnostics beyond ticker-level pie charts"
       ],
       "caseStudy": {
         "problem": "Investors need accessible risk-adjusted analytics without institutional terminals or spreadsheet-only workflows.",
         "data": "Live equity/ETF prices via yfinance; user-defined holdings and benchmark returns.",
-        "analysis": "Daily return series, extended risk metrics, benchmark comparison, and health diagnostics.",
+        "analysis": "Return/risk metrics, concentration flags, correlation structure, and health diagnostics.",
         "modeling": "Monte Carlo simulation, mean-variance optimization, and efficient frontier construction.",
-        "insights": "Rule-based portfolio insights flag concentration, volatility outliers, and diversification gaps.",
-        "results": "Single Streamlit product delivering institutional-style analytics for educational and decision-support use."
+        "insights": "Rule-based coaching and AMI handoff translate metrics into next questions and actions.",
+        "results": "A live Streamlit product with dual UX modes and suite-integrated insight routing."
       },
       "tier": 1,
       "category": "analytics",
-      "secondaryCategories": [],
+      "secondaryCategories": [
+        "ai"
+      ],
       "github": "https://github.com/Coakley11/investment-portfolio-analyzer",
       "readme": "https://github.com/Coakley11/investment-portfolio-analyzer/blob/main/README.md",
       "status": "Active / Production-ready",
-      "readiness": 8.0,
-      "technologies": ["Python", "Streamlit", "yfinance", "pandas", "numpy", "scipy", "plotly", "Supabase"],
-      "languages": ["Python ~92%", "Markdown/JSON ~8%"],
-      "frameworks": ["streamlit", "yfinance", "scipy", "plotly"],
-      "purpose": "Streamlit dashboard for portfolio risk/return analysis with live Yahoo Finance data, Monte Carlo simulation, efficient frontier optimization, and rule-based insights.",
-      "executiveSummary": "Built a production Streamlit dashboard that pulls live market data and delivers institutional-grade portfolio analytics — risk metrics, Monte Carlo simulation, efficient frontier optimization, and rule-based insights.",
-      "skills": ["Quantitative finance", "Risk modeling", "Monte Carlo simulation", "Portfolio optimization", "Data visualization", "API integration"],
-      "businessValue": "Translates complex portfolio theory into an accessible tool for evaluating risk-adjusted returns, diversification, and allocation strategies.",
-      "recruiterTakeaway": "Can build end-to-end financial analytics products with real data, not just notebooks.",
+      "readiness": 9.0,
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "yfinance",
+        "pandas",
+        "numpy",
+        "scipy",
+        "plotly",
+        "Supabase"
+      ],
+      "languages": [
+        "Python ~92%",
+        "Markdown/JSON ~8%"
+      ],
+      "frameworks": [
+        "streamlit",
+        "yfinance",
+        "scipy",
+        "plotly"
+      ],
+      "purpose": "Streamlit investment analytics product with beginner and advanced modes, live Yahoo Finance data, portfolio health diagnostics, Monte Carlo, efficient frontier optimization, ETF holdings overlap, and AMI insight handoff.",
+      "executiveSummary": "Built a production investment analytics product that turns live market data into portfolio health scores, risk diagnostics, Monte Carlo scenarios, efficient-frontier optimization, and ETF overlap analysis \u2014 with beginner coaching and advanced quant workflows on the same engine.",
+      "skills": [
+        "Quantitative finance",
+        "Risk modeling",
+        "Monte Carlo simulation",
+        "Portfolio optimization",
+        "Product analytics UX",
+        "API integration"
+      ],
+      "businessValue": "Makes institutional-style risk and allocation analysis usable for education and decision support without a Bloomberg terminal.",
+      "recruiterTakeaway": "End-to-end quant product: live data, analytics core separated from UI, dual-audience UX, and AI insight routing.",
       "screenshotFolder": "Investment",
-      "heroScreenshot": "investment-overview-demo.png",
+      "heroScreenshot": "01-portfolio-health.png",
       "screenshots": [
-        "assets/screenshots/Investment/investment-overview-demo.png",
-        "assets/screenshots/Investment/investment-portfolio-analytics-demo.png",
-        "assets/screenshots/Investment/investment-portfolio-health.png",
-        "assets/screenshots/Investment/investment-monte-carlo.png",
-        "assets/screenshots/Investment/investment-efficient-frontier.png",
-        "assets/screenshots/Investment/investment-correlation-heatmap.png",
-        "assets/screenshots/Investment/investment-optimizer.png"
+        "assets/screenshots/Investment/01-portfolio-health.png",
+        "assets/screenshots/Investment/02-efficient-frontier.png",
+        "assets/screenshots/Investment/03-monte-carlo.png",
+        "assets/screenshots/Investment/04-etf-holdings-explorer.png",
+        "assets/screenshots/Investment/05-beginner-coach.png",
+        "assets/screenshots/Investment/06-ami-insight.png"
       ],
       "screenshotChecklist": [
-        "investment-overview-demo.png — Overview with allocation, Sharpe, growth (P0, Demo Mode)",
-        "investment-portfolio-analytics-demo.png — Risk analytics & correlation (P0)",
-        "investment-portfolio-health.png — Health score & recommendations (P1)",
-        "investment-monte-carlo.png — Monte Carlo simulation (P1)",
-        "investment-efficient-frontier.png — Efficient frontier (P1)"
+        "01-portfolio-health.png \u2014 Portfolio Health",
+        "02-efficient-frontier.png \u2014 Efficient Frontier",
+        "03-monte-carlo.png \u2014 Monte Carlo",
+        "04-etf-holdings-explorer.png \u2014 Etf Holdings Explorer",
+        "05-beginner-coach.png \u2014 Beginner Coach",
+        "06-ami-insight.png \u2014 Ami Insight"
       ],
-      "readmeStatus": "Strong — features, quick start, project structure, dev workflow. Missing screenshots and live demo URL."
+      "readmeStatus": "Strong \u2014 screenshots refreshed 2026-07-15; keep live URL and feature list current."
     },
     {
       "id": "baseball-stat-app",
       "name": "Baseball Stat App",
-      "displayName": "Baseball Analytics Explorer",
-      "oneLiner": "MLB analytics platform combining statistical testing, trend intelligence, and fantasy draft decision support.",
+      "displayName": "Baseball Analytics",
+      "oneLiner": "Full-season fantasy baseball platform: Decision Score drafts, shared leagues, lineup/trade ops, and research tools.",
       "liveUrl": "https://baseball-stat-app-d4jlymjc4iptaadc3kquwx.streamlit.app",
       "featured": true,
       "detailSections": [
-        { "title": "Statistical Testing", "body": "Welch-style significance tests on player comparison windows with p-values, effect highlighting, and synchronized season/age axis controls." },
-        { "title": "Machine Learning Projections", "body": "Next-season forecasting with aging curves, regression-to-mean tuning, similar-player blending, and feature-importance charts for star players." },
-        { "title": "Fantasy Baseball Analytics", "body": "Draft Assistant scoring, scarcity modeling, team-fit logic, draft room simulation, and sleeper/bust intelligence for actionable fantasy decisions." }
+        {
+          "title": "Draft Intelligence",
+          "body": "Draft Assistant and Live Draft Room combine Decision Score, roster fit, and market/model rank so picks are explained, not just listed."
+        },
+        {
+          "title": "League Operations",
+          "body": "Uploaded draft import, shared league claims, lineup management, and Trade Center support post-draft season management."
+        },
+        {
+          "title": "Research & History",
+          "body": "Research Mode comparisons and HOF Case Mode extend the product beyond fantasy into analytical storytelling."
+        },
+        {
+          "title": "Suite Integration",
+          "body": "Baseball Insight routes analytical questions into AMI while preserving baseball context for return."
+        }
       ],
       "keyFeatures": [
-        "Historical MLB explorer & career totals",
-        "Player comparison with trend charts",
-        "Welch-style statistical significance testing",
-        "ML next-season projections with feature importance",
-        "Draft Assistant with scarcity & team-fit scoring",
-        "Fantasy draft room simulation"
+        "Draft Assistant with Decision Score / roster-fit recommendations",
+        "Live Draft Room (solo + room-code multiplayer)",
+        "Uploaded draft CSV/XLSX import",
+        "Shared league invites and team claims",
+        "Lineup management and Trade Center",
+        "Research Mode player comparison",
+        "HOF Case Mode and historical MLB exploration",
+        "Baseball Insight \u2192 AMI analytical handoff"
       ],
       "detailHighlights": [
-        "Statistical testing lab for player A vs B comparisons",
-        "Machine learning projections for star players",
-        "Fantasy analytics: draft assistant, sleepers, and trade workflows"
+        "Decision Score separates market rank from model/roster-fit value",
+        "Draft \u2192 season ops continuum (lineups, waivers, trades)",
+        "Shared leagues and draft import for real-league workflows"
       ],
       "caseStudy": {
-        "problem": "Fantasy managers and analysts need rigorous statistical tools—not just leaderboards—to evaluate players and draft decisions.",
-        "data": "Lahman historical database, FantasyPros market rankings, and derived projection features.",
-        "analysis": "Trend slopes, R², volatility scoring, and significance tests on comparable season windows.",
-        "modeling": "ML-style next-season projections with aging curves, regression-to-mean, and similar-player blending.",
-        "insights": "Draft Fit Score combines market rank, scarcity, team needs, and ML projection signals.",
-        "results": "Unified decision-support platform spanning exploration, testing, projection, and live draft simulation."
+        "problem": "Fantasy managers need rigorous, workflow-aware tools for draft and in-season decisions \u2014 not disconnected stat tables.",
+        "data": "Lahman historical database, market rankings, roster state, and derived projection features.",
+        "analysis": "Trend, valuation, comparison, and significance-oriented research views.",
+        "modeling": "ML-style projections and Decision Score blending market, scarcity, fit, and model signals.",
+        "insights": "Recommendation cards explain team-fit vs raw-value tradeoffs at the moment of pick.",
+        "results": "A multi-page product covering draft, league ops, research, and AI insight handoff."
       },
       "tier": 1,
       "category": "analytics",
-      "secondaryCategories": ["applications"],
+      "secondaryCategories": [
+        "applications"
+      ],
       "github": "https://github.com/Coakley11/baseball-stat-app",
       "readme": "https://github.com/Coakley11/baseball-stat-app/blob/main/README.md",
-      "status": "Active / Evolving portfolio project",
-      "readiness": 7.5,
-      "technologies": ["Python", "Streamlit", "pybaseball", "scikit-learn", "statsmodels", "plotly", "Supabase"],
-      "languages": ["Python ~85%", "CSV ~10%", "Markdown ~5%"],
-      "frameworks": ["streamlit", "pandas", "scikit-learn", "statsmodels", "pybaseball", "plotly"],
-      "purpose": "Baseball analytics and fantasy baseball decision platform combining historical MLB exploration, trend analysis, ML-style projections, and draft/trade tools.",
-      "executiveSummary": "Developed a comprehensive baseball analytics platform that merges historical MLB data exploration, statistical significance testing, trend intelligence, ML-style projections, and fantasy draft/trade decision support in one interactive application.",
-      "skills": ["Sports analytics", "Statistical testing", "Trend analysis", "ML projections", "Fantasy strategy", "Interactive dashboards"],
-      "businessValue": "Demonstrates ability to turn raw sports data into actionable decision support for scouting, fantasy strategy, and performance evaluation.",
-      "recruiterTakeaway": "Combines statistical rigor with product thinking — not just charts, but decision workflows.",
+      "status": "Active / Evolving portfolio product",
+      "readiness": 9.0,
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "pybaseball",
+        "scikit-learn",
+        "statsmodels",
+        "plotly",
+        "Supabase"
+      ],
+      "languages": [
+        "Python ~85%",
+        "CSV ~10%",
+        "Markdown ~5%"
+      ],
+      "frameworks": [
+        "streamlit",
+        "pandas",
+        "scikit-learn",
+        "statsmodels",
+        "pybaseball",
+        "plotly"
+      ],
+      "purpose": "MLB analytics and fantasy baseball decision platform spanning historical exploration, ML projections, draft simulation, live draft rooms, shared leagues, lineup management, trade center, and AMI insight handoff.",
+      "executiveSummary": "Developed a full-season fantasy baseball product with Decision Score draft recommendations, live/multiplayer draft rooms, uploaded draft import, shared league claims, lineup and trade workflows, research comparison, HOF case mode, and Baseball Insight \u2192 AMI handoff.",
+      "skills": [
+        "Sports analytics",
+        "Decision scoring systems",
+        "Statistical research UX",
+        "Multiplayer workflow design",
+        "Interactive dashboards",
+        "Test-backed product logic"
+      ],
+      "businessValue": "Shows how to turn sports data into an operational decision system \u2014 not a static leaderboard.",
+      "recruiterTakeaway": "Substantial product ownership: scoring engine, multiplayer workflows, in-season ops, and AI insight integration.",
       "screenshotFolder": "Baseball",
-      "heroScreenshot": "baseball-draft-assistant-demo.png",
+      "heroScreenshot": "01-draft-assistant-recommendations.png",
       "screenshots": [
-        "assets/screenshots/Baseball/baseball-draft-assistant-demo.png",
-        "assets/screenshots/Baseball/baseball-ml-projections-demo.png",
-        "assets/screenshots/Baseball/baseball-career-totals-demo.png",
-        "assets/screenshots/Baseball/baseball-player-comparison.png",
-        "assets/screenshots/Baseball/baseball-trend-analysis.png",
-        "assets/screenshots/Baseball/baseball-draft-room.png",
-        "assets/screenshots/Baseball/baseball-sleepers-busts.png"
+        "assets/screenshots/Baseball/01-draft-assistant-recommendations.png",
+        "assets/screenshots/Baseball/02-live-draft-room.png",
+        "assets/screenshots/Baseball/03-uploaded-draft-import.png",
+        "assets/screenshots/Baseball/04-shared-league-claims.png",
+        "assets/screenshots/Baseball/05-lineup-management.png",
+        "assets/screenshots/Baseball/06-trade-center.png",
+        "assets/screenshots/Baseball/07-research-mode-comparison.png",
+        "assets/screenshots/Baseball/08-hof-case-mode.png",
+        "assets/screenshots/Baseball/09-baseball-insight-ami.png"
       ],
       "screenshotChecklist": [
-        "baseball-draft-assistant-demo.png — Draft board + recommendation (P0)",
-        "baseball-ml-projections-demo.png — ML stars + feature importance (P0)",
-        "baseball-career-totals-demo.png — HR leaders chart (P0)",
-        "baseball-player-comparison.png — Comparison tool (P1)",
-        "baseball-trend-analysis.png — Trend value (P1)"
+        "01-draft-assistant-recommendations.png \u2014 Draft Assistant Recommendations",
+        "02-live-draft-room.png \u2014 Live Draft Room",
+        "03-uploaded-draft-import.png \u2014 Uploaded Draft Import",
+        "04-shared-league-claims.png \u2014 Shared League Claims",
+        "05-lineup-management.png \u2014 Lineup Management",
+        "06-trade-center.png \u2014 Trade Center",
+        "07-research-mode-comparison.png \u2014 Research Mode Comparison",
+        "08-hof-case-mode.png \u2014 Hof Case Mode",
+        "09-baseball-insight-ami.png \u2014 Baseball Insight Ami"
       ],
-      "readmeStatus": "Good feature list. Missing install/run, deployment, tech stack table, project structure, screenshots."
+      "readmeStatus": "Feature-rich README; screenshots refreshed 2026-07-15 to match current draft/league ops surface."
     },
     {
       "id": "applied-mathematical-intelligence",
@@ -483,224 +779,483 @@
       "liveUrl": "https://applied-mathematical-intelligence-8l8bqrzpp6fghaj7xuig53.streamlit.app",
       "tier": 1,
       "category": "analytics",
-      "secondaryCategories": ["ai"],
+      "secondaryCategories": [
+        "ai"
+      ],
       "github": "https://github.com/Coakley11/Applied-mathematical-intelligence",
       "readme": "https://github.com/Coakley11/Applied-mathematical-intelligence/blob/main/README.md",
-      "status": "Active / v2.5.0 feature-complete",
-      "readiness": 8.5,
-      "technologies": ["Python", "Streamlit", "matplotlib", "pandas", "numpy", "Supabase"],
-      "languages": ["Python ~95%", "Markdown ~5%"],
-      "frameworks": ["streamlit", "pandas", "numpy", "matplotlib"],
-      "purpose": "Mathematical Thinking Lab with 7 action labs, 23 simulation engines, and 32 advanced reference domains spanning betting, sports, disease, AI training, and optimization.",
-      "executiveSummary": "Designed a modular Mathematical Thinking Lab with 7 action-oriented labs and 23 simulation engines spanning betting math, sports prediction, disease modeling, AI training curves, and optimization — each with plain-language interpretation layers.",
-      "skills": ["Applied statistics", "Simulation design", "Optimization", "Pedagogical UX", "Modular architecture", "QA automation"],
-      "businessValue": "Bridges quantitative methods and business decisions through interactive, interpretable tools that make math accessible to non-specialists.",
-      "recruiterTakeaway": "Thinks mathematically about real decisions and ships interactive tools, not static analyses.",
+      "status": "Active / v3.6.1 feature-complete",
+      "readiness": 9.0,
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "matplotlib",
+        "pandas",
+        "numpy",
+        "Supabase"
+      ],
+      "languages": [
+        "Python ~95%",
+        "Markdown ~5%"
+      ],
+      "frameworks": [
+        "streamlit",
+        "pandas",
+        "numpy",
+        "matplotlib"
+      ],
+      "purpose": "Mathematical Thinking Lab and decision engine with action labs spanning problem solving, prediction, betting EV, disease modeling, AI training visualization, optimization, and cross-app insight routing.",
+      "executiveSummary": "Designed Applied Mathematical Intelligence as a modular decision engine \u2014 action labs for solving problems, predicting games, exploring math ideas, modeling disease, training AI intuition, and optimizing decisions \u2014 with Command Center routing and insight return into sibling apps.",
+      "skills": [
+        "Applied statistics",
+        "Simulation design",
+        "Decision support",
+        "AI interpretation UX",
+        "Modular architecture"
+      ],
+      "businessValue": "Turns quantitative methods into interactive, interpretable decision tools for non-specialists and analysts alike.",
+      "recruiterTakeaway": "Strong AI-evaluator / quant signal: structured labs, simulation engines, and suite-wide analytical handoffs.",
       "screenshotFolder": "Applied-Math",
-      "heroScreenshot": "applied-math-betting-ev-demo.png",
+      "heroScreenshot": "01-home-dashboard.png",
       "screenshots": [
-        "assets/screenshots/Applied-Math/applied-math-betting-ev-demo.png",
-        "assets/screenshots/Applied-Math/applied-math-ai-training-demo.png",
-        "assets/screenshots/Applied-Math/applied-math-disease-spread-demo.png",
-        "assets/screenshots/Applied-Math/applied-math-home-actions.png",
-        "assets/screenshots/Applied-Math/applied-math-sports-prediction.png",
-        "assets/screenshots/Applied-Math/applied-math-optimization.png"
+        "assets/screenshots/Applied-Math/01-home-dashboard.png",
+        "assets/screenshots/Applied-Math/02-solve-a-problem.png",
+        "assets/screenshots/Applied-Math/03-predict-a-game.png",
+        "assets/screenshots/Applied-Math/04-explore-math-idea.png",
+        "assets/screenshots/Applied-Math/05-command-center.png"
       ],
       "screenshotChecklist": [
-        "applied-math-betting-ev-demo.png — Betting EV + decision tree (P0)",
-        "applied-math-ai-training-demo.png — AI training overfit chart (P0)",
-        "applied-math-disease-spread-demo.png — SIR epidemic (P0)",
-        "applied-math-home-actions.png — Home action cards (P1)"
+        "01-home-dashboard.png \u2014 Home Dashboard",
+        "02-solve-a-problem.png \u2014 Solve A Problem",
+        "03-predict-a-game.png \u2014 Predict A Game",
+        "04-explore-math-idea.png \u2014 Explore Math Idea",
+        "05-command-center.png \u2014 Command Center"
       ],
-      "readmeStatus": "Strong — version table, labs, navigation, install, disclaimer, author. Missing screenshots, live URL, architecture diagram."
+      "readmeStatus": "Strong README; version and screenshots aligned to current AMI surface (2026-07-15).",
+      "displayName": "Applied Mathematical Intelligence (AMI)",
+      "oneLiner": "Multi-domain decision engine: solve problems, predict games, explore math ideas, and route insights across the suite.",
+      "featured": true,
+      "keyFeatures": [
+        "Home dashboard of action-oriented math labs",
+        "Solve a Problem structured decision workflow",
+        "Predict a Game probability vs market framing",
+        "Explore a Math Idea interactive explanations",
+        "Betting EV, disease modeling, AI training, optimization labs",
+        "23+ simulation engines and advanced reference domains",
+        "Cross-app insight routing via Command Center"
+      ],
+      "detailHighlights": [
+        "Pedagogical pattern: explain \u2192 simulate \u2192 interpret \u2192 math depth",
+        "Suite-integrated analytical questions with return context",
+        "Broad simulation registry across finance, sports, and systems"
+      ],
+      "detailSections": [
+        {
+          "title": "Action Labs",
+          "body": "Primary labs focus on real decisions \u2014 solve, predict, explore \u2014 before deeper math reference material."
+        },
+        {
+          "title": "Simulation Engines",
+          "body": "Reusable engines cover EV, epidemic curves, optimization tradeoffs, and AI training dynamics."
+        },
+        {
+          "title": "Suite Intelligence",
+          "body": "AMI receives context from Baseball, Investment, and Music and can return structured insight paths through Command Center."
+        }
+      ],
+      "caseStudy": {
+        "problem": "Quantitative methods are often trapped in lectures or notebooks instead of decision workflows.",
+        "data": "Curated lab scenarios, simulation parameters, and cross-app analytical context.",
+        "analysis": "Structured what/why/run/read/math loops for each lab.",
+        "modeling": "EV, SIR, optimization, and training-curve engines with interpretable outputs.",
+        "insights": "Plain-language interpretation layers keep math actionable.",
+        "results": "A flagship lab product that also powers suite-wide insight handoffs."
+      }
     },
     {
       "id": "nba-playoff-companion-ai",
       "name": "NBA Playoff Companion AI",
-      "displayName": "NBA Playoff Companion AI",
-      "oneLiner": "Fan-first playoff command center with bracket intelligence, legacy scoring, and matchup analytics.",
+      "displayName": "Basketball Playoff Companion",
+      "oneLiner": "Fan-first 2026 playoff command center: live games, bracket, matchup intelligence, and legacy tracking.",
       "liveUrl": "https://nba-playoff-companion-ai-gd4sx677quejdfkvappv6o.streamlit.app",
       "featured": true,
       "detailSections": [
-        { "title": "Legacy Scoring", "body": "Player legacy impact engine with franchise ladder comparisons, path charts, and slider-based what-if modeling tied to real playoff logs." },
-        { "title": "Playoff Forecasting", "body": "Series win probability on the home dashboard, bracket advancement context, and team outlook cards for Finals-style scenarios." },
-        { "title": "Matchup Analysis", "body": "Matchup intelligence boards, rotation context, and lineup comparisons that connect team profiles to tactical playoff storylines." },
-        { "title": "Scenario Simulation", "body": "Legacy path charts and forward ladder sliders let users stress-test how a player's playoff story changes if the run continues." }
+        {
+          "title": "Live Playoff Command Center",
+          "body": "Home and Live Game Center keep series context, scoreboard state, and team outlook in one fan workflow."
+        },
+        {
+          "title": "Matchup Intelligence",
+          "body": "Lineup and tactical boards connect roster construction to playoff storylines."
+        },
+        {
+          "title": "Legacy Tracking",
+          "body": "Legacy ladders and path charts quantify how a playoff run changes a player's franchise narrative."
+        }
       ],
       "keyFeatures": [
-        "Home playoff command center with series probability",
-        "Live bracket sync with demo fallback",
-        "Legacy Tracker with player scoring ladders",
-        "Matchup intelligence & lineup boards",
-        "Player playoff story hub",
-        "Portfolio demo mode for Knicks Finals scenario"
+        "Home playoff dashboard with series outlook",
+        "Live Game Center with CDN scoreboard fallbacks",
+        "Playoff Bracket navigation",
+        "Matchup Intelligence boards",
+        "Legacy Tracker with path comparisons",
+        "Player playoff story continuity into offseason modes"
       ],
       "detailHighlights": [
-        "Legacy scoring with historical comparison charts",
-        "Playoff forecasting and series probability modeling",
-        "Matchup analysis with rotation and intelligence panels"
+        "Live sports ingestion with honest safe-mode messaging",
+        "Matchup intelligence beyond box scores",
+        "Legacy path charts for playoff narrative analysis"
       ],
       "caseStudy": {
-        "problem": "Playoff fans need a single dashboard for bracket context, player impact, and forward-looking storylines—not scattered box scores.",
-        "data": "NBA API playoff logs, curated bracket snapshots, and team/player profile metadata.",
-        "analysis": "Round-by-round splits, emphasis cards, and matchup pulse summaries on the home dashboard.",
-        "modeling": "Legacy score engine with slider-based what-if paths and franchise ladder comparisons.",
-        "insights": "Series win probability pills and locked-vs-simulator legacy modes clarify actual vs projected impact.",
-        "results": "Multi-page sports analytics product demonstrating live data resilience and fan-facing decision support."
+        "problem": "Playoff fans need one place for live context, matchups, and forward-looking player impact \u2014 not scattered box scores.",
+        "data": "NBA API / CDN scoreboard feeds, curated bracket snapshots, and player/team metadata.",
+        "analysis": "Series outlook, matchup pulse, and round-by-round context cards.",
+        "modeling": "Legacy scoring with comparative path visualization.",
+        "insights": "Trust-aware live modes clarify when data is current vs demo/safe.",
+        "results": "A multi-page sports product with durable offseason continuity."
       },
       "tier": 2,
       "category": "applications",
-      "secondaryCategories": ["analytics"],
+      "secondaryCategories": [
+        "analytics"
+      ],
       "github": "https://github.com/Coakley11/nba-playoff-companion-ai",
       "readme": "https://github.com/Coakley11/nba-playoff-companion-ai/blob/main/README.md",
-      "status": "Active WIP — stability phase",
-      "readiness": 7.0,
-      "technologies": ["Python", "Streamlit", "nba_api", "plotly", "statsmodels", "streamlit-autorefresh", "Supabase"],
-      "languages": ["Python ~75%", "Markdown ~20%", "CSV ~5%"],
-      "frameworks": ["streamlit", "pandas", "plotly", "nba_api", "statsmodels"],
-      "purpose": "Fan-first 2026 NBA playoff companion with bracket, live games, matchup intelligence, player/legacy trackers, and offseason outlooks.",
-      "executiveSummary": "Built a fan-first NBA playoff companion integrating live scoreboard feeds, bracket management, matchup intelligence, and player career tracking — backed by extensive product documentation and QA automation.",
-      "skills": ["Live data integration", "Sports analytics", "Product documentation", "QA automation", "Interactive UX"],
-      "businessValue": "Shows ability to ship complex, multi-page interactive products with real-time data and disciplined documentation practices.",
-      "recruiterTakeaway": "Can own a full product surface area — from live data pipelines to fan-facing UX and internal docs.",
+      "status": "Active \u2014 2026 playoff product",
+      "readiness": 8.0,
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "nba_api",
+        "plotly",
+        "statsmodels",
+        "streamlit-autorefresh",
+        "Supabase"
+      ],
+      "languages": [
+        "Python ~75%",
+        "Markdown ~20%",
+        "CSV ~5%"
+      ],
+      "frameworks": [
+        "streamlit",
+        "pandas",
+        "plotly",
+        "nba_api",
+        "statsmodels"
+      ],
+      "purpose": "Single-team NBA playoff companion with home command center, live game center, bracket, matchup intelligence, player tracker, and legacy scoring.",
+      "executiveSummary": "Built a fan-first Basketball Playoff Companion with live scoreboard resilience, playoff bracket context, matchup intelligence boards, and legacy tracking \u2014 designed as a narrative command center rather than a generic stats dump.",
+      "skills": [
+        "Live data integration",
+        "Sports analytics",
+        "Narrative product UX",
+        "Resilient API design"
+      ],
+      "businessValue": "Demonstrates live-data product craft: trust banners, fallbacks, and story-driven analytics for a high-interest domain.",
+      "recruiterTakeaway": "Strong product analytics signal \u2014 live ingestion, matchup boards, and legacy scenario storytelling.",
       "screenshotFolder": "NBA",
-      "heroScreenshot": "nba-home-dashboard-demo.png",
+      "heroScreenshot": "01-home-dashboard.png",
       "screenshots": [
-        "assets/screenshots/NBA/nba-home-dashboard-demo.png",
-        "assets/screenshots/NBA/nba-legacy-tracker-demo.png",
-        "assets/screenshots/NBA/nba-playoff-bracket.png",
-        "assets/screenshots/NBA/nba-live-game-center.png",
-        "assets/screenshots/NBA/nba-matchup-intelligence.png",
-        "assets/screenshots/NBA/nba-player-tracker.png"
+        "assets/screenshots/NBA/01-home-dashboard.png",
+        "assets/screenshots/NBA/02-live-game-center.png",
+        "assets/screenshots/NBA/03-playoff-bracket.png",
+        "assets/screenshots/NBA/04-matchup-intelligence.png",
+        "assets/screenshots/NBA/05-legacy-tracker.png"
       ],
       "screenshotChecklist": [
-        "nba-home-dashboard-demo.png — Finals command center (P0)",
-        "nba-legacy-tracker-demo.png — Brunson legacy chart (P0)",
-        "nba-playoff-bracket.png — Bracket (P1)",
-        "nba-live-game-center.png — Live games (P1)"
+        "01-home-dashboard.png \u2014 Home Dashboard",
+        "02-live-game-center.png \u2014 Live Game Center",
+        "03-playoff-bracket.png \u2014 Playoff Bracket",
+        "04-matchup-intelligence.png \u2014 Matchup Intelligence",
+        "05-legacy-tracker.png \u2014 Legacy Tracker"
       ],
-      "readmeStatus": "Good — features, tech, run locally, deployment, docs index. Missing screenshots and live URL."
+      "readmeStatus": "Good docs; screenshots refreshed 2026-07-15."
     },
     {
       "id": "ai-music-practice-coach",
       "name": "AI Music Practice Coach",
       "displayName": "AI Music Practice Coach",
-      "oneLiner": "AI-powered practice studio with adaptive sheets, backing track generation, and custom progression building.",
+      "oneLiner": "Song-aware practice studio with catalog, control center, backing tracks, creative labs, and practice logging.",
       "liveUrl": "https://ai-music-practice-coach-6szqxqxqrqxdmryyewk8sq.streamlit.app",
       "featured": true,
       "detailSections": [
-        { "title": "Practice Intelligence", "body": "Section-focused practice sheets, scale recommendations, coaching overlays, and adaptive difficulty tied to the active song and instrument." },
-        { "title": "Backing Track Generation", "body": "Backing Track Studio generates groove-aligned accompaniment from chord charts with BPM, meter, and style controls." },
-        { "title": "Progression Builder", "body": "Custom Progression Lab lets users compose harmonic paths, analyze sections, and route progressions into practice and backing workflows." },
-        { "title": "Interactive Learning Tools", "body": "Song catalog, live tuner, karaoke mode, and optional AI coaching combine music theory with hands-on studio UX." }
+        {
+          "title": "Practice Intelligence",
+          "body": "Control Center focuses practice on song sections, keys, and instrument context instead of static PDFs."
+        },
+        {
+          "title": "Studio Tools",
+          "body": "Backing Studio, Creative Lab, and Progression Builder support creation as well as repetition."
+        },
+        {
+          "title": "Learning Continuity",
+          "body": "Practice Log and suite resume flows keep sessions recoverable across devices when cloud restore is enabled."
+        }
       ],
       "keyFeatures": [
-        "Adaptive practice sheets by instrument & section",
-        "Song catalog with chart & lyrics editor",
-        "Backing Track Studio with BPM/groove controls",
-        "Custom Progression Builder (CPL)",
-        "Live tuner & karaoke performance mode",
-        "Optional OpenAI practice coaching"
+        "Curated multi-genre song catalog",
+        "Practice Control Center for section-focused work",
+        "Backing Track Studio with groove/BPM controls",
+        "Creative Lab improvisation tools",
+        "Custom Progression Builder",
+        "Practice Log for session continuity",
+        "Optional OpenAI coaching hub + AMI handoff"
       ],
       "detailHighlights": [
-        "Practice intelligence with section focus and coaching overlays",
-        "Backing track generation aligned to chord charts",
-        "Progression builder for custom harmonic practice paths"
+        "Unified active-song state across studio pages",
+        "Backing generation aligned to chart harmony",
+        "Practice logging for habit and progress loops"
       ],
       "caseStudy": {
-        "problem": "Musicians need structured practice tools that adapt to skill level, song structure, and harmonic context—not static PDF charts.",
-        "data": "Curated song catalog, user chord charts, MIDI/MusicXML imports, and audio signal features.",
-        "analysis": "Section-scoped practice recommendations, harmonic rhythm intelligence, and progression analysis.",
-        "modeling": "Rule-based and AI-assisted backing generation; adaptive sheet difficulty scaling.",
-        "insights": "Practice coach surfaces focus areas; backing studio matches groove, meter, and key to active song.",
-        "results": "Nine-page creative analytics studio combining audio engineering, music theory, and AI-assisted UX."
+        "problem": "Musicians need adaptive, song-aware practice tools \u2014 not disconnected metronomes and PDFs.",
+        "data": "Curated charts, user progressions, and session practice metadata.",
+        "analysis": "Section-scoped practice recommendations and harmonic context.",
+        "modeling": "Backing generation and progression construction tied to active song state.",
+        "insights": "Practice log and coaching surfaces make next actions obvious.",
+        "results": "A nine-page creative analytics studio with suite integration."
       },
       "tier": 2,
       "category": "applications",
-      "secondaryCategories": ["ai"],
+      "secondaryCategories": [
+        "ai"
+      ],
       "github": "https://github.com/Coakley11/ai-music-practice-coach",
       "readme": "https://github.com/Coakley11/ai-music-practice-coach/blob/main/README.md",
-      "status": "Active / mature WIP — v19",
-      "readiness": 6.5,
-      "technologies": ["Python", "Streamlit", "OpenAI API", "librosa", "soundfile", "scipy", "Supabase"],
-      "languages": ["Python ~93%", "Markdown ~5%", "Config ~2%"],
-      "frameworks": ["streamlit", "openai", "librosa", "numpy", "pandas", "scipy"],
-      "purpose": "AI-powered music practice studio with adaptive practice sheets, song catalog, backing tracks, live tuner, MIDI/MusicXML analysis, and optional OpenAI coaching.",
-      "executiveSummary": "Created an AI-powered music practice studio combining audio analysis (librosa), adaptive practice sheet generation, live tuning, backing track generation, and optional OpenAI coaching across 9 studio pages.",
-      "skills": ["Audio signal processing", "AI integration", "Adaptive content generation", "Complex UX design", "Domain-specific tooling"],
-      "businessValue": "Demonstrates rare ability to combine AI, audio engineering, and interactive product design in a cohesive creative tool.",
-      "recruiterTakeaway": "Builds sophisticated AI-assisted applications beyond chatbots — with real signal processing and adaptive workflows.",
+      "status": "Active / mature WIP",
+      "readiness": 8.5,
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "OpenAI API",
+        "librosa",
+        "soundfile",
+        "scipy",
+        "Supabase"
+      ],
+      "languages": [
+        "Python ~93%",
+        "Markdown ~5%",
+        "Config ~2%"
+      ],
+      "frameworks": [
+        "streamlit",
+        "openai",
+        "librosa",
+        "numpy",
+        "pandas",
+        "scipy"
+      ],
+      "purpose": "AI-powered music practice studio with curated song catalog, practice control center, backing track generation, creative lab, custom progression builder, and practice log.",
+      "executiveSummary": "Created an AI Music Practice Coach that keeps an active song context across catalog, practice control center, backing studio, creative lab, custom progression builder, and practice logging \u2014 a complex product surface combining music theory, audio tooling, and AI-assisted workflows.",
+      "skills": [
+        "AI-assisted product design",
+        "Domain modeling",
+        "Audio/practice tooling",
+        "Complex UX state"
+      ],
+      "businessValue": "Shows rare ability to ship domain-specific AI-assisted products with coherent cross-page state.",
+      "recruiterTakeaway": "AI product design beyond chatbots \u2014 adaptive practice workflows with real studio tooling.",
       "screenshotFolder": "Music",
-      "heroScreenshot": "music-practice-demo.png",
+      "heroScreenshot": "02-practice-control-center.png",
       "screenshots": [
-        "assets/screenshots/Music/music-practice-demo.png",
-        "assets/screenshots/Music/music-song-catalog.png",
-        "assets/screenshots/Music/music-backing-tracks.png",
-        "assets/screenshots/Music/music-adaptive-sheet.png",
-        "assets/screenshots/Music/music-tuner.png"
+        "assets/screenshots/Music/02-practice-control-center.png",
+        "assets/screenshots/Music/01-song-catalog.png",
+        "assets/screenshots/Music/03-backing-studio.png",
+        "assets/screenshots/Music/04-creative-lab.png",
+        "assets/screenshots/Music/05-custom-progression-builder.png",
+        "assets/screenshots/Music/06-practice-log.png"
       ],
       "screenshotChecklist": [
-        "music-practice-demo.png — Practice studio full song card (P0)",
-        "music-song-catalog.png — Song catalog (P1)",
-        "music-backing-tracks.png — Backing tracks (P1)"
+        "02-practice-control-center.png \u2014 Practice Control Center",
+        "01-song-catalog.png \u2014 Song Catalog",
+        "03-backing-studio.png \u2014 Backing Studio",
+        "04-creative-lab.png \u2014 Creative Lab",
+        "05-custom-progression-builder.png \u2014 Custom Progression Builder",
+        "06-practice-log.png \u2014 Practice Log"
       ],
-      "readmeStatus": "Thin — version note and adaptive sheet description only. Missing install, feature list, tech stack, architecture."
+      "readmeStatus": "README improved previously; screenshots refreshed 2026-07-15 to current studio pages."
     },
     {
       "id": "future-lens-ai-transition-simulator",
       "name": "Future Lens: AI Transition Simulator",
-      "liveUrl": "https://future-lens-ai-transition-simulator-8qfgube5tezjjaxruppnuo.streamlit.app",
-      "tier": 3,
+      "liveUrl": "https://future-lens-ai-transition-simulator-m6n4kaku28ztzlxfts2xt6.streamlit.app",
+      "tier": 2,
       "category": "ai",
       "secondaryCategories": [],
       "github": "https://github.com/Coakley11/future-lens-ai-transition-simulator",
       "readme": "https://github.com/Coakley11/future-lens-ai-transition-simulator/blob/main/README.md",
-      "status": "Phase 1 prototype",
-      "readiness": 5.0,
-      "technologies": ["Python", "Streamlit", "Supabase"],
-      "languages": ["Python ~95%", "Markdown ~5%"],
-      "frameworks": ["streamlit"],
-      "purpose": "Explore how work, learning, creativity, sports, and investing evolved 1980→today and how AI may reshape them through 2050.",
-      "executiveSummary": "Prototyped a scenario-based AI transition simulator exploring how technology reshaped domains from 1980 to today and projecting Conservative, Balanced, and Aggressive AI impact profiles through 2050.",
-      "skills": ["Scenario modeling", "Taxonomy design", "Narrative analytics", "Decision-support framing"],
-      "businessValue": "Frames AI's business impact through structured scenarios rather than hype — useful for strategy and workforce planning conversations.",
-      "recruiterTakeaway": "Can structure ambiguous future-facing problems into explorable, decision-ready scenarios.",
-      "screenshots": [],
-      "screenshotChecklist": [
-        "Timeline overview (1980–today)",
-        "Domain selector (work, learning, sports, investing)",
-        "Scenario comparison (Conservative / Balanced / Aggressive)",
-        "Impact profile detail view"
+      "status": "Phase 1 prototype \u2014 demo narrative data",
+      "readiness": 7.0,
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "Supabase"
       ],
-      "readmeStatus": "Minimal — run/deploy only. Missing feature tour, domain list, screenshots, architecture."
+      "languages": [
+        "Python ~95%",
+        "Markdown ~5%"
+      ],
+      "frameworks": [
+        "streamlit"
+      ],
+      "purpose": "Explore how work, learning, creativity, sports, and investing evolved 1980\u2192today and how AI may reshape skills through 2050 via domain\u2192area\u2192skill taxonomy.",
+      "executiveSummary": "Prototyped Future Lens as a structured AI-transition simulator: domain wizard, evolution timelines, driver analysis, and 2050 scenario views that turn vague \u201cfuture of work\u201d talk into navigable skill-level exploration.",
+      "skills": [
+        "Scenario modeling",
+        "Taxonomy design",
+        "Narrative analytics",
+        "Decision-support framing"
+      ],
+      "businessValue": "Useful for strategy, workforce, and AI-impact conversations \u2014 frames uncertainty as explorable scenarios rather than hype.",
+      "recruiterTakeaway": "Strong AI-evaluator / product-thinking signal: taxonomy design, scenario framing, and clear IA.",
+      "screenshots": [
+        "assets/screenshots/Future-Lens/01-domain-wizard.png",
+        "assets/screenshots/Future-Lens/02-evolution-timeline.png",
+        "assets/screenshots/Future-Lens/03-drivers.png",
+        "assets/screenshots/Future-Lens/04-simulation-2050.png"
+      ],
+      "screenshotChecklist": [
+        "01-domain-wizard.png \u2014 Domain Wizard",
+        "02-evolution-timeline.png \u2014 Evolution Timeline",
+        "03-drivers.png \u2014 Drivers",
+        "04-simulation-2050.png \u2014 Simulation 2050"
+      ],
+      "readmeStatus": "Minimal README; portfolio site now carries accurate prototype framing and screenshots.",
+      "displayName": "Future Lens",
+      "oneLiner": "Taxonomy-driven simulator exploring how skills evolve from 1980 to today and forward through 2050.",
+      "featured": true,
+      "keyFeatures": [
+        "Domain \u2192 Area \u2192 Skill wizard across 11 domains",
+        "Evolution timeline from 1980 through forecast decades",
+        "Drivers view for forces shaping change",
+        "Simulation views through 2050",
+        "Workspace-scoped restore and Command Center deep links"
+      ],
+      "detailHighlights": [
+        "Taxonomy-first information architecture",
+        "Decade-bucketed narrative + forecast modes",
+        "Suite activity integration despite prototype status"
+      ],
+      "detailSections": [
+        {
+          "title": "Structured Exploration",
+          "body": "Users pick Domain \u2192 Area \u2192 Skill before reading evolution, drivers, advice, or simulation tabs."
+        },
+        {
+          "title": "Scenario Thinking",
+          "body": "Timeline and 2050 views separate historical change from forward-looking narrative forecasts."
+        },
+        {
+          "title": "Honest Scope",
+          "body": "Phase 1 uses curated demo narrative data \u2014 valuable for product framing, not claimed as precise forecasting."
+        }
+      ],
+      "caseStudy": {
+        "problem": "AI impact discussions are usually vague slogans instead of skill-level exploration.",
+        "data": "Curated taxonomy and decade narrative content across domains.",
+        "analysis": "Drivers and evolution framing for each skill path.",
+        "modeling": "Forward simulation tabs through 2050 scenario years.",
+        "insights": "Users can compare human direction vs tools/methods by decade.",
+        "results": "A clickable prototype that supports AI strategy and evaluator-style conversations."
+      },
+      "screenshotFolder": "Future-Lens",
+      "heroScreenshot": "01-domain-wizard.png"
     },
     {
       "id": "daniel-ai-command-center",
       "name": "Daniel AI Command Center",
       "liveUrl": "https://daniel-ai-command-center-dexxnd7bf8jalxzqbyq55i.streamlit.app",
-      "tier": 3,
+      "tier": 2,
       "category": "infrastructure",
-      "secondaryCategories": [],
+      "secondaryCategories": [
+        "ai"
+      ],
       "github": "https://github.com/Coakley11/daniel-ai-command-center",
       "readme": "https://github.com/Coakley11/daniel-ai-command-center/blob/main/README.md",
-      "status": "Active — suite hub",
-      "readiness": 7.0,
-      "technologies": ["Python", "Streamlit", "Supabase/PostgreSQL", "JSON fallback"],
-      "languages": ["Python ~90%", "SQL ~2%", "Markdown ~8%"],
-      "frameworks": ["streamlit", "requests", "custom activity/coach modules"],
-      "purpose": "Central hub for the Daniel AI Suite — app directory, activity feed, coach insights, cross-app resume, and Supabase persistence.",
-      "executiveSummary": "Architected the central hub for a seven-app AI suite with cross-app activity tracking, coach-driven insights, resume/continue workflows, and PostgreSQL schema design via Supabase migrations.",
-      "skills": ["Platform architecture", "PostgreSQL schema design", "Cross-app integration", "Activity analytics", "Backend documentation"],
-      "businessValue": "Demonstrates platform thinking — connecting multiple applications into a cohesive ecosystem with shared persistence and intelligence.",
-      "recruiterTakeaway": "Thinks at the platform level, not just individual apps — designs schemas, integrations, and user continuity.",
-      "screenshots": [],
-      "screenshotChecklist": [
-        "Command center homepage / app directory",
-        "Activity feed",
-        "Coach insights panel",
-        "Resume / continue workflow"
+      "status": "Active \u2014 suite hub",
+      "readiness": 8.0,
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "Supabase/PostgreSQL",
+        "JSON fallback"
       ],
-      "readmeStatus": "Brief but functional. Missing architecture diagram, Supabase setup summary, feature tour, screenshots."
+      "languages": [
+        "Python ~90%",
+        "SQL ~2%",
+        "Markdown ~8%"
+      ],
+      "frameworks": [
+        "streamlit",
+        "requests",
+        "custom activity/coach modules"
+      ],
+      "purpose": "Central hub for the Daniel AI Suite \u2014 continue/resume cards, coach insights, activity analytics, app directory, and deep links into sibling applications.",
+      "executiveSummary": "Architected the AI Command Center as the suite\u2019s product shell: resume where you left off across Music, Investment, Baseball, and more; coach activity insights; workspace profiles; and an app directory that treats the portfolio as one ecosystem.",
+      "skills": [
+        "Platform architecture",
+        "Activity analytics",
+        "Cross-app integration",
+        "Product systems design"
+      ],
+      "businessValue": "Proves platform thinking \u2014 shared activity schema, continuity UX, and cross-app navigation instead of isolated demos.",
+      "recruiterTakeaway": "Platform / product analytics signal: multi-app orchestration, activity design, and user continuity.",
+      "screenshots": [
+        "assets/screenshots/Command-Center/homepage-continue.png",
+        "assets/screenshots/Command-Center/app-directory.png",
+        "assets/screenshots/Command-Center/coach-activity.png",
+        "assets/screenshots/Command-Center/resume-music.png",
+        "assets/screenshots/Command-Center/workspace-account.png"
+      ],
+      "screenshotChecklist": [
+        "homepage-continue.png \u2014 Homepage Continue",
+        "app-directory.png \u2014 App Directory",
+        "coach-activity.png \u2014 Coach Activity",
+        "resume-music.png \u2014 Resume Music",
+        "workspace-account.png \u2014 Workspace Account"
+      ],
+      "readmeStatus": "Functional README; screenshots now document Continue, directory, coach, and workspace views.",
+      "displayName": "AI Command Center",
+      "oneLiner": "Suite homepage: continue workflows, coach insights, activity feed, and launchers for six apps.",
+      "featured": true,
+      "keyFeatures": [
+        "Continue-where-you-left-off workflow cards",
+        "App Directory launchers for suite apps",
+        "Coach activity and weekly summary panels",
+        "Workspace/account profile context",
+        "Deep links into Music, Investment, Baseball, AMI, and more",
+        "Supabase + local fallback persistence model"
+      ],
+      "detailHighlights": [
+        "Separates resumable work from simple app launchers",
+        "Cross-app activity makes the suite feel like one product",
+        "Coach insights surface suite-level patterns"
+      ],
+      "detailSections": [
+        {
+          "title": "Continuity UX",
+          "body": "Homepage Continue cards reconstruct active practice, portfolio, and analytics work from suite activity."
+        },
+        {
+          "title": "Ecosystem Shell",
+          "body": "App Directory and deep links keep six applications one click from a shared home."
+        },
+        {
+          "title": "Activity Intelligence",
+          "body": "Coach activity views summarize recent work across the suite for reflection and next steps."
+        }
+      ],
+      "caseStudy": {
+        "problem": "A multi-app portfolio becomes fragmented without a shared home for resume state and activity.",
+        "data": "Cross-app activity events, resume items, and workspace profiles.",
+        "analysis": "Inferred active projects and coach insight summaries.",
+        "modeling": "Typed deep-link contracts into sibling apps.",
+        "insights": "Continue cards make prior work recoverable in one place.",
+        "results": "A suite hub that elevates the portfolio from apps to platform."
+      },
+      "screenshotFolder": "Command-Center",
+      "heroScreenshot": "homepage-continue.png"
     }
   ],
   "sqlExcelWorkbooks": [
@@ -709,60 +1264,157 @@
       "name": "AI Evaluator & Analytics Combined Workbook",
       "file": "AI_Evaluator_And_Analytics_Combined_Workbook.xlsx",
       "pdf": "AI_Evaluator_And_Analytics_Combined_Workbook.xlsm.pdf",
-      "sheets": ["README", "Prompt_Rating_Practice", "Pairwise_Evaluation", "Evaluation_Data", "SQL_Practice", "Python_Practice", "Dashboard"],
-      "domains": ["AI Evaluation", "Model Benchmarking", "SQL Analytics", "Dashboard KPIs"],
-      "recordCounts": { "Evaluation_Data": 150, "Prompt_Rating_Practice": 10, "Pairwise_Evaluation": 5 },
+      "sheets": [
+        "README",
+        "Prompt_Rating_Practice",
+        "Pairwise_Evaluation",
+        "Evaluation_Data",
+        "SQL_Practice",
+        "Python_Practice",
+        "Dashboard"
+      ],
+      "domains": [
+        "AI Evaluation",
+        "Model Benchmarking",
+        "SQL Analytics",
+        "Dashboard KPIs"
+      ],
+      "recordCounts": {
+        "Evaluation_Data": 150,
+        "Prompt_Rating_Practice": 10,
+        "Pairwise_Evaluation": 5
+      },
       "sqlQueryCount": 11,
       "pivotExerciseCount": 0,
       "hasSolutions": true,
       "executiveSummary": "Combined AI evaluator practice workbook with 150-row evaluation dataset, prompt rating exercises, pairwise comparisons, 11 SQL analytics queries (intermediate to advanced), pandas equivalents, and a KPI dashboard.",
-      "skills": ["AI evaluation", "Rubric-based rating", "Hallucination analysis", "SQL window functions", "Pivot-ready reporting", "Model benchmarking"],
-      "recruiterTakeaway": "Practices the full AI evaluator workflow — rating, reasoning, and SQL-based performance analysis on the same dataset."
+      "skills": [
+        "AI evaluation",
+        "Rubric-based rating",
+        "Hallucination analysis",
+        "SQL window functions",
+        "Pivot-ready reporting",
+        "Model benchmarking"
+      ],
+      "recruiterTakeaway": "Practices the full AI evaluator workflow \u2014 rating, reasoning, and SQL-based performance analysis on the same dataset."
     },
     {
       "id": "investment-app-analysis",
       "name": "Investment App Portfolio Analysis Workbook",
       "file": "Investment_App_Portfolio_Analysis_Workbook.xlsx",
       "pdf": "Investment_App_Portfolio_Analysis_Workbook.xlsm.pdf",
-      "sheets": ["README", "Portfolio_Inputs", "Monthly_Returns", "Risk_Metrics", "Correlation_Data", "Monte_Carlo_Scenarios", "Optimizer_Portfolios", "Pivot_Practice", "SQL_Practice", "Dashboard_Tasks", "Dashboard"],
-      "domains": ["Portfolio Analysis", "Risk Metrics", "Monte Carlo", "Efficient Frontier"],
-      "recordCounts": { "Monthly_Returns": 24, "Monte_Carlo_Scenarios": 500, "Optimizer_Portfolios": 251 },
+      "sheets": [
+        "README",
+        "Portfolio_Inputs",
+        "Monthly_Returns",
+        "Risk_Metrics",
+        "Correlation_Data",
+        "Monte_Carlo_Scenarios",
+        "Optimizer_Portfolios",
+        "Pivot_Practice",
+        "SQL_Practice",
+        "Dashboard_Tasks",
+        "Dashboard"
+      ],
+      "domains": [
+        "Portfolio Analysis",
+        "Risk Metrics",
+        "Monte Carlo",
+        "Efficient Frontier"
+      ],
+      "recordCounts": {
+        "Monthly_Returns": 24,
+        "Monte_Carlo_Scenarios": 500,
+        "Optimizer_Portfolios": 251
+      },
       "sqlQueryCount": 11,
       "pivotExerciseCount": 10,
       "hasSolutions": true,
-      "executiveSummary": "Investment analyst workbook mirroring the Streamlit app workflow — allocations, Sharpe ratios, Monte Carlo scenarios (500 simulations), optimizer portfolios (251 candidates), 10 pivot exercises, 11 SQL queries, and dashboard storytelling tasks.",
-      "skills": ["Financial analysis", "Risk/return metrics", "Monte Carlo", "Portfolio optimization", "SQL subqueries", "Excel pivot tables", "Dashboard design"],
-      "recruiterTakeaway": "Connects a live Python app to SQL and Excel analyst workflows — the same metrics, three different delivery formats."
+      "executiveSummary": "Investment analyst workbook mirroring the Streamlit app workflow \u2014 allocations, Sharpe ratios, Monte Carlo scenarios (500 simulations), optimizer portfolios (251 candidates), 10 pivot exercises, 11 SQL queries, and dashboard storytelling tasks.",
+      "skills": [
+        "Financial analysis",
+        "Risk/return metrics",
+        "Monte Carlo",
+        "Portfolio optimization",
+        "SQL subqueries",
+        "Excel pivot tables",
+        "Dashboard design"
+      ],
+      "recruiterTakeaway": "Connects a live Python app to SQL and Excel analyst workflows \u2014 the same metrics, three different delivery formats."
     },
     {
       "id": "quant-analytics",
       "name": "Quant Analytics Portfolio Workbook",
       "file": "Quant_Analytics_Portfolio_Workbook.xlsx",
       "pdf": "Quant_Analytics_Portfolio_Workbook.xlsx.pdf",
-      "sheets": ["Claims_Data", "Baseball_Analytics", "Statistical_Modeling", "SQL_Practice", "Pivot_Practice", "Dashboard_Ideas"],
-      "domains": ["Insurance Claims", "Sports Analytics", "Statistical Distributions"],
-      "recordCounts": { "Claims_Data": 150, "Baseball_Analytics": 60 },
+      "sheets": [
+        "Claims_Data",
+        "Baseball_Analytics",
+        "Statistical_Modeling",
+        "SQL_Practice",
+        "Pivot_Practice",
+        "Dashboard_Ideas"
+      ],
+      "domains": [
+        "Insurance Claims",
+        "Sports Analytics",
+        "Statistical Distributions"
+      ],
+      "recordCounts": {
+        "Claims_Data": 150,
+        "Baseball_Analytics": 60
+      },
       "sqlQueryCount": 10,
       "pivotExerciseCount": 8,
       "hasSolutions": false,
       "executiveSummary": "Cross-domain quant workbook with 150 insurance claims, 60 baseball player records, statistical distribution reference, 10 SQL practice questions, 8 pivot exercises, and dashboard KPI ideas.",
-      "skills": ["Actuarial analytics", "Sports metrics (OPS, HR, salary)", "Distribution modeling", "SQL aggregations", "Pivot tables"],
-      "recruiterTakeaway": "Demonstrates quant thinking across insurance and sports — two domains, one analytical toolkit."
+      "skills": [
+        "Actuarial analytics",
+        "Sports metrics (OPS, HR, salary)",
+        "Distribution modeling",
+        "SQL aggregations",
+        "Pivot tables"
+      ],
+      "recruiterTakeaway": "Demonstrates quant thinking across insurance and sports \u2014 two domains, one analytical toolkit."
     },
     {
       "id": "real-world-data",
       "name": "Real World Data Analytics Portfolio Workbook",
       "file": "Real_World_Data_Analytics_Portfolio_Workbook.xlsx",
       "pdf": "Real_World_Data_Analytics_Portfolio_Workbook.xlsx.pdf",
-      "sheets": ["Credit_Risk_Data", "Portfolio_Returns", "Insurance_Claims", "Distribution_Practice", "SQL_Analytics_Tasks", "Dashboard_Ideas", "Portfolio_Project_Ideas"],
-      "domains": ["Credit Risk", "Portfolio Returns", "Insurance Claims", "Fraud Detection"],
-      "recordCounts": { "Credit_Risk_Data": 200, "Insurance_Claims": 300, "Portfolio_Returns": 24 },
+      "sheets": [
+        "Credit_Risk_Data",
+        "Portfolio_Returns",
+        "Insurance_Claims",
+        "Distribution_Practice",
+        "SQL_Analytics_Tasks",
+        "Dashboard_Ideas",
+        "Portfolio_Project_Ideas"
+      ],
+      "domains": [
+        "Credit Risk",
+        "Portfolio Returns",
+        "Insurance Claims",
+        "Fraud Detection"
+      ],
+      "recordCounts": {
+        "Credit_Risk_Data": 200,
+        "Insurance_Claims": 300,
+        "Portfolio_Returns": 24
+      },
       "sqlQueryCount": 10,
       "pivotExerciseCount": 0,
       "hasSolutions": false,
       "executiveSummary": "Real-world analytics workbook with 200-company credit risk dataset, 300 insurance claims with fraud flags, portfolio return time series, distribution practice, 10 SQL analytics tasks, and 6 portfolio project ideas.",
-      "skills": ["Credit risk analysis", "Default rate modeling", "Insurance severity", "Fraud flag analysis", "Sharpe/drawdown reporting", "Sector risk ranking"],
-      "recruiterTakeaway": "Works with realistic multi-domain datasets — credit, insurance, and market risk in one analytical portfolio."
+      "skills": [
+        "Credit risk analysis",
+        "Default rate modeling",
+        "Insurance severity",
+        "Fraud flag analysis",
+        "Sharpe/drawdown reporting",
+        "Sector risk ranking"
+      ],
+      "recruiterTakeaway": "Works with realistic multi-domain datasets \u2014 credit, insurance, and market risk in one analytical portfolio."
     },
     {
       "id": "actuarial-analytics",
@@ -770,14 +1422,21 @@
       "file": null,
       "pdf": "Actuarial_Analytics_Practice_Workbook.xlsx.pdf",
       "sheets": [],
-      "domains": ["Actuarial Science", "Insurance Analytics"],
+      "domains": [
+        "Actuarial Science",
+        "Insurance Analytics"
+      ],
       "recordCounts": {},
       "sqlQueryCount": 0,
       "pivotExerciseCount": 0,
       "hasSolutions": false,
-      "executiveSummary": "Actuarial analytics practice workbook (PDF export available). Excel source file not present in portfolio folder — PDF serves as reference documentation.",
-      "skills": ["Actuarial modeling", "Loss reserving", "Premium analysis"],
-      "recruiterTakeaway": "Extends analytics practice into actuarial domain — pending Excel source restoration for full portfolio integration."
+      "executiveSummary": "Actuarial analytics practice workbook (PDF export available). Excel source file not present in portfolio folder \u2014 PDF serves as reference documentation.",
+      "skills": [
+        "Actuarial modeling",
+        "Loss reserving",
+        "Premium analysis"
+      ],
+      "recruiterTakeaway": "Extends analytics practice into actuarial domain \u2014 pending Excel source restoration for full portfolio integration."
     }
   ]
 }

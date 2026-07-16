@@ -1,12 +1,22 @@
 const DATA_PATH = 'data/projects.json';
 
+function humanizeScreenshotName(filename) {
+  const stem = (filename || '').replace(/\.png$/i, '');
+  return stem
+    .replace(/^\d+-/, '')
+    .replace(/[-_]+/g, ' ')
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
 function screenshotImg(src, alt) {
   const fname = src.split('/').pop() || 'screenshot.png';
+  const caption = humanizeScreenshotName(fname);
   return `
     <figure class="screenshot-figure">
       <img src="${src}" alt="${alt}" class="screenshot-img" loading="lazy"
         onerror="this.classList.add('screenshot-img--missing');this.nextElementSibling?.classList.add('screenshot-missing--show')">
       <div class="screenshot-missing">Add file: <code>${fname}</code></div>
+      <div class="screenshot-caption">${caption}</div>
     </figure>`;
 }
 

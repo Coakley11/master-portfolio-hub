@@ -1,71 +1,92 @@
-# Resume Project Descriptions
+# Resume Project Descriptions & Positioning Recommendations
 
-Concise bullets formatted for resume Experience/Projects sections.
+**Updated:** 2026-07-15  
+Aligned with current suite capabilities and portfolio website copy.
 
 ---
 
-## GitHub Projects
+## Recommended resume headline
 
-### Investment Portfolio Analyzer | Python, Streamlit, yfinance
-- Built production dashboard pulling live Yahoo Finance data with Sharpe/Sortino ratios, Monte Carlo simulation (500 paths), efficient frontier optimization, and correlation heatmaps
-- Separated calculation core (`portfolio_core.py`) from UI for maintainability; deployed via Streamlit Cloud with dev/main branch workflow
-- **Impact:** End-to-end quant finance product demonstrating risk-adjusted return analysis and allocation optimization
+```
+Mathematics & Statistics Professional | Quantitative Analytics | AI Decision-Support Applications
+```
 
-### Baseball Stat App | Python, Streamlit, scikit-learn, pybaseball
-- Developed MLB analytics platform with statistical significance testing, trend analysis (slope, R², volatility), ML-style projections, and fantasy draft/trade decision tools
-- Built 13-test pytest suite covering projection calibration, draft strategy, and player valuation logic
-- **Impact:** Sports analytics decision-support platform spanning exploration, modeling, and fantasy strategy
+Alternate for DA applications:
+
+```
+Data & Product Analyst Candidate | Statistics · SQL · Python | Decision-Support Dashboards
+```
+
+---
+
+## Professional summary (recommended)
+
+Mathematics and Statistics professional (M.A. Statistics & Applied Mathematics, GPA 3.93; MBA Finance & Investments, Finance GPA 4.00; SOA Exams P/FM/MFE) who builds production analytics applications. Ships decision-support products in Python/Streamlit spanning portfolio risk, sports analytics, simulation labs, and AI evaluation workflows — with SQL/Excel reporting fluency and AI-assisted development used for end-to-end ownership.
+
+---
+
+## Independent experience bullets (lead with these)
+
+**Analytics & AI Portfolio Developer — Daniel AI Suite | 2024–Present**
+
+- Designed, built, and deployed seven interconnected Streamlit applications for portfolio analytics, fantasy baseball operations, applied math decision labs, playoff intelligence, music practice tooling, AI transition scenarios, and suite orchestration
+- Implemented decision scoring, portfolio health diagnostics, Monte Carlo / efficient frontier modeling, live-data fallbacks, and cross-app resume/insight workflows with Supabase-backed persistence patterns
+- Authored SQL & Excel analytics workbooks with KPI dashboards, pivot exercises, and 42+ structured queries including AI evaluator practice datasets
+
+---
+
+## Project bullets (choose 3–4 for one-page resume)
+
+### Baseball Analytics | Python, Streamlit, scikit-learn
+- Built full-season fantasy platform with Decision Score drafts, live draft rooms, shared leagues, lineup/trade workflows, and AMI insight handoff
+- **Impact:** End-to-end product ownership from draft intelligence through in-season operations
+
+### Investment Explorer | Python, Streamlit, yfinance
+- Shipped live portfolio health scoring, Monte Carlo simulation, efficient frontier optimization, and ETF overlap diagnostics with beginner/advanced modes
+- **Impact:** Quant finance product with analytics core separated from UI; deployed on Streamlit Cloud
 
 ### Applied Mathematical Intelligence | Python, Streamlit
-- Designed modular Mathematical Thinking Lab with 7 action labs, 23 simulation engines, and 32 reference domains
-- Implemented QA automation (`qa_check.py`, `smoke_test.py`) and pedagogical UX pattern (explain → simulate → interpret → math depth)
-- **Impact:** Cross-domain quantitative reasoning tool making applied math accessible to decision-makers
+- Built modular decision labs for problem solving, prediction, disease modeling, and AI training interpretation with suite-wide insight routing
+- **Impact:** Cross-domain quantitative reasoning tool used as shared analytical engine across apps
 
-### NBA Playoff Companion AI | Python, Streamlit, nba_api
-- Built fan-first playoff companion with live scoreboard integration, bracket management, matchup intelligence, and player career tracking
-- Authored 17 product documentation files and QA scripts for bracket, finals, and factual accuracy validation
-- **Impact:** Full product surface with live data, disciplined docs, and stability-focused development
+### SQL & Excel Analytics Workbooks | Excel, SQL, pandas
+- Created AI evaluator, investment, quant, and credit-risk workbooks with KPI dashboards and structured SQL practice
+- **Impact:** Demonstrates analyst fluency across Python products and spreadsheet reporting
 
-### AI Music Practice Coach | Python, Streamlit, OpenAI, librosa
-- Created AI-powered music studio with adaptive practice sheets, MIDI/MusicXML analysis, live tuner, backing tracks, and OpenAI coaching
-- Integrated audio signal processing (librosa) with 9 studio pages and 19-test pytest suite
-- **Impact:** Rare combination of AI, audio engineering, and interactive product design
+### Optional fifth (space permitting)
 
-### Daniel AI Command Center | Python, Streamlit, Supabase/PostgreSQL
-- Architected suite hub connecting 6 satellite apps with cross-app activity tracking, coach insights, and resume/continue workflows
-- Designed PostgreSQL schema (4 Supabase migrations) for activity events, user memory, and saved items
-- **Impact:** Platform-level integration demonstrating schema design and ecosystem orchestration
-
-### Future Lens: AI Transition Simulator | Python, Streamlit
-- Prototyped scenario-based AI transition simulator projecting Conservative/Balanced/Aggressive impact profiles through 2050
-- **Impact:** Structured futures thinking for workforce and technology strategy conversations
+**Basketball Playoff Companion** — live games, bracket, matchup intelligence, legacy tracking with resilient scoreboard fallbacks  
+**AI Command Center** — suite resume/continue hub and cross-app activity orchestration  
+**AI Music Practice Coach** — song-aware practice studio with backing tracks and practice logging  
+**Future Lens** — taxonomy-driven AI skills evolution prototype through 2050 *(label as prototype)*
 
 ---
 
-## SQL & Excel Projects
+## Skills line
 
-### AI Evaluator & Analytics Workbook | Excel, SQL, pandas
-- Built 150-row evaluation dataset with prompt rating, pairwise comparison, and 11 SQL analytics queries (GROUP BY, window functions, HAVING)
-- Created KPI dashboard tracking hallucination rates, unsafe outputs, model benchmarks, and evaluator bias
-- **Impact:** Full AI evaluator workflow — rate responses, write evidence-based reasons, analyze with SQL
+**Technical:** Python, SQL, Excel, Pandas, Streamlit, Statistics, Monte Carlo, Portfolio Optimization, Machine Learning, Data Visualization, AI Evaluation, Git/GitHub, AI-Assisted Development
 
-### Investment Portfolio Analysis Workbook | Excel, SQL, Pivot Tables
-- Mirrored Streamlit app workflow in Excel: 500 Monte Carlo simulations, 251 optimizer portfolios, 10 pivot exercises, 11 SQL queries
-- Built dashboard with allocation charts, Sharpe rankings, correlation matrix, and analyst recommendation template
-- **Impact:** Demonstrates financial analysis fluency across Python, SQL, and Excel
-
-### Quant Analytics Portfolio Workbook | Excel, SQL, Pivot Tables
-- Cross-domain workbook: 150 insurance claims, 60 baseball players, statistical distributions, 10 SQL questions, 8 pivot exercises
-- **Impact:** Quant thinking applied to actuarial and sports analytics domains
-
-### Real World Data Analytics Workbook | Excel, SQL
-- 200-company credit risk dataset, 300 insurance claims with fraud flags, portfolio returns, 10 SQL analytics tasks
-- **Impact:** Multi-domain data analysis spanning credit risk, insurance, and market returns
+**Domains:** Quantitative Finance, Sports Analytics, Decision Support Systems, Product Analytics, Insurance/Credit Risk Practice, AI Model Evaluation
 
 ---
 
-## Skills Line (for resume header)
+## Teaching roles — keep, but compress
 
-**Technical:** SQL, Excel, Pivot Tables, Python, pandas, Streamlit, Statistics, Monte Carlo, Data Visualization, yfinance, scikit-learn, PostgreSQL/Supabase, AI Evaluation
+Keep Montfort / college lecturing as proof of quantitative communication. Compress older adjunct bullets so **portfolio developer + top projects** remain above the fold.
 
-**Domains:** Quantitative Finance, Sports Analytics, Insurance/Actuarial, Credit Risk, AI Model Evaluation, Dashboard Design
+---
+
+## What to emphasize more on the resume
+
+1. **Shipped products** (live URLs) over course lists  
+2. **Decision systems** (scores, health, recommendations) over “built dashboards”  
+3. **Suite / platform ownership** (Command Center + AMI handoffs)  
+4. **SQL + Excel** for Data Analyst ATS filters  
+5. **Product Analyst** language: workflows, user-facing metrics, continuity UX
+
+## What to de-emphasize
+
+1. Long lists of every course taught  
+2. Future Lens as a primary technical claim (prototype only)  
+3. Overstating production auth / closed acceptance gates  
+4. “Chatbot” framing for Music or AMI

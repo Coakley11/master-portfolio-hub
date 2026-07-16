@@ -83,6 +83,7 @@ function renderResumePreview(data) {
       <p class="resume-doc-headline">${r.headline}</p>
       <p class="resume-doc-contact">
         <a href="${site.github}" target="_blank" rel="noopener">GitHub: ${site.github.replace('https://', '')}</a>
+        ${site.linkedin ? ` · <a href="${site.linkedin}" target="_blank" rel="noopener">LinkedIn</a>` : ''}
         · <a href="index.html">Portfolio</a>
       </p>
     </header>
