@@ -1,46 +1,33 @@
-# GitHub Pages Deployment
+﻿# GitHub Pages Deployment
 
-## Recommended setup
+## Live URL
 
-| Setting | Value |
-|---------|--------|
-| Source | Deploy from a branch |
-| Branch | `main` |
-| Folder | `/Portfolio Website` |
+**https://coakley11.github.io/master-portfolio-hub/**
 
-The site is self-contained under `Portfolio Website/`. All asset paths are relative (`css/`, `js/`, `data/`, `assets/`).
+Repo: https://github.com/Coakley11/master-portfolio-hub
 
-## Pre-deploy checklist
+## How it deploys
 
-1. Copy captured PNGs from `Screenshots/<Folder>/` into `Portfolio Website/assets/screenshots/<Folder>/`.
-2. Run `scripts/verify-screenshots.ps1` from the Master Portfolio Hub root (exit 0 = all images present).
-3. Open `index.html` locally via `python -m http.server` inside `Portfolio Website/` and spot-check project cards and detail pages.
-4. Confirm `.nojekyll` is present (allows `_` paths and static JSON).
+GitHub Actions workflow `.github/workflows/deploy-portfolio.yml` publishes the `Portfolio Website/` folder on every push to `master`.
 
-## Path notes
+Classic Pages folder source only supports `/` or `/docs`, so Actions is required for this nested folder name.
 
-- Screenshot URLs in `data/projects.json` use `assets/screenshots/...` (GitHub Pages safe).
-- Resume download uses `assets/docs/resume-project-descriptions.md` (bundled copy for Pages).
-- LinkedIn is set in `projects.json` → `site.linkedin` (currently a Google Share redirect). Prefer a permanent `https://www.linkedin.com/in/...` URL when available.
+## Local preview
 
-## Professional pages
+```powershell
+cd "Portfolio Website"
+python -m http.server 9890
+```
 
-| Page | URL |
-|------|-----|
-| Resume Hub | `resume.html` |
-| Resume Preview | `resume-preview.html` |
-| Resume PDF | `assets/docs/daniel-cohen-resume.pdf` |
-| Career Profile | `career-profile.html` |
-| Executive Summary | `executive-summary.html` |
+## LinkedIn
 
-Regenerate PDF after resume edits: `python scripts/generate-resume-pdf.py`
+Set in `data/projects.json` → `site.linkedin` (Google Share link today; prefer permanent `linkedin.com/in/...` when available).
 
-## Contact privacy
+## Resume PDF
 
-- Email is **not** rendered on the homepage CTA.
-- Contact page uses a **Send Email** mailto button only (`contact.html`).
+Regenerate after resume edits:
 
-## Live app buttons
-
-- Enabled when `liveUrl` is set in `projects.json`.
-- Disabled (grey) when `liveUrl` is null — no fake placeholder URLs.
+```powershell
+python scripts/refresh-resume-content.py
+python scripts/generate-resume-pdf.py
+```

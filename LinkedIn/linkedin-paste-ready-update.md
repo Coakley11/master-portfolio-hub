@@ -40,7 +40,7 @@ Python · SQL · Excel · Pandas · Streamlit · Statistics · Monte Carlo · Po
 Open to
 Data Analyst · Product Analyst · Quantitative Analyst · Financial Analyst · AI Evaluator · AI Trainer · BI Analyst · Research Analyst roles where statistical reasoning and shipped analytics products matter.
 
-Portfolio: [PASTE PUBLIC PORTFOLIO URL AFTER DEPLOY]
+Portfolio: https://coakley11.github.io/master-portfolio-hub/
 GitHub: https://github.com/Coakley11
 ```
 
