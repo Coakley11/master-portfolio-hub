@@ -21,7 +21,7 @@ python -m http.server 9890
 
 ## LinkedIn
 
-Set in `data/projects.json` → `site.linkedin` (Google Share link today; prefer permanent `linkedin.com/in/...` when available).
+Set in `data/projects.json` → `site.linkedin` to your permanent `https://www.linkedin.com/in/...` URL when ready. Leave empty until then (the site shows a placeholder; do not use Google Share / `linkedin.com/me` shortcuts — those are not public profile links).
 
 ## Resume PDF
 
