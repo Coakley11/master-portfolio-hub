@@ -913,6 +913,72 @@ body.lightbox-open {
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 1rem;
 }
+.capability-group {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.15rem 1.25rem;
+}
+.capability-group-title {
+  font-size: 0.95rem;
+  color: var(--accent);
+  margin-bottom: 0.65rem;
+}
+.tech-tag--cap {
+  font-size: 0.78rem;
+}
+.capability-tags {
+  margin: 0.5rem 0 0.65rem;
+}
+.quick-scan-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+.quick-scan-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.15rem 1.25rem;
+}
+.quick-scan-card h3 {
+  font-size: 0.88rem;
+  color: var(--gold);
+  margin-bottom: 0.45rem;
+}
+.quick-scan-card p {
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+.resume-routing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.resume-track-card h3 {
+  font-size: 0.95rem;
+  margin-bottom: 0.65rem;
+  line-height: 1.35;
+}
+.resume-track-tip {
+  color: var(--muted);
+  font-size: 0.92rem;
+  margin-top: 0.5rem;
+  line-height: 1.45;
+}
+.resume-routing-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1rem 0 0.25rem;
+}
+@media (max-width: 640px) {
+  .hero--home h1 { font-size: 1.65rem; line-height: 1.25; }
+  .hero .tagline { font-size: 0.92rem; line-height: 1.45; }
+  .quick-scan-grid { grid-template-columns: 1fr; }
+}
 .skill-meter {
   background: var(--surface);
   border: 1px solid var(--border);

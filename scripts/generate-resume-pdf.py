@@ -125,7 +125,18 @@ def build_pdf(resume: dict, site: dict) -> None:
     body(" | ".join(resume["technicalSkills"]), 9)
 
     section("Target Roles")
-    body(" | ".join(resume["targetRoles"]), 9)
+    body("Fully remote U.S. | Grouped by related role families", 9)
+    pdf.ln(1)
+    groups = resume.get("targetRoleGroups")
+    if groups:
+        for group in groups:
+            pdf.set_font("Helvetica", "B", 9)
+            pdf.cell(0, 5, ascii_safe(group["label"]), new_x="LMARGIN", new_y="NEXT")
+            pdf.set_font("Helvetica", "", 9)
+            body(" | ".join(group["roles"]), 9)
+            pdf.ln(1)
+    else:
+        body(" | ".join(resume["targetRoles"]), 9)
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     pdf.output(str(OUT_PATH))

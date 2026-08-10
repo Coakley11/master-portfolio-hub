@@ -39,6 +39,19 @@ function skillTags(skills) {
   return `<div class="skill-tags">${skills.map(s => `<span class="skill-tag">${s}</span>`).join('')}</div>`;
 }
 
+function renderTargetRoleGroups(r) {
+  const groups = r.targetRoleGroups;
+  if (groups && groups.length) {
+    return groups.map(g => `
+      <div class="resume-role-group">
+        <h3 class="resume-role-group-label">${g.label}</h3>
+        <p class="resume-roles">${g.roles.join(' · ')}</p>
+      </div>
+    `).join('');
+  }
+  return `<p class="resume-roles">${(r.targetRoles || []).join(' · ')}</p>`;
+}
+
 function renderResumePreview(data) {
   const r = data.resume;
   const site = data.site;
@@ -121,7 +134,8 @@ function renderResumePreview(data) {
 
     <section class="resume-doc-section">
       <h2>Target Roles</h2>
-      <p class="resume-roles">${r.targetRoles.join(' · ')}</p>
+      <p class="resume-roles-note">Fully remote U.S. · grouped by related role families</p>
+      ${renderTargetRoleGroups(r)}
     </section>
   `;
 
@@ -197,6 +211,33 @@ function renderResumeHub(data) {
       </p>
     `;
   }
+
+  const routing = document.getElementById('resume-routing');
+  if (routing && data.resumeRouting) {
+    const rr = data.resumeRouting;
+    const pdf = rr.defaultPdf || site.resumePdf;
+    routing.innerHTML = `
+      <h2 class="section-title">Role-family fit &amp; portfolio emphasis</h2>
+      <p class="section-desc">${rr.workArrangement} One resume PDF; each track highlights where the same portfolio evidence aligns strongest.</p>
+      <p class="resume-routing-actions">
+        <a href="${pdf}" class="btn btn-primary" download>Download PDF</a>
+        <a href="${site.resumeView}" class="btn btn-secondary">View Resume Preview</a>
+      </p>
+      <div class="resume-routing-grid">
+        ${rr.tracks.map(track => `
+          <article class="pro-card resume-track-card">
+            <h3>${track.label}</h3>
+            <p><strong>Lead with:</strong> ${track.leadWith}</p>
+            <p class="resume-track-tip">${track.emphasis || track.resumeTips || ''}</p>
+          </article>
+        `).join('')}
+      </div>
+      <p style="margin-top:1.25rem;color:var(--muted);font-size:0.9rem;">
+        Copy-ready bullets and positioning:
+        <a href="${rr.supportingDoc || site.resumeProjectBullets || '#'}" download>resume-project-descriptions.md</a>
+      </p>
+    `;
+  }
 }
 
 function renderCareerProfile(data) {
@@ -233,6 +274,7 @@ function renderCareerProfile(data) {
     </div>
     <div class="pro-lead-block">
       <h2>${s.targetRoles.title}</h2>
+      ${s.targetRoles.intro ? `<p class="pro-lead">${s.targetRoles.intro}</p>` : ''}
       <div class="role-fit-grid">
         ${s.targetRoles.roles.map(r => `
           <article class="role-fit-card">
@@ -276,6 +318,12 @@ function renderExecutiveSummary(data) {
       <h2>${doc.analyticsProjects.title}</h2>
       <ul>${doc.analyticsProjects.items.map(i => `<li>${i}</li>`).join('')}</ul>
     </section>
+
+    ${doc.productOwnership ? `
+    <section class="exec-block">
+      <h2>${doc.productOwnership.title}</h2>
+      <ul>${doc.productOwnership.items.map(i => `<li>${i}</li>`).join('')}</ul>
+    </section>` : ''}
 
     <section class="exec-block">
       <h2>${doc.aiRelatedWork.title}</h2>

@@ -146,6 +146,7 @@ function showcaseCard(project) {
         <p class="showcase-oneliner">${project.oneLiner || project.purpose}</p>
         <p class="showcase-value"><strong>Business value:</strong> ${project.businessValue}</p>
         <ul class="feature-list">${features}</ul>
+        ${project.capabilityTags?.length ? `<div class="capability-tags">${capabilityTags(project.capabilityTags)}</div>` : ''}
         <div class="tech-tags">${techTags(project.technologies)}</div>
         <div class="showcase-actions">
           ${liveAppButton(project)}
@@ -164,7 +165,8 @@ function projectCard(project) {
       <h3>${project.displayName || project.name}</h3>
       <div class="status">${project.status}</div>
       <p class="desc">${project.executiveSummary}</p>
-      <div class="takeaway">${project.recruiterTakeaway}</div>
+      <div class="takeaway"><strong>Recruiter takeaway:</strong> ${project.recruiterTakeaway}</div>
+      ${project.capabilityTags?.length ? `<div class="capability-tags">${capabilityTags(project.capabilityTags)}</div>` : ''}
       <div class="tech-tags">${techTags(project.technologies)}</div>
       <div class="readiness">Portfolio Readiness: ${project.readiness}/10</div>
       <div class="card-links">
@@ -260,9 +262,34 @@ function renderAboutMe(data) {
   `;
 }
 
+function capabilityTags(tags) {
+  return (tags || []).map(t => `<span class="tech-tag tech-tag--cap">${t}</span>`).join('');
+}
+
+function renderRecruiterQuickScan(data) {
+  const container = document.getElementById('recruiter-quick-scan');
+  if (!container || !data.recruiterQuickScan) return;
+  container.innerHTML = data.recruiterQuickScan.map(item => `
+    <article class="quick-scan-card">
+      <h3>${item.question}</h3>
+      <p>${item.answer}</p>
+    </article>
+  `).join('');
+}
+
 function renderSkillsDashboard(data) {
   const container = document.getElementById('skills-dashboard');
-  if (!container || !data.skillsDashboard) return;
+  if (!container) return;
+  if (data.capabilityGroups && data.capabilityGroups.length) {
+    container.innerHTML = data.capabilityGroups.map(group => `
+      <div class="capability-group">
+        <h3 class="capability-group-title">${group.name}</h3>
+        <div class="tech-tags">${capabilityTags(group.skills)}</div>
+      </div>
+    `).join('');
+    return;
+  }
+  if (!data.skillsDashboard) return;
   container.innerHTML = data.skillsDashboard.map(skill => `
     <div class="skill-meter">
       <div class="skill-meter-header">
@@ -488,10 +515,12 @@ function renderContactPage(data) {
         <p style="color:var(--muted)">${site.linkedinPlaceholder || 'Profile link coming soon'}</p>
         <p>Will be added when final URL is available</p>
       </div>`;
+  const rolesLine = (data.resume?.targetRoles || []).slice(0, 8).join(' · ');
+  const remoteNote = data.resumeRouting?.workArrangement || 'Primarily seeking fully remote U.S. roles.';
   grid.innerHTML = `
     <div class="contact-card contact-card--primary">
       <h3>Get in Touch</h3>
-      <p>Open to Data Analyst, Product Analyst, Quant, Financial Analyst, AI Evaluator, and AI Trainer roles.</p>
+      <p>${remoteNote} Open to AI product, technical product, analytics, and AI evaluation role families.</p>
       <a href="mailto:${site.email}" class="btn btn-primary" style="margin-top:0.75rem;">Send Email</a>
       <p class="contact-note">Email is available via the button above — not displayed on the public homepage.</p>
     </div>
@@ -510,8 +539,8 @@ function renderContactPage(data) {
     </div>
     <div class="contact-card">
       <h3>Target Roles</h3>
-      <p>Data Analyst · Product Analyst · BI Analyst · Research Analyst</p>
-      <p>Quant Analyst · Financial Analyst · AI Evaluator · AI Trainer</p>
+      <p>${rolesLine}${(data.resume?.targetRoles?.length || 0) > 8 ? ' · …' : ''}</p>
+      <p style="margin-top:0.5rem;font-size:0.9rem;color:var(--muted);">${remoteNote}</p>
     </div>
   `;
 }
@@ -557,6 +586,7 @@ async function init() {
     setActiveNav();
     renderSkills(data);
     renderSummary(data);
+    renderRecruiterQuickScan(data);
     renderFeaturedAnalytics(data);
     renderAboutMe(data);
     renderSkillsDashboard(data);

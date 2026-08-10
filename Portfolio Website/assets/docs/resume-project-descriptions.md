@@ -1,27 +1,47 @@
 # Resume Project Descriptions & Positioning Recommendations
 
-**Updated:** 2026-07-15  
-Aligned with current suite capabilities and portfolio website copy.
+**Updated:** 2026-08-10  
+Aligned with broader AI product, technical product, and AI evaluation positioning (fully remote U.S.).
 
 ---
 
 ## Recommended resume headline
 
 ```
-Mathematics & Statistics Professional | Quantitative Analytics | AI Decision-Support Applications
+Mathematics & Statistics Professional | Quantitative Analytics | AI Product | Technical Product | AI Evaluation
 ```
 
-Alternate for DA applications:
+Alternate for AI evaluation applications:
 
 ```
-Data & Product Analyst Candidate | Statistics · SQL · Python | Decision-Support Dashboards
+AI Product Analyst / Model Evaluation Candidate | Statistics · SQL · Python | Evaluator Workbooks & Decision Labs
+```
+
+Alternate for analytics applications:
+
+```
+Data & Product Analyst Candidate | Statistics · SQL · Python | Decision-Support & Portfolio Analytics
 ```
 
 ---
 
 ## Professional summary (recommended)
 
-Mathematics and Statistics professional (M.A. Statistics & Applied Mathematics, GPA 3.93; MBA Finance & Investments, Finance GPA 4.00; SOA Exams P/FM/MFE) who builds production analytics applications. Ships decision-support products in Python/Streamlit spanning portfolio risk, sports analytics, simulation labs, and AI evaluation workflows — with SQL/Excel reporting fluency and AI-assisted development used for end-to-end ownership.
+Mathematics and Statistics professional (M.A. Statistics & Applied Mathematics, GPA 3.93; MBA Finance & Investments, Finance GPA 4.00; SOA Exams P/FM/MFE) who builds quantitative and AI-assisted products through **independent portfolio ownership** — not claimed corporate PM or traditional SWE titles. Seven deployed Streamlit applications plus SQL/Excel workbooks demonstrate requirements, workflow design, recommendation systems, AI output evaluation, validation, debugging, and deployment. Seeking **fully remote U.S.** roles across analytics, AI evaluation, product analytics, associate AI/technical product, and selected product engineering.
+
+---
+
+## Resume routing (one PDF today — vary emphasis)
+
+| Track | Lead projects | Emphasis |
+|-------|---------------|----------|
+| **A. AI Product Analyst / Model Evaluation** | AI Evaluator workbook, AMI, Music Coach | Rubric-style review, error analysis, SQL evaluator metrics |
+| **B. Associate AI Product Manager** | Music Coach, Future Lens, Command Center | Problem → requirements → iteration; associate-level framing |
+| **C. AI Product Engineer / Product Engineer** | Baseball, Investment, Command Center | Architecture, persistence, APIs, debugging, AI-assisted build |
+| **D. Technical / AI Product Management** | Command Center, suite handoffs, Baseball/Investment workflows | Orchestration, resumable work, integration |
+| **E. Analytics / Quant / Product Analytics** | Investment, SQL/Excel, Baseball, AMI | Statistics, SQL, Monte Carlo, optimization, dashboards |
+
+PDF: `Portfolio Website/assets/docs/daniel-cohen-resume.pdf` (same file for all tracks until role-specific PDFs are added).
 
 ---
 
@@ -29,9 +49,9 @@ Mathematics and Statistics professional (M.A. Statistics & Applied Mathematics, 
 
 **Analytics & AI Portfolio Developer — Daniel AI Suite | 2024–Present**
 
-- Designed, built, and deployed seven interconnected Streamlit applications for portfolio analytics, fantasy baseball operations, applied math decision labs, playoff intelligence, music practice tooling, AI transition scenarios, and suite orchestration
-- Implemented decision scoring, portfolio health diagnostics, Monte Carlo / efficient frontier modeling, live-data fallbacks, and cross-app resume/insight workflows with Supabase-backed persistence patterns
-- Authored SQL & Excel analytics workbooks with KPI dashboards, pivot exercises, and 42+ structured queries including AI evaluator practice datasets
+- Owned end-to-end product development for seven interconnected Streamlit applications — identifying problems, prioritizing features, defining requirements and acceptance criteria, designing workflows, and iterating from observed behavior
+- Built quantitative recommendation and decision-support systems (Decision Score drafts, portfolio health scoring, Monte Carlo / efficient frontier, simulation labs) with Supabase-backed persistence, multi-user flows, and cross-app resume/insight orchestration
+- Directed AI-assisted implementation while owning architecture, validation, root-cause debugging, regression checks, and deployment; authored SQL & Excel workbooks with KPI dashboards and 42+ structured queries including AI evaluator practice datasets
 
 ---
 
@@ -39,34 +59,40 @@ Mathematics and Statistics professional (M.A. Statistics & Applied Mathematics, 
 
 ### Baseball Analytics | Python, Streamlit, scikit-learn
 - Built full-season fantasy platform with Decision Score drafts, live draft rooms, shared leagues, lineup/trade workflows, and AMI insight handoff
-- **Impact:** End-to-end product ownership from draft intelligence through in-season operations
+- **Impact:** Product analytics + multi-user workflow ownership from draft through in-season operations
 
 ### Investment Explorer | Python, Streamlit, yfinance
 - Shipped live portfolio health scoring, Monte Carlo simulation, efficient frontier optimization, and ETF overlap diagnostics with beginner/advanced modes
-- **Impact:** Quant finance product with analytics core separated from UI; deployed on Streamlit Cloud
+- **Impact:** Quant finance product with simulation, optimization, and explainable decision support
 
 ### Applied Mathematical Intelligence | Python, Streamlit
-- Built modular decision labs for problem solving, prediction, disease modeling, and AI training interpretation with suite-wide insight routing
-- **Impact:** Cross-domain quantitative reasoning tool used as shared analytical engine across apps
+- Built modular decision labs for EV, prediction, disease modeling, and AI training interpretation with suite-wide insight routing
+- **Impact:** AI evaluation + quantitative reasoning engine shared across apps
 
 ### SQL & Excel Analytics Workbooks | Excel, SQL, pandas
 - Created AI evaluator, investment, quant, and credit-risk workbooks with KPI dashboards and structured SQL practice
-- **Impact:** Demonstrates analyst fluency across Python products and spreadsheet reporting
+- **Impact:** Demonstrates analyst fluency plus hands-on AI evaluator workflow practice
 
 ### Optional fifth (space permitting)
 
-**Basketball Playoff Companion** — live games, bracket, matchup intelligence, legacy tracking with resilient scoreboard fallbacks  
-**AI Command Center** — suite resume/continue hub and cross-app activity orchestration  
-**AI Music Practice Coach** — song-aware practice studio with backing tracks and practice logging  
+**AI Music Practice Coach** — large multi-page product: user journeys, AI coaching, persistence/state, cross-device resume  
+**AI Command Center** — cross-app architecture, workflow orchestration, resumable work, context handoffs  
+**Basketball Playoff Companion** — live games, bracket, matchup intelligence, legacy tracking  
 **Future Lens** — taxonomy-driven AI skills evolution prototype through 2050 *(label as prototype)*
 
 ---
 
 ## Skills line
 
-**Technical:** Python, SQL, Excel, Pandas, Streamlit, Statistics, Monte Carlo, Portfolio Optimization, Machine Learning, Data Visualization, AI Evaluation, Git/GitHub, AI-Assisted Development
+**Analytics & Quantitative:** Statistics, Probability, SQL, Excel, Python, Pandas, Simulation, Optimization, Data Visualization, Monte Carlo, Portfolio Optimization
 
-**Domains:** Quantitative Finance, Sports Analytics, Decision Support Systems, Product Analytics, Insurance/Credit Risk Practice, AI Model Evaluation
+**AI Evaluation:** Model-output evaluation, rubric-based review, error analysis, acceptance criteria, regression testing
+
+**Product:** Requirements, prioritization, user journeys, workflow design, product analytics, release validation
+
+**Technical Product / Engineering:** Streamlit, APIs, Git/GitHub, Supabase, persistence/state, debugging, testing, deployment, AI-assisted development
+
+**Domains:** Quantitative finance, sports analytics, decision support, AI model evaluation practice
 
 ---
 
@@ -78,15 +104,13 @@ Keep Montfort / college lecturing as proof of quantitative communication. Compre
 
 ## What to emphasize more on the resume
 
-1. **Shipped products** (live URLs) over course lists  
-2. **Decision systems** (scores, health, recommendations) over “built dashboards”  
-3. **Suite / platform ownership** (Command Center + AMI handoffs)  
-4. **SQL + Excel** for Data Analyst ATS filters  
-5. **Product Analyst** language: workflows, user-facing metrics, continuity UX
+- Fully remote U.S. preference (one line in summary or header)
+- Independent product ownership language — avoid implying corporate PM or SWE tenure
+- AI-assisted development with personal ownership of validation and debugging
+- Lead projects matched to role family (see routing table above)
 
-## What to de-emphasize
+## What not to claim
 
-1. Long lists of every course taught  
-2. Future Lens as a primary technical claim (prototype only)  
-3. Overstating production auth / closed acceptance gates  
-4. “Chatbot” framing for Music or AMI
+- Corporate Product Manager or traditional professional Software Engineer titles
+- Production A/B tests, ML infrastructure, or user/revenue scale without evidence
+- That every line of code was hand-written without AI assistance

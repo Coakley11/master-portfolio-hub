@@ -134,6 +134,7 @@ function renderProject(project) {
         <p style="color:var(--gold);font-size:0.88rem;margin-bottom:1rem;">${project.readiness}/10</p>
         <h4>Technologies</h4>
         <div class="tech-tags" style="margin-bottom:1rem;">${(project.technologies || []).map(t => `<span class="tech-tag">${t}</span>`).join('')}</div>
+        ${(project.capabilityTags || []).length ? `<h4>Capabilities Demonstrated</h4><div class="tech-tags" style="margin-bottom:1rem;">${project.capabilityTags.map(t => `<span class="tech-tag tech-tag--cap">${t}</span>`).join('')}</div>` : ''}
         ${features ? `<h4>Key Features</h4><ul style="list-style:none;padding:0;">${features.replace(/<li>/g, '<li style="font-size:0.84rem;color:var(--muted);margin-bottom:0.35rem;">▸ ')}</ul>` : ''}
       </aside>
     </div>

@@ -39,15 +39,21 @@ def shots(folder: str) -> tuple[str, list[str], list[str]]:
 def main() -> int:
     data = json.loads(PROJECTS.read_text(encoding="utf-8"))
 
-    data["site"]["title"] = "Daniel Cohen — Analytics, Quantitative Modeling & AI Portfolio"
-    data["site"]["tagline"] = "Decision-support applications · Statistics · Finance · SQL · AI-assisted product development"
+    data["site"]["title"] = "Daniel Cohen — Quantitative Analytics, AI Product & Technical Product Portfolio"
+    data["site"]["tagline"] = (
+        "Quantitative Analytics · AI Product · Technical Product · AI Evaluation · "
+        "AI-Assisted Product Development · Fully Remote U.S."
+    )
 
     data["summary"] = {
-        "headline": "Mathematics & Statistics Professional — Analytics, Quant Modeling & AI Applications",
+        "headline": (
+            "Quantitative Analytics · AI Product · Technical Product · AI Evaluation · "
+            "AI-Assisted Product Development"
+        ),
         "paragraphs": [
             "M.A. Statistics & Applied Mathematics (Hunter, 3.93 GPA) · MBA Finance & Investments (Baruch, Finance GPA 4.00) · SOA Exams P, FM, MFE · B.A. Mathematics & Economics, Magna Cum Laude.",
-            "I design and ship end-to-end analytics products — seven interconnected Streamlit applications plus SQL/Excel workbooks — that turn probability, risk, and modeling into decision-ready tools recruiters can click through in minutes.",
-            "Target roles: Data Analyst · Product Analyst · Quantitative Analyst · Financial Analyst · AI Evaluator · AI Trainer · BI / Research Analyst.",
+            "I analyze, evaluate, design, prioritize, build with AI assistance, test, debug, and improve quantitative and AI products — seven live Streamlit applications plus SQL/Excel workbooks recruiters can verify in minutes.",
+            "Seeking fully remote U.S. roles: AI Product Analyst · Model Evaluation · AI Evaluator · Product Analyst · Data Analyst · Associate PM / Associate AI PM · AI Product Engineer · Product Engineer · Technical PM · AI PM · plus Quant / Financial / BI analytics.",
         ],
         "skills": [
             "Python", "SQL", "Excel", "Pandas", "Streamlit", "Statistics",

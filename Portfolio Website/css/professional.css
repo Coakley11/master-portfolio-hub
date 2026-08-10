@@ -189,6 +189,30 @@
 .resume-roles {
   color: #475569;
   font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.resume-roles-note {
+  color: #64748b;
+  font-size: 0.82rem;
+  margin-bottom: 0.75rem;
+}
+
+.resume-role-group {
+  margin-bottom: 0.85rem;
+}
+
+.resume-role-group-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #1e3a5f;
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+@media print {
+  .resume-role-group { break-inside: avoid; }
 }
 
 .resume-document .skill-tag {
