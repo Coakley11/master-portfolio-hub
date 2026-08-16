@@ -907,6 +907,47 @@ body.lightbox-open {
 .pillar-card h4 { font-size: 0.9rem; color: var(--accent); margin-bottom: 0.4rem; }
 .pillar-card p { font-size: 0.84rem; color: var(--muted); }
 
+.role-targets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+.role-target-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.35rem;
+}
+.role-target-card--primary {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 35%, transparent);
+}
+.role-target-tier {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.45rem;
+}
+.role-target-card h3 {
+  font-size: 1.05rem;
+  line-height: 1.35;
+  margin-bottom: 0.55rem;
+}
+.role-target-card p:last-child {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+.case-decision-list {
+  margin: 0.35rem 0 0 1.1rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+.case-decision-list li { margin-bottom: 0.25rem; }
+
 /* Skills dashboard */
 .skills-dashboard {
   display: grid;

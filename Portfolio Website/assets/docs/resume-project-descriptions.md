@@ -1,116 +1,88 @@
 # Resume Project Descriptions & Positioning Recommendations
 
-**Updated:** 2026-08-10  
-Aligned with broader AI product, technical product, and AI evaluation positioning (fully remote U.S.).
+**Updated:** 2026-08-16  
+Primary career direction: **AI & Technical Product** (fully remote U.S.).
+
+---
+
+## Primary resume paths (for recruiters)
+
+| Path | Lead projects | Emphasis |
+|------|---------------|----------|
+| **Technical Product Manager** | AI Music Practice Coach, Baseball Analytics, Command Center | State ownership, multi-user systems, requirements, acceptance criteria, release readiness |
+| **AI Product Manager** | Music Coach, AMI, Command Center | AI feature design, coaching/evaluation surfaces, human-in-the-loop validation |
+
+**Current PDF:** `Portfolio Website/assets/docs/daniel-cohen-resume.pdf`  
+Dedicated files can be added later as:
+- `daniel-cohen-technical-product-resume.pdf`
+- `daniel-cohen-ai-product-resume.pdf`
+
+Until then, both CTAs use the current PDF with different lead-project emphasis.
 
 ---
 
 ## Recommended resume headline
 
 ```
-Mathematics & Statistics Professional | Quantitative Analytics | AI Product | Technical Product | AI Evaluation
-```
-
-Alternate for AI evaluation applications:
-
-```
-AI Product Analyst / Model Evaluation Candidate | Statistics · SQL · Python | Evaluator Workbooks & Decision Labs
-```
-
-Alternate for analytics applications:
-
-```
-Data & Product Analyst Candidate | Statistics · SQL · Python | Decision-Support & Portfolio Analytics
+AI & Technical Product | Product Strategy · Technical Systems · AI-Enabled Products
 ```
 
 ---
 
 ## Professional summary (recommended)
 
-Mathematics and Statistics professional (M.A. Statistics & Applied Mathematics, GPA 3.93; MBA Finance & Investments, Finance GPA 4.00; SOA Exams P/FM/MFE) who builds quantitative and AI-assisted products through **independent portfolio ownership** — not claimed corporate PM or traditional SWE titles. Seven deployed Streamlit applications plus SQL/Excel workbooks demonstrate requirements, workflow design, recommendation systems, AI output evaluation, validation, debugging, and deployment. Seeking **fully remote U.S.** roles across analytics, AI evaluation, product analytics, associate AI/technical product, and selected product engineering.
+Mathematics and Statistics professional (M.A. Statistics & Applied Mathematics, GPA 3.93; MBA Finance & Investments, Finance GPA 4.00; SOA Exams P/FM/MFE) who owns product direction for a seven-app AI suite through **independent portfolio ownership**. Defines what products should do, translates goals into requirements and workflows, reasons through technical dependencies, directs AI-assisted implementation, validates releases, diagnoses failures, and decides what happens next. Seeking **fully remote U.S.** roles as Technical Product Manager / AI Technical Product, AI Product Manager, and adjacent Technical Product Owner / Product Strategy. Quantitative analytics and AI evaluation **support** that product work — they are not a separate career identity.
 
 ---
 
-## Resume routing (one PDF today — vary emphasis)
+## Independent experience bullets
 
-| Track | Lead projects | Emphasis |
-|-------|---------------|----------|
-| **A. AI Product Analyst / Model Evaluation** | AI Evaluator workbook, AMI, Music Coach | Rubric-style review, error analysis, SQL evaluator metrics |
-| **B. Associate AI Product Manager** | Music Coach, Future Lens, Command Center | Problem → requirements → iteration; associate-level framing |
-| **C. AI Product Engineer / Product Engineer** | Baseball, Investment, Command Center | Architecture, persistence, APIs, debugging, AI-assisted build |
-| **D. Technical / AI Product Management** | Command Center, suite handoffs, Baseball/Investment workflows | Orchestration, resumable work, integration |
-| **E. Analytics / Quant / Product Analytics** | Investment, SQL/Excel, Baseball, AMI | Statistics, SQL, Monte Carlo, optimization, dashboards |
+**Independent Product Owner — Daniel AI Suite | 2024–Present**
 
-PDF: `Portfolio Website/assets/docs/daniel-cohen-resume.pdf` (same file for all tracks until role-specific PDFs are added).
+- Owned product direction across seven interconnected Streamlit applications — problem framing, feature prioritization, requirements, acceptance criteria, workflow design, and release readiness
+- Designed multi-page product systems with persistence, multi-user state, APIs, recommendation engines, and cross-app resume/insight orchestration
+- Directed AI-assisted implementation while personally validating expected vs. actual behavior, diagnosing defects, prioritizing fixes, and regression-checking before release
 
 ---
 
-## Independent experience bullets (lead with these)
+## Project bullets (flagship order)
 
-**Analytics & AI Portfolio Developer — Daniel AI Suite | 2024–Present**
+### AI Music Practice Coach | Python, Streamlit, OpenAI, Supabase
+- Owned product direction for a multi-page practice studio: practice, creative, backing tracks, logging, AI coaching, persistence, and cross-page context
+- Defined state ownership, acceptance criteria, and release readiness while directing AI-assisted implementation
 
-- Owned end-to-end product development for seven interconnected Streamlit applications — identifying problems, prioritizing features, defining requirements and acceptance criteria, designing workflows, and iterating from observed behavior
-- Built quantitative recommendation and decision-support systems (Decision Score drafts, portfolio health scoring, Monte Carlo / efficient frontier, simulation labs) with Supabase-backed persistence, multi-user flows, and cross-app resume/insight orchestration
-- Directed AI-assisted implementation while owning architecture, validation, root-cause debugging, regression checks, and deployment; authored SQL & Excel workbooks with KPI dashboards and 42+ structured queries including AI evaluator practice datasets
+### Baseball Analytics | Python, Streamlit, scikit-learn, Supabase
+- Designed shared leagues, live draft rooms, imports, lineup/trade workflows, and Decision Score recommendations as a multi-user product system
+- Sequenced features for draft → season ops continuity; validated persistence and collaborative behavior
 
----
-
-## Project bullets (choose 3–4 for one-page resume)
-
-### Baseball Analytics | Python, Streamlit, scikit-learn
-- Built full-season fantasy platform with Decision Score drafts, live draft rooms, shared leagues, lineup/trade workflows, and AMI insight handoff
-- **Impact:** Product analytics + multi-user workflow ownership from draft through in-season operations
+### AI Command Center + AMI | Python, Streamlit, Supabase
+- Architected suite orchestration: resumable workflows, context handoffs, activity continuity, and modular AI decision labs
+- Routed users to the right tool and returned explainable insights across sibling applications
 
 ### Investment Explorer | Python, Streamlit, yfinance
-- Shipped live portfolio health scoring, Monte Carlo simulation, efficient frontier optimization, and ETF overlap diagnostics with beginner/advanced modes
-- **Impact:** Quant finance product with simulation, optimization, and explainable decision support
-
-### Applied Mathematical Intelligence | Python, Streamlit
-- Built modular decision labs for EV, prediction, disease modeling, and AI training interpretation with suite-wide insight routing
-- **Impact:** AI evaluation + quantitative reasoning engine shared across apps
-
-### SQL & Excel Analytics Workbooks | Excel, SQL, pandas
-- Created AI evaluator, investment, quant, and credit-risk workbooks with KPI dashboards and structured SQL practice
-- **Impact:** Demonstrates analyst fluency plus hands-on AI evaluator workflow practice
-
-### Optional fifth (space permitting)
-
-**AI Music Practice Coach** — large multi-page product: user journeys, AI coaching, persistence/state, cross-device resume  
-**AI Command Center** — cross-app architecture, workflow orchestration, resumable work, context handoffs  
-**Basketball Playoff Companion** — live games, bracket, matchup intelligence, legacy tracking  
-**Future Lens** — taxonomy-driven AI skills evolution prototype through 2050 *(label as prototype)*
+- Turned Monte Carlo, efficient frontier, and health scoring into adjustable, explainable decision workflows
+- Separated analytics core from UX so complex quant methods become product choices
 
 ---
 
 ## Skills line
 
-**Analytics & Quantitative:** Statistics, Probability, SQL, Excel, Python, Pandas, Simulation, Optimization, Data Visualization, Monte Carlo, Portfolio Optimization
-
-**AI Evaluation:** Model-output evaluation, rubric-based review, error analysis, acceptance criteria, regression testing
-
-**Product:** Requirements, prioritization, user journeys, workflow design, product analytics, release validation
-
-**Technical Product / Engineering:** Streamlit, APIs, Git/GitHub, Supabase, persistence/state, debugging, testing, deployment, AI-assisted development
-
-**Domains:** Quantitative finance, sports analytics, decision support, AI model evaluation practice
+**Product Management:** Strategy, problem framing, prioritization, requirements, acceptance criteria, release decisions, product metrics  
+**Technical Product:** Workflow architecture, state/persistence, APIs, defect triage, regression testing, release readiness  
+**AI Product:** AI feature design, evaluation criteria, human-in-the-loop, AI-assisted prototyping  
+**Foundation:** Statistics, SQL, Python, Excel, Streamlit, Supabase, Git/GitHub
 
 ---
 
-## Teaching roles — keep, but compress
+## Teaching — keep, compress
 
-Keep Montfort / college lecturing as proof of quantitative communication. Compress older adjunct bullets so **portfolio developer + top projects** remain above the fold.
+Keep teaching as proof of explaining complexity and diagnosing stuck points. Do not lead with teacher identity. Do not claim a formal employer Product Manager title.
 
 ---
-
-## What to emphasize more on the resume
-
-- Fully remote U.S. preference (one line in summary or header)
-- Independent product ownership language — avoid implying corporate PM or SWE tenure
-- AI-assisted development with personal ownership of validation and debugging
-- Lead projects matched to role family (see routing table above)
 
 ## What not to claim
 
-- Corporate Product Manager or traditional professional Software Engineer titles
-- Production A/B tests, ML infrastructure, or user/revenue scale without evidence
-- That every line of code was hand-written without AI assistance
+- Corporate Product Manager tenure or traditional professional SWE titles
+- Managing a human engineering team (unless true)
+- That every line was hand-coded without AI assistance
+- Production-scale commercial metrics without evidence

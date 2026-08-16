@@ -215,25 +215,32 @@ function renderResumeHub(data) {
   const routing = document.getElementById('resume-routing');
   if (routing && data.resumeRouting) {
     const rr = data.resumeRouting;
-    const pdf = rr.defaultPdf || site.resumePdf;
+    const tpm = site.resumeTechnicalProduct || rr.defaultPdf || site.resumePdf;
+    const aipm = site.resumeAiProduct || rr.defaultPdf || site.resumePdf;
     routing.innerHTML = `
-      <h2 class="section-title">Role-family fit &amp; portfolio emphasis</h2>
-      <p class="section-desc">${rr.workArrangement} One resume PDF; each track highlights where the same portfolio evidence aligns strongest.</p>
+      <h2 class="section-title">Technical Product &amp; AI Product resumes</h2>
+      <p class="section-desc">${rr.workArrangement} ${rr.intro || 'Two primary resume paths for recruiters.'}</p>
       <p class="resume-routing-actions">
-        <a href="${pdf}" class="btn btn-primary" download>Download PDF</a>
+        <a href="${tpm}" class="btn btn-primary" download>Technical Product Resume</a>
+        <a href="${aipm}" class="btn btn-primary" download>AI Product Resume</a>
         <a href="${site.resumeView}" class="btn btn-secondary">View Resume Preview</a>
       </p>
       <div class="resume-routing-grid">
         ${rr.tracks.map(track => `
           <article class="pro-card resume-track-card">
+            ${track.tier ? `<p class="role-target-tier">${track.tier}</p>` : ''}
             <h3>${track.label}</h3>
             <p><strong>Lead with:</strong> ${track.leadWith}</p>
             <p class="resume-track-tip">${track.emphasis || track.resumeTips || ''}</p>
+            <p style="margin-top:0.75rem;">
+              <a href="${track.pdf || rr.defaultPdf}" class="btn btn-ghost btn-sm" download>Download PDF</a>
+            </p>
           </article>
         `).join('')}
       </div>
       <p style="margin-top:1.25rem;color:var(--muted);font-size:0.9rem;">
-        Copy-ready bullets and positioning:
+        ${site.resumeNote || ''}
+        Copy-ready bullets:
         <a href="${rr.supportingDoc || site.resumeProjectBullets || '#'}" download>resume-project-descriptions.md</a>
       </p>
     `;

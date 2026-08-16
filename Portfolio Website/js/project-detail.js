@@ -74,6 +74,33 @@ function caseStudyHtml(cs) {
     </div>`;
 }
 
+function productFramingHtml(pf) {
+  if (!pf) return '';
+  const decisions = (pf.productTechnicalDecisions || [])
+    .map(d => `<li>${d}</li>`).join('');
+  return `
+    <div class="detail-block">
+      <h3>Product Ownership Framing</h3>
+      <div class="case-step">
+        <strong>Product problem</strong>
+        <p>${pf.productProblem}</p>
+      </div>
+      <div class="case-step">
+        <strong>My product role</strong>
+        <p>${pf.myProductRole}</p>
+      </div>
+      ${decisions ? `
+      <div class="case-step">
+        <strong>Product / technical decisions</strong>
+        <ul>${decisions}</ul>
+      </div>` : ''}
+      <div class="case-step">
+        <strong>Why this matters for product work</strong>
+        <p>${pf.whyProductWork}</p>
+      </div>
+    </div>`;
+}
+
 function renderProject(project) {
   const title = project.displayName || project.name;
   document.getElementById('project-title').textContent = title;
@@ -103,6 +130,7 @@ function renderProject(project) {
           <h3>Overview</h3>
           <p>${project.executiveSummary}</p>
         </div>
+        ${productFramingHtml(project.productFraming)}
         <div class="detail-block">
           <h3>Analytics & Business Value</h3>
           <p>${project.businessValue}</p>
