@@ -20,13 +20,13 @@ def main() -> int:
     # Keep existing PDF as fallback; dedicated TPM / AI PM PDFs can be dropped in later
     data["site"]["resumePdf"] = "assets/docs/daniel-cohen-resume.pdf"
     data["site"]["resumeDownload"] = "assets/docs/daniel-cohen-resume.pdf"
-    data["site"]["resumeTechnicalProduct"] = "assets/docs/daniel-cohen-resume.pdf"
-    data["site"]["resumeAiProduct"] = "assets/docs/daniel-cohen-resume.pdf"
+    data["site"]["resumeTechnicalProduct"] = "assets/docs/daniel-cohen-technical-product-resume.pdf"
+    data["site"]["resumeAiProduct"] = "assets/docs/daniel-cohen-ai-product-resume.pdf"
     data["site"]["resumeTechnicalProductLabel"] = "Technical Product Manager Resume"
     data["site"]["resumeAiProductLabel"] = "AI Product Manager Resume"
     data["site"]["resumeNote"] = (
-        "Primary CTAs use the current portfolio resume PDF until dedicated "
-        "Technical Product and AI Product resume files are added under assets/docs/."
+        "Technical Product and AI Product CTAs use dedicated PDFs. "
+        "The generic daniel-cohen-resume.pdf remains as fallback/archive."
     )
 
     # --- Resume section ---
@@ -351,7 +351,7 @@ def main() -> int:
         },
         {
             "question": "Where is the resume?",
-            "answer": "Resume Hub CTAs for Technical Product and AI Product paths (current PDF until dedicated files are added).",
+            "answer": "Homepage and Resume Hub CTAs: Technical Product Resume and AI Product Resume (dedicated PDFs).",
         },
     ]
 
@@ -377,15 +377,15 @@ def main() -> int:
         "workArrangement": "Primarily seeking fully remote U.S. roles.",
         "defaultPdf": "assets/docs/daniel-cohen-resume.pdf",
         "intro": (
-            "Two primary resume paths for recruiters. Until dedicated PDF files are supplied, "
-            "both CTAs use the current portfolio resume — emphasis differs by role family."
+            "Two primary resume paths for recruiters. Dedicated Technical Product and AI Product PDFs are linked below; "
+            "the generic portfolio resume remains available as fallback/archive."
         ),
         "tracks": [
             {
                 "id": "technical-pm",
                 "tier": "Primary",
                 "label": "Technical Product Manager Resume",
-                "pdf": "assets/docs/daniel-cohen-resume.pdf",
+                "pdf": "assets/docs/daniel-cohen-technical-product-resume.pdf",
                 "leadWith": "AI Music Practice Coach, Baseball Analytics, Command Center",
                 "emphasis": (
                     "Strongest evidence: state ownership, multi-user systems, requirements, "
@@ -396,7 +396,7 @@ def main() -> int:
                 "id": "ai-pm",
                 "tier": "Secondary",
                 "label": "AI Product Manager Resume",
-                "pdf": "assets/docs/daniel-cohen-resume.pdf",
+                "pdf": "assets/docs/daniel-cohen-ai-product-resume.pdf",
                 "leadWith": "AI Music Practice Coach, AMI, Command Center, Future Lens (prototype)",
                 "emphasis": (
                     "Strongest evidence: AI feature design, coaching/evaluation surfaces, "

@@ -12,12 +12,9 @@ Primary career direction: **AI & Technical Product** (fully remote U.S.).
 | **Technical Product Manager** | AI Music Practice Coach, Baseball Analytics, Command Center | State ownership, multi-user systems, requirements, acceptance criteria, release readiness |
 | **AI Product Manager** | Music Coach, AMI, Command Center | AI feature design, coaching/evaluation surfaces, human-in-the-loop validation |
 
-**Current PDF:** `Portfolio Website/assets/docs/daniel-cohen-resume.pdf`  
-Dedicated files can be added later as:
-- `daniel-cohen-technical-product-resume.pdf`
-- `daniel-cohen-ai-product-resume.pdf`
-
-Until then, both CTAs use the current PDF with different lead-project emphasis.
+**Technical Product Resume:** `Portfolio Website/assets/docs/daniel-cohen-technical-product-resume.pdf`  
+**AI Product Resume:** `Portfolio Website/assets/docs/daniel-cohen-ai-product-resume.pdf`  
+**Generic fallback/archive:** `Portfolio Website/assets/docs/daniel-cohen-resume.pdf`
 
 ---
 

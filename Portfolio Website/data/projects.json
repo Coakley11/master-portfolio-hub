@@ -15,11 +15,11 @@
     "resumeProjectBullets": "assets/docs/resume-project-descriptions.md",
     "careerProfile": "career-profile.html",
     "executiveSummary": "executive-summary.html",
-    "resumeTechnicalProduct": "assets/docs/daniel-cohen-resume.pdf",
-    "resumeAiProduct": "assets/docs/daniel-cohen-resume.pdf",
+    "resumeTechnicalProduct": "assets/docs/daniel-cohen-technical-product-resume.pdf",
+    "resumeAiProduct": "assets/docs/daniel-cohen-ai-product-resume.pdf",
     "resumeTechnicalProductLabel": "Technical Product Manager Resume",
     "resumeAiProductLabel": "AI Product Manager Resume",
-    "resumeNote": "Primary CTAs use the current portfolio resume PDF until dedicated Technical Product and AI Product resume files are added under assets/docs/."
+    "resumeNote": "Technical Product and AI Product CTAs use dedicated PDFs. The generic daniel-cohen-resume.pdf remains as fallback/archive."
   },
   "resume": {
     "name": "Daniel Cohen",
@@ -542,19 +542,19 @@
     },
     {
       "question": "Where is the resume?",
-      "answer": "Resume Hub CTAs for Technical Product and AI Product paths (current PDF until dedicated files are added)."
+      "answer": "Homepage and Resume Hub CTAs: Technical Product Resume and AI Product Resume (dedicated PDFs)."
     }
   ],
   "resumeRouting": {
     "workArrangement": "Primarily seeking fully remote U.S. roles.",
     "defaultPdf": "assets/docs/daniel-cohen-resume.pdf",
-    "intro": "Two primary resume paths for recruiters. Until dedicated PDF files are supplied, both CTAs use the current portfolio resume \u2014 emphasis differs by role family.",
+    "intro": "Two primary resume paths for recruiters. Dedicated Technical Product and AI Product PDFs are linked below; the generic portfolio resume remains available as fallback/archive.",
     "tracks": [
       {
         "id": "technical-pm",
         "tier": "Primary",
         "label": "Technical Product Manager Resume",
-        "pdf": "assets/docs/daniel-cohen-resume.pdf",
+        "pdf": "assets/docs/daniel-cohen-technical-product-resume.pdf",
         "leadWith": "AI Music Practice Coach, Baseball Analytics, Command Center",
         "emphasis": "Strongest evidence: state ownership, multi-user systems, requirements, acceptance criteria, defect triage, and release readiness."
       },
@@ -562,7 +562,7 @@
         "id": "ai-pm",
         "tier": "Secondary",
         "label": "AI Product Manager Resume",
-        "pdf": "assets/docs/daniel-cohen-resume.pdf",
+        "pdf": "assets/docs/daniel-cohen-ai-product-resume.pdf",
         "leadWith": "AI Music Practice Coach, AMI, Command Center, Future Lens (prototype)",
         "emphasis": "Strongest evidence: AI feature design, coaching/evaluation surfaces, human-in-the-loop validation, and AI-assisted product iteration."
       },
