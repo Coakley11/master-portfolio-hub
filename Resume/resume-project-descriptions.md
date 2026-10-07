@@ -2,43 +2,63 @@
 
 **Updated:** 2026-10-07
 Current focus: **Quantitative Analytics, AI & Data** — open to remote part-time, contract, project-based, and flexible analytical opportunities.
+**Factual structure:** employment history (teaching, records, scoring, Excel, bookkeeping) is listed separately from independent technical projects.
 
 ---
 
-## Areas of work (lead projects)
+## Employment history (summary)
 
-| Area | Lead projects | Emphasis |
+| Role | Dates |
+|------|-------|
+| Independent Tutoring Business (self-employed) | Current |
+| Full-Time High School Mathematics Teacher, The Montfort Academy | 2024–2026 |
+| Permanent Full-Time Substitute Teacher, Yeshiva Har Torah | 2021–2024 |
+| College Mathematics & Statistics Instructor — Kingsborough CC (2014–2019), Queens College (lab 2012; adjunct 2015–2019), Pace University (2020), Yeshiva University (2020) | 2012–2020 (institution-specific) |
+| College Assistant & Academic Tutor, Queens College | 2011–2014 |
+| Mathematics & Statistics Tutor (tutoring organizations / private / SAT) | 2011–2024 |
+| Bookkeeping / Accounting Support, Village Copier | c. 2009–2010 |
+| Accounting / financial work, CureMD | c. 2007 |
+
+Key responsibilities: maintaining electronic grade, attendance, and roster records; grading and scoring against answer keys and criteria (including Scantron at Kingsborough); partial-credit decisions; written feedback; progress reporting; Excel (formulas, sorting, charts, PivotTables); remote college teaching by Zoom (Pace, Yeshiva); bank reconciliation and cross-checking source records.
+
+---
+
+## Areas of work (lead evidence)
+
+| Area | Lead evidence | Emphasis |
 |------|---------------|----------|
-| **Quantitative & Data Analysis** | Investment Explorer, Baseball Analytics, AMI | Statistical modeling, simulation, optimization, Python/SQL analysis |
-| **Excel & Spreadsheet Analytics** | SQL & Excel portfolio workbooks | Pivot tables, KPI dashboards, workbook-based reporting |
-| **AI Evaluation & Response Review** | AI Evaluator workbook, AI Music Practice Coach, AMI | Prompt rating, pairwise comparison, hallucination checks, output validation |
-| **Data Validation, QA & Quantitative Review** | Baseball import validation, Music Coach test suite | Accuracy checking, mathematical review, regression testing |
+| **Quantitative & Data Analysis** | Investment Explorer, Baseball Analytics, AMI (independent projects) | Statistical modeling, simulation, optimization, Python/SQL analysis |
+| **Excel & Spreadsheet Analytics** | SQL & Excel workbooks; Business Statistics labs; bookkeeping | PivotTables, KPI dashboards, formulas, reporting |
+| **Records, Review & Scoring** | Teaching history | Grading, scoring, partial credit, written feedback, electronic records |
+| **AI Evaluation (project & practice work)** | AI Evaluator workbook, Music Coach, AMI | Independent practice: prompt rating, pairwise comparison, output checking |
+| **Data Validation, QA & Quantitative Review** | Teaching, bookkeeping reconciliation, project testing | Accuracy checking, mathematical review, regression testing |
 
-**Resume (PDF):** `Portfolio Website/assets/docs/daniel-cohen-resume.pdf` (a resume aligned to this positioning is being prepared)
+**Resume (PDF):** `Portfolio Website/assets/docs/daniel-cohen-resume.pdf` (to be replaced separately with a version aligned to this positioning)
 
 ---
 
 ## Recommended resume headline
 
 ```
-Quantitative Analytics · AI Evaluation · Data Analysis · Excel / Python / SQL
+Quantitative Analytics · Excel · Python / SQL · Data Analysis · AI-Evaluation Practice
 ```
 
 ---
 
 ## Professional summary (recommended)
 
-M.A. Statistics & Applied Mathematics (GPA 3.93), MBA Finance & Investments (Finance GPA 4.00), and SOA Exams P, FM, MFE. Builds and validates quantitative and AI-driven tools end to end: a seven-application analytics suite in Python, SQL and Excel covering statistical modeling, simulation, optimization, and AI-output evaluation. Careful, accurate, and independent on structured analytical assignments. Open to remote part-time, contract, and project-based work in data analysis, quantitative review, AI evaluation, and spreadsheet/SQL analytics.
+Quantitative professional with an M.A. in Statistics & Applied Mathematics (GPA 3.93), an MBA in Finance & Investments (Finance GPA 4.00), and SOA Exams P, FM, MFE. More than a decade of paid work in college and K–12 mathematics instruction involving electronic records, grading and scoring, accuracy review, written feedback, Excel, remote teaching, and independent responsibility, plus earlier bookkeeping and bank-reconciliation work. Separately, independent technical projects — seven Python/Streamlit applications and SQL/Excel workbooks, including AI-evaluation practice — apply statistical modeling, simulation, and testing; this is independent project work, not prior corporate analytics, AI-evaluation, or software-engineering employment. Open to remote part-time, contract, project-based, and flexible analytical opportunities.
 
 ---
 
-## Independent experience bullets
+## Independent Technical Projects — Daniel AI Suite | 2024–Present
 
-**Independent Developer & Analyst — Daniel AI Suite | 2024–Present**
+*Independent portfolio and project work — not prior corporate analytics, AI-evaluation, or software-engineering employment.*
 
 - Designed, built, and maintained seven interconnected Streamlit applications covering statistical modeling, simulation, optimization, and decision support
 - Implemented multi-page systems with persistence, multi-user state, APIs, recommendation engines, and cross-app data handoffs (Supabase-backed patterns)
-- Validated expected vs. actual behavior, diagnosed defects, and regression-tested changes before each release using automated and manual checks
+- Created Excel/SQL practice workbooks with formulas, structured tables, PivotTables, KPI dashboards, and validation, including AI-evaluation practice datasets
+- Validated expected vs. actual behavior, diagnosed defects, and regression-tested changes using automated and manual checks
 
 ---
 
@@ -65,21 +85,18 @@ M.A. Statistics & Applied Mathematics (GPA 3.93), MBA Finance & Investments (Fin
 ## Skills line
 
 **Quantitative & Statistical:** Statistics, probability, hypothesis testing, simulation / Monte Carlo, optimization, financial modeling
-**Data, Excel & SQL:** Excel, pivot tables, KPI dashboards, SQL, Pandas, data cleaning, import validation
-**AI Evaluation & Quality:** Prompt/response rating, pairwise comparison, model-output validation, hallucination checks, regression testing
+**Excel, Records & SQL:** Excel (formulas, sorting, charts, PivotTables), KPI dashboards, SQL, Pandas, data cleaning, import validation, reconciliation
+**Review & Accuracy:** Grading and scoring, partial credit, written feedback, electronic records, cross-checking source records, regression testing
+**AI Evaluation (project practice):** Prompt/response rating, pairwise comparison, output checking
 **Python & Applications:** Python, Streamlit, Supabase, APIs, Git/GitHub, AI-assisted development
-
----
-
-## Teaching — keep
-
-Keep teaching as evidence of accuracy, clear quantitative explanation, and reliable independent work.
 
 ---
 
 ## What not to claim
 
+- Paid AI-evaluator, data-scientist, or software-engineer employment — the technical work is independent project work
 - Corporate job titles or tenure that did not exist
-- Managing a human engineering team (unless true)
+- Continuous employment at every college throughout 2012–2020 (use institution-specific dates)
+- Exact dates or duties for CureMD beyond "accounting/financial work, Excel charts related to profit-and-loss information"
 - That every line was hand-coded without AI assistance
 - Production-scale commercial metrics without evidence

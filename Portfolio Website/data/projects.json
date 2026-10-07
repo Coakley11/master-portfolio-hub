@@ -21,7 +21,7 @@
   "resume": {
     "name": "Daniel Cohen",
     "headline": "Quantitative Analytics \u00b7 AI Evaluation \u00b7 Data Analysis \u00b7 Excel / Python / SQL",
-    "summary": "M.A. Statistics & Applied Mathematics (GPA 3.93), MBA Finance & Investments (Finance GPA 4.00), and SOA Exams P, FM, MFE. Builds and validates quantitative and AI-driven tools end to end: a seven-application analytics suite in Python, SQL and Excel covering statistical modeling, simulation, optimization, and AI-output evaluation. Careful, accurate, and independent on structured analytical assignments. Open to remote part-time, contract, and project-based work in data analysis, quantitative review, AI evaluation, and spreadsheet/SQL analytics.",
+    "summary": "Quantitative professional with an M.A. in Statistics & Applied Mathematics (GPA 3.93), an MBA in Finance & Investments (Finance GPA 4.00), and SOA Exams P, FM, MFE. More than a decade of paid work in college and K\u201312 mathematics instruction involving electronic records, grading and scoring, accuracy review, written feedback, Excel, remote teaching, and independent responsibility, plus earlier bookkeeping and bank-reconciliation work. Separately, independent technical projects \u2014 seven Python/Streamlit applications and SQL/Excel workbooks, including AI-evaluation practice \u2014 apply statistical modeling, simulation, and testing; this is independent project work, not prior corporate analytics, AI-evaluation, or software-engineering employment. Open to remote part-time, contract, project-based, and flexible analytical opportunities.",
     "education": [
       {
         "degree": "M.A. Statistics & Applied Mathematics",
@@ -45,23 +45,23 @@
     ],
     "experience": [
       {
-        "title": "Independent Developer & Analyst \u2014 Daniel AI Suite",
-        "organization": "Independent \u2014 Daniel AI Suite",
-        "period": "2024 \u2014 Present",
+        "title": "Independent Tutoring Business",
+        "organization": "Self-employed",
+        "period": "Current",
         "bullets": [
-          "Designed, built, and maintained seven interconnected Streamlit applications covering statistical modeling, simulation, optimization, and decision support",
-          "Implemented multi-page systems with persistence, multi-user state, APIs, recommendation engines, and cross-app data handoffs (Supabase-backed patterns)",
-          "Validated expected vs. actual behavior, diagnosed defects, and regression-tested changes before each release using automated and manual checks"
+          "Runs one-on-one instructional work independently and adapts explanations to individual questions and needs"
         ]
       },
       {
         "title": "Full-Time High School Mathematics Teacher",
         "organization": "The Montfort Academy",
-        "period": "2024 \u2014 Present",
+        "period": "2024 \u2014 2026",
         "bullets": [
-          "Instruct Algebra II, Geometry, and Pre-Calculus with emphasis on quantitative reasoning, functions, and data interpretation",
-          "Support Chemistry and Physics laboratory sessions requiring measurement, precision, and analytical documentation",
-          "Apply structured problem-solving frameworks that parallel analytics debugging and hypothesis-driven analysis"
+          "Taught Algebra II, Geometry, and Pre-Calculus with emphasis on quantitative reasoning, functions, and data interpretation; supported Chemistry and Physics laboratory sessions requiring measurement and precision",
+          "Maintained electronic student records \u2014 grades, attendance, rosters, and assignment completion \u2014 including updates and corrections to recorded information",
+          "Created, administered, graded, and recorded exams, homework, quizzes, and written responses; reviewed work for mathematical accuracy, reasoning, and completeness",
+          "Tracked student performance across marking periods and used grades, tests, and assignments to prepare progress information and communicate professionally with parents",
+          "Created worksheets, assessments, instructional materials, reports, and professional correspondence using common office and school systems"
         ]
       },
       {
@@ -69,54 +69,23 @@
         "organization": "Yeshiva Har Torah",
         "period": "2021 \u2014 2024",
         "bullets": [
-          "Delivered K\u20138 secular and Judaic studies instruction across multiple subjects and grade levels",
-          "Prepared science laboratory materials and supported hands-on quantitative observation activities",
-          "Maintained classroom data tracking for student progress and instructional adjustment"
+          "Delivered K\u20138 secular and Judaic studies instruction across multiple subjects and grade levels, following detailed teacher plans and school procedures across changing classrooms and schedules",
+          "Frequently received unfamiliar assignments on short notice, reviewed the available materials, and independently determined how to deliver the lesson and maintain classroom continuity",
+          "Maintained and reviewed student work and classroom records while adapting to different teachers' requirements and routines; prepared science laboratory materials"
         ]
       },
       {
-        "title": "Mathematics Instructor",
-        "organization": "Pace University",
-        "period": "2020",
+        "title": "College Mathematics & Statistics Instructor",
+        "organization": "Kingsborough Community College \u00b7 Queens College \u00b7 Pace University \u00b7 Yeshiva University",
+        "period": "2012 \u2014 2020 (institution-specific dates below)",
         "bullets": [
-          "Taught Mathematics for Life, College Algebra, and Calculus I \u2014 connecting algebraic reasoning to applied decision contexts",
-          "Emphasized interpretation of quantitative results, not just procedural computation"
-        ]
-      },
-      {
-        "title": "Mathematics Instructor",
-        "organization": "Yeshiva University",
-        "period": "2020",
-        "bullets": [
-          "Led Calculus III Problem Solving Seminar focused on multi-step analytical reasoning and proof-style logic"
-        ]
-      },
-      {
-        "title": "Full-Time Lecturer / Adjunct Lecturer",
-        "organization": "Kingsborough Community College (CUNY)",
-        "period": "2014 \u2014 2019",
-        "bullets": [
-          "Taught Quantitative Reasoning, College Algebra, Intermediate Algebra, Principles of Mathematics, and Pre-Algebra",
-          "Developed curriculum reinforcing probability intuition, algebraic modeling, and statistical literacy at scale",
-          "Supported diverse learners in translating word problems into structured quantitative frameworks"
-        ]
-      },
-      {
-        "title": "Adjunct Lecturer",
-        "organization": "Queens College (CUNY)",
-        "period": "2015 \u2014 2019",
-        "bullets": [
-          "Instructed Probability & Statistics, Pre-Calculus, Calculus, College Algebra, and Math for Elementary School Teachers",
-          "Taught hypothesis-testing concepts, probability distributions, and regression intuition at undergraduate level"
-        ]
-      },
-      {
-        "title": "Business Statistics Lab Professor",
-        "organization": "Queens College",
-        "period": "2012",
-        "bullets": [
-          "Led Business Statistics labs with Excel instruction, computer-lab analytics exercises, and data interpretation assignments",
-          "Connected descriptive statistics, inference, and spreadsheet modeling to business decision scenarios"
+          "Kingsborough Community College (CUNY), 2014\u20132019 \u2014 Full-Time Lecturer / Adjunct Lecturer: Quantitative Reasoning, College and Intermediate Algebra, Principles of Mathematics, Pre-Algebra; Scantron-based assessment",
+          "Queens College (CUNY) \u2014 Business Statistics Lab Professor (2012), with Excel and computer-lab instruction; Adjunct Lecturer (2015\u20132019): Probability & Statistics, Pre-Calculus, Calculus, College Algebra",
+          "Pace University (2020) \u2014 Mathematics for Life, College Algebra, and Calculus I, taught remotely by Zoom; Yeshiva University (2020) \u2014 Calculus III Problem Solving Seminar, taught remotely by Zoom",
+          "Independently taught college mathematics and statistics courses, prepared syllabi and instructional materials, managed course requirements, and met grading and reporting deadlines",
+          "Graded exams, homework, and multi-step quantitative solutions; identified the step at which reasoning or calculations became incorrect and assigned partial credit",
+          "Used answer keys and established scoring procedures, and entered and maintained student results in electronic grading systems or spreadsheets",
+          "Used Excel and computer-lab instruction for formulas, datasets, descriptive and inferential statistics, financial applications, sorting, and charts; communicated with students by email about exams, assignments, and deadlines"
         ]
       },
       {
@@ -124,17 +93,35 @@
         "organization": "Queens College",
         "period": "2011 \u2014 2014",
         "bullets": [
-          "Tutored Statistics, Economics, and Finance with focus on quantitative support and exam preparation",
+          "Tutored and reviewed student work in Statistics, Economics, and Finance; identified errors and provided targeted explanations and written feedback",
           "Diagnosed knowledge gaps and built targeted practice for data interpretation and financial quantitative reasoning"
         ]
       },
       {
-        "title": "Mathematics & Statistics Tutor",
+        "title": "Mathematics & Statistics Tutor (employed / affiliated tutoring)",
         "organization": "Tutor Doctor \u00b7 Club Z \u00b7 Private \u00b7 SAT Prep",
-        "period": "2011 \u2014 Present (periodic)",
+        "period": "2011 \u2014 2024",
         "bullets": [
-          "Provided individualized instruction in Mathematics, Economics, Statistics, and Finance from remedial through advanced undergraduate levels",
-          "Delivered SAT mathematics preparation emphasizing problem decomposition and analytical speed"
+          "Provided individualized instruction in Mathematics, Economics, Statistics, and Finance from remedial through advanced undergraduate levels, and SAT mathematics preparation",
+          "Reviewed student work, identified errors, and gave targeted explanations and feedback"
+        ]
+      },
+      {
+        "title": "Bookkeeping / Accounting Support",
+        "organization": "Village Copier",
+        "period": "c. 2009 \u2014 2010",
+        "bullets": [
+          "Performed bookkeeping-related spreadsheet work and bank reconciliation, comparing printed and online bank records with electronic records and investigating discrepancies",
+          "Entered financial information, used Excel calculations such as sums and averages, and corrected entries when amounts or records did not match",
+          "Cross-checked source documents against recorded information to identify data-entry errors, duplicate items, and other causes of reconciliation differences"
+        ]
+      },
+      {
+        "title": "Accounting / Financial Work",
+        "organization": "CureMD",
+        "period": "c. 2007",
+        "bullets": [
+          "Accounting and financial work, including Excel charts related to profit-and-loss information"
         ]
       }
     ],
@@ -148,9 +135,8 @@
       "Python",
       "Pandas",
       "Data Visualization",
-      "AI Evaluation",
       "Model-Output Validation",
-      "Data Validation / QA",
+      "Data Validation / Accuracy Review",
       "Simulation",
       "Optimization",
       "Regression Testing",
@@ -158,22 +144,25 @@
       "APIs",
       "Supabase",
       "Git / GitHub",
-      "AI-Assisted Development"
+      "AI-Assisted Development",
+      "AI Evaluation (project practice)"
     ],
     "targetRoles": [
       "Quantitative & Data Analysis",
       "Excel & Spreadsheet Analytics",
-      "AI Evaluation & Response Review",
+      "Records, Review & Scoring",
+      "AI Evaluation (project & practice work)",
       "Data Validation, QA & Quantitative Review",
       "Python / SQL Analytical Projects"
     ],
     "targetRoleGroups": [
       {
-        "label": "Areas of Work",
+        "label": "Roles of interest",
         "roles": [
           "Quantitative & Data Analysis",
           "Excel & Spreadsheet Analytics",
-          "AI Evaluation & Response Review",
+          "Records, Review & Scoring",
+          "AI Evaluation (project & practice work)",
           "Data Validation, QA & Quantitative Review"
         ]
       }
@@ -211,25 +200,36 @@
           "Presented complex quantitative methods as adjustable, explainable analyses for beginner and advanced users"
         ]
       }
-    ]
+    ],
+    "independentProjects": {
+      "title": "Independent Technical Projects \u2014 Daniel AI Suite",
+      "period": "2024 \u2014 Present",
+      "note": "Independent portfolio and project work \u2014 not prior corporate analytics, AI-evaluation, or software-engineering employment.",
+      "bullets": [
+        "Designed, built, and maintained seven interconnected Streamlit applications covering statistical modeling, simulation, optimization, and decision support",
+        "Implemented multi-page systems with persistence, multi-user state, APIs, recommendation engines, and cross-app data handoffs (Supabase-backed patterns)",
+        "Created Excel/SQL practice workbooks with formulas, structured tables, PivotTables, KPI dashboards, and validation, including AI-evaluation practice datasets",
+        "Validated expected vs. actual behavior, diagnosed defects, and regression-tested changes using automated and manual checks"
+      ]
+    }
   },
   "careerProfile": {
     "title": "Career Profile",
-    "subtitle": "Quantitative analytics, AI evaluation, and data work \u2014 statistics and finance training applied to a seven-application analytics suite \u00b7 Open to remote part-time, contract, and project-based work",
+    "subtitle": "Quantitative training and teaching experience, supported by independent technical projects in Python, SQL, Excel, and AI tools \u00b7 Open to remote part-time, contract, and project-based work",
     "sections": {
       "professionalBackground": {
         "title": "Professional Background",
         "paragraphs": [
           "Daniel Cohen holds an M.A. in Statistics & Applied Mathematics (Hunter College, GPA 3.93), an MBA in Finance & Investments (Baruch College \u2014 Zicklin, Finance GPA 4.00), and a B.A. in Mathematics & Economics (Queens College \u2014 Magna Cum Laude). Society of Actuaries exams P/1, FM/2, and MFE ground his work in probability, financial mathematics, and risk thinking.",
-          "Earlier career work in mathematics education \u2014 college lecturing, Business Statistics labs with Excel, and ongoing quantitative instruction \u2014 built durable strengths: explaining complex quantitative ideas clearly, checking work for accuracy, structuring ambiguous problems, and working reliably and independently to deadlines."
+          "Paid work history spans more than a decade of college and K\u201312 mathematics instruction \u2014 Business Statistics labs with Excel, grading and scoring against answer keys, partial-credit decisions, written feedback, electronic grade and attendance records, progress reporting, and remote college teaching by Zoom \u2014 plus earlier bookkeeping and bank-reconciliation work at Village Copier. These roles built accuracy, clear communication, and independent responsibility."
         ]
       },
       "analyticsAiTransition": {
-        "title": "From Quantitative Training to Applied Analytics",
+        "title": "Independent Technical Projects",
         "paragraphs": [
-          "Graduate training in statistics and finance, plus years teaching quantitative reasoning, led to building working analytical software. The Daniel AI Suite \u2014 seven deployed Streamlit applications plus SQL/Excel workbooks \u2014 applies statistical modeling, simulation, optimization, and AI-output evaluation to real problems in finance, sports, music, and decision support.",
-          "Across the suite, Daniel designs the analysis, implements it in Python, SQL, and Excel, checks results for accuracy, tests expected against actual behavior, diagnoses defects, and iterates. The work was done independently, end to end, with AI-assisted tooling directed and verified personally.",
-          "That combination \u2014 quantitative rigor, careful validation, and independent delivery \u2014 is what he brings to part-time, contract, and project-based analytical assignments."
+          "Alongside that employment history, Daniel built a body of independent technical work. The Daniel AI Suite \u2014 seven deployed Streamlit applications plus SQL/Excel workbooks \u2014 applies statistical modeling, simulation, optimization, and testing to problems in finance, sports, music, and decision support.",
+          "In these projects he designs the analysis, implements it in Python, SQL, and Excel, checks results for accuracy, tests expected against actual behavior, diagnoses defects, and iterates, using AI-assisted tooling that he directs and verifies personally. This is independent project work and practice, not prior corporate analytics, AI-evaluation, or software-engineering employment.",
+          "Together \u2014 documented employment in teaching, scoring, records, and Excel, and demonstrated technical capability \u2014 these support part-time, contract, and project-based analytical assignments."
         ]
       },
       "portfolioHighlights": {
@@ -288,15 +288,19 @@
           },
           {
             "role": "Excel & Spreadsheet Analytics",
-            "fit": "Pivot tables, KPI dashboards, workbook modeling, and reporting \u2014 shown in the SQL & Excel portfolio and the Business Statistics lab teaching background."
+            "fit": "Formulas, sorting, charts, and PivotTables used in college statistics labs, grade records, and bookkeeping reconciliation, plus KPI dashboards and pivot practice in the SQL & Excel portfolio."
           },
           {
-            "role": "AI Evaluation & Response Review",
-            "fit": "Prompt rating, pairwise comparison, hallucination and quality checks, and structured review of model outputs \u2014 practiced in the AI Evaluator workbook and the Music Coach."
+            "role": "Records, Review & Scoring",
+            "fit": "Grading and scoring against answer keys and criteria, partial-credit decisions, written feedback, and maintaining electronic records across more than a decade of teaching."
+          },
+          {
+            "role": "AI Evaluation (project & practice work)",
+            "fit": "Independent practice rating prompts, comparing responses, and checking model outputs in the AI Evaluator workbook and the Music Coach \u2014 project work, not prior paid AI-evaluation employment."
           },
           {
             "role": "Data Validation, QA & Quantitative Review",
-            "fit": "Accuracy checking, mathematical and quantitative review, import validation, and regression testing, backed by an M.A. in Statistics and years teaching mathematics."
+            "fit": "Accuracy checking and mathematical review from teaching and bookkeeping-reconciliation work, plus import validation and regression testing in independent projects."
           }
         ]
       }
@@ -306,16 +310,16 @@
     "title": "Daniel Cohen \u2014 Quantitative Analytics, AI & Data",
     "subtitle": "Statistics, Excel, Python, SQL, and AI evaluation \u00b7 Open to remote part-time, contract, project-based, and flexible analytical opportunities",
     "keyStrengths": [
-      "Quantitative analysis and modeling: M.A. Statistics & Applied Mathematics (3.93), MBA Finance (4.00), SOA Exams P, FM, MFE",
-      "Excel, SQL, and Python analytical work, from pivot tables and KPI dashboards to simulation and optimization",
-      "AI evaluation and response review: rating, pairwise comparison, hallucination checks, and model-output validation",
-      "Accuracy-first validation: expected vs. actual testing, defect diagnosis, and regression checks on live applications",
-      "Seven deployed applications built and maintained independently, end to end",
-      "Years of teaching quantitative subjects: clear explanation, careful checking, and reliable independent work"
+      "Quantitative training: M.A. Statistics & Applied Mathematics (3.93), MBA Finance (4.00), SOA Exams P, FM, MFE",
+      "More than a decade of paid teaching work: electronic records, grading and scoring, partial-credit review, written feedback, Excel, and remote college instruction",
+      "Earlier bookkeeping and bank-reconciliation work: Excel, source-document cross-checking, and discrepancy investigation",
+      "Independent technical projects: seven deployed Python/Streamlit applications and SQL/Excel workbooks, with expected-vs-actual testing and regression checks",
+      "AI-evaluation practice: self-built workbooks for prompt rating, pairwise comparison, and output checking (independent practice, not prior paid AI-evaluation employment)",
+      "Reliable independent work: deadline-driven, detail-oriented, and experienced working remotely"
     ],
     "quantitativeBackground": {
       "title": "Quantitative Background",
-      "text": "M.A. Statistics & Applied Mathematics, Hunter College (GPA 3.93). MBA Finance & Investments, Baruch College \u2014 Zicklin School of Business (Overall GPA 3.88, Finance GPA 4.00). B.A. Mathematics & Economics, Queens College \u2014 Magna Cum Laude, Arthur D. Gayer Memorial Award in Economics. Passed SOA Exams P/1, FM/2, and MFE. College lecturer at Kingsborough Community College and Queens College (Probability & Statistics, Calculus, Quantitative Reasoning); Business Statistics Lab Professor at Queens College with Excel instruction; current mathematics instructor at The Montfort Academy."
+      "text": "M.A. Statistics & Applied Mathematics, Hunter College (GPA 3.93). MBA Finance & Investments, Baruch College \u2014 Zicklin School of Business (Overall GPA 3.88, Finance GPA 4.00). B.A. Mathematics & Economics, Queens College \u2014 Magna Cum Laude, Arthur D. Gayer Memorial Award in Economics. Passed SOA Exams P/1, FM/2, and MFE. College lecturer at Kingsborough Community College and Queens College (Probability & Statistics, Calculus, Quantitative Reasoning); Business Statistics Lab Professor at Queens College with Excel instruction; high school mathematics teacher at The Montfort Academy (2024\u20132026)."
     },
     "technicalSkills": {
       "title": "Technical Skills",
@@ -339,13 +343,13 @@
       ]
     },
     "engineeringEvidence": {
-      "title": "Engineering & Validation Evidence (Portfolio-Built)",
+      "title": "Independent Project Evidence",
       "items": [
         "Identified problems and built analytical tools across finance, sports, music, and suite orchestration",
         "Designed multi-page workflows with persistence, state, APIs, and multi-user behavior (draft rooms, shared leagues)",
         "Built recommendation and ranking systems (Decision Score, portfolio health, simulation-based decision support)",
         "Validated behavior against expected results, diagnosed root causes, and regression-checked fixes",
-        "Evaluated AI-generated outputs in music coaching, evaluator workbooks, and AMI interpretation labs",
+        "Practiced evaluating AI-generated outputs in self-built evaluator workbooks and in the Music Coach and AMI projects (independent practice)",
         "Deployed and maintained working applications on Streamlit Cloud with honest scope labels where prototype"
       ]
     },
@@ -362,7 +366,7 @@
     "aiRelatedWork": {
       "title": "AI-Related Work",
       "items": [
-        "AI Evaluator & Analytics workbook \u2014 prompt rating, pairwise comparison, hallucination KPIs",
+        "AI Evaluator & Analytics workbook (independent practice) \u2014 prompt rating, pairwise comparison, hallucination KPIs",
         "AMI Train-an-AI / overfitting visualization and cross-app analytical insight handoffs",
         "AI Music Practice Coach \u2014 adaptive practice tooling and optional AI coaching",
         "Future Lens \u2014 taxonomy-driven AI transition scenarios through 2050",
@@ -371,16 +375,16 @@
     },
     "careerDirection": {
       "title": "Availability & Focus",
-      "text": "Daniel is open to remote part-time, contract, project-based, and flexible analytical work \u2014 quantitative and data analysis, Excel and spreadsheet analytics, AI evaluation and response review, data validation and quantitative review, and Python/SQL assignments. The deployed Daniel AI Suite shows the depth of work he can deliver independently."
+      "text": "Daniel is open to remote part-time, contract, project-based, and flexible analytical work \u2014 quantitative and data analysis, Excel and spreadsheet work, records and scoring review, data validation and quantitative review, and Python/SQL assignments. His employment history is in teaching and earlier bookkeeping; the Daniel AI Suite is independent project work showing the technical depth he can bring."
     }
   },
   "aboutMe": {
     "headline": "Quantitative Analytics \u00b7 AI Evaluation \u00b7 Data Analysis \u00b7 Excel / Python / SQL",
     "subheadline": "M.A. Statistics \u00b7 MBA Finance \u00b7 SOA Exams \u00b7 Open to remote part-time, contract, and project-based work",
     "paragraphs": [
-      "I analyze, model, and validate quantitative information. My training \u2014 an M.A. in Statistics & Applied Mathematics, an MBA in Finance, and three SOA exams \u2014 is applied across seven live applications that use statistical modeling, simulation, optimization, and AI-output evaluation.",
-      "I work carefully and independently: I check results for accuracy, test expected against actual behavior, diagnose what went wrong, and iterate. Years of teaching mathematics and statistics built the same habits \u2014 explaining clearly, catching errors, and meeting deadlines.",
-      "I am open to remote part-time, contract, project-based, and flexible analytical work \u2014 data analysis, Excel and SQL, AI evaluation and response review, and quantitative or mathematical review."
+      "I analyze, model, and check quantitative information. My training \u2014 an M.A. in Statistics & Applied Mathematics, an MBA in Finance, and three SOA exams \u2014 is applied in seven independent projects: live applications and workbooks that use statistical modeling, simulation, optimization, and testing.",
+      "My employment history is in teaching and earlier bookkeeping: more than a decade of grading and scoring, maintaining electronic records, working in Excel, giving written feedback, teaching remotely, and meeting deadlines independently. Those jobs built the same habits good analytical work needs \u2014 accuracy, clear explanation, and reliability.",
+      "I am open to remote part-time, contract, project-based, and flexible analytical work \u2014 data analysis, Excel and SQL, records and scoring review, and quantitative or mathematical review."
     ],
     "pillars": [
       {
@@ -388,15 +392,15 @@
         "text": "Statistics, probability, simulation, optimization, and financial modeling implemented in Python, SQL, and Excel."
       },
       {
-        "title": "Data Validation & Accuracy",
-        "text": "Expected-vs-actual testing, import validation, defect diagnosis, and regression checks."
+        "title": "Accuracy & Review",
+        "text": "Grading, scoring, and bookkeeping reconciliation experience, plus expected-vs-actual testing and regression checks in my projects."
       },
       {
-        "title": "AI Evaluation",
-        "text": "Prompt rating, pairwise comparison, hallucination checks, and model-output review, plus AI-assisted features built into real applications."
+        "title": "AI Evaluation Practice",
+        "text": "Independent practice rating prompts, comparing responses, and checking model outputs, plus AI-assisted features built into applications."
       },
       {
-        "title": "Independent Delivery",
+        "title": "Independent Projects",
         "text": "Seven deployed applications and SQL/Excel workbooks designed, built, tested, and maintained end to end."
       }
     ]
@@ -419,8 +423,8 @@
     },
     {
       "icon": "\ud83e\udd16",
-      "title": "AI Evaluation & Review",
-      "text": "Rating, comparison, and validation of AI outputs, plus AI-assisted features built into real applications."
+      "title": "AI Evaluation Practice",
+      "text": "Practice rating, comparing, and checking AI outputs, plus AI-assisted features built into real applications."
     },
     {
       "icon": "\ud83d\udcca",
@@ -495,7 +499,7 @@
     "headline": "Quantitative Analytics, AI & Data",
     "paragraphs": [
       "Statistics \u2022 Excel \u2022 Python \u2022 SQL \u2022 AI Evaluation \u2022 Data Analysis \u2022 Quantitative Modeling",
-      "I apply statistics, modeling, and careful validation to data and AI problems \u2014 with seven deployed applications and SQL/Excel workbooks as proof of work.",
+      "I apply statistics, modeling, and careful checking to data and AI problems \u2014 backed by teaching and scoring experience and by seven independent projects with SQL/Excel workbooks.",
       "Open to remote part-time, contract, project-based, and flexible analytical opportunities."
     ],
     "skills": [
@@ -505,31 +509,31 @@
       "Excel",
       "SQL",
       "Python",
-      "AI Evaluation",
       "Data Validation",
       "Simulation",
       "Optimization",
       "Pandas",
       "Streamlit",
-      "Supabase"
+      "Supabase",
+      "AI Evaluation (practice)"
     ]
   },
   "recruiterQuickScan": [
     {
       "question": "What work?",
-      "answer": "Quantitative and data analysis, Excel/SQL/Python assignments, AI evaluation and response review, and data validation or quantitative review."
+      "answer": "Quantitative and data analysis, Excel/SQL/Python assignments, records and scoring review, data validation, and AI-evaluation practice work."
     },
     {
       "question": "Availability?",
       "answer": "Open to remote part-time, contract, project-based, and flexible analytical opportunities."
     },
     {
-      "question": "Background?",
-      "answer": "M.A. Statistics & Applied Mathematics (3.93), MBA Finance (4.00), SOA Exams P, FM, MFE, and years teaching quantitative subjects."
+      "question": "Employment history?",
+      "answer": "10+ years teaching college and K\u201312 mathematics (grading and scoring, electronic records, Excel, remote instruction); earlier bookkeeping and bank-reconciliation work."
     },
     {
-      "question": "What proves it?",
-      "answer": "Featured: AI Music Practice Coach, Baseball Analytics, Command Center + AMI, Investment Explorer \u2014 plus the full live suite and SQL/Excel workbooks."
+      "question": "Independent projects?",
+      "answer": "Seven deployed Python/Streamlit applications and SQL/Excel workbooks \u2014 independent project work, listed separately from employment."
     },
     {
       "question": "Where is the resume?",
@@ -545,24 +549,30 @@
         "id": "quant",
         "label": "Quantitative & Data Analysis",
         "leadWith": "Investment Explorer, Baseball Analytics, AMI",
-        "emphasis": "Statistical modeling, simulation, optimization, and Python/SQL analysis."
+        "emphasis": "Statistical modeling, simulation, optimization, and Python/SQL analysis (independent projects)."
       },
       {
         "id": "excel",
         "label": "Excel & Spreadsheet Analytics",
-        "leadWith": "SQL & Excel portfolio workbooks",
-        "emphasis": "Pivot tables, KPI dashboards, and workbook-based reporting."
+        "leadWith": "SQL & Excel portfolio workbooks; Business Statistics lab teaching",
+        "emphasis": "PivotTables, KPI dashboards, formulas, and workbook-based reporting."
+      },
+      {
+        "id": "records",
+        "label": "Records, Review & Scoring",
+        "leadWith": "Teaching history",
+        "emphasis": "Grading and scoring, partial credit, written feedback, and electronic records."
       },
       {
         "id": "ai-eval",
-        "label": "AI Evaluation & Response Review",
+        "label": "AI Evaluation (project & practice work)",
         "leadWith": "AI Evaluator workbook, AI Music Practice Coach, AMI",
-        "emphasis": "Prompt rating, pairwise comparison, hallucination checks, and output validation."
+        "emphasis": "Independent practice: prompt rating, pairwise comparison, and output checking."
       },
       {
         "id": "validation",
         "label": "Data Validation & Quantitative Review",
-        "leadWith": "Baseball import validation, Music Coach test suite",
+        "leadWith": "Teaching and bookkeeping reconciliation; Baseball import validation; Music Coach tests",
         "emphasis": "Accuracy checking, mathematical review, and regression testing."
       }
     ],
@@ -587,17 +597,18 @@
       "name": "Data, Excel & SQL",
       "skills": [
         "Excel",
-        "Pivot tables",
+        "PivotTables",
+        "Formulas / sorting / charts",
         "KPI dashboards",
         "SQL",
         "Pandas",
         "Data cleaning",
         "Import validation",
-        "Reporting workflows"
+        "Reconciliation / cross-checking"
       ]
     },
     {
-      "name": "AI Evaluation & Quality",
+      "name": "AI Evaluation Practice & Testing",
       "skills": [
         "Prompt / response rating",
         "Pairwise comparison",
@@ -1645,17 +1656,22 @@
     {
       "tier": "Spreadsheet",
       "role": "Excel & Spreadsheet Analytics",
-      "fit": "Pivot tables, KPI dashboards, workbook modeling, and reporting \u2014 shown in the SQL & Excel portfolio and the Business Statistics lab teaching background."
+      "fit": "Formulas, sorting, charts, and PivotTables used in college statistics labs, grade records, and bookkeeping reconciliation, plus KPI dashboards and pivot practice in the SQL & Excel portfolio."
+    },
+    {
+      "tier": "Review",
+      "role": "Records, Review & Scoring",
+      "fit": "Grading and scoring against answer keys and criteria, partial-credit decisions, written feedback, and maintaining electronic records across more than a decade of teaching."
     },
     {
       "tier": "AI Evaluation",
-      "role": "AI Evaluation & Response Review",
-      "fit": "Prompt rating, pairwise comparison, hallucination and quality checks, and structured review of model outputs \u2014 practiced in the AI Evaluator workbook and the Music Coach."
+      "role": "AI Evaluation (project & practice work)",
+      "fit": "Independent practice rating prompts, comparing responses, and checking model outputs in the AI Evaluator workbook and the Music Coach \u2014 project work, not prior paid AI-evaluation employment."
     },
     {
       "tier": "Validation",
       "role": "Data Validation, QA & Quantitative Review",
-      "fit": "Accuracy checking, mathematical and quantitative review, import validation, and regression testing, backed by an M.A. in Statistics and years teaching mathematics."
+      "fit": "Accuracy checking and mathematical review from teaching and bookkeeping-reconciliation work, plus import validation and regression testing in independent projects."
     }
   ]
 }

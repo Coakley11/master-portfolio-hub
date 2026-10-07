@@ -80,6 +80,17 @@ function renderResumePreview(data) {
     </div>
   `).join('');
 
+  const ip = r.independentProjects;
+  const indep = ip ? `
+    <div class="resume-entry">
+      <div class="resume-entry-head">
+        <strong>${ip.title}</strong>
+        <span>${ip.period}</span>
+      </div>
+      <div class="resume-entry-org"><em>${ip.note}</em></div>
+      <ul>${ip.bullets.map(b => `<li>${b}</li>`).join('')}</ul>
+    </div>` : '';
+
   const projects = r.projectBullets.map(p => `
     <div class="resume-entry">
       <div class="resume-entry-head">
@@ -123,7 +134,8 @@ function renderResumePreview(data) {
     </section>
 
     <section class="resume-doc-section">
-      <h2>Selected Projects</h2>
+      <h2>Independent Technical Projects</h2>
+      ${indep}
       ${projects}
     </section>
 
@@ -198,6 +210,13 @@ function renderResumeHub(data) {
           <ul>${e.bullets.map(b => `<li>${b}</li>`).join('')}</ul>
         </div>
       `).join('')}
+      ${r.independentProjects ? `
+        <h3 class="section-subtitle" style="margin-top:2rem;">Independent Technical Projects</h3>
+        <div class="content-block">
+          <h3>${r.independentProjects.title} <span style="color:var(--muted);font-weight:400;">| ${r.independentProjects.period}</span></h3>
+          <p style="color:var(--muted);"><em>${r.independentProjects.note}</em></p>
+          <ul>${r.independentProjects.bullets.map(b => `<li>${b}</li>`).join('')}</ul>
+        </div>` : ''}
       <h3 class="section-subtitle" style="margin-top:2rem;">Project Bullets (copy-ready)</h3>
       ${r.projectBullets.map(p => `
         <div class="content-block">

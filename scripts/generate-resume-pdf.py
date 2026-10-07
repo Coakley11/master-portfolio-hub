@@ -113,6 +113,19 @@ def build_pdf(resume: dict, site: dict) -> None:
             bullet(b)
         pdf.ln(1)
 
+    ip = resume.get("independentProjects")
+    if ip:
+        section("Independent Technical Projects")
+        pdf.set_font("Helvetica", "B", 10)
+        pdf.cell(0, 5, ascii_safe(f"{ip['title']}  ({ip['period']})"), new_x="LMARGIN", new_y="NEXT")
+        pdf.set_font("Helvetica", "I", 9)
+        pdf.set_text_color(71, 85, 105)
+        pdf.cell(0, 4, ascii_safe(ip["note"][:110]), new_x="LMARGIN", new_y="NEXT")
+        pdf.set_text_color(51, 65, 85)
+        for b in ip["bullets"]:
+            bullet(b)
+        pdf.ln(1)
+
     section("Selected Projects")
     for proj in resume["projectBullets"]:
         pdf.set_font("Helvetica", "B", 10)

@@ -2,7 +2,7 @@
 
 **Updated:** 2026-07-15  
 **Goal:** Position as a quantitative analytics, AI-evaluation, and data professional open to remote part-time, contract, and project-based work.  
-**Work areas:** Quantitative & data analysis · Excel / spreadsheet analytics · AI evaluation & response review · data validation, QA & quantitative review · Python / SQL assignments  
+**Work areas:** Quantitative & data analysis · Excel / spreadsheet analytics · records & scoring review · AI-evaluation practice (independent) · data validation, QA & quantitative review · Python / SQL assignments  
 **Portfolio site:** Deploy `Portfolio Website/` and paste the public URL below.
 
 ---
@@ -29,10 +29,10 @@ Data Analyst | Excel · SQL · Python · Statistics | Data Validation & Reportin
 Quantitative Analytics | MBA Finance · M.A. Statistics | Portfolio Risk · Monte Carlo · Optimization | Python · SQL · Excel
 ```
 
-### AI Evaluator / Trainer lane
+### AI evaluation practice lane
 
 ```
-AI Evaluation & Analytics | Statistics · SQL · Python | Model Interpretation · Decision Labs | Streamlit Product Builder
+Quantitative Analytics | Statistics · SQL · Python · Excel | AI-Evaluation Practice Projects | Decision Labs
 ```
 
 **Use:** Default for most applications. Switch lanes when applying to specialized roles.
@@ -70,7 +70,7 @@ Python · SQL · Excel · Pandas · Streamlit · Statistics · Monte Carlo · Po
 
 **Open to**
 
-Remote part-time, contract, project-based, and flexible analytical work — quantitative and data analysis, Excel and SQL, AI evaluation and response review, data validation, and quantitative or mathematical review.
+Remote part-time, contract, project-based, and flexible analytical work — quantitative and data analysis, Excel and SQL, records and scoring review, data validation, and quantitative or mathematical review.
 
 📊 Portfolio: *[add GitHub Pages / portfolio URL]*  
 💼 LinkedIn: https://www.linkedin.com/in/daniel-cohen-355319340/  
@@ -107,12 +107,12 @@ Use project screenshots from `Screenshots/` (same heroes as the website):
 ## Priority 4 — Experience framing tip
 
 Keep teaching roles — they support communication, accuracy, and quantitative instruction.  
-Add / emphasize an independent role such as:
+Keep the Experience section to actual employment (Montfort Academy 2024–2026; Yeshiva Har Torah 2021–2024; college instruction; tutoring; Village Copier bookkeeping, c. 2009–2010; CureMD, c. 2007). List the independent work under **Projects**, not as a job:
 
-**Independent Developer & Analyst — Daniel AI Suite (2024–Present)**  
+**Independent Technical Projects — Daniel AI Suite (2024–Present)** — independent project work, not prior corporate analytics, AI-evaluation, or software-engineering employment  
 - Built and deployed seven interconnected Streamlit applications for analytics, forecasting, and decision support  
 - Designed scoring engines, health diagnostics, live-data fallbacks, and cross-app resume/insight workflows  
-- Authored SQL & Excel workbooks with KPI dashboards and 42+ structured queries including AI evaluation practice
+- Authored SQL & Excel workbooks with KPI dashboards and 42+ structured queries including AI-evaluation practice (independent)
 
 ---
 

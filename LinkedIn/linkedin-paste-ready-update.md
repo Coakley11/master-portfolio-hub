@@ -38,7 +38,7 @@ Toolkit
 Python · SQL · Excel · Pandas · Streamlit · Statistics · Monte Carlo · Portfolio Optimization · Machine Learning · Data Visualization · AI Evaluation · Git/GitHub · AI-Assisted Development
 
 Open to
-Remote part-time, contract, project-based, and flexible analytical work — quantitative and data analysis, Excel and SQL, AI evaluation and response review, data validation, and quantitative or mathematical review.
+Remote part-time, contract, project-based, and flexible analytical work — quantitative and data analysis, Excel and SQL, records and scoring review, data validation, and quantitative or mathematical review.
 
 Portfolio: https://coakley11.github.io/master-portfolio-hub/
 GitHub: https://github.com/Coakley11
@@ -57,25 +57,25 @@ Optional 5th: AI Evaluator workbook PDF or SQL/Excel page on the portfolio site.
 
 ---
 
-## Experience entry — Independent Developer & Analyst
+## Projects entry — Independent Technical Projects (NOT an Experience/job entry)
 
-**Title:** Independent Developer & Analyst  
-**Company:** Independent — Daniel AI Suite  
+**Project name:** Daniel AI Suite  
 **Dates:** 2024 – Present  
-**Location:** Remote / New York  
 **Description:**
 
 ```
+Independent project work — not prior corporate analytics, AI-evaluation, or software-engineering employment.
+
 Designed, built, and deployed seven interconnected Streamlit applications for portfolio analytics, fantasy baseball operations, applied math decision labs, playoff intelligence, music practice tooling, AI transition scenarios, and suite orchestration.
 
 Implemented decision scoring, portfolio health diagnostics, Monte Carlo and efficient frontier modeling, live-data fallbacks, and cross-app resume/insight workflows with Supabase-backed persistence patterns.
 
-Authored SQL & Excel analytics workbooks with KPI dashboards, pivot exercises, and 42+ structured queries including AI evaluator practice datasets.
+Authored SQL & Excel analytics workbooks with KPI dashboards, pivot exercises, and 42+ structured queries including AI-evaluation practice datasets (independent practice).
 
 Selected projects: Baseball Analytics · Investment Explorer · Applied Mathematical Intelligence (AMI) · AI Music Practice Coach · Basketball Playoff Companion · Future Lens · AI Command Center.
 ```
 
-Place this experience entry **above** teaching roles.
+Add this under LinkedIn **Projects** (or Featured), not as an Experience job. Keep the Experience section factual: Montfort Academy (2024–2026), Yeshiva Har Torah (2021–2024), college instruction at Kingsborough, Queens College, Pace and Yeshiva University (institution-specific dates on the portfolio resume page), tutoring, Village Copier bookkeeping (c. 2009–2010), and CureMD (c. 2007). Do not publish anything to LinkedIn until reviewed.
 
 ---
 
@@ -98,7 +98,7 @@ Place this experience entry **above** teaching roles.
 - Monte Carlo Simulation
 - Hypothesis Testing
 - Quantitative Modeling
-- AI Evaluation
+- AI Evaluation (practice)
 - Decision Support Systems
 - Git
 - AI-Assisted Development

@@ -51,6 +51,23 @@ def main() -> int:
                 line = text.count("\n", 0, m.start()) + 1
                 errors.append(f"{rel}:{line}: banned positioning phrase /{pat}/")
 
+    # Factual employment history vs. independent projects
+    exp = data["resume"]["experience"]
+    titles = " | ".join(f"{e['title']} {e['organization']} {e['period']}" for e in exp)
+    montfort = next((e for e in exp if "Montfort" in e["organization"]), None)
+    if not montfort or "2026" not in montfort["period"] or "Present" in montfort["period"]:
+        errors.append("Montfort Academy must be dated 2024-2026 (ended)")
+    for needle in ("Village Copier", "CureMD", "Independent Tutoring Business"):
+        if needle not in titles:
+            errors.append(f"employment history missing: {needle}")
+    if "Independent Developer" in titles or "Daniel AI Suite" in titles:
+        errors.append("Daniel AI Suite must not be listed as employment; use resume.independentProjects")
+    ip = data["resume"].get("independentProjects")
+    if not ip or "not prior corporate" not in ip.get("note", ""):
+        errors.append("resume.independentProjects missing its 'not prior corporate ... employment' note")
+    if re.search(r"AI Evaluation & Response Review", json.dumps(data), flags=re.I):
+        errors.append("AI evaluation must be framed as project/practice work, not employment")
+
     # Resume button label and link
     if not (SITE / site["resumePdf"]).exists():
         errors.append(f"resume PDF missing: {site['resumePdf']}")
