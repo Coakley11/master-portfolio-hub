@@ -11,7 +11,7 @@ Full-season fantasy baseball decision platform built in Python/Streamlit.
 
 Includes Decision Score draft recommendations, live/multiplayer draft rooms, uploaded draft import, shared league claims, lineup management, Trade Center, research comparison, HOF case mode, and Baseball Insight → AMI analytical handoff.
 
-Demonstrates: sports analytics, decision scoring, multiplayer workflows, and product ownership beyond static dashboards.
+Demonstrates: sports analytics, decision scoring, import validation, and multi-user workflows beyond static dashboards.
 
 Live app: https://baseball-stat-app-d4jlymjc4iptaadc3kquwx.streamlit.app  
 GitHub: https://github.com/Coakley11/baseball-stat-app
@@ -24,7 +24,7 @@ Live-market portfolio analytics product for risk, allocation, and scenario analy
 
 Portfolio Health scoring, Monte Carlo simulation, efficient frontier optimization, ETF holdings overlap, beginner coaching + advanced modes, and Applied Investment Insight → AMI handoff. Analytics core separated from UI.
 
-Demonstrates: quantitative finance, risk modeling, dual-audience UX, and end-to-end product delivery.
+Demonstrates: quantitative finance, risk modeling, simulation, and end-to-end delivery.
 
 Live app: https://investment-portfolio-analyzer-ty2sbzumvxsqwbqhkvf6rz.streamlit.app  
 GitHub: https://github.com/Coakley11/investment-portfolio-analyzer
@@ -46,9 +46,9 @@ GitHub: https://github.com/Coakley11/Applied-mathematical-intelligence
 
 ## AI Music Practice Coach
 
-Song-aware AI practice studio across catalog, practice control center, backing tracks, creative lab, progression builder, and practice log.
+Song-aware practice studio built as nine interconnected pages: song catalog, section-focused practice, generated backing tracks, Creative Lab, Composition Studio, Multitrack layering, recording analysis, and practice log — all sharing one active-song state, with optional AI coaching and cross-device restore.
 
-Demonstrates: AI-assisted product design, complex domain state, and creative tooling beyond chatbot wrappers.
+Demonstrates: complex application logic, state and data management, testing and validation (large automated test suite), AI-assisted features, and independent iterative development.
 
 Live app: https://ai-music-practice-coach-6szqxqxqrqxdmryyewk8sq.streamlit.app  
 GitHub: https://github.com/Coakley11/ai-music-practice-coach
@@ -83,7 +83,7 @@ Suite homepage for the Daniel AI Suite.
 
 Continue/resume workflow cards, coach activity insights, workspace profiles, and app directory deep links into Baseball, Investment, Music, AMI, Basketball Companion, and Future Lens.
 
-Demonstrates: platform thinking, activity analytics, and multi-app product orchestration.
+Demonstrates: shared data schemas, activity analytics, and multi-app integration.
 
 Live app: https://daniel-ai-command-center-dexxnd7bf8jalxzqbyq55i.streamlit.app  
 GitHub: https://github.com/Coakley11/daniel-ai-command-center

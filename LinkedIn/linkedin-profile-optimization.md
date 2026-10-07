@@ -1,8 +1,8 @@
 # LinkedIn Profile Optimization — Daniel Cohen
 
 **Updated:** 2026-07-15  
-**Goal:** Position as a statistics/finance professional who ships analytics & AI decision-support products.  
-**Target roles:** Data Analyst · Product Analyst · Quantitative Analyst · Financial Analyst · AI Evaluator · AI Trainer · BI / Research Analyst  
+**Goal:** Position as a quantitative analytics, AI-evaluation, and data professional open to remote part-time, contract, and project-based work.  
+**Work areas:** Quantitative & data analysis · Excel / spreadsheet analytics · AI evaluation & response review · data validation, QA & quantitative review · Python / SQL assignments  
 **Portfolio site:** Deploy `Portfolio Website/` and paste the public URL below.
 
 ---
@@ -11,16 +11,16 @@
 
 LinkedIn headline limit: **220 characters**.
 
-### Recommended default (balanced)
+### Recommended default (broad)
 
 ```
-Mathematics & Statistics Professional | Analytics & Quant Modeling | AI Decision Support | Python · SQL · Streamlit | Product-Oriented Dashboards
+Quantitative Analytics, AI & Data | Statistics · Excel · Python · SQL · AI Evaluation | Open to Remote Part-Time, Contract & Project-Based Work
 ```
 
-### Analytics / Product Analyst lane
+### Data / Excel lane
 
 ```
-Data & Product Analyst | SQL · Python · Statistics | Decision-Support Apps | Portfolio Risk · Sports Analytics · Streamlit
+Data Analyst | Excel · SQL · Python · Statistics | Data Validation & Reporting | Open to Remote Part-Time & Contract Work
 ```
 
 ### Quant / Finance lane
@@ -49,8 +49,8 @@ I build decision-support applications — not notebook demos. The Daniel AI Suit
 
 **What stands out in my work**
 
-• End-to-end ownership: data → modeling → UX → persistence → deployment  
-• Analytical thinking packaged as products people can click through  
+• End-to-end delivery: data → modeling → validation → persistence → deployment  
+• Quantitative methods built into working tools people can click through  
 • AI-assisted development used to ship substantial multi-page applications  
 • Clear communication of quantitative results (college + high school teaching background)
 
@@ -59,7 +59,7 @@ I build decision-support applications — not notebook demos. The Daniel AI Suit
 • Baseball Analytics — Decision Score drafts, live draft rooms, shared leagues, lineup/trade ops  
 • Investment Explorer — portfolio health, Monte Carlo, efficient frontier, ETF overlap  
 • Applied Mathematical Intelligence — multi-lab decision engine with suite insight handoffs  
-• AI Music Practice Coach — song-aware practice studio with backing tracks and logs  
+• AI Music Practice Coach — nine-page practice studio with generated backing tracks, composition tools, AI coaching, and a large automated test suite  
 • Basketball Playoff Companion — live games, bracket, matchup intelligence, legacy tracking  
 • Future Lens — taxonomy-driven AI skill evolution scenarios through 2050  
 • AI Command Center — suite resume/continue, coach activity, app directory
@@ -70,7 +70,7 @@ Python · SQL · Excel · Pandas · Streamlit · Statistics · Monte Carlo · Po
 
 **Open to**
 
-Data Analyst · Product Analyst · Quantitative Analyst · Financial Analyst · AI Evaluator · AI Trainer · BI Analyst · Research Analyst roles where statistical reasoning and shipped analytics products matter.
+Remote part-time, contract, project-based, and flexible analytical work — quantitative and data analysis, Excel and SQL, AI evaluation and response review, data validation, and quantitative or mathematical review.
 
 📊 Portfolio: *[add GitHub Pages / portfolio URL]*  
 💼 LinkedIn: https://www.linkedin.com/in/daniel-cohen-355319340/  
@@ -97,7 +97,7 @@ Use project screenshots from `Screenshots/` (same heroes as the website):
 | Baseball | `01-draft-assistant-recommendations.png` |
 | Investment | `01-portfolio-health.png` |
 | AMI | `01-home-dashboard.png` |
-| Music | `02-practice-control-center.png` |
+| Music | `04-creative-lab.png` |
 | Basketball | `01-home-dashboard.png` |
 | Future Lens | `01-domain-wizard.png` |
 | Command Center | `homepage-continue.png` |
@@ -106,10 +106,10 @@ Use project screenshots from `Screenshots/` (same heroes as the website):
 
 ## Priority 4 — Experience framing tip
 
-Keep teaching roles — they support communication and quantitative instruction.  
+Keep teaching roles — they support communication, accuracy, and quantitative instruction.  
 Add / emphasize an independent role such as:
 
-**Analytics & AI Portfolio Developer — Daniel AI Suite (2024–Present)**  
+**Independent Developer & Analyst — Daniel AI Suite (2024–Present)**  
 - Built and deployed seven interconnected Streamlit applications for analytics, forecasting, and decision support  
 - Designed scoring engines, health diagnostics, live-data fallbacks, and cross-app resume/insight workflows  
 - Authored SQL & Excel workbooks with KPI dashboards and 42+ structured queries including AI evaluation practice
@@ -120,7 +120,7 @@ Add / emphasize an independent role such as:
 
 **Pin first:** Python, SQL, Statistics, Excel, Data Analysis, Data Visualization, Machine Learning, Financial Analysis, Streamlit, Pandas  
 
-**Also add:** Portfolio Optimization, Monte Carlo Simulation, Hypothesis Testing, Product Analytics, AI Evaluation, Decision Support Systems, Git, AI-Assisted Development
+**Also add:** Portfolio Optimization, Monte Carlo Simulation, Hypothesis Testing, Quantitative Modeling, AI Evaluation, Decision Support Systems, Git, AI-Assisted Development
 
 Avoid overloading with every library; keep skills recruiter-searchable.
 
@@ -129,4 +129,4 @@ Avoid overloading with every library; keep skills recruiter-searchable.
 ## Positioning statement (internal)
 
 Daniel is not “a teacher who codes on the side.”  
-He is a **credentialed quantitative professional who ships analytics products**, using teaching as proof of communication and AI-assisted development as proof of modern execution speed — always with end-to-end ownership.
+He is a **credentialed quantitative professional who builds and validates analytical tools**, using teaching as proof of communication and AI-assisted development as proof of modern execution speed — open to remote part-time, contract, and project-based analytical work.

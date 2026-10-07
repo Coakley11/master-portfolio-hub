@@ -2,7 +2,7 @@
 
 **Daniel Cohen — Quantitative Analytics & AI Portfolio**
 
-Professional portfolio workspace for Data Analyst, Product Analyst, BI Analyst, Research Analyst, Quant Analyst, Financial Analyst, AI Evaluator, and AI Trainer applications.
+Professional portfolio workspace — Quantitative Analytics, AI & Data. Open to remote part-time, contract, project-based, and flexible analytical work (quantitative/data analysis, Excel and SQL, AI evaluation, data validation).
 
 > Decision-support applications · Statistics · Finance · SQL · AI-assisted product development
 

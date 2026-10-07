@@ -7,7 +7,7 @@ Copy each section into LinkedIn manually.
 ## Headline
 
 ```
-Mathematics & Statistics Professional | Analytics & Quant Modeling | AI Decision Support | Python · SQL · Streamlit | Product-Oriented Dashboards
+Quantitative Analytics, AI & Data | Statistics · Excel · Python · SQL · AI Evaluation | Open to Remote Part-Time, Contract & Project-Based Work
 ```
 
 ---
@@ -20,8 +20,8 @@ I am a Mathematics and Statistics professional with an M.A. in Statistics & Appl
 I build decision-support applications — not notebook demos. The Daniel AI Suite is seven live Streamlit products plus SQL/Excel workbooks spanning portfolio risk, fantasy baseball operations, applied math labs, NBA playoff intelligence, music practice tooling, AI transition scenarios, and a cross-app Command Center.
 
 What stands out in my work
-• End-to-end ownership: data → modeling → UX → persistence → deployment
-• Analytical thinking packaged as products people can click through
+• End-to-end delivery: data → modeling → validation → persistence → deployment
+• Quantitative methods built into working tools people can click through
 • AI-assisted development used to ship substantial multi-page applications
 • Clear communication of quantitative results (college + high school teaching background)
 
@@ -29,7 +29,7 @@ Featured applications
 • Baseball Analytics — Decision Score drafts, live draft rooms, shared leagues, lineup/trade ops
 • Investment Explorer — portfolio health, Monte Carlo, efficient frontier, ETF overlap
 • Applied Mathematical Intelligence — multi-lab decision engine with suite insight handoffs
-• AI Music Practice Coach — song-aware practice studio with backing tracks and logs
+• AI Music Practice Coach — nine-page practice studio with generated backing tracks, composition tools, AI coaching, and a large automated test suite
 • Basketball Playoff Companion — live games, bracket, matchup intelligence, legacy tracking
 • Future Lens — taxonomy-driven AI skill evolution scenarios through 2050
 • AI Command Center — suite resume/continue, coach activity, app directory
@@ -38,7 +38,7 @@ Toolkit
 Python · SQL · Excel · Pandas · Streamlit · Statistics · Monte Carlo · Portfolio Optimization · Machine Learning · Data Visualization · AI Evaluation · Git/GitHub · AI-Assisted Development
 
 Open to
-Data Analyst · Product Analyst · Quantitative Analyst · Financial Analyst · AI Evaluator · AI Trainer · BI Analyst · Research Analyst roles where statistical reasoning and shipped analytics products matter.
+Remote part-time, contract, project-based, and flexible analytical work — quantitative and data analysis, Excel and SQL, AI evaluation and response review, data validation, and quantitative or mathematical review.
 
 Portfolio: https://coakley11.github.io/master-portfolio-hub/
 GitHub: https://github.com/Coakley11
@@ -57,9 +57,9 @@ Optional 5th: AI Evaluator workbook PDF or SQL/Excel page on the portfolio site.
 
 ---
 
-## Experience entry — Analytics & AI Portfolio Developer
+## Experience entry — Independent Developer & Analyst
 
-**Title:** Analytics & AI Portfolio Developer  
+**Title:** Independent Developer & Analyst  
 **Company:** Independent — Daniel AI Suite  
 **Dates:** 2024 – Present  
 **Location:** Remote / New York  
@@ -97,7 +97,7 @@ Place this experience entry **above** teaching roles.
 - Portfolio Optimization
 - Monte Carlo Simulation
 - Hypothesis Testing
-- Product Analytics
+- Quantitative Modeling
 - AI Evaluation
 - Decision Support Systems
 - Git

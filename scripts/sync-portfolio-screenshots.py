@@ -111,7 +111,7 @@ HERO_OVERRIDES = {
     "Baseball": "01-draft-assistant-recommendations.png",
     "Applied-Math": "01-home-dashboard.png",
     "NBA": "01-home-dashboard.png",
-    "Music": "02-practice-control-center.png",
+    "Music": "04-creative-lab.png",
     "Command-Center": "homepage-continue.png",
     "Future-Lens": "01-domain-wizard.png",
 }

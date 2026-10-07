@@ -1,85 +1,85 @@
 # Resume Project Descriptions & Positioning Recommendations
 
-**Updated:** 2026-08-16  
-Primary career direction: **AI & Technical Product** (fully remote U.S.).
+**Updated:** 2026-10-07
+Current focus: **Quantitative Analytics, AI & Data** — open to remote part-time, contract, project-based, and flexible analytical opportunities.
 
 ---
 
-## Primary resume paths (for recruiters)
+## Areas of work (lead projects)
 
-| Path | Lead projects | Emphasis |
+| Area | Lead projects | Emphasis |
 |------|---------------|----------|
-| **Technical Product Manager** | AI Music Practice Coach, Baseball Analytics, Command Center | State ownership, multi-user systems, requirements, acceptance criteria, release readiness |
-| **AI Product Manager** | Music Coach, AMI, Command Center | AI feature design, coaching/evaluation surfaces, human-in-the-loop validation |
+| **Quantitative & Data Analysis** | Investment Explorer, Baseball Analytics, AMI | Statistical modeling, simulation, optimization, Python/SQL analysis |
+| **Excel & Spreadsheet Analytics** | SQL & Excel portfolio workbooks | Pivot tables, KPI dashboards, workbook-based reporting |
+| **AI Evaluation & Response Review** | AI Evaluator workbook, AI Music Practice Coach, AMI | Prompt rating, pairwise comparison, hallucination checks, output validation |
+| **Data Validation, QA & Quantitative Review** | Baseball import validation, Music Coach test suite | Accuracy checking, mathematical review, regression testing |
 
-**Technical Product Resume:** `Portfolio Website/assets/docs/daniel-cohen-technical-product-resume.pdf`  
-**AI Product Resume:** `Portfolio Website/assets/docs/daniel-cohen-ai-product-resume.pdf`  
-**Generic fallback/archive:** `Portfolio Website/assets/docs/daniel-cohen-resume.pdf`
+**Resume (PDF):** `Portfolio Website/assets/docs/daniel-cohen-resume.pdf` (a resume aligned to this positioning is being prepared)
 
 ---
 
 ## Recommended resume headline
 
 ```
-AI & Technical Product | Product Strategy · Technical Systems · AI-Enabled Products
+Quantitative Analytics · AI Evaluation · Data Analysis · Excel / Python / SQL
 ```
 
 ---
 
 ## Professional summary (recommended)
 
-Mathematics and Statistics professional (M.A. Statistics & Applied Mathematics, GPA 3.93; MBA Finance & Investments, Finance GPA 4.00; SOA Exams P/FM/MFE) who owns product direction for a seven-app AI suite through **independent portfolio ownership**. Defines what products should do, translates goals into requirements and workflows, reasons through technical dependencies, directs AI-assisted implementation, validates releases, diagnoses failures, and decides what happens next. Seeking **fully remote U.S.** roles as Technical Product Manager / AI Technical Product, AI Product Manager, and adjacent Technical Product Owner / Product Strategy. Quantitative analytics and AI evaluation **support** that product work — they are not a separate career identity.
+M.A. Statistics & Applied Mathematics (GPA 3.93), MBA Finance & Investments (Finance GPA 4.00), and SOA Exams P, FM, MFE. Builds and validates quantitative and AI-driven tools end to end: a seven-application analytics suite in Python, SQL and Excel covering statistical modeling, simulation, optimization, and AI-output evaluation. Careful, accurate, and independent on structured analytical assignments. Open to remote part-time, contract, and project-based work in data analysis, quantitative review, AI evaluation, and spreadsheet/SQL analytics.
 
 ---
 
 ## Independent experience bullets
 
-**Independent Product Owner — Daniel AI Suite | 2024–Present**
+**Independent Developer & Analyst — Daniel AI Suite | 2024–Present**
 
-- Owned product direction across seven interconnected Streamlit applications — problem framing, feature prioritization, requirements, acceptance criteria, workflow design, and release readiness
-- Designed multi-page product systems with persistence, multi-user state, APIs, recommendation engines, and cross-app resume/insight orchestration
-- Directed AI-assisted implementation while personally validating expected vs. actual behavior, diagnosing defects, prioritizing fixes, and regression-checking before release
+- Designed, built, and maintained seven interconnected Streamlit applications covering statistical modeling, simulation, optimization, and decision support
+- Implemented multi-page systems with persistence, multi-user state, APIs, recommendation engines, and cross-app data handoffs (Supabase-backed patterns)
+- Validated expected vs. actual behavior, diagnosed defects, and regression-tested changes before each release using automated and manual checks
 
 ---
 
-## Project bullets (flagship order)
+## Project bullets (featured order)
 
 ### AI Music Practice Coach | Python, Streamlit, OpenAI, Supabase
-- Owned product direction for a multi-page practice studio: practice, creative, backing tracks, logging, AI coaching, persistence, and cross-page context
-- Defined state ownership, acceptance criteria, and release readiness while directing AI-assisted implementation
+- Built a nine-page practice studio sharing one active-song state across catalog, custom, and composed sources, with generated backing tracks, composition tools, practice logging, and AI coaching
+- Engineered key/state resolution, autosave and optional cloud restore, and a large automated test suite with documented acceptance checks
 
 ### Baseball Analytics | Python, Streamlit, scikit-learn, Supabase
-- Designed shared leagues, live draft rooms, imports, lineup/trade workflows, and Decision Score recommendations as a multi-user product system
-- Sequenced features for draft → season ops continuity; validated persistence and collaborative behavior
+- Built shared leagues, live draft rooms, uploaded-draft import validation, lineup/trade workflows, and Decision Score recommendations as a multi-user system
+- Validated persistence, permissions, and collaborative behavior across the draft-to-season workflow
 
 ### AI Command Center + AMI | Python, Streamlit, Supabase
-- Architected suite orchestration: resumable workflows, context handoffs, activity continuity, and modular AI decision labs
-- Routed users to the right tool and returned explainable insights across sibling applications
+- Built suite orchestration: resumable workflows, context handoffs, activity tracking, and modular AI decision labs
+- Returned explainable analytical insights across sibling applications through a shared activity schema
 
 ### Investment Explorer | Python, Streamlit, yfinance
-- Turned Monte Carlo, efficient frontier, and health scoring into adjustable, explainable decision workflows
-- Separated analytics core from UX so complex quant methods become product choices
+- Implemented Monte Carlo simulation, efficient-frontier optimization, and portfolio health scoring on a shared analytics core
+- Presented complex quantitative methods as adjustable, explainable analyses for beginner and advanced users
 
 ---
 
 ## Skills line
 
-**Product Management:** Strategy, problem framing, prioritization, requirements, acceptance criteria, release decisions, product metrics  
-**Technical Product:** Workflow architecture, state/persistence, APIs, defect triage, regression testing, release readiness  
-**AI Product:** AI feature design, evaluation criteria, human-in-the-loop, AI-assisted prototyping  
-**Foundation:** Statistics, SQL, Python, Excel, Streamlit, Supabase, Git/GitHub
+**Quantitative & Statistical:** Statistics, probability, hypothesis testing, simulation / Monte Carlo, optimization, financial modeling
+**Data, Excel & SQL:** Excel, pivot tables, KPI dashboards, SQL, Pandas, data cleaning, import validation
+**AI Evaluation & Quality:** Prompt/response rating, pairwise comparison, model-output validation, hallucination checks, regression testing
+**Python & Applications:** Python, Streamlit, Supabase, APIs, Git/GitHub, AI-assisted development
 
 ---
 
-## Teaching — keep, compress
+## Teaching — keep
 
-Keep teaching as proof of explaining complexity and diagnosing stuck points. Do not lead with teacher identity. Do not claim a formal employer Product Manager title.
+Keep teaching as evidence of accuracy, clear quantitative explanation, and reliable independent work.
 
 ---
 
 ## What not to claim
 
-- Corporate Product Manager tenure or traditional professional SWE titles
+- Corporate job titles or tenure that did not exist
 - Managing a human engineering team (unless true)
 - That every line was hand-coded without AI assistance
 - Production-scale commercial metrics without evidence

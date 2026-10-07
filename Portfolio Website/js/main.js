@@ -138,9 +138,9 @@ function showcaseCard(project) {
   const features = (project.keyFeatures || []).slice(0, 5)
     .map(f => `<li>${f}</li>`).join('');
   const title = project.displayName || project.name;
-  const pf = project.productFraming;
+  const pf = project.analyticalFraming;
   const productWhy = pf
-    ? `<p class="showcase-value"><strong>Why this is product work:</strong> ${pf.whyProductWork}</p>`
+    ? `<p class="showcase-value"><strong>Why it matters:</strong> ${pf.whyItMatters}</p>`
     : `<p class="showcase-value"><strong>Business value:</strong> ${project.businessValue}</p>`;
   return `
     <article class="showcase-card" id="${project.id}">
@@ -334,31 +334,31 @@ function renderShowcaseProjects(data) {
 function renderCaseStudies(data) {
   const container = document.getElementById('case-studies');
   if (!container) return;
-  const projects = projectsInFlagshipOrder(data).filter(p => p.productFraming || p.caseStudy);
+  const projects = projectsInFlagshipOrder(data).filter(p => p.analyticalFraming || p.caseStudy);
   container.innerHTML = projects.map(p => {
-    const pf = p.productFraming;
+    const pf = p.analyticalFraming;
     if (pf) {
-      const decisions = (pf.productTechnicalDecisions || [])
+      const decisions = (pf.keyDecisions || [])
         .map(d => `<li>${d}</li>`).join('');
       return `
         <article class="case-study-card">
           <h3>${p.displayName || p.name}</h3>
           <div class="case-step">
-            <strong>Product problem</strong>
-            <p>${pf.productProblem}</p>
+            <strong>Problem</strong>
+            <p>${pf.problem}</p>
           </div>
           <div class="case-step">
-            <strong>My product role</strong>
-            <p>${pf.myProductRole}</p>
+            <strong>My role</strong>
+            <p>${pf.myRole}</p>
           </div>
           ${decisions ? `
           <div class="case-step">
-            <strong>Product / technical decisions</strong>
+            <strong>Key analytical &amp; technical decisions</strong>
             <ul class="case-decision-list">${decisions}</ul>
           </div>` : ''}
           <div class="case-step">
-            <strong>Why this matters for product work</strong>
-            <p>${pf.whyProductWork}</p>
+            <strong>Why this matters</strong>
+            <p>${pf.whyItMatters}</p>
           </div>
           <div class="case-study-link">
             <a href="project.html?id=${p.id}">View project detail →</a>
@@ -393,13 +393,11 @@ function renderHeroCta(data) {
   const container = document.getElementById('hero-cta');
   if (!container) return;
   const site = data.site;
-  const tpm = site.resumeTechnicalProduct || site.resumePdf || '#';
-  const aipm = site.resumeAiProduct || site.resumePdf || '#';
+  const resume = site.resumePdf || '#';
   container.innerHTML = `
-    <a href="#projects" class="btn btn-primary">View Flagship Product Work</a>
-    <a href="${tpm}" class="btn btn-secondary" download>Technical Product Resume</a>
-    <a href="${aipm}" class="btn btn-secondary" download>AI Product Resume</a>
-    <a href="${site.careerProfile || 'career-profile.html'}" class="btn btn-ghost">Career Trajectory</a>
+    <a href="#projects" class="btn btn-primary">View Featured Projects</a>
+    <a href="${resume}" class="btn btn-secondary" download>Resume (PDF)</a>
+    <a href="${site.careerProfile || 'career-profile.html'}" class="btn btn-ghost">Career Profile</a>
     <a href="contact.html" class="btn btn-ghost">Contact</a>
   `;
 }
@@ -409,12 +407,10 @@ function renderCtaSection(data) {
   const contact = document.getElementById('cta-contact');
   if (!btns || !contact) return;
   const site = data.site;
-  const tpm = site.resumeTechnicalProduct || site.resumePdf || '#';
-  const aipm = site.resumeAiProduct || site.resumePdf || '#';
+  const resume = site.resumePdf || '#';
   btns.innerHTML = `
-    <a href="${tpm}" class="btn btn-primary" download>Technical Product Resume</a>
-    <a href="${aipm}" class="btn btn-primary" download>AI Product Resume</a>
-    <a href="#projects" class="btn btn-secondary">Flagship Product Work</a>
+    <a href="${resume}" class="btn btn-primary" download>Resume (PDF)</a>
+    <a href="#projects" class="btn btn-secondary">Featured Projects</a>
     <a href="${site.resumeHub || 'resume.html'}" class="btn btn-ghost">Resume Hub</a>
     <a href="contact.html" class="btn btn-ghost">Contact</a>
   `;
@@ -569,14 +565,14 @@ function renderContactPage(data) {
         <p>Will be added when final URL is available</p>
       </div>`;
   const rolesLine = (data.roleTargets || [])
-    .map(r => `${r.tier}: ${r.role}`)
+    .map(r => r.role)
     .join(' · ')
     || (data.resume?.targetRoles || []).slice(0, 5).join(' · ');
-  const remoteNote = data.resumeRouting?.workArrangement || 'Primarily seeking fully remote U.S. roles.';
+  const remoteNote = data.site?.availability || data.resumeRouting?.workArrangement || '';
   grid.innerHTML = `
     <div class="contact-card contact-card--primary">
       <h3>Get in Touch</h3>
-      <p>${remoteNote} Primary: Technical Product Manager / AI Technical Product · Secondary: AI Product Manager.</p>
+      <p>${remoteNote}</p>
       <a href="mailto:${site.email}" class="btn btn-primary" style="margin-top:0.75rem;">Send Email</a>
       <p class="contact-note">Email is available via the button above — not displayed on the public homepage.</p>
     </div>
@@ -589,12 +585,11 @@ function renderContactPage(data) {
     ${linkedInCard}
     <div class="contact-card">
       <h3>Resume</h3>
-      <p><a href="${site.resumeTechnicalProduct || site.resumePdf || '#'}" class="btn btn-secondary btn-sm" download>Technical Product Resume</a></p>
-      <p style="margin-top:0.5rem;"><a href="${site.resumeAiProduct || site.resumePdf || '#'}" class="btn btn-secondary btn-sm" download>AI Product Resume</a></p>
+      <p><a href="${site.resumePdf || '#'}" class="btn btn-secondary btn-sm" download>Resume (PDF)</a></p>
       <p style="margin-top:0.5rem;"><a href="${site.resumeHub || 'resume.html'}">Resume Hub</a> · <a href="${site.resumeView || 'resume-preview.html'}">Preview</a></p>
     </div>
     <div class="contact-card">
-      <h3>Target Roles</h3>
+      <h3>Areas of Work</h3>
       <p>${rolesLine}</p>
       <p style="margin-top:0.5rem;font-size:0.9rem;color:var(--muted);">${remoteNote}</p>
     </div>
@@ -666,6 +661,8 @@ async function init() {
     if (title) title.textContent = data.site.title;
     const tagline = document.getElementById('site-tagline');
     if (tagline) tagline.textContent = data.site.tagline;
+    const availability = document.getElementById('site-availability');
+    if (availability) availability.textContent = data.site.availability || '';
   } catch (err) {
     console.error(err);
   }

@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Daniel Cohen \u2014 AI & Technical Product",
-    "tagline": "Product Strategy \u00b7 Technical Systems \u00b7 AI-Enabled Products \u00b7 Fully Remote U.S.",
+    "title": "Daniel Cohen \u2014 Quantitative Analytics, AI & Data Portfolio",
+    "tagline": "Statistics \u2022 Excel \u2022 Python \u2022 SQL \u2022 AI Evaluation \u2022 Data Analysis \u2022 Quantitative Modeling",
     "github": "https://github.com/Coakley11",
     "email": "daniel.cohen11@yahoo.com",
     "linkedin": "https://www.linkedin.com/in/daniel-cohen-355319340/",
@@ -15,16 +15,13 @@
     "resumeProjectBullets": "assets/docs/resume-project-descriptions.md",
     "careerProfile": "career-profile.html",
     "executiveSummary": "executive-summary.html",
-    "resumeTechnicalProduct": "assets/docs/daniel-cohen-technical-product-resume.pdf",
-    "resumeAiProduct": "assets/docs/daniel-cohen-ai-product-resume.pdf",
-    "resumeTechnicalProductLabel": "Technical Product Manager Resume",
-    "resumeAiProductLabel": "AI Product Manager Resume",
-    "resumeNote": "Technical Product and AI Product CTAs use dedicated PDFs. The generic daniel-cohen-resume.pdf remains as fallback/archive."
+    "resumeNote": "A resume aligned to quantitative, data, and AI-evaluation work is being prepared; the PDF linked here is the current general resume.",
+    "availability": "Open to remote part-time, contract, project-based, and flexible analytical opportunities."
   },
   "resume": {
     "name": "Daniel Cohen",
-    "headline": "AI & Technical Product \u00b7 Product Strategy \u00b7 Technical Systems \u00b7 AI-Enabled Products",
-    "summary": "Mathematics and Statistics professional (M.A. Statistics & Applied Mathematics, GPA 3.93; MBA Finance & Investments, Finance GPA 4.00; SOA Exams P, FM, MFE) who owns product direction for a seven-app AI suite through independent portfolio ownership. Defines what products should do, translates goals into requirements and workflows, reasons through technical dependencies and system behavior, directs AI-assisted implementation, validates releases, diagnoses failures, and decides what happens next. Seeking fully remote U.S. roles as Technical Product Manager / AI Technical Product, AI Product Manager, and adjacent Technical Product Owner / Product Strategy positions. Quantitative analytics, SQL/Python, and AI evaluation strengthen that product work \u2014 they are not a separate career identity.",
+    "headline": "Quantitative Analytics \u00b7 AI Evaluation \u00b7 Data Analysis \u00b7 Excel / Python / SQL",
+    "summary": "M.A. Statistics & Applied Mathematics (GPA 3.93), MBA Finance & Investments (Finance GPA 4.00), and SOA Exams P, FM, MFE. Builds and validates quantitative and AI-driven tools end to end: a seven-application analytics suite in Python, SQL and Excel covering statistical modeling, simulation, optimization, and AI-output evaluation. Careful, accurate, and independent on structured analytical assignments. Open to remote part-time, contract, and project-based work in data analysis, quantitative review, AI evaluation, and spreadsheet/SQL analytics.",
     "education": [
       {
         "degree": "M.A. Statistics & Applied Mathematics",
@@ -48,13 +45,13 @@
     ],
     "experience": [
       {
-        "title": "Independent Product Owner \u2014 Daniel AI Suite",
+        "title": "Independent Developer & Analyst \u2014 Daniel AI Suite",
         "organization": "Independent \u2014 Daniel AI Suite",
         "period": "2024 \u2014 Present",
         "bullets": [
-          "Owned product direction across seven interconnected Streamlit applications \u2014 problem framing, feature prioritization, requirements, acceptance criteria, workflow design, and release readiness",
-          "Designed multi-page product systems with persistence, multi-user state, APIs, recommendation engines, and cross-app resume/insight orchestration (Supabase-backed patterns)",
-          "Directed AI-assisted implementation while personally validating expected vs. actual behavior, diagnosing defects, prioritizing fixes, and regression-checking before release"
+          "Designed, built, and maintained seven interconnected Streamlit applications covering statistical modeling, simulation, optimization, and decision support",
+          "Implemented multi-page systems with persistence, multi-user state, APIs, recommendation engines, and cross-app data handoffs (Supabase-backed patterns)",
+          "Validated expected vs. actual behavior, diagnosed defects, and regression-tested changes before each release using automated and manual checks"
         ]
       },
       {
@@ -142,52 +139,42 @@
       }
     ],
     "technicalSkills": [
-      "Product Strategy",
-      "Requirements",
-      "Acceptance Criteria",
-      "Workflow Architecture",
-      "Feature Prioritization",
-      "Release Readiness",
-      "AI Feature Design",
-      "AI Evaluation",
-      "Python",
-      "Streamlit",
-      "SQL",
-      "Excel",
-      "Supabase",
-      "APIs",
-      "Git / GitHub",
       "Statistics",
-      "Product Metrics",
+      "Quantitative Modeling",
+      "Data Analysis",
+      "Excel",
+      "Pivot Tables",
+      "SQL",
+      "Python",
+      "Pandas",
+      "Data Visualization",
+      "AI Evaluation",
+      "Model-Output Validation",
+      "Data Validation / QA",
+      "Simulation",
+      "Optimization",
       "Regression Testing",
+      "Streamlit",
+      "APIs",
+      "Supabase",
+      "Git / GitHub",
       "AI-Assisted Development"
     ],
     "targetRoles": [
-      "Technical Product Manager",
-      "AI Technical Product",
-      "AI Product Manager",
-      "Technical Product Owner",
-      "Product Strategy"
+      "Quantitative & Data Analysis",
+      "Excel & Spreadsheet Analytics",
+      "AI Evaluation & Response Review",
+      "Data Validation, QA & Quantitative Review",
+      "Python / SQL Analytical Projects"
     ],
     "targetRoleGroups": [
       {
-        "label": "Primary",
+        "label": "Areas of Work",
         "roles": [
-          "Technical Product Manager",
-          "AI Technical Product"
-        ]
-      },
-      {
-        "label": "Secondary",
-        "roles": [
-          "AI Product Manager"
-        ]
-      },
-      {
-        "label": "Adjacent",
-        "roles": [
-          "Technical Product Owner",
-          "Product Strategy"
+          "Quantitative & Data Analysis",
+          "Excel & Spreadsheet Analytics",
+          "AI Evaluation & Response Review",
+          "Data Validation, QA & Quantitative Review"
         ]
       }
     ],
@@ -196,130 +183,135 @@
         "name": "AI Music Practice Coach",
         "tech": "Python \u00b7 Streamlit \u00b7 OpenAI \u00b7 Supabase",
         "bullets": [
-          "Owned product direction for a multi-page practice studio: practice, creative, backing tracks, logging, AI coaching, persistence, and cross-page context",
-          "Defined state ownership, acceptance criteria, and release readiness while directing AI-assisted implementation and regression checks"
+          "Built a nine-page practice studio sharing one active-song state across catalog, custom, and composed sources, with generated backing tracks, composition tools, practice logging, and AI coaching",
+          "Engineered key/state resolution, autosave and optional cloud restore, and a large automated test suite with documented acceptance checks"
         ]
       },
       {
         "name": "Baseball Analytics",
         "tech": "Python \u00b7 Streamlit \u00b7 scikit-learn \u00b7 Supabase",
         "bullets": [
-          "Designed shared leagues, live draft rooms, imports, lineup/trade workflows, and Decision Score recommendations as a multi-user product system",
-          "Sequenced features for draft \u2192 season ops continuity; validated persistence, permissions, and collaborative behavior"
+          "Built shared leagues, live draft rooms, uploaded-draft import validation, lineup/trade workflows, and Decision Score recommendations as a multi-user system",
+          "Validated persistence, permissions, and collaborative behavior across the draft-to-season workflow"
         ]
       },
       {
         "name": "AI Command Center + AMI",
         "tech": "Python \u00b7 Streamlit \u00b7 Supabase",
         "bullets": [
-          "Architected suite orchestration: resumable workflows, context handoffs, activity continuity, and modular AI decision labs",
-          "Routed users to the right tool and returned explainable analytical insights across sibling applications"
+          "Built suite orchestration: resumable workflows, context handoffs, activity tracking, and modular AI decision labs",
+          "Returned explainable analytical insights across sibling applications through a shared activity schema"
         ]
       },
       {
         "name": "Investment Explorer",
         "tech": "Python \u00b7 Streamlit \u00b7 yfinance",
         "bullets": [
-          "Turned Monte Carlo, efficient frontier, and health scoring into adjustable, explainable decision workflows for beginners and advanced users",
-          "Separated analytics core from UX so complex quant methods become product choices, not chart galleries"
+          "Implemented Monte Carlo simulation, efficient-frontier optimization, and portfolio health scoring on a shared analytics core",
+          "Presented complex quantitative methods as adjustable, explainable analyses for beginner and advanced users"
         ]
       }
     ]
   },
   "careerProfile": {
     "title": "Career Profile",
-    "subtitle": "Deliberate trajectory into AI & Technical Product ownership \u2014 product judgment, systems thinking, and quantitative depth \u00b7 Fully remote U.S.",
+    "subtitle": "Quantitative analytics, AI evaluation, and data work \u2014 statistics and finance training applied to a seven-application analytics suite \u00b7 Open to remote part-time, contract, and project-based work",
     "sections": {
       "professionalBackground": {
         "title": "Professional Background",
         "paragraphs": [
           "Daniel Cohen holds an M.A. in Statistics & Applied Mathematics (Hunter College, GPA 3.93), an MBA in Finance & Investments (Baruch College \u2014 Zicklin, Finance GPA 4.00), and a B.A. in Mathematics & Economics (Queens College \u2014 Magna Cum Laude). Society of Actuaries exams P/1, FM/2, and MFE ground his work in probability, financial mathematics, and risk thinking.",
-          "Earlier career work in mathematics education \u2014 college lecturing, Business Statistics labs with Excel, and ongoing quantitative instruction \u2014 built durable strengths: explaining complexity, diagnosing where people get stuck, adapting to different users, structuring ambiguous material, and making rapid decisions under time pressure. Those strengths now transfer into product and systems ownership."
+          "Earlier career work in mathematics education \u2014 college lecturing, Business Statistics labs with Excel, and ongoing quantitative instruction \u2014 built durable strengths: explaining complex quantitative ideas clearly, checking work for accuracy, structuring ambiguous problems, and working reliably and independently to deadlines."
         ]
       },
       "analyticsAiTransition": {
-        "title": "From Education Strengths to Product Ownership",
+        "title": "From Quantitative Training to Applied Analytics",
         "paragraphs": [
-          "This is a deliberate career trajectory, not a random collection of AI or data projects. Teaching developed the ability to clarify goals, diagnose failure modes, and guide people through complex workflows. The Daniel AI Suite \u2014 seven deployed Streamlit applications plus SQL/Excel workbooks \u2014 moved those abilities into product ownership.",
-          "Across the suite, Daniel decides what to build, defines product behavior, designs user workflows, specifies requirements and acceptance criteria, manages state and persistence decisions, directs AI-assisted implementation, tests expected vs. actual behavior, diagnoses defects, prioritizes fixes, and iterates based on observed usage. He has not held a formal employer Product Manager title; evidence is independent portfolio ownership of live systems.",
-          "Quantitative analytics, statistics, Python/SQL, and AI evaluation remain strong supporting capabilities. They make him sharper at technical product work \u2014 they are not five equal career directions."
+          "Graduate training in statistics and finance, plus years teaching quantitative reasoning, led to building working analytical software. The Daniel AI Suite \u2014 seven deployed Streamlit applications plus SQL/Excel workbooks \u2014 applies statistical modeling, simulation, optimization, and AI-output evaluation to real problems in finance, sports, music, and decision support.",
+          "Across the suite, Daniel designs the analysis, implements it in Python, SQL, and Excel, checks results for accuracy, tests expected against actual behavior, diagnoses defects, and iterates. The work was done independently, end to end, with AI-assisted tooling directed and verified personally.",
+          "That combination \u2014 quantitative rigor, careful validation, and independent delivery \u2014 is what he brings to part-time, contract, and project-based analytical assignments."
         ]
       },
       "portfolioHighlights": {
         "title": "Portfolio Highlights",
         "items": [
           {
-            "title": "AI Music Practice Coach (flagship)",
-            "text": "Technical product ownership: multi-page workflows, state ownership, persistence, AI coaching, acceptance criteria, and release decisions."
+            "title": "AI Music Practice Coach (featured)",
+            "text": "Complex application logic: shared state across nine pages, generated audio, composition tools, persistence, AI coaching, and a large automated test suite."
           },
           {
             "title": "Baseball Analytics",
-            "text": "Multi-user product system: shared leagues, live draft, imports, permissions, lineup/trade ops, and recommendation sequencing."
+            "text": "Multi-user analytics system: shared leagues, live draft, import validation, permissions, lineup/trade tools, and recommendation scoring."
           },
           {
             "title": "Command Center + AMI",
-            "text": "Product orchestration: resumable work, context handoffs, routing to the right tool, and modular AI decision support."
+            "text": "Modular decision labs with explainable outputs, resumable work, and cross-application context handoffs."
           },
           {
             "title": "Investment Explorer",
-            "text": "Decision-product design: complex analytics translated into adjustable, explainable user workflows."
+            "text": "Quantitative finance: portfolio health scoring, efficient frontier, Monte Carlo simulation, and ETF overlap analysis."
           },
           {
             "title": "Supporting suite",
-            "text": "NBA Playoff Companion, Future Lens, and SQL/Excel workbooks remain available as depth \u2014 not competing primary identities."
+            "text": "NBA Playoff Companion, Future Lens, and SQL/Excel workbooks add live-data, scenario-modeling, and spreadsheet depth."
           }
         ]
       },
       "coreTechnicalSkills": {
-        "title": "Supporting Quantitative & Technical Foundation",
+        "title": "Core Quantitative & Technical Skills",
         "skills": [
           "Statistics",
+          "Quantitative Modeling",
+          "Excel",
           "SQL",
           "Python",
-          "Excel",
           "Pandas",
-          "Streamlit",
-          "Supabase",
-          "APIs",
-          "Git / GitHub",
-          "Experimentation",
-          "Product Metrics",
           "AI Evaluation",
+          "Data Validation / QA",
           "Data Visualization",
           "Simulation",
-          "Optimization"
+          "Optimization",
+          "Experimentation",
+          "Streamlit",
+          "APIs",
+          "Supabase",
+          "Git / GitHub"
         ]
       },
       "targetRoles": {
-        "title": "Target Roles",
-        "intro": "Fully remote U.S. Primary focus is Technical Product / AI Technical Product. Secondary: AI Product Manager. Adjacent: Technical Product Owner / Product Strategy. Evidence comes from independent portfolio ownership and AI-assisted product development \u2014 not a prior corporate PM title.",
+        "title": "Areas of Work",
+        "intro": "Open to remote part-time, contract, project-based, and flexible analytical opportunities in the areas below.",
         "roles": [
           {
-            "role": "PRIMARY \u2014 Technical Product Manager / AI Technical Product",
-            "fit": "Owns product behavior, requirements, technical dependencies, state/persistence, acceptance criteria, defect triage, and release readiness across multi-page live systems (Music Coach, Baseball, Command Center)."
+            "role": "Quantitative & Data Analysis",
+            "fit": "Statistical analysis, modeling, simulation, and optimization \u2014 implemented in Python and SQL and demonstrated in the Investment Explorer, Baseball Analytics, and AMI projects."
           },
           {
-            "role": "SECONDARY \u2014 AI Product Manager",
-            "fit": "Designs AI-enabled product surfaces: coaching workflows, evaluation criteria, human-in-the-loop validation, and AI-assisted prototyping with clear product ownership of outcomes."
+            "role": "Excel & Spreadsheet Analytics",
+            "fit": "Pivot tables, KPI dashboards, workbook modeling, and reporting \u2014 shown in the SQL & Excel portfolio and the Business Statistics lab teaching background."
           },
           {
-            "role": "ADJACENT \u2014 Technical Product Owner / Product Strategy",
-            "fit": "Frames problems, prioritizes roadmaps, sequences features, and turns strategy into workflows recruiters can click through in the Daniel AI Suite."
+            "role": "AI Evaluation & Response Review",
+            "fit": "Prompt rating, pairwise comparison, hallucination and quality checks, and structured review of model outputs \u2014 practiced in the AI Evaluator workbook and the Music Coach."
+          },
+          {
+            "role": "Data Validation, QA & Quantitative Review",
+            "fit": "Accuracy checking, mathematical and quantitative review, import validation, and regression testing, backed by an M.A. in Statistics and years teaching mathematics."
           }
         ]
       }
     }
   },
   "executiveSummaryDoc": {
-    "title": "Why Daniel Cohen Fits AI & Technical Product Roles",
-    "subtitle": "One coherent direction: product ownership of AI-enabled systems \u2014 fully remote U.S.",
+    "title": "Daniel Cohen \u2014 Quantitative Analytics, AI & Data",
+    "subtitle": "Statistics, Excel, Python, SQL, and AI evaluation \u00b7 Open to remote part-time, contract, project-based, and flexible analytical opportunities",
     "keyStrengths": [
-      "Primary target: Technical Product Manager / AI Technical Product (fully remote U.S.)",
-      "Secondary: AI Product Manager \u00b7 Adjacent: Technical Product Owner / Product Strategy",
-      "Independent ownership of a seven-app suite: requirements, workflows, validation, release decisions",
-      "Quantitative foundation (M.A. Statistics, MBA Finance, SOA exams) that strengthens technical product judgment",
-      "AI-assisted development directed with personal ownership of acceptance criteria and regression checks",
-      "Clear teaching \u2192 product trajectory: explaining complexity and diagnosing problems transferred into systems ownership"
+      "Quantitative analysis and modeling: M.A. Statistics & Applied Mathematics (3.93), MBA Finance (4.00), SOA Exams P, FM, MFE",
+      "Excel, SQL, and Python analytical work, from pivot tables and KPI dashboards to simulation and optimization",
+      "AI evaluation and response review: rating, pairwise comparison, hallucination checks, and model-output validation",
+      "Accuracy-first validation: expected vs. actual testing, defect diagnosis, and regression checks on live applications",
+      "Seven deployed applications built and maintained independently, end to end",
+      "Years of teaching quantitative subjects: clear explanation, careful checking, and reliable independent work"
     ],
     "quantitativeBackground": {
       "title": "Quantitative Background",
@@ -346,14 +338,13 @@
         "Business Analytics"
       ]
     },
-    "productOwnership": {
-      "title": "Product & Technical Product Evidence (Portfolio-Built)",
+    "engineeringEvidence": {
+      "title": "Engineering & Validation Evidence (Portfolio-Built)",
       "items": [
-        "Identified problems and decided what to build across finance, sports, music, and suite orchestration apps",
-        "Prioritized features/fixes and translated ideas into requirements, user journeys, and acceptance criteria",
+        "Identified problems and built analytical tools across finance, sports, music, and suite orchestration",
         "Designed multi-page workflows with persistence, state, APIs, and multi-user behavior (draft rooms, shared leagues)",
-        "Directed AI-assisted implementation; personally validated behavior, diagnosed root causes, and regression-checked fixes",
-        "Built recommendation/ranking systems (Decision Score, portfolio health, simulation-based decision support)",
+        "Built recommendation and ranking systems (Decision Score, portfolio health, simulation-based decision support)",
+        "Validated behavior against expected results, diagnosed root causes, and regression-checked fixes",
         "Evaluated AI-generated outputs in music coaching, evaluator workbooks, and AMI interpretation labs",
         "Deployed and maintained working applications on Streamlit Cloud with honest scope labels where prototype"
       ]
@@ -373,73 +364,73 @@
       "items": [
         "AI Evaluator & Analytics workbook \u2014 prompt rating, pairwise comparison, hallucination KPIs",
         "AMI Train-an-AI / overfitting visualization and cross-app analytical insight handoffs",
-        "AI Music Practice Coach \u2014 adaptive practice tooling and optional OpenAI coaching hub",
+        "AI Music Practice Coach \u2014 adaptive practice tooling and optional AI coaching",
         "Future Lens \u2014 taxonomy-driven AI transition scenarios through 2050",
         "Command Center \u2014 suite activity, coach insights, and resume/continue orchestration"
       ]
     },
     "careerDirection": {
-      "title": "Career Direction",
-      "text": "Daniel is targeting fully remote U.S. roles as Technical Product Manager / AI Technical Product, AI Product Manager, and adjacent Technical Product Owner / Product Strategy positions. Quantitative analytics, AI evaluation, and engineering fluency support that direction; they are not presented as equal alternate careers. Evidence is the deployed Daniel AI Suite under independent product ownership \u2014 not a claimed corporate PM title."
+      "title": "Availability & Focus",
+      "text": "Daniel is open to remote part-time, contract, project-based, and flexible analytical work \u2014 quantitative and data analysis, Excel and spreadsheet analytics, AI evaluation and response review, data validation and quantitative review, and Python/SQL assignments. The deployed Daniel AI Suite shows the depth of work he can deliver independently."
     }
   },
   "aboutMe": {
-    "headline": "AI & Technical Product \u00b7 Product Strategy \u00b7 Technical Systems \u00b7 AI-Enabled Products",
-    "subheadline": "M.A. Statistics \u00b7 MBA Finance \u00b7 SOA Exams \u00b7 Fully Remote U.S. \u00b7 Independent product ownership of a live application suite",
+    "headline": "Quantitative Analytics \u00b7 AI Evaluation \u00b7 Data Analysis \u00b7 Excel / Python / SQL",
+    "subheadline": "M.A. Statistics \u00b7 MBA Finance \u00b7 SOA Exams \u00b7 Open to remote part-time, contract, and project-based work",
     "paragraphs": [
-      "I define what products should do \u2014 then translate goals into requirements, workflows, and acceptance criteria. Across seven live applications I reason through technical dependencies and system behavior, direct AI-assisted implementation, validate releases, diagnose failures, and decide what happens next.",
-      "My earlier education career built the same muscles product work needs: explaining complexity, diagnosing stuck points, adapting to different users, and structuring ambiguity. The Daniel AI Suite is the deliberate next step \u2014 product and systems ownership with quantitative depth underneath.",
-      "Statistics, SQL, Python, and AI evaluation remain visible supporting strengths. They make me better at Technical Product and AI Product work; they are not five competing career identities."
+      "I analyze, model, and validate quantitative information. My training \u2014 an M.A. in Statistics & Applied Mathematics, an MBA in Finance, and three SOA exams \u2014 is applied across seven live applications that use statistical modeling, simulation, optimization, and AI-output evaluation.",
+      "I work carefully and independently: I check results for accuracy, test expected against actual behavior, diagnose what went wrong, and iterate. Years of teaching mathematics and statistics built the same habits \u2014 explaining clearly, catching errors, and meeting deadlines.",
+      "I am open to remote part-time, contract, project-based, and flexible analytical work \u2014 data analysis, Excel and SQL, AI evaluation and response review, and quantitative or mathematical review."
     ],
     "pillars": [
       {
-        "title": "Product Judgment",
-        "text": "Problem framing, prioritization, requirements, user journeys, and release decisions across multi-page products."
+        "title": "Quantitative Analysis",
+        "text": "Statistics, probability, simulation, optimization, and financial modeling implemented in Python, SQL, and Excel."
       },
       {
-        "title": "Systems Thinking",
-        "text": "State ownership, persistence, cross-page behavior, multi-user flows, APIs, and suite-level orchestration."
+        "title": "Data Validation & Accuracy",
+        "text": "Expected-vs-actual testing, import validation, defect diagnosis, and regression checks."
       },
       {
-        "title": "AI-Enabled Products",
-        "text": "AI coaching surfaces, evaluation criteria, human-in-the-loop validation, and AI-assisted prototyping under product ownership."
+        "title": "AI Evaluation",
+        "text": "Prompt rating, pairwise comparison, hallucination checks, and model-output review, plus AI-assisted features built into real applications."
       },
       {
-        "title": "Quantitative Foundation",
-        "text": "Statistics, finance, SQL/Python, and decision analytics that strengthen technical product credibility."
+        "title": "Independent Delivery",
+        "text": "Seven deployed applications and SQL/Excel workbooks designed, built, tested, and maintained end to end."
       }
     ]
   },
   "featuredAnalytics": [
     {
       "icon": "\ud83c\udfaf",
-      "title": "Requirements & Acceptance",
-      "text": "Translate goals into product behavior, acceptance criteria, and regression checks before release."
+      "title": "Accuracy & Validation",
+      "text": "Check results against expected behavior, document edge cases, and regression-test changes before release."
     },
     {
       "icon": "\ud83e\udded",
-      "title": "Workflow & State Ownership",
-      "text": "Decide what is canonical vs temporary, what persists, and what happens across page transitions."
+      "title": "Structured Analytical Workflows",
+      "text": "Multi-step workflows with clear inputs, outputs, and handoffs between analysis stages."
     },
     {
       "icon": "\ud83d\udd17",
-      "title": "Multi-User & Suite Systems",
-      "text": "Shared leagues, live sessions, permissions, resumable work, and cross-app context handoffs."
+      "title": "Data & State Management",
+      "text": "Persistence, shared state, imports, and cross-application context handled reliably across sessions and users."
     },
     {
       "icon": "\ud83e\udd16",
-      "title": "AI Product Surfaces",
-      "text": "Coaching, evaluation criteria, and human-in-the-loop validation inside real product workflows."
+      "title": "AI Evaluation & Review",
+      "text": "Rating, comparison, and validation of AI outputs, plus AI-assisted features built into real applications."
     },
     {
       "icon": "\ud83d\udcca",
-      "title": "Decision-Product Design",
-      "text": "Turn complex analytics into adjustable, explainable choices for users \u2014 not chart dumps."
+      "title": "Quantitative Modeling",
+      "text": "Simulation, optimization, and statistical methods turned into adjustable, explainable analyses."
     },
     {
       "icon": "\ud83e\uddea",
-      "title": "Validate \u00b7 Diagnose \u00b7 Iterate",
-      "text": "Expected vs actual testing, defect triage, prioritization, and release readiness decisions."
+      "title": "Test \u00b7 Diagnose \u00b7 Iterate",
+      "text": "Expected-vs-actual testing, root-cause diagnosis, and iterative improvement on live systems."
     }
   ],
   "skillsDashboard": [
@@ -501,144 +492,133 @@
     "investment-portfolio-analyzer"
   ],
   "summary": {
-    "headline": "AI & Technical Product",
+    "headline": "Quantitative Analytics, AI & Data",
     "paragraphs": [
-      "Product Strategy \u00b7 Technical Systems \u00b7 AI-Enabled Products",
-      "I combine product judgment, systems thinking, technical fluency, quantitative reasoning, and AI-assisted product development to own what products should do \u2014 from requirements through validation and the next release decision.",
-      "Fully remote U.S. \u00b7 Primary: Technical Product Manager / AI Technical Product \u00b7 Secondary: AI Product Manager \u00b7 Adjacent: Technical Product Owner / Product Strategy"
+      "Statistics \u2022 Excel \u2022 Python \u2022 SQL \u2022 AI Evaluation \u2022 Data Analysis \u2022 Quantitative Modeling",
+      "I apply statistics, modeling, and careful validation to data and AI problems \u2014 with seven deployed applications and SQL/Excel workbooks as proof of work.",
+      "Open to remote part-time, contract, project-based, and flexible analytical opportunities."
     ],
     "skills": [
-      "Product Strategy",
-      "Requirements",
-      "Acceptance Criteria",
-      "Workflow Design",
-      "Technical Dependencies",
-      "AI Feature Design",
-      "Release Readiness",
-      "Python",
-      "SQL",
-      "Streamlit",
-      "Supabase",
       "Statistics",
-      "AI-Assisted Development"
+      "Quantitative Modeling",
+      "Data Analysis",
+      "Excel",
+      "SQL",
+      "Python",
+      "AI Evaluation",
+      "Data Validation",
+      "Simulation",
+      "Optimization",
+      "Pandas",
+      "Streamlit",
+      "Supabase"
     ]
   },
   "recruiterQuickScan": [
     {
-      "question": "What roles?",
-      "answer": "Primary: Technical Product Manager / AI Technical Product. Secondary: AI Product Manager. Adjacent: Technical Product Owner / Product Strategy \u2014 fully remote U.S."
+      "question": "What work?",
+      "answer": "Quantitative and data analysis, Excel/SQL/Python assignments, AI evaluation and response review, and data validation or quantitative review."
     },
     {
-      "question": "What does he own?",
-      "answer": "Product direction: requirements, workflows, state/persistence, acceptance criteria, validation, defect triage, and release decisions on live systems."
+      "question": "Availability?",
+      "answer": "Open to remote part-time, contract, project-based, and flexible analytical opportunities."
     },
     {
-      "question": "Why the teaching \u2192 product path?",
-      "answer": "Education built explaining complexity, diagnosing stuck points, and structuring ambiguity \u2014 now applied to product and systems ownership."
+      "question": "Background?",
+      "answer": "M.A. Statistics & Applied Mathematics (3.93), MBA Finance (4.00), SOA Exams P, FM, MFE, and years teaching quantitative subjects."
     },
     {
       "question": "What proves it?",
-      "answer": "Flagships: AI Music Practice Coach, Baseball Analytics, Command Center + AMI, Investment Explorer \u2014 plus the full live suite."
+      "answer": "Featured: AI Music Practice Coach, Baseball Analytics, Command Center + AMI, Investment Explorer \u2014 plus the full live suite and SQL/Excel workbooks."
     },
     {
       "question": "Where is the resume?",
-      "answer": "Homepage and Resume Hub CTAs: Technical Product Resume and AI Product Resume (dedicated PDFs)."
+      "answer": "Resume (PDF) on the homepage and in the Resume Hub."
     }
   ],
   "resumeRouting": {
-    "workArrangement": "Primarily seeking fully remote U.S. roles.",
+    "workArrangement": "Open to remote part-time, contract, project-based, and flexible analytical opportunities.",
     "defaultPdf": "assets/docs/daniel-cohen-resume.pdf",
-    "intro": "Two primary resume paths for recruiters. Dedicated Technical Product and AI Product PDFs are linked below; the generic portfolio resume remains available as fallback/archive.",
+    "intro": "Lead projects below by area of work.",
     "tracks": [
       {
-        "id": "technical-pm",
-        "tier": "Primary",
-        "label": "Technical Product Manager Resume",
-        "pdf": "assets/docs/daniel-cohen-technical-product-resume.pdf",
-        "leadWith": "AI Music Practice Coach, Baseball Analytics, Command Center",
-        "emphasis": "Strongest evidence: state ownership, multi-user systems, requirements, acceptance criteria, defect triage, and release readiness."
+        "id": "quant",
+        "label": "Quantitative & Data Analysis",
+        "leadWith": "Investment Explorer, Baseball Analytics, AMI",
+        "emphasis": "Statistical modeling, simulation, optimization, and Python/SQL analysis."
       },
       {
-        "id": "ai-pm",
-        "tier": "Secondary",
-        "label": "AI Product Manager Resume",
-        "pdf": "assets/docs/daniel-cohen-ai-product-resume.pdf",
-        "leadWith": "AI Music Practice Coach, AMI, Command Center, Future Lens (prototype)",
-        "emphasis": "Strongest evidence: AI feature design, coaching/evaluation surfaces, human-in-the-loop validation, and AI-assisted product iteration."
+        "id": "excel",
+        "label": "Excel & Spreadsheet Analytics",
+        "leadWith": "SQL & Excel portfolio workbooks",
+        "emphasis": "Pivot tables, KPI dashboards, and workbook-based reporting."
       },
       {
-        "id": "product-strategy",
-        "tier": "Adjacent",
-        "label": "Technical Product Owner / Product Strategy",
-        "pdf": "assets/docs/daniel-cohen-resume.pdf",
-        "leadWith": "Full suite prioritization story \u2014 Music, Baseball, Investment, Command Center",
-        "emphasis": "Strongest evidence: problem framing, roadmap thinking, feature sequencing, and strategy translated into working product workflows."
+        "id": "ai-eval",
+        "label": "AI Evaluation & Response Review",
+        "leadWith": "AI Evaluator workbook, AI Music Practice Coach, AMI",
+        "emphasis": "Prompt rating, pairwise comparison, hallucination checks, and output validation."
+      },
+      {
+        "id": "validation",
+        "label": "Data Validation & Quantitative Review",
+        "leadWith": "Baseball import validation, Music Coach test suite",
+        "emphasis": "Accuracy checking, mathematical review, and regression testing."
       }
     ],
     "supportingDoc": "assets/docs/resume-project-descriptions.md"
   },
   "capabilityGroups": [
     {
-      "name": "Product Management",
-      "skills": [
-        "Product strategy",
-        "Problem framing",
-        "Feature prioritization",
-        "Roadmaps / backlogs",
-        "User journeys",
-        "Requirements",
-        "Acceptance criteria",
-        "Release decisions",
-        "Product metrics",
-        "Iterative improvement"
-      ]
-    },
-    {
-      "name": "Technical Product",
-      "skills": [
-        "Technical requirements",
-        "Workflow architecture",
-        "Data / state flows",
-        "Persistence",
-        "APIs",
-        "Technical dependencies",
-        "Edge cases",
-        "QA / UAT",
-        "Defect triage",
-        "Regression testing",
-        "Release readiness"
-      ]
-    },
-    {
-      "name": "AI Product",
-      "skills": [
-        "AI feature design",
-        "Prompt / system behavior",
-        "Human-in-the-loop workflows",
-        "AI evaluation criteria",
-        "Model-output validation",
-        "Failure-mode reasoning",
-        "AI-assisted prototyping"
-      ]
-    },
-    {
-      "name": "Quantitative & Technical Foundation",
+      "name": "Quantitative & Statistical Analysis",
       "skills": [
         "Statistics",
-        "SQL",
-        "Python",
+        "Probability",
+        "Hypothesis testing",
+        "Regression",
+        "Simulation / Monte Carlo",
+        "Optimization",
+        "Financial modeling",
+        "Experimentation",
+        "Data visualization"
+      ]
+    },
+    {
+      "name": "Data, Excel & SQL",
+      "skills": [
         "Excel",
+        "Pivot tables",
+        "KPI dashboards",
+        "SQL",
         "Pandas",
+        "Data cleaning",
+        "Import validation",
+        "Reporting workflows"
+      ]
+    },
+    {
+      "name": "AI Evaluation & Quality",
+      "skills": [
+        "Prompt / response rating",
+        "Pairwise comparison",
+        "Model-output validation",
+        "Hallucination checks",
+        "Failure-mode reasoning",
+        "Edge cases",
+        "Regression testing",
+        "QA / UAT"
+      ]
+    },
+    {
+      "name": "Python & Application Development",
+      "skills": [
+        "Python",
         "Streamlit",
         "Supabase",
-        "Git / GitHub",
         "APIs",
-        "Hypothesis testing",
-        "Simulation",
-        "Optimization",
-        "Data visualization",
-        "Experimentation",
-        "Product metrics"
+        "Persistence / state management",
+        "Git / GitHub",
+        "AI-assisted development"
       ]
     }
   ],
@@ -646,7 +626,7 @@
     "analytics": {
       "id": "analytics",
       "name": "Analytics & Quantitative",
-      "description": "Quantitative analysis, statistical modeling, simulation, optimization, and product analytics across finance and sports."
+      "description": "Quantitative analysis, statistical modeling, simulation, and optimization across finance and sports."
     },
     "ai": {
       "id": "ai",
@@ -655,12 +635,12 @@
     },
     "applications": {
       "id": "applications",
-      "name": "AI & Product Applications",
-      "description": "Multi-page product workflows with user journeys, persistence, and domain-specific intelligence \u2014 built through portfolio ownership."
+      "name": "AI & Interactive Applications",
+      "description": "Multi-page applications with persistence, state management, and domain-specific analysis \u2014 designed, built, and tested independently."
     },
     "infrastructure": {
       "id": "infrastructure",
-      "name": "Technical Product / Platform",
+      "name": "Platform & Integration",
       "description": "Suite orchestration, cross-app navigation, resumable work, activity analytics, and integration architecture."
     },
     "sqlExcel": {
@@ -674,7 +654,7 @@
       "id": "investment-portfolio-analyzer",
       "name": "Investment Portfolio Analyzer",
       "displayName": "Investment Explorer",
-      "oneLiner": "Decision-product design: complex portfolio analytics turned into explainable user choices.",
+      "oneLiner": "Quantitative finance: portfolio health, efficient frontier, Monte Carlo simulation, and ETF overlap analysis with explainable results.",
       "liveUrl": "https://investment-portfolio-analyzer-ty2sbzumvxsqwbqhkvf6rz.streamlit.app",
       "featured": true,
       "detailSections": [
@@ -757,12 +737,12 @@
         "API integration"
       ],
       "businessValue": "Makes institutional-style risk and allocation analysis usable for education and decision support without a Bloomberg terminal.",
-      "recruiterTakeaway": "Decision-product framing \u2014 Monte Carlo and optimization matter because they become adjustable, explainable workflows for beginners and advanced users.",
+      "recruiterTakeaway": "Monte Carlo and optimization are implemented as adjustable, explainable analyses for beginners and advanced users.",
       "capabilityTags": [
-        "Decision-product design",
-        "Explainable workflows",
-        "Dual-audience UX",
-        "Quant depth"
+        "Quantitative modeling",
+        "Explainable analysis",
+        "Monte Carlo / optimization",
+        "Python"
       ],
       "heroScreenshot": "01-portfolio-health.png",
       "screenshots": [
@@ -782,24 +762,24 @@
         "06-ami-insight.png \u2014 Ami Insight"
       ],
       "readmeStatus": "Strong \u2014 screenshots refreshed 2026-07-15; keep live URL and feature list current.",
-      "productFraming": {
-        "productProblem": "Investors need risk-adjusted decisions without institutional terminals or spreadsheet-only chaos.",
-        "myProductRole": "Owned product framing for beginner vs advanced modes on one analytics core, with coaching that turns metrics into next actions.",
-        "productTechnicalDecisions": [
-          "Shared analytics core with dual UX modes",
+      "analyticalFraming": {
+        "problem": "Investors need risk-adjusted analysis without institutional terminals or spreadsheet-only workflows.",
+        "myRole": "Designed and built the analytics core and both user modes: portfolio health scoring, Monte Carlo simulation, efficient-frontier optimization, and ETF overlap analysis.",
+        "keyDecisions": [
+          "Shared analytics core serving Beginner and Advanced modes",
           "Health scoring that surfaces strengths and failure modes",
-          "Monte Carlo / efficient frontier as user-adjustable workflows",
-          "ETF overlap diagnostics beyond ticker pies",
+          "Monte Carlo and efficient frontier as user-adjustable analyses",
+          "ETF overlap diagnostics beyond ticker-level views",
           "AMI insight handoff for follow-up questions"
         ],
-        "whyProductWork": "Shows Product Strategy + Technical Product skill: sophistication underneath, clear choices on top."
+        "whyItMatters": "Shows quantitative finance methods implemented correctly and presented clearly: sophistication underneath, readable results on top."
       }
     },
     {
       "id": "baseball-stat-app",
       "name": "Baseball Stat App",
       "displayName": "Baseball Analytics",
-      "oneLiner": "Multi-user fantasy product system: shared leagues, live draft, persistence, and season ops.",
+      "oneLiner": "Multi-user fantasy analytics system: shared leagues, live draft, persistence, and season operations.",
       "liveUrl": "https://baseball-stat-app-d4jlymjc4iptaadc3kquwx.streamlit.app",
       "featured": true,
       "detailSections": [
@@ -885,12 +865,12 @@
         "Test-backed product logic"
       ],
       "businessValue": "Shows how to turn sports data into an operational decision system \u2014 not a static leaderboard.",
-      "recruiterTakeaway": "Product/system layer \u2014 not merely analytics: shared leagues, live draft rooms, timers, imports, permissions, recommendations, and lineup/trade workflows.",
+      "recruiterTakeaway": "A system layer beyond analytics: shared leagues, live draft rooms, timers, imports, permissions, recommendations, and lineup/trade workflows.",
       "capabilityTags": [
         "Multi-user systems",
-        "Live workflows",
+        "Import validation",
         "Persistence",
-        "Feature sequencing"
+        "Recommendation scoring"
       ],
       "screenshotFolder": "Baseball",
       "heroScreenshot": "01-draft-assistant-recommendations.png",
@@ -917,18 +897,18 @@
         "09-baseball-insight-ami.png \u2014 Baseball Insight Ami"
       ],
       "readmeStatus": "Feature-rich README; screenshots refreshed 2026-07-15 to match current draft/league ops surface.",
-      "productFraming": {
-        "productProblem": "Fantasy managers need a reliable operational product from draft through in-season decisions \u2014 not disconnected stat tables.",
-        "myProductRole": "Defined product scope across draft intelligence, league operations, research, and AI insight handoff; sequenced features for continuity and collaborative use.",
-        "productTechnicalDecisions": [
+      "analyticalFraming": {
+        "problem": "Fantasy managers need reliable analysis and tools from draft through the season, not disconnected stat tables.",
+        "myRole": "Built draft intelligence, league operations, research tools, and insight handoffs; validated persistence, permissions, and collaborative behavior.",
+        "keyDecisions": [
           "Live/multiplayer draft room behavior and room-code flows",
           "Shared league invites, claims, and permission-sensitive actions",
           "Uploaded draft import validation",
-          "Decision Score recommendation presentation vs raw rankings",
-          "Lineup and Trade Center season-ops workflows",
-          "Persistence and reliability expectations for collaborative sessions"
+          "Decision Score recommendations vs. raw rankings",
+          "Lineup and Trade Center workflows",
+          "Persistence and reliability for collaborative sessions"
         ],
-        "whyProductWork": "Shows Technical Product ownership of multi-user state, collaborative behavior, and feature sequencing under real workflow pressure."
+        "whyItMatters": "Shows complex multi-user state, data import validation, and recommendation logic under real workflow pressure."
       }
     },
     {
@@ -972,7 +952,7 @@
         "Modular architecture"
       ],
       "businessValue": "Turns quantitative methods into interactive, interpretable decision tools for non-specialists and analysts alike.",
-      "recruiterTakeaway": "Paired with Command Center: modular decision-support architecture, explainable outputs, and analytical handoffs that support AI Product workflows.",
+      "recruiterTakeaway": "Paired with Command Center: modular decision-support design, explainable outputs, and analytical handoffs.",
       "capabilityTags": [
         "AI decision labs",
         "Explainable outputs",
@@ -1035,16 +1015,16 @@
         "insights": "Plain-language interpretation layers keep math actionable.",
         "results": "A flagship lab product that also powers suite-wide insight handoffs."
       },
-      "productFraming": {
-        "productProblem": "Quantitative methods are often trapped in notebooks instead of decision workflows users can run.",
-        "myProductRole": "Designed AMI as modular action labs with interpretation layers and return paths into sibling apps.",
-        "productTechnicalDecisions": [
-          "Action-lab IA: solve / predict / explore before deep reference",
+      "analyticalFraming": {
+        "problem": "Quantitative methods are often trapped in notebooks instead of tools others can run and interpret.",
+        "myRole": "Designed AMI as modular labs with interpretation layers and return paths into sibling apps.",
+        "keyDecisions": [
+          "Action-lab layout: solve / predict / explore before deep reference",
           "Explainable output patterns and assumption visibility",
           "Cross-app insight routing via Command Center",
           "AI training / overfitting interpretation surfaces"
         ],
-        "whyProductWork": "Supports AI Product Manager fit: structured AI/quant surfaces with clear product behavior and validation-friendly outputs."
+        "whyItMatters": "Shows structured quantitative and AI-evaluation surfaces with validation-friendly, explainable outputs."
       }
     },
     {
@@ -1127,8 +1107,8 @@
         "Narrative product UX",
         "Resilient API design"
       ],
-      "businessValue": "Demonstrates live-data product craft: trust banners, fallbacks, and story-driven analytics for a high-interest domain.",
-      "recruiterTakeaway": "Strong product analytics signal \u2014 live ingestion, matchup boards, and legacy scenario storytelling.",
+      "businessValue": "Demonstrates live-data craft: trust banners, fallbacks, and story-driven analytics for a high-interest domain.",
+      "recruiterTakeaway": "Live-data analytics \u2014 live ingestion, matchup boards, and legacy scenario storytelling.",
       "screenshotFolder": "NBA",
       "heroScreenshot": "01-home-dashboard.png",
       "screenshots": [
@@ -1151,44 +1131,48 @@
       "id": "ai-music-practice-coach",
       "name": "AI Music Practice Coach",
       "displayName": "AI Music Practice Coach",
-      "oneLiner": "Flagship technical product: multi-page practice studio with state ownership, AI coaching, persistence, and release discipline.",
+      "oneLiner": "Nine-page practice studio sharing one active-song state, with generated backing tracks, composition tools, AI coaching, and a large automated test suite.",
       "liveUrl": "https://ai-music-practice-coach-6szqxqxqrqxdmryyewk8sq.streamlit.app",
       "featured": true,
       "detailSections": [
         {
-          "title": "Practice Intelligence",
-          "body": "Control Center focuses practice on song sections, keys, and instrument context instead of static PDFs."
+          "title": "Song-Aware Practice",
+          "body": "Practice, Song Selection, and Backing share one active-song state, so keys, sections, and tempo stay consistent across a catalog of 100+ songs."
         },
         {
-          "title": "Studio Tools",
-          "body": "Backing Studio, Creative Lab, and Progression Builder support creation as well as repetition."
+          "title": "Generated Audio & Creative Tools",
+          "body": "Backing Track Studio generates and plays accompaniment; Creative Lab adds jam generation, improvisation and harmony tools."
         },
         {
-          "title": "Learning Continuity",
-          "body": "Practice Log and suite resume flows keep sessions recoverable across devices when cloud restore is enabled."
+          "title": "Composition & Multitrack",
+          "body": "Composition Studio supports chord, melody, and lyric authoring with a saved library; Multitrack layers recorded takes over generated backing."
+        },
+        {
+          "title": "Analysis & Continuity",
+          "body": "Upload analysis and Practice Log provide feedback, with autosave and optional cross-device restore."
         }
       ],
       "keyFeatures": [
-        "Curated multi-genre song catalog",
-        "Practice Control Center for section-focused work",
-        "Backing Track Studio with groove/BPM controls",
-        "Creative Lab improvisation tools",
-        "Custom Progression Builder",
-        "Practice Log for session continuity",
-        "Optional OpenAI coaching hub + AMI handoff"
+        "Nine studio pages sharing one active-song state across catalog, custom, and composed songs",
+        "Concert, written, and guitar-shape key handling kept consistent across pages",
+        "Backing Track Studio: generated accompaniment with tempo, scope, and loop controls",
+        "Creative Lab: jam generator, improvisation, and harmony tools",
+        "Composition Studio: chord, melody, and lyric authoring with a saved library",
+        "Multitrack layering, recording analysis, and Practice Log",
+        "Optional AI coaching, autosave, and cross-device restore"
       ],
       "detailHighlights": [
-        "Unified active-song state across studio pages",
-        "Backing generation aligned to chart harmony",
-        "Practice logging for habit and progress loops"
+        "Complex shared state kept consistent across nine pages and three song sources",
+        "Generated audio, composition tools, and recording analysis in one workflow",
+        "Large automated test suite with documented acceptance checks"
       ],
       "caseStudy": {
-        "problem": "Musicians need adaptive, song-aware practice tools \u2014 not disconnected metronomes and PDFs.",
-        "data": "Curated charts, user progressions, and session practice metadata.",
-        "analysis": "Section-scoped practice recommendations and harmonic context.",
-        "modeling": "Backing generation and progression construction tied to active song state.",
-        "insights": "Practice log and coaching surfaces make next actions obvious.",
-        "results": "A nine-page creative analytics studio with suite integration."
+        "problem": "Musicians need song-aware practice, backing, and composition tools that share one consistent context rather than disconnected metronomes, PDFs, and chatbots.",
+        "data": "A curated song catalog with chord charts, user-built progressions and compositions, and recorded practice takes.",
+        "analysis": "Key and section resolution (concert, written, and guitar-shape views), harmonic analysis, and recording feedback.",
+        "modeling": "Programmatic backing-track synthesis and progression/composition generation tied to the active song's key, tempo, and form.",
+        "insights": "Section-focused practice, optional AI coaching, and session history surface what to work on next.",
+        "results": "A nine-page application with persistence, generated audio, and a large automated test suite, built and iterated independently."
       },
       "tier": 1,
       "category": "applications",
@@ -1197,7 +1181,7 @@
       ],
       "github": "https://github.com/Coakley11/ai-music-practice-coach/tree/dev",
       "readme": "https://github.com/Coakley11/ai-music-practice-coach/blob/dev/README.md",
-      "status": "Active / mature WIP",
+      "status": "Active / actively developed",
       "readiness": 8.5,
       "technologies": [
         "Python",
@@ -1221,53 +1205,54 @@
         "pandas",
         "scipy"
       ],
-      "purpose": "AI-powered music practice studio with curated song catalog, practice control center, backing track generation, creative lab, custom progression builder, and practice log.",
-      "executiveSummary": "Created an AI Music Practice Coach that keeps an active song context across catalog, practice control center, backing studio, creative lab, custom progression builder, and practice logging \u2014 a complex product surface combining music theory, audio tooling, and AI-assisted workflows.",
+      "purpose": "Song-aware music practice studio: curated catalog, section-focused practice, generated backing tracks, creative and composition tools, multitrack layering, recording analysis, and practice log.",
+      "executiveSummary": "Built a nine-page practice studio in which Practice, Backing, Creative Lab, Composition Studio, Multitrack, and Practice Log share one active-song state across catalog, custom, and composed songs. It combines music-theory logic, generated audio, optional AI coaching, persistence with optional cloud restore, and a large automated test suite \u2014 designed, built, tested, and iterated independently.",
       "skills": [
-        "AI-assisted product design",
-        "Domain modeling",
-        "Audio/practice tooling",
-        "Complex UX state"
+        "Complex application logic",
+        "State and data management",
+        "Testing and validation",
+        "AI-assisted features",
+        "Audio / signal processing",
+        "Iterative independent development"
       ],
-      "businessValue": "Shows rare ability to ship domain-specific AI-assisted products with coherent cross-page state.",
-      "recruiterTakeaway": "Technical Product flagship \u2014 not 'just a music app': practice, creative, backing, logging, AI coaching, persistence, cross-page context, acceptance criteria, and regression discipline.",
+      "businessValue": "Shows ability to build and validate a large domain-specific, AI-assisted application with coherent cross-page state.",
+      "recruiterTakeaway": "Complex application logic, structured workflows, state management, and testing \u2014 a large, independently built and validated application, not just a music app.",
       "capabilityTags": [
-        "Product architecture",
-        "State ownership",
-        "AI coaching",
-        "Acceptance criteria"
+        "Complex application logic",
+        "State management",
+        "Testing & validation",
+        "AI-assisted features"
       ],
       "screenshotFolder": "Music",
-      "heroScreenshot": "02-practice-control-center.png",
+      "heroScreenshot": "04-creative-lab.png",
       "screenshots": [
-        "assets/screenshots/Music/02-practice-control-center.png",
-        "assets/screenshots/Music/01-song-catalog.png",
-        "assets/screenshots/Music/03-backing-studio.png",
         "assets/screenshots/Music/04-creative-lab.png",
-        "assets/screenshots/Music/05-custom-progression-builder.png",
-        "assets/screenshots/Music/06-practice-log.png"
+        "assets/screenshots/Music/01-practice.png",
+        "assets/screenshots/Music/02-song-selection.png",
+        "assets/screenshots/Music/03-backing-studio.png",
+        "assets/screenshots/Music/05-composition-studio.png",
+        "assets/screenshots/Music/06-multitrack.png"
       ],
       "screenshotChecklist": [
-        "02-practice-control-center.png \u2014 Practice Control Center",
-        "01-song-catalog.png \u2014 Song Catalog",
-        "03-backing-studio.png \u2014 Backing Studio",
         "04-creative-lab.png \u2014 Creative Lab",
-        "05-custom-progression-builder.png \u2014 Custom Progression Builder",
-        "06-practice-log.png \u2014 Practice Log"
+        "01-practice.png \u2014 Practice",
+        "02-song-selection.png \u2014 Song Selection",
+        "03-backing-studio.png \u2014 Backing Track Studio",
+        "05-composition-studio.png \u2014 Composition Studio",
+        "06-multitrack.png \u2014 Multitrack"
       ],
-      "readmeStatus": "README improved previously; screenshots refreshed 2026-07-15 to current studio pages.",
-      "productFraming": {
-        "productProblem": "Musicians need adaptive, song-aware practice across tools \u2014 not disconnected metronomes, PDFs, and chatbots.",
-        "myProductRole": "Owned product direction: what surfaces exist, which feature owns state, what persists, what counts as acceptance, and when a release is good enough to proceed.",
-        "productTechnicalDecisions": [
-          "Canonical vs temporary practice context across pages",
-          "Persistence and cross-device resume when cloud restore is enabled",
-          "Cross-page active-song state and workflow handoffs",
-          "Optional OpenAI coaching hub + AMI insight handoff",
-          "Acceptance criteria and regression checks for studio workflows",
-          "Feature sequencing: catalog \u2192 control center \u2192 studio \u2192 log"
+      "readmeStatus": "README updated; screenshots refreshed from the current stable version (dev, October 2026).",
+      "analyticalFraming": {
+        "problem": "Musicians need song-aware practice, backing, and composition tools that share one consistent context \u2014 not disconnected metronomes, PDFs, and chatbots.",
+        "myRole": "Designed, built, and tested the full application independently, using AI-assisted tooling directed and verified personally.",
+        "keyDecisions": [
+          "One active-song state shared across nine pages and three song sources (catalog, custom, composed)",
+          "Concert, written, and guitar-shape key resolution kept consistent everywhere",
+          "Autosave and optional cross-device cloud restore",
+          "Optional AI coaching and AI analysis of practice sessions",
+          "Automated test suite and documented acceptance checks"
         ],
-        "whyProductWork": "Demonstrates Technical Product Management: deciding system behavior, owning state, validating implementations, and iterating under release constraints."
+        "whyItMatters": "Demonstrates complex application logic, structured workflows, state management, testing and validation, and iterative independent development."
       }
     },
     {
@@ -1302,7 +1287,7 @@
         "Decision-support framing"
       ],
       "businessValue": "Useful for strategy, workforce, and AI-impact conversations \u2014 frames uncertainty as explorable scenarios rather than hype.",
-      "recruiterTakeaway": "Strong AI-evaluator / product-thinking signal: taxonomy design, scenario framing, and clear IA.",
+      "recruiterTakeaway": "AI-evaluation and scenario-modeling signal: taxonomy design, scenario framing, and clear information architecture.",
       "screenshots": [
         "assets/screenshots/Future-Lens/01-domain-wizard.png",
         "assets/screenshots/Future-Lens/02-evolution-timeline.png",
@@ -1393,8 +1378,8 @@
         "Cross-app integration",
         "Product systems design"
       ],
-      "businessValue": "Proves platform thinking \u2014 shared activity schema, continuity UX, and cross-app navigation instead of isolated demos.",
-      "recruiterTakeaway": "Product orchestration \u2014 continuity across apps: resume/continue, activity, deep links, and coach insights that treat the portfolio as one system.",
+      "businessValue": "Shows shared activity schema, continuity, and cross-app navigation instead of isolated demos.",
+      "recruiterTakeaway": "Cross-application continuity: resume/continue, activity, deep links, and coach insights that treat the suite as one system.",
       "capabilityTags": [
         "Orchestration",
         "Resumable work",
@@ -1417,7 +1402,7 @@
       ],
       "readmeStatus": "Functional README; screenshots now document Continue, directory, coach, and workspace views.",
       "displayName": "AI Command Center",
-      "oneLiner": "Suite product shell: resumable workflows, context handoffs, and routing to the right tool.",
+      "oneLiner": "Suite shell: resumable workflows, context handoffs, and routing to the right tool.",
       "featured": true,
       "keyFeatures": [
         "Continue-where-you-left-off workflow cards",
@@ -1456,17 +1441,17 @@
       },
       "screenshotFolder": "Command-Center",
       "heroScreenshot": "homepage-continue.png",
-      "productFraming": {
-        "productProblem": "A multi-app suite fragments without a shared home for resume state, activity, and navigation.",
-        "myProductRole": "Defined the Command Center as the product shell: what continues, what launches, and how context returns from AMI and sibling apps.",
-        "productTechnicalDecisions": [
-          "Continue-where-you-left-off cards vs simple app launchers",
+      "analyticalFraming": {
+        "problem": "A multi-app suite fragments without a shared place for resume state, activity, and navigation.",
+        "myRole": "Designed and built the Command Center: what continues, what launches, and how context returns from AMI and sibling apps.",
+        "keyDecisions": [
+          "Continue-where-you-left-off cards vs. simple app launchers",
           "Workspace/account context and activity schemas",
           "Deep links and routing into Music, Baseball, Investment, AMI, and more",
           "Supabase + local fallback persistence model",
           "Coach activity summaries for suite-level next steps"
         ],
-        "whyProductWork": "Evidence of platform-style Technical Product thinking: continuity, handoffs, and modular system behavior across products."
+        "whyItMatters": "Shows shared schemas, handoffs, and modular system behavior across applications."
       }
     }
   ],
@@ -1653,19 +1638,24 @@
   ],
   "roleTargets": [
     {
-      "tier": "Primary",
-      "role": "Technical Product Manager / AI Technical Product",
-      "fit": "Owns product behavior, technical dependencies, workflows, acceptance criteria, and release readiness across multi-page AI-enabled systems."
+      "tier": "Quantitative",
+      "role": "Quantitative & Data Analysis",
+      "fit": "Statistical analysis, modeling, simulation, and optimization \u2014 implemented in Python and SQL and demonstrated in the Investment Explorer, Baseball Analytics, and AMI projects."
     },
     {
-      "tier": "Secondary",
-      "role": "AI Product Manager",
-      "fit": "Designs AI product surfaces, evaluation criteria, and human-in-the-loop workflows with clear ownership of outcomes."
+      "tier": "Spreadsheet",
+      "role": "Excel & Spreadsheet Analytics",
+      "fit": "Pivot tables, KPI dashboards, workbook modeling, and reporting \u2014 shown in the SQL & Excel portfolio and the Business Statistics lab teaching background."
     },
     {
-      "tier": "Adjacent",
-      "role": "Technical Product Owner / Product Strategy",
-      "fit": "Frames problems, prioritizes features, and turns strategy into shippable product workflows."
+      "tier": "AI Evaluation",
+      "role": "AI Evaluation & Response Review",
+      "fit": "Prompt rating, pairwise comparison, hallucination and quality checks, and structured review of model outputs \u2014 practiced in the AI Evaluator workbook and the Music Coach."
+    },
+    {
+      "tier": "Validation",
+      "role": "Data Validation, QA & Quantitative Review",
+      "fit": "Accuracy checking, mathematical and quantitative review, import validation, and regression testing, backed by an M.A. in Statistics and years teaching mathematics."
     }
   ]
 }

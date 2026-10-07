@@ -2,7 +2,7 @@
   "version": "2026-07-16",
   "description": "Canonical numbered screenshot set captured 2026-07-15. Source: Screenshots/; deploy: Portfolio Website/assets/screenshots/.",
   "basePathFromWebsite": "../Screenshots",
-  "recommendedSize": "1920\u00d71080 desktop",
+  "recommendedSize": "1920×1080 desktop",
   "apps": [
     {
       "id": "applied-mathematical-intelligence",
@@ -306,57 +306,57 @@
       "folder": "Music",
       "captures": [
         {
-          "filename": "01-song-catalog.png",
-          "page": "Song Catalog",
-          "demonstrates": "Song Catalog",
+          "filename": "04-creative-lab.png",
+          "page": "Creative Lab",
+          "demonstrates": "Creative Lab",
           "priority": "P0",
           "hero": true,
-          "deployPath": "assets/screenshots/Music/01-song-catalog.png",
+          "deployPath": "assets/screenshots/Music/04-creative-lab.png",
           "status": "published"
         },
         {
-          "filename": "02-practice-control-center.png",
-          "page": "Practice Control Center",
-          "demonstrates": "Practice Control Center",
+          "filename": "01-practice.png",
+          "page": "Practice",
+          "demonstrates": "Practice",
           "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Music/02-practice-control-center.png",
+          "deployPath": "assets/screenshots/Music/01-practice.png",
+          "status": "published"
+        },
+        {
+          "filename": "02-song-selection.png",
+          "page": "Song Selection",
+          "demonstrates": "Song Selection",
+          "priority": "P1",
+          "hero": false,
+          "deployPath": "assets/screenshots/Music/02-song-selection.png",
           "status": "published"
         },
         {
           "filename": "03-backing-studio.png",
-          "page": "Backing Studio",
-          "demonstrates": "Backing Studio",
+          "page": "Backing Track Studio",
+          "demonstrates": "Backing Track Studio",
           "priority": "P1",
           "hero": false,
           "deployPath": "assets/screenshots/Music/03-backing-studio.png",
           "status": "published"
         },
         {
-          "filename": "04-creative-lab.png",
-          "page": "Creative Lab",
-          "demonstrates": "Creative Lab",
+          "filename": "05-composition-studio.png",
+          "page": "Composition Studio",
+          "demonstrates": "Composition Studio",
           "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Music/04-creative-lab.png",
+          "deployPath": "assets/screenshots/Music/05-composition-studio.png",
           "status": "published"
         },
         {
-          "filename": "05-custom-progression-builder.png",
-          "page": "Custom Progression Builder",
-          "demonstrates": "Custom Progression Builder",
+          "filename": "06-multitrack.png",
+          "page": "Multitrack",
+          "demonstrates": "Multitrack",
           "priority": "P1",
           "hero": false,
-          "deployPath": "assets/screenshots/Music/05-custom-progression-builder.png",
-          "status": "published"
-        },
-        {
-          "filename": "06-practice-log.png",
-          "page": "Practice Log",
-          "demonstrates": "Practice Log",
-          "priority": "P1",
-          "hero": false,
-          "deployPath": "assets/screenshots/Music/06-practice-log.png",
+          "deployPath": "assets/screenshots/Music/06-multitrack.png",
           "status": "published"
         }
       ]

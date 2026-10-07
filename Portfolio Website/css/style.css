@@ -99,6 +99,7 @@ a:hover { text-decoration: underline; }
 }
 
 .hero p { color: var(--muted); max-width: 720px; margin-bottom: 0.75rem; }
+.hero .hero-availability { color: var(--text, inherit); font-weight: 600; margin-bottom: 1.25rem; }
 
 .skill-tags {
   display: flex;

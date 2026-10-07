@@ -133,8 +133,8 @@ function renderResumePreview(data) {
     </section>
 
     <section class="resume-doc-section">
-      <h2>Target Roles</h2>
-      <p class="resume-roles-note">Fully remote U.S. · grouped by related role families</p>
+      <h2>Areas of Work</h2>
+      <p class="resume-roles-note">Open to remote part-time, contract, project-based, and flexible analytical opportunities</p>
       ${renderTargetRoleGroups(r)}
     </section>
   `;
@@ -215,14 +215,12 @@ function renderResumeHub(data) {
   const routing = document.getElementById('resume-routing');
   if (routing && data.resumeRouting) {
     const rr = data.resumeRouting;
-    const tpm = site.resumeTechnicalProduct || rr.defaultPdf || site.resumePdf;
-    const aipm = site.resumeAiProduct || rr.defaultPdf || site.resumePdf;
+    const pdf = site.resumePdf || rr.defaultPdf;
     routing.innerHTML = `
-      <h2 class="section-title">Technical Product &amp; AI Product resumes</h2>
-      <p class="section-desc">${rr.workArrangement} ${rr.intro || 'Two primary resume paths for recruiters.'}</p>
+      <h2 class="section-title">Resume &amp; Focus Areas</h2>
+      <p class="section-desc">${rr.workArrangement} ${rr.intro || ''}</p>
       <p class="resume-routing-actions">
-        <a href="${tpm}" class="btn btn-primary" download>Technical Product Resume</a>
-        <a href="${aipm}" class="btn btn-primary" download>AI Product Resume</a>
+        <a href="${pdf}" class="btn btn-primary" download>Resume (PDF)</a>
         <a href="${site.resumeView}" class="btn btn-secondary">View Resume Preview</a>
       </p>
       <div class="resume-routing-grid">
@@ -232,9 +230,6 @@ function renderResumeHub(data) {
             <h3>${track.label}</h3>
             <p><strong>Lead with:</strong> ${track.leadWith}</p>
             <p class="resume-track-tip">${track.emphasis || track.resumeTips || ''}</p>
-            <p style="margin-top:0.75rem;">
-              <a href="${track.pdf || rr.defaultPdf}" class="btn btn-ghost btn-sm" download>Download PDF</a>
-            </p>
           </article>
         `).join('')}
       </div>
@@ -326,10 +321,10 @@ function renderExecutiveSummary(data) {
       <ul>${doc.analyticsProjects.items.map(i => `<li>${i}</li>`).join('')}</ul>
     </section>
 
-    ${doc.productOwnership ? `
+    ${doc.engineeringEvidence ? `
     <section class="exec-block">
-      <h2>${doc.productOwnership.title}</h2>
-      <ul>${doc.productOwnership.items.map(i => `<li>${i}</li>`).join('')}</ul>
+      <h2>${doc.engineeringEvidence.title}</h2>
+      <ul>${doc.engineeringEvidence.items.map(i => `<li>${i}</li>`).join('')}</ul>
     </section>` : ''}
 
     <section class="exec-block">
